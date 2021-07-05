@@ -1,5 +1,6 @@
 ---
-title: Deneme dosyası
+layout: page
+title: "Deneme dosyası"
 ---
 
 ## Bu sayfada deneme yapıyorum
