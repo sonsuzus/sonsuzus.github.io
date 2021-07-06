@@ -8,6 +8,7 @@ Siteler bölümünde web üzerinden yürütülen projelere ve sitelere ulaşabil
 
 Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java, bash, small basic, html, css, robotik programlama dahil olmak üzere bir çok alt alana da açılacak özellikle algoritma kurma ve geliştirme konusunda çalışmalar yapılacaktır.
 
+{% include links.html %}
 
 {% include footer.html %}
 
