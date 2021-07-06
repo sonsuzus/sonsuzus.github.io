@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: SonsuzUs Github
 author: Sonsuz
+github:
+  another_url: https://sonsuzus.github.io
