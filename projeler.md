@@ -2,6 +2,6 @@
 
 Projeler bölümünde yaptığım proje örneklerini göstereceğim.
 
-{% include footer.html %}
+{% include header.html %}
 
 {% include analytics.html %}
