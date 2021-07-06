@@ -2,6 +2,6 @@
 
 Bugüne kadar yaptığım sitelerin detayları ve çalışma prensipler siteler bölümünde olacak.
 
-{% include footer.html %}
+{% include header.html %}
 
 {% include analytics.html %}
