@@ -2,6 +2,7 @@
 
 Bilişim projeleri, siteler ve programlama olarak üç temel bölümden oluşacak çalışmaları bu sayfalarda paylaşacağım. Sitenin amacı bilginin yayılması üzerine olacaktır. Sayfalar güncellendikçe ana sayfa da güncellenecektir.
 
+{% include header.html %}
 
 {% include footer.html %}
 
