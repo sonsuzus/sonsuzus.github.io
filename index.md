@@ -4,4 +4,3 @@ Bilişim projeleri, siteler ve programlama olarak üç temel bölümden oluşaca
 
 
 {% include footer.html %}
-{% include analytics.html %}
