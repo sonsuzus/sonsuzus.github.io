@@ -14,7 +14,6 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 Jekyll kullanılmaya başlandı, tema olarak hacker theme seçildi ve _config.yml_ dosyası düzenlendi. Siteler, projeler ve programlama sayfaları eklendi. Google analytics ve footer sayfaları yapılıp linkleri düzenlendi. Wiki ve Discussions bölümleri açıldı. 
 
-{% include head.html %}
 
 {% include footer.html %}
 
