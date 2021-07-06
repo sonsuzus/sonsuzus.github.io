@@ -10,4 +10,4 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Sürümler (versions)
 # Sürüm 1.0
-Jekyll kullanılmaya başlandı, tema olarak hacker theme seçildi ve config.yml dosyası düzenlendi. Siteler, projeler ve programlama sayfaları eklendi. Google analytics ve footer sayfaları yapılıp linkleri düzenlendi. Wiki ve Discussions bölümleri açıldı. site-wordpress eklendi.
+Jekyll kullanılmaya başlandı, tema olarak hacker theme seçildi ve config.yml dosyası düzenlendi. Siteler, projeler ve programlama sayfaları eklendi. Google analytics ve footer sayfaları yapılıp linkleri düzenlendi. [Wiki](https://github.com/sonsuzus/sonsuzus.github.io/wiki) ve [Discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümleri açıldı. site-wordpress eklendi.
