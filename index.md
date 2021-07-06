@@ -8,7 +8,11 @@ Siteler bölümünde web üzerinden yürütülen projelere ve sitelere ulaşabil
 
 Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java, bash, small basic, html, css, robotik programlama dahil olmak üzere bir çok alt alana da açılacak özellikle algoritma kurma ve geliştirme konusunda çalışmalar yapılacaktır.
 
-{% include links.html %}
+## Sürümler (versions)
+
+# Sürüm 1.0
+
+Jekyll kullanılmaya başlandı, tema olarak hacker theme seçildi ve _config.yml_ dosyası düzenlendi. Siteler, projeler ve programlama sayfaları eklendi. Google analytics ve footer sayfaları yapılıp linkleri düzenlendi. Wiki ve Discussions bölümleri açıldı. 
 
 {% include footer.html %}
 
