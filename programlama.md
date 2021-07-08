@@ -6,6 +6,7 @@ Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine
 
 ## Python Programlama
 
+Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/python-programlama) adresinden ulaşabilirsiniz.
 
 ## C/C++ Programlama
 
@@ -19,6 +20,8 @@ Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine
 ## CSS Programlama
 
 ## Bash Programlama
+
+Linux kabuk programlamada küçük ama işe yarar kod satırlarlarının olduğu bölüm [bash programlama](https://sonsuzus.github.io/bash-programlama) adresinde bulunuyor.
 
 ## Robotik Programlama
 
