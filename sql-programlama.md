@@ -8,3 +8,6 @@ SET Value = REPLACE(Value, '123', '')
 WHERE ID <=4
 ```
 
+{% include footer.html %}
+
+{% include analytics.html %}
