@@ -13,6 +13,8 @@ Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.githu
 
 ## SQL Programlama
 
+SQL ile ilgili sıkça kullanılan kodları [sql programlama](https://sonsuzus.github.io/sql-programlama) sayfasında bulabiliriz.
+
 ## PHP Programlama
 
 ## HTML Programlama
