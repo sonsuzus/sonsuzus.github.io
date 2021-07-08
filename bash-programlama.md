@@ -6,3 +6,8 @@ Linux kabuğundaki küçük ama işe yarar kod parçalarını bu bölümde bulab
 ```
 for i in file_dir/*; do cp "$i" target_dir/; done
 ```
+
+
+{% include footer.html %}
+
+{% include analytics.html %}
