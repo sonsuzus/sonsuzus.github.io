@@ -4,6 +4,8 @@ Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine
 
 ## Algoritma
 
+Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/algoritma-programlama) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz.
+
 ## Python Programlama
 
 Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/python-programlama) adresinden ulaşabilirsiniz.
