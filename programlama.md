@@ -29,6 +29,8 @@ Linux kabuk programlamada küçük ama işe yarar kod satırlarlarının olduğu
 
 ## Robotik Programlama
 
+Robotik programlama ilgili her yaşa uygun içeriğime (aslında özellikle çocuklara) [robotik programlama](https://sonsuzus.github.io/robotik-programlama) linkinden ulaşabilirsiniz. Robotik programlamaya nasıl başlanmalı neler yapılmalı bu konuda zorlanan öğrenciler neler yapmalı bu soruların cevabını buluyoruz. Ayrıca robotik programlama ile ilgili kodlara ve çalışmalara da ulaşabilirsiniz.
+
 ## Small Basic Programlama
 
 {% include footer.html %}
