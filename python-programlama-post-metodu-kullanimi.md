@@ -2,6 +2,12 @@
 
 ## HTTP POST Method:
 
+Tabiki öncelikle import etmemiz gereken bir modül var
+
+```
+import requests
+```
+
 Küçük bilgi parçalarını göndermek istediğimizde sorgu dizeleri kullanışlıdır, ancak verilerimiz daha karmaşık hale geldikçe, onu sorgu dizeleri kullanarak temsil etmek zorlaşabilir. 
 
 Bu durumda bir alternatif,  HTTP POST yöntemini kullanmaktır . Bu yöntem bir web servisine veri veya bir mesaj gönderir, Bir web formunu doldurduğunuzda ve göndermek için bir düğmeye bastığınızda, bu verileri web sunucusuna geri göndermek için POST yöntemini kullanırsınız. Bu yöntem, iletilecek bir sürü veri olduğunda kullanılma eğilimindedir.
@@ -40,3 +46,7 @@ b'{"description": "white kitten", "name": "Snowball", "age_months": 6}'
 ```
 
 Python ile HTTP protokolünde GET ve POST gönderme ve geri bildirim alma olayları bu şekilde olmaktadır.
+
+{% include footer.html %}
+
+{% include analytics.html %}
