@@ -2,6 +2,16 @@
 
 Bugüne kadar yaptığım sitelerin detayları ve çalışma prensipler siteler bölümünde olacak. Siteler bölümünde gerekirse ayrı başlıklar halinde detaylı yorum ve konulara ulaşabilirsiniz.
 
+## Rüya siteleri
+
+Rüya tabirleri ve yorumları ile ilgili olduğumdan bu kondua bir çok site geliştirdim. [Rüyada Rüya](https://www.ruyadaruya.com) sitemizde Q2A alt yapısı kullanılıyor ve gerçek rüya yorumcuları aktif olarak rüyaları yorumluyor. Sitenin detaylarını [Rüyada Rüya Site](https://sonsuzus.github.io/ruyada-ruya-site) adresinden ulaşabilirsiniz.
+
+[Ruyara](https://ruyara.com) ise Rüyada rüyanın içinde doğmuş bir bot olup daha sonra kendi sitesini kurmaya ve diğer sitelere destek vermeye devam etmiştir. Wordpress altyapısındadır. Rüya tabiri arama botu olarak çalışmaktadır.
+
+[Rüya tabiri](https://ruya-tabiri.github.io) ve [Rüyada](https://ruyada.github.io) github üzerinden yayın yapan rüya tabir siteleri ve programlarıdır. Her gün geliştirilmeye devam etmektedir.
+
+[Rüya Me](https://ruya.me) ve [Rüyada Me](https://ruyada.me) siteleri ile birlikte toplamda 2 milyondan fazla rüya tabirine ulaşabileceğiniz bir alt yapı geliştirilmiştir.
+
 ## Bilim ve Sanat Merkezi (Bilsem)
 
 Bilim ve sanat merkezlerinin işleyişi, örnek projeler, ders programları, ve daha bir çok konuda bilgiyi bu sayfalarda paylaşacağım.
