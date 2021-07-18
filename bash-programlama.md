@@ -14,6 +14,11 @@ df -i
 rm -rfv /tmp/lshttpd/swap/*
 ```
 
+Çok sayıda dosyayı silmek için
+```
+find . -type f -delete
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
