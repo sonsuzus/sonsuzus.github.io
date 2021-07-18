@@ -2,6 +2,14 @@
 
 Bugüne kadar yaptığım sitelerin detayları ve çalışma prensipler siteler bölümünde olacak. Siteler bölümünde gerekirse ayrı başlıklar halinde detaylı yorum ve konulara ulaşabilirsiniz.
 
+## Bilim ve Sanat Merkezi (Bilsem)
+
+Bilim ve sanat merkezlerinin işleyişi, örnek projeler, ders programları, ve daha bir çok konuda bilgiyi bu sayfalarda paylaşacağım.
+
+Öncelikle bu konuda yapılmış sitemizi ziyaret edebilirsiniz. [Bilim ve Sanat Merkezi Forumuna](https://www.bilimsanatmerkezi.net) uğrayabilir ve bu konularda bir çok bilgi alabilirsiniz. Punbb sistemi ile hazırlanmıştır.
+
+[Beşiktaş Bilim Sanat Merkezi](https://besiktasbilimsanat.com) sayfasına ise, Beşiktaş Bilim ve Sanat merkezi sayfasına uğrayabilir ve okulla ilgili bilgiler alabilirsiniz. Henüz daha yapım aşamasında olan sitede hangi alt yapıyı kullanacağım konusunda kararsızım.
+
 ## sonsuz.us
 
 ![sonsuz us](https://sonsuzus.github.io/img/sonsuzus.jpg) 
