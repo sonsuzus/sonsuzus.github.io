@@ -8,7 +8,7 @@ Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde ol
 
 ## Python Programlama
 
-Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/python-programlama) adresinden ulaşabilirsiniz.
+Python programlama diğerlerine kıyasla daha geç başladığım en kullanışlı bulduğum programlama dilidir. Yapısı gereği kod bloklarına alışkanlık kazandırdığı gibi, kütüphaneleri oldukça zengindir. Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/python-programlama) adresinden ulaşabilirsiniz.
 
 ## C/C++ Programlama
 
