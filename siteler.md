@@ -10,7 +10,7 @@ Rüya tabirleri ve yorumları ile ilgili olduğumdan bu kondua bir çok site gel
 
 [Rüya tabiri](https://ruya-tabiri.github.io) ve [Rüyada](https://ruyada.github.io) github üzerinden yayın yapan rüya tabir siteleri ve programlarıdır. Her gün geliştirilmeye devam etmektedir.
 
-[Rüya Me](https://ruya.me) ve [Rüyada Me](https://ruyada.me) siteleri ile birlikte toplamda 2 milyondan fazla rüya tabirine ulaşabileceğiniz bir alt yapı geliştirilmiştir.
+[Rüya Me](https://ruya.me) ve [Rüyada Me](https://ruyada.me) siteleri ile birlikte toplamda 2 milyondan fazla rüya tabirine ulaşabileceğiniz bir alt yapı geliştirilmiştir. Yeni rüyalarınızı yazabileceğiniz [Tabir rüya me](https://tabir.ruya.me) adresi de açılmıştır. Q2A alt yapısı kullanılmıştır.
 
 ## Bilim ve Sanat Merkezi (Bilsem)
 
