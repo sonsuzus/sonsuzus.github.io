@@ -19,6 +19,11 @@ rm -rfv /tmp/lshttpd/swap/*
 find . -type f -delete
 ```
 
+Biriken log dosyalarını silmek için
+```
+rm -rf /usr/local/lsws/logs/*
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
