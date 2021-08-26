@@ -20,6 +20,14 @@ Bilim ve sanat merkezlerinin işleyişi, örnek projeler, ders programları, ve 
 
 [Beşiktaş Bilim Sanat Merkezi](https://besiktasbilimsanat.com) sayfasına ise, Beşiktaş Bilim ve Sanat merkezi sayfasına uğrayabilir ve okulla ilgili bilgiler alabilirsiniz. Henüz daha yapım aşamasında olan sitede hangi alt yapıyı kullanacağım konusunda kararsızım.
 
+## Dünya Mitolojisi
+
+Mitolojiye merakım çok eskilere dayanır. Bu amaçla başladığım bu site günümüzde mitoloji konusunda epey zengin içeriğe sahip ve gelişmeye de devam ediyor. [Dünya Mitolojisi](https://www.mitolojisi.com) sitesini ziyaret edip dilerseniz site gönüllüleri arasına da katılabilirsiniz. Alt yapı olarak wordpress kullanıyorum. 
+
+## Sonsuz Bilgi sonsuz.me
+
+Eski sonsuz.us tarzında her türlü konunun konuşulduğu [sonsuz.me](https://sonsuz.me) sitesi vanilla forum alt yapısında kurulmuştur. Teknik olarak tek sorun vanilla forumlarındaki permission sorunudur. Onun dışında sitenin alt yapısı hızlı ve estetik, mobil uyumlu ve kullanıcı dostudur. Her konuda özgün düşüncenizi yazabileceğiniz bir forumdur. 
+
 ## sonsuz.us
 
 ![sonsuz us](https://sonsuzus.github.io/img/sonsuzus.jpg) 
