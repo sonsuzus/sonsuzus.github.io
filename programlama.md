@@ -12,7 +12,7 @@ Python programlama diğerlerine kıyasla daha geç başladığım en kullanışl
 
 ## C/C++ Programlama
 
-Uzun yıllardır c ve c++ programlama ile uğraşmaktayım. Bu konuda Tübitak bilişim olimpiyatlarına öğrenci hazırladığım da oldu. Bu sayfalarda temel bazı işlemleri anlatacağım ve uygulamaları göstereceğim.
+Uzun yıllardır c ve c++ programlama ile uğraşmaktayım. Bu konuda Tübitak bilişim olimpiyatlarına öğrenci hazırladığım da oldu. Bu sayfalarda temel bazı işlemleri anlatacağım ve uygulamaları göstereceğim. [C/C++ programlama](https://sonsuzus.github.io/c-programlama) adresinden ulaşabilirsiniz.
 
 ## SQL Programlama
 
