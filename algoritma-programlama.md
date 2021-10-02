@@ -2,6 +2,22 @@
 
 Bir işin veya programın yapılması için adımlara bölünmüş halidir. Aslında hayatımızın her noktasında algoritmaları kullanırız farkında olmadan. Yemek yapmaktan araba kullanmaya kadar hepsi birer algoritma içerir. Bu başlığımızda algoritma kurma yöntemlerini inceleyeceğiz. Takıldığınız konuları [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz.
 
+## Bilgisayar soruları
+
+Bu bölümde programlama ile ilgili sorular sorulacaktır. Çözümlerine ilgili programlama sayfalarından ulaşabilirsiniz.
+
+Kullanıcıya yaşı sorulur ve doğum tarihi hesaplanır.
+
+Kullanıcıya iki tam sayı sorulur ve arasında dört işlem yaptırılıp ekrana yazdırılır.
+
+Kullanıcıya havanın sıcaklığı santigrat cinsinden sorulur ve fahrenayta çevrilir.
+
+Kullanıcıya çap sorulur ve dairenin çevresi ve alanı hesaplanır.
+
+Kullanıcıya eşkenar üçgenin bir kenarı sorulur gelen yanıta göre eşkenar üçgenin alanı hesaplanır.
+
+Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.
+
 {% include footer.html %}
 
 {% include analytics.html %}
