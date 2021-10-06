@@ -22,6 +22,8 @@ Kullanıcıya notu sorulur. 50 den büyükse geçtin, 50 den küçükse kaldın 
 
 Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100 den büyükse gaz yazdırılır.
 
+Kullanıcıya 3 adet tamsayı kenar girmesi istenir. Girilen kenarlara göre üçgen olup olmadığı, üçgense ne tür bir üçgen olduğu yazdırılması istenir.
+
 {% include footer.html %}
 
 {% include analytics.html %}
