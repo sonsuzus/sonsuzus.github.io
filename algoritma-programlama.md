@@ -18,6 +18,12 @@ Kullanıcıya eşkenar üçgenin bir kenarı sorulur gelen yanıta göre eşkena
 
 Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.
 
+Kullanıcıdan üç sayı istenir ve büyükten küçüğe yazdırılır.
+
+Kullanıcıdan elindeki Türk Lirası miktarı sorulur. Gelen yanıta göre ne kadar japon yeni alabileceği söylenir.
+
+Kullanıcıya kürenin çapı sorulur, gelen yanıta göre hacmi hesaplanır.
+
 Kullanıcıya notu sorulur. 50 den büyükse geçtin, 50 den küçükse kaldın yazdırılır.
 
 Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100 den büyükse gaz yazdırılır.
