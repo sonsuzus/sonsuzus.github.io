@@ -20,6 +20,8 @@ Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne ka
 
 Kullanıcıdan üç sayı istenir ve büyükten küçüğe yazdırılır.
 
+Kullanıcıdan tek harflik cinsiyet bilgisi istenir buna göre bir cümle kurulur.
+
 Kullanıcıdan elindeki Türk Lirası miktarı sorulur. Gelen yanıta göre ne kadar japon yeni alabileceği söylenir.
 
 Kullanıcıya kürenin çapı sorulur, gelen yanıta göre hacmi hesaplanır.
@@ -27,6 +29,8 @@ Kullanıcıya kürenin çapı sorulur, gelen yanıta göre hacmi hesaplanır.
 Kullanıcıya notu sorulur. 50 den büyükse geçtin, 50 den küçükse kaldın yazdırılır.
 
 Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100 den büyükse gaz yazdırılır.
+
+Kullanıcıdan bir sayı girmesi istenir. Bu sayı tek mi çift mi yazdırılır.
 
 Kullanıcıya 3 adet tamsayı kenar girmesi istenir. Girilen kenarlara göre üçgen olup olmadığı, üçgense ne tür bir üçgen olduğu yazdırılması istenir.
 
