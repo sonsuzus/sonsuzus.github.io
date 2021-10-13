@@ -32,6 +32,8 @@ Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100
 
 Kullanıcıdan bir sayı girmesi istenir. Bu sayı tek mi çift mi yazdırılır.
 
+Kullanıcıya kişinin cinsiyeti ve yaşı sorulur. Ona göre hediye önerilir.
+
 Kullanıcıya 3 adet tamsayı kenar girmesi istenir. Girilen kenarlara göre üçgen olup olmadığı, üçgense ne tür bir üçgen olduğu yazdırılması istenir.
 
 {% include footer.html %}
