@@ -36,6 +36,8 @@ Kullanıcıya kişinin cinsiyeti ve yaşı sorulur. Ona göre hediye önerilir.
 
 Kullanıcıya 3 adet tamsayı kenar girmesi istenir. Girilen kenarlara göre üçgen olup olmadığı, üçgense ne tür bir üçgen olduğu yazdırılması istenir.
 
+Kullanıcıya beş tane cümlenin doğru mu yanlış mı olduğu sorulur sırayla ve notu açıklanır. (doğru için d, yanlış için y, not 100 üzerinden)
+
 {% include footer.html %}
 
 {% include analytics.html %}
