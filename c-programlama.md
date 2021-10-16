@@ -40,7 +40,7 @@ Burada scanf ile verileri okumaya yarayan stdio.h içinde bulunan bir fonksiyon 
 Kullanıcıya iki tam sayı sorulur ve arasında dört işlem yaptırılıp ekrana yazdırılır.
 
 ```
-#include<stdioh.>
+#include<stdio.h>
 int main()
 {
   int sayi1,sayi2,toplam,fark,bolum,carpim; // değişkenlerimizi tanımlıyoruz
