@@ -18,7 +18,7 @@ int main()
 
 C/C++ programlama dilinde her şey fonksiyonlardan oluşur. Buna ana program da dahildir. main() fonksiyonu programın ilk çalıştığı yeri gösterir. Fonksiyonların arasından önce main fonksiyonunu arar ve program oradan başlar. int main() olması dönen değerin ifadesidir. return 0 ile sisteme bir tamsayı değer döndürürüz. { ve } ise kod bloklarıdır. Kodlarımızı bloklamak için bu simgeleri kullanırız.
 
-C programlama dilinde bir değişkeni kullanmadan önce tanımlamamız gerekir. Buna göre bellekten yer ayırmaktadır. Basit programlarla (algoritma)[https://sonsuzus.github.io/algoritma-programlama] örneklerimizi yapmaya başlayalım.
+C programlama dilinde bir değişkeni kullanmadan önce tanımlamamız gerekir. Buna göre bellekten yer ayırmaktadır. Basit programlarla [algoritma](https://sonsuzus.github.io/algoritma-programlama) örneklerimizi yapmaya başlayalım.
 
 Kullanıcıya yaşı sorulur ve doğum tarihi hesaplanır.
 
