@@ -18,6 +18,25 @@ int main()
 
 C/C++ programlama dilinde her şey fonksiyonlardan oluşur. Buna ana program da dahildir. main() fonksiyonu programın ilk çalıştığı yeri gösterir. Fonksiyonların arasından önce main fonksiyonunu arar ve program oradan başlar. int main() olması dönen değerin ifadesidir. return 0 ile sisteme bir tamsayı değer döndürürüz. { ve } ise kod bloklarıdır. Kodlarımızı bloklamak için bu simgeleri kullanırız.
 
+C programlama dilinde bir değişkeni kullanmadan önce tanımlamamız gerekir. Buna göre bellekten yer ayırmaktadır. Basit programlarla (algoritma)[https://sonsuzus.github.io/algoritma-programlama] örneklerimizi yapmaya başlayalım.
+
+Kullanıcıya yaşı sorulur ve doğum tarihi hesaplanır.
+
+```
+#include<stdio.h>
+
+int main()
+{
+  int yas;
+  printf("Yasinizi giriniz: ");
+  scanf("%d",&yas); //değişkenin adresine yazdırıyoruz, tam sayılar için %d ile alınıyor.
+  printf("dogum yiliniz %d",2021-yas); // printf içinde işlem yapabiliriz elbette çift tırnak dışında
+  return 1;
+}
+```
+
+Burada scanf ile verileri okumaya yarayan stdio.h içinde bulunan bir fonksiyon kullanıyoruz. C de veriler değişkenlerin bellek adreslerine yazıldığı için değişkenin önüne & getirmeyi unutmayınız.
+
 {% include footer.html %}
 
 {% include analytics.html %}
