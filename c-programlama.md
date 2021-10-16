@@ -62,6 +62,28 @@ int main()
 
 Yine sayıları okuturken & adres bilgisine yazdırıyoruz. C de dört işlem diğer programlama dillerinde olduğu gibi numlock bölümündeki simgeler kullanılır. 
 
+Yeni sorumuzla devam edelim.
+
+Kullanıcıya havanın sıcaklığı santigrat cinsinden sorulur ve fahrenayta çevrilir.
+
+Bunun formülü f=c\*1.8+32 dir.
+
+```
+#include<stdio.h>
+
+int main()
+{
+  float fahr,cel; 
+  printf("Celsius cinsinden sicakligi giriniz: ");
+  scanf("%f",&cel);
+  fahr = cel*1.8+32;
+  printf("%f santigrat %f fahrenayt demektir",cel,fahr);
+  return 0;
+}
+```
+
+Burada yeni bir değişken tipi yani float dikkatinizi çekmiştir. Noktalıklı sayılar için kullanılır. Bellekten daha fazla yer ayırmaktadır. Okuturken ve yazdırırken kullanılan formatı %f şeklindedir.
+
 {% include footer.html %}
 
 {% include analytics.html %}
