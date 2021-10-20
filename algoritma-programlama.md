@@ -42,6 +42,8 @@ Kullanıcıya beş tane cümlenin doğru mu yanlış mı olduğu sorulur sırayl
 
 1 ile 100 arasında 3 veya 7 ye tam bölünen sayılar yazdırılır.
 
+Kullanıcıdan tek sayılar için T çift sayılar için C tüm sayılar için B girmesi istenir. İstediği şekilde sayılar 100 e kadar yazdırılır.
+
 Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
 
 {% include footer.html %}
