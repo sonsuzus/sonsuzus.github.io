@@ -46,35 +46,7 @@ Kullanıcıdan tek sayılar için T çift sayılar için C tüm sayılar için B
 
 Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
 
-Durunun kodu
 
-```
-#include<stdio.h>
-
-int main;
-
-int a;
-printf("Ucgen olusturmaya hos geldiniz. 1. sayiyi giriniz: ");
-scanf(a,b,c, "%d");
-int b;
-printf("2. sayiyi giriniz: ");
-int c;
-printf("3. sayiyi giriniz: ");
-if (a+b+c==180)
-    ("Bu sayilarla bir ucgen olusturulabilir.");
-        if (a+b+c!=180)
-        printf("Bu sayilarla bir ucgen olusturulamaz.");
-else if (a==60 && b==60 && c==60)
-    ("Bu sayilarla bir eskenar ucgen olusturulabilir.");
-else if (a==90 && b==45 && c==45 || a==45 && b==90 && c==45 || a==45 && b==45 && c==90)
-    ("Bu sayilarla bir dik acili ucgen olusturulabilir.");
-else if (a==b && b!=c || a==c && c!=b || b==c && b!=a)
-    ("Bu sayilarla bir ikizkenar ucgen olusturulabilir.");
-else
-    printf("Bu sayilarla bir cesikenar ucgen olusturulabilir.");
-
-remain=0
-```
 
 
 {% include footer.html %}
