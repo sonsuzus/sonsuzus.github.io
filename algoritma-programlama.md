@@ -38,6 +38,12 @@ Kullanıcıya 3 adet tamsayı kenar girmesi istenir. Girilen kenarlara göre ü�
 
 Kullanıcıya beş tane cümlenin doğru mu yanlış mı olduğu sorulur sırayla ve notu açıklanır. (doğru için d, yanlış için y, not 100 üzerinden)
 
+1 den 100 e kadar sayılar yazdırılır. (döngü)
+
+1 ile 100 arasında 3 veya 7 ye tam bölünen sayılar yazdırılır.
+
+Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
+
 {% include footer.html %}
 
 {% include analytics.html %}
