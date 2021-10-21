@@ -46,6 +46,10 @@ Kullanıcıdan tek sayılar için T çift sayılar için C tüm sayılar için B
 
 Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
 
+Kullanıcıdan bir sayı istenir o sayıya kadar olan sayıların toplamı istenir.
+
+10 metre uzunluğundaki bir ağacın boyu her yıl %2 oranında artmaktadır. 50 yıl sonra bu ağacın boyu ne olur? 
+
 
 
 
