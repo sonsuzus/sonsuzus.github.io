@@ -18,9 +18,40 @@ Kullanıcıya eşkenar üçgenin bir kenarı sorulur gelen yanıta göre eşkena
 
 Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.
 
+Kullanıcıdan üç sayı istenir ve büyükten küçüğe yazdırılır.
+
+Kullanıcıdan tek harflik cinsiyet bilgisi istenir buna göre bir cümle kurulur.
+
+Kullanıcıdan elindeki Türk Lirası miktarı sorulur. Gelen yanıta göre ne kadar japon yeni alabileceği söylenir.
+
+Kullanıcıya kürenin çapı sorulur, gelen yanıta göre hacmi hesaplanır.
+
 Kullanıcıya notu sorulur. 50 den büyükse geçtin, 50 den küçükse kaldın yazdırılır.
 
 Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100 den büyükse gaz yazdırılır.
+
+Kullanıcıdan bir sayı girmesi istenir. Bu sayı tek mi çift mi yazdırılır.
+
+Kullanıcıya kişinin cinsiyeti ve yaşı sorulur. Ona göre hediye önerilir.
+
+Kullanıcıya 3 adet tamsayı kenar girmesi istenir. Girilen kenarlara göre üçgen olup olmadığı, üçgense ne tür bir üçgen olduğu yazdırılması istenir.
+
+Kullanıcıya beş tane cümlenin doğru mu yanlış mı olduğu sorulur sırayla ve notu açıklanır. (doğru için d, yanlış için y, not 100 üzerinden)
+
+1 den 100 e kadar sayılar yazdırılır. (döngü)
+
+1 ile 100 arasında 3 veya 7 ye tam bölünen sayılar yazdırılır.
+
+Kullanıcıdan tek sayılar için T çift sayılar için C tüm sayılar için B girmesi istenir. İstediği şekilde sayılar 100 e kadar yazdırılır.
+
+Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
+
+Kullanıcıdan bir sayı istenir o sayıya kadar olan sayıların toplamı istenir.
+
+10 metre uzunluğundaki bir ağacın boyu her yıl %2 oranında artmaktadır. 50 yıl sonra bu ağacın boyu ne olur? 
+
+
+
 
 {% include footer.html %}
 

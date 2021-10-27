@@ -2,6 +2,9 @@
 
 Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine çalışmalar ve bilgiler olacaktır. Sizler de takıldığınız kısımları ve paylaşmak istediklerinizi github [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz.
 
+Güzel bir söz ile başlayalım.
+>“Eğer derleyicilerin nasıl çalıştığını bilmiyorsanız, bilgisayarların nasıl çalıştığını da bilmiyorsunuz demektir. Eğer derleyicilerin tam olarak nasıl çalıştığından emin değilseniz, o halde nasıl çalıştıklarını bilmiyorsunuzdur.”— Steve Yegge
+
 ## Algoritma
 
 Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/algoritma-programlama) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz.
