@@ -50,6 +50,14 @@ Kullanıcıdan bir sayı istenir o sayıya kadar olan sayıların toplamı isten
 
 10 metre uzunluğundaki bir ağacın boyu her yıl %2 oranında artmaktadır. 50 yıl sonra bu ağacın boyu ne olur? 
 
+Kullanıcıdan parası, yıllık faiz oranı ve kaç yıl yatıracağı sorulur. Yatırılan yıl sonundaki faizleriyle birlikte parası hesaplanır.
+
+Kullanıcıdan bir sayı istenir. Asal olup olmadığı yazdırılır.
+
+1000 e kadar olan asal sayıları yazdırması istenir.
+
+100 kişi bir pastayı bölüşmektedir. 1. kişi pastanın %1 ini, 2. kişi kalan pastanın %2 sini, 3. kişi kalan pastanın %3 nü ve böylece devam edip 100. kişi de kalan pastanın %100 ünü alır. Soru en çok payı kaçıncı kişi almıştır.
+
 
 
 
