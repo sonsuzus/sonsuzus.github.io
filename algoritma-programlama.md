@@ -42,6 +42,8 @@ Kullanıcıya beş tane cümlenin doğru mu yanlış mı olduğu sorulur sırayl
 
 1 ile 100 arasında 3 veya 7 ye tam bölünen sayılar yazdırılır.
 
+1 ve 100 arası sayılardan 2, 3 ve 5 ile tam bölünemeyen sayılar kaç tanedir?
+
 Kullanıcıdan tek sayılar için T çift sayılar için C tüm sayılar için B girmesi istenir. İstediği şekilde sayılar 100 e kadar yazdırılır.
 
 Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
@@ -52,11 +54,29 @@ Kullanıcıdan bir sayı istenir o sayıya kadar olan sayıların toplamı isten
 
 Kullanıcıdan parası, yıllık faiz oranı ve kaç yıl yatıracağı sorulur. Yatırılan yıl sonundaki faizleriyle birlikte parası hesaplanır.
 
+Evrenin gizemli bir yerinde Diven diye bir gezegende Azanyum ve Sazanyum adlı iki türlü yaratık yaşıyordu. Her yılın son günü her Azanyum, bir sazanyum ve bir azanyum yaratacak şekilde bölünüyordu. Bir sazanyum ise bir azanyum iki sazanyuma bölünmekteydi. Bu gezegende hayatın tek bir azanyum ile başladığı bilinmekteydi. İncemeler şunu gösterdiki Sazanyum/Azanyum oranı 5/3 ü aştığında bu gezegende yaşam son bulacak. Sizce Diven gezegeninde yaşam bir gün son bulur mu? (Bu arada bölünen Azanyum ve Sazanyumlar yaşamaya devam ediyor)
+
 Kullanıcıdan bir sayı istenir. Asal olup olmadığı yazdırılır.
 
 1000 e kadar olan asal sayıları yazdırması istenir.
 
 100 kişi bir pastayı bölüşmektedir. 1. kişi pastanın %1 ini, 2. kişi kalan pastanın %2 sini, 3. kişi kalan pastanın %3 nü ve böylece devam edip 100. kişi de kalan pastanın %100 ünü alır. Soru en çok payı kaçıncı kişi almıştır.
+
+Girilen 5 sayıdan en büyüğünü bulan programı yazınız.
+
+Girilen sayının basamaklarını tersten yazdıran program.
+
+Girilen bir sayının yaklaşık kökünü bulan programı yazınız.
+
+İki sayı istenir bu sayıların OKEK ve OBEB i bulunur.
+
+Mükemmel sayıları bulan program. (Mükemmel sayı kendisi hariç bölenleri toplamı kendisine eşit olan sayılardır)
+
+Arkadaş sayıları bulan program. (Arkadaş sayılar bölenleri toplamı diğer sayıyı veren programdır)
+
+Elimizde 10 cm boyunda olan ve sonsuza dek gerip uzatabileceğimiz özdeş bir lastik ip var. Bu ipin A ucunu bir duvara bağlıyoruz. B ucunu da bir arabaya bağlıyoruz. A ucuna bir solucan yerleştiriyoruz. Solucan ipin B ucuna doğru gidiyor. Saniyede 1 cm yol alıyor. Solucan 1 saniye süreyle gidince duruyor. Solucan durunca araba lastik ipi çekerek B ucunu 10 cm ileriye götürüyor ve duruyor. Araba durunca solucan yine 1 saniye süreyle gidiyor ve duruyor. Solucan durunca araba lastik ipin B ucunu yine 10 cm ileriye götürüyor ve duruyor. Ve bu olay hiç durmadan böyle tekrarlanıyor. Solucan lastik ipin B ucunu yakalayabilir mi? Programlayınız.
+
+
 
 
 
