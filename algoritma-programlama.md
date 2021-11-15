@@ -72,7 +72,9 @@ Girilen bir sayının yaklaşık kökünü bulan programı yazınız.
 
 Mükemmel sayıları bulan program. (Mükemmel sayı kendisi hariç bölenleri toplamı kendisine eşit olan sayılardır)
 
-Arkadaş sayıları bulan program. (Arkadaş sayılar bölenleri toplamı diğer sayıyı veren programdır)
+Arkadaş sayıları bulan program. (Arkadaş sayılar kendisi hariç bölenleri toplamı diğer sayıyı veren programdır)
+
+Zengin sayıları veren program. (Zengin sayılar kendisi hariç bölenleri toplamı kendisinden büyük olan sayılardır)
 
 Elimizde 10 cm boyunda olan ve sonsuza dek gerip uzatabileceğimiz özdeş bir lastik ip var. Bu ipin A ucunu bir duvara bağlıyoruz. B ucunu da bir arabaya bağlıyoruz. A ucuna bir solucan yerleştiriyoruz. Solucan ipin B ucuna doğru gidiyor. Saniyede 1 cm yol alıyor. Solucan 1 saniye süreyle gidince duruyor. Solucan durunca araba lastik ipi çekerek B ucunu 10 cm ileriye götürüyor ve duruyor. Araba durunca solucan yine 1 saniye süreyle gidiyor ve duruyor. Solucan durunca araba lastik ipin B ucunu yine 10 cm ileriye götürüyor ve duruyor. Ve bu olay hiç durmadan böyle tekrarlanıyor. Solucan lastik ipin B ucunu yakalayabilir mi? Programlayınız.
 
