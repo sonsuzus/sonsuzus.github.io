@@ -78,7 +78,13 @@ Zengin sayıları veren program. (Zengin sayılar kendisi hariç bölenleri topl
 
 Elimizde 10 cm boyunda olan ve sonsuza dek gerip uzatabileceğimiz özdeş bir lastik ip var. Bu ipin A ucunu bir duvara bağlıyoruz. B ucunu da bir arabaya bağlıyoruz. A ucuna bir solucan yerleştiriyoruz. Solucan ipin B ucuna doğru gidiyor. Saniyede 1 cm yol alıyor. Solucan 1 saniye süreyle gidince duruyor. Solucan durunca araba lastik ipi çekerek B ucunu 10 cm ileriye götürüyor ve duruyor. Araba durunca solucan yine 1 saniye süreyle gidiyor ve duruyor. Solucan durunca araba lastik ipin B ucunu yine 10 cm ileriye götürüyor ve duruyor. Ve bu olay hiç durmadan böyle tekrarlanıyor. Solucan lastik ipin B ucunu yakalayabilir mi? Programlayınız.
 
-
+Bir okuldaki 100 kapalı dolabın önünde birer öğrenci duracak şekilde yerleşirler.
+1. düdük çaldığında 1 in katları olan tüm dolap kapakları açılır.
+2. düdük çaldığında 2 nin katları olan dolaplar açıksa kapanır kapalıysa açılır,
+3. düdük çaldığında 3 ün katları olan dolaplar yine aynı şekilde kapanır veya açılır,
+. . .
+Bu böylece 100. düdük çalana kadar devam eder. 100. düdük çaldığında sadece 100. dolap kapağı açıksa kapanır kapalıysa açılır.
+Soru şu, bu işlemin sonucunda kaç dolap kapağı açık kalır? 
 
 
 
