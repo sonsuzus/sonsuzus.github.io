@@ -82,6 +82,7 @@ Bir okuldaki 100 kapalı dolabın önünde birer öğrenci duracak şekilde yerl
 1. düdük çaldığında 1 in katları olan tüm dolap kapakları açılır.
 2. düdük çaldığında 2 nin katları olan dolaplar açıksa kapanır kapalıysa açılır,
 3. düdük çaldığında 3 ün katları olan dolaplar yine aynı şekilde kapanır veya açılır,
+
 . . .
 Bu böylece 100. düdük çalana kadar devam eder. 100. düdük çaldığında sadece 100. dolap kapağı açıksa kapanır kapalıysa açılır.
 Soru şu, bu işlemin sonucunda kaç dolap kapağı açık kalır? 
