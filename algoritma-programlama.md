@@ -87,6 +87,8 @@ Bir okuldaki 100 kapalı dolabın önünde birer öğrenci duracak şekilde yerl
 Bu böylece 100. düdük çalana kadar devam eder. 100. düdük çaldığında sadece 100. dolap kapağı açıksa kapanır kapalıysa açılır.
 Soru şu, bu işlemin sonucunda kaç dolap kapağı açık kalır? 
 
+Kullanıcıdan sayı istenir ve * lardan piramit yaptırılır.
+
 
 
 
