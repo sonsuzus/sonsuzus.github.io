@@ -91,7 +91,7 @@ Kullanıcıdan sayı istenir ve * lardan piramit yaptırılır.
 
 Ada ve Deniz bir kutudan sırayla limon şekerleri alıyor. Önce Ada 1 şeker, sonra Deniz 2 şeker, sonra Ada 3 şeker, sonra Deniz 4 şeker biçiminde, sırası gelen kişi kutuda yeterince şeker kalmışsa, bir önceki seferde diğer kişinin aldığı şekerin bir fazlasını alıyor. Kutuda yeterli sayıda şeker kalmamışsa sırası gelen kişi kutudaki bütün şekerleri alıyor. Ada sonuçta toplam 2900 şeker almışsa, başlangıçta kutuda kaç tane limon şekeri vardı?
 
-i^c * n^i = inci kelimesini veren rakamlar nelerdir.
+i^n * c^i = inci kelimesini veren rakamlar nelerdir.
 
 
 {% include footer.html %}
