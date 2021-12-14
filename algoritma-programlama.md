@@ -93,6 +93,12 @@ Ada ve Deniz bir kutudan sırayla limon şekerleri alıyor. Önce Ada 1 şeker, 
 
 i^n * c^i = inci kelimesini veren rakamlar nelerdir.
 
+Üç basamaklı rakamları birbirinden farklı tüm sayıları ekranda gösteren ve bu kurala uygun kaç tane sayı olduğunu söyleyen programı yazınız.
+Örnek çıktı : 102 103 104 105 106 107 108 109 120 123 . . . . . 980 981 982 983 984 985 986 987
+
+Ali, bir romanın her gün bir önceki gün okuduğu sayfadan 5 sayfa fazlasını okumaktadır. İlk gün 10 sayfa okuyarak başlayan Alinin' 1.000 sayfalık bir romanı kaç günde bitireceğini bulan programı kodlayınız.
+
+Kullanıcıdan bir sayı istenir ve faktoriyeli bulunur.
 
 {% include footer.html %}
 
