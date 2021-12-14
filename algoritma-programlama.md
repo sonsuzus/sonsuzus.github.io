@@ -100,6 +100,8 @@ Ali, bir romanın her gün bir önceki gün okuduğu sayfadan 5 sayfa fazlasın�
 
 Kullanıcıdan bir sayı istenir ve faktoriyeli bulunur.
 
+Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 50 ve 100 TL' lik banknotlar kalmıştır. Büyük değerli banknotların sayısı maksimum olacak şekilde, çekilecek paranın kaç tane 100, 50, 20 ve 10 liralık banknottan oluşacağını ekranda yazan C programını yazınız.
+
 {% include footer.html %}
 
 {% include analytics.html %}
