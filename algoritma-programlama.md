@@ -106,6 +106,8 @@ Fibanocci dizisinin ilk 10 elemanı bir diziye kaydedilir.
 
 Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 50 ve 100 TL' lik banknotlar kalmıştır. Büyük değerli banknotların sayısı maksimum olacak şekilde, çekilecek paranın kaç tane 100, 50, 20 ve 10 liralık banknottan oluşacağını ekranda yazan C programını yazınız.
 
+5 kişinin katıldığı bir bilgi yarışmasının yalnız bir tane birincisinin olması koşuluyla yarışmanın kaç farklı şekilde sonuçlanabileceğini bulunuz.
+
 {% include footer.html %}
 
 {% include analytics.html %}
