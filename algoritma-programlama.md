@@ -108,6 +108,8 @@ Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 
 
 5 kişinin katıldığı bir bilgi yarışmasının yalnız bir tane birincisinin olması koşuluyla yarışmanın kaç farklı şekilde sonuçlanabileceğini bulunuz.
 
+2 ile 2022 arasında kaç sayı bir sayının karesi veya kübüdür.
+
 {% include footer.html %}
 
 {% include analytics.html %}
