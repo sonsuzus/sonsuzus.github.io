@@ -110,6 +110,8 @@ Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 
 
 2 ile 2022 arasında kaç sayı bir sayının karesi veya kübüdür. Sayıları da yazdırınız.
 
+Duru yurt dışı gezisinde bir dükkandan 4 parça eşya alır. Dükkan sahibinin hesap yaparken sayıları toplayacağı yere çarptığını görür ve adalet duygusu hemen dükkan sahibini uyarmaya yöneltir. Fakat adam umursamazca “toplasam da aynı sonuç yani 7,11 dolar çıkacaktı” der. Durunun aldığı eşyaların fiyatı nedir?
+
 {% include footer.html %}
 
 {% include analytics.html %}
