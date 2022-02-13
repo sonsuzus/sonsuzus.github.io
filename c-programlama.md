@@ -102,6 +102,22 @@ int main()
 }
 ```
 
+Sorularımıza devam edelim. Yine benzer bir soru. Kullanıcıya eşkenar üçgenin bir kenarı sorulur gelen yanıta göre eşkenar üçgenin alanı hesaplanır.
+
+```
+#include <stdio.h>
+
+int main()
+{
+    float a, kok3 = 1.732, alan;
+    printf("Eskenar ucgenin bir kenarini giriniz: ");
+    scanf("%f",&a);
+    alan = (kok3 / 4.0) * (a*a);
+    printf("Bir kenari %f olan ucgenin alani: %f dir.\n",a,alan);
+}
+```
+
+
 {% include footer.html %}
 
 {% include analytics.html %}
