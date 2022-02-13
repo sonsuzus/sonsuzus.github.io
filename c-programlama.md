@@ -84,6 +84,24 @@ int main()
 
 Burada yeni bir değişken tipi yani float dikkatinizi çekmiştir. Noktalıklı sayılar için kullanılır. Bellekten daha fazla yer ayırmaktadır. Okuturken ve yazdırırken kullanılan formatı %f şeklindedir.
 
+Yeni sorumuz da şu olsun. Kullanıcıya çap sorulur ve dairenin çevresi ve alanı hesaplanır.
+
+```
+#include <stdio.h>
+
+int main()
+{
+    float R, r, cevre, alan, pi = 3.14;
+    printf("Lütfen dairenin capini giriniz: ");
+    scanf("%f",&R);
+    r = R/2.0; 
+    cevre = 2 * pi * r;
+    alan = pi * r * r;
+    printf("%f capli dairenin cevresi: %f ve alani: %f dir.\n",R,cevre,alan);
+    return 1;
+}
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
