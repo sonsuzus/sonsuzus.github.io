@@ -117,6 +117,20 @@ int main()
 }
 ```
 
+Dolar ve euro hesaplayan sorumuz ise şu şekilde. Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.
+
+```
+#include <stdio.h>
+
+int main(){
+    float dolar,euro,tl;
+    printf("Elinizdeki tl miktarinini girin: ");
+    scanf("%f",&tl);
+    dolar = tl / 13.65;
+    euro = tl / 15.50;
+    printf("Elinizdeki %f tl ile %f dolar veya %f euro alabilirsiniz.",tl,dolar,euro);
+}
+```
 
 {% include footer.html %}
 
