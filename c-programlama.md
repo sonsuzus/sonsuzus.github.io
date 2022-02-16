@@ -132,6 +132,29 @@ int main(){
 }
 ```
 
+Yeni sorumuz sıralama sorusu. Elbette döngülerle daha güzel sıralamalar yapılır ama şimdilik sadece iflerle sıralama yapalım. Kullanıcıdan üç sayı istenir ve büyükten küçüğe yazdırılır.
+
+```
+#include <stdio.h>
+
+int main()
+{
+    int a, b, c;
+    printf("Birinci sayiyi giriniz: ");
+    scanf("%d",&a);
+    printf("Ikinci sayiyi giriniz: ");
+    scanf("%d",&b);
+    printf("Ucuncu sayiyi giriniz: ");
+    scanf("%d",&c);
+    if(a>=b && b>=c) printf("%d > %d > %d",a,b,c);
+    if(a>=c && c>=b) printf("%d > %d > %d",a,c,b);
+    if(b>=c && c>=a) printf("%d > %d > %d",b,c,a);
+    if(b>=a && a>=c) printf("%d > %d > %d",b,a,c);
+    if(c>=a && a>=b) printf("%d > %d > %d",c,a,b);
+    if(c>=b && b>=a) printf("%d > %d > %d",c,b,a);
+}
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
