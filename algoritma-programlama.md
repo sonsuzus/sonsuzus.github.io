@@ -60,6 +60,8 @@ Evrenin gizemli bir yerinde Diven diye bir gezegende Azanyum ve Sazanyum adlı i
 
 Kullanıcıdan bir sayı istenir. Asal olup olmadığı yazdırılır.
 
+Girilen bir sayının palindrom olup olmadığını tespit eder. (tersinden de okunuşu aynı mı?)
+
 1000 e kadar olan asal sayıları yazdırması istenir.
 
 100 kişi bir pastayı bölüşmektedir. 1. kişi pastanın %1 ini, 2. kişi kalan pastanın %2 sini, 3. kişi kalan pastanın %3 nü ve böylece devam edip 100. kişi de kalan pastanın %100 ünü alır. Soru en çok payı kaçıncı kişi almıştır.
