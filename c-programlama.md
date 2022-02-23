@@ -155,6 +155,24 @@ int main()
 }
 ```
 
+```
+#include <stdio.h>
+
+int main()
+{
+    int sayi,enkucuk=1000000,enbuyuk=-10000000;
+    do
+    {
+        printf("Bir sayi giriniz: ");
+        scanf("%d",&sayi);
+        if(sayi<enkucuk && sayi!=0) enkucuk=sayi;
+        if(sayi>enbuyuk && sayi!=0) enbuyuk=sayi;
+        printf("Simdiye kadar girilen en kucuk sayi: %d \nSimdiye kadar girilen en buyuk sayi: %d\n",enkucuk,enbuyuk);
+    } while (sayi!=0);
+    return 0;
+}
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
