@@ -48,6 +48,8 @@ Kullanıcıdan tek sayılar için T çift sayılar için C tüm sayılar için B
 
 Kullanıcıdan belirsiz sayıda not girilip ortalaması hesaplanır. Not girişini durdurmak için 0 a basılır.
 
+Kullanıcıdan 0 girilene kadar sayı girmesi istenir, girilen her sayıdan sonra şimdiye kadar girdiğiniz en büyük sayı: ve şimdiye kadar girdiğiniz en küçük sayı: şeklinde sonuçlar yazdırılır. 0 girildiğinde ise program sonlanır.
+
 Kullanıcıdan bir sayı istenir o sayıya kadar olan sayıların toplamı istenir.
 
 10 metre uzunluğundaki bir ağacın boyu her yıl %2 oranında artmaktadır. 50 yıl sonra bu ağacın boyu ne olur? 
