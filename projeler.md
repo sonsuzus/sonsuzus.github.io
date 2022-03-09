@@ -30,6 +30,8 @@ Satranç üzerine geliştirdiğim projelerin olduğu sayfadır. Öncesinde zaten
 
 Satranç severleri bir araya toplayan bu sistemlerde [Crazyhouse][1] gibi satrancın çeşitli versiyonları da oynanmaktadır.
 
+[1]: "Rakipten aldığınız taşları hamle sırası sizdeyken tahtanın istediğiniz yerine koyarak oynanan bir satranç türü. Elbette aldığınız taşlar kendi oyuncu renginize dönüşür."
+
 ## AçıkOkul - AçıkSoru
 
 2006 yılında başladığımız açık okul projesi o günler için oldukça önemliydi. moodle alt yapısını kullanarak oluşturduğumu projede yüzden fazla ders vermeye başlamıştık. Online eğitmenliğin ilk adımlarını atmış bulunduk. Bu projemiz malesef yarım kaldı ve yok olup gitti fakat bir çok uzaktan eğitim fikirlerinin ilk adımını attık. Bizden sonra bazı üniversiteler bu uygulamayı kullanmaya devam etti. Açıksoru da aynı şekilde online test sitesi şeklinde tasarlamıştık.
