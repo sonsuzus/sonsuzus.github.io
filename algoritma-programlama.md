@@ -116,6 +116,8 @@ Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 
 
 Duru yurt dışı gezisinde bir dükkandan 4 parça eşya alır. Dükkan sahibinin hesap yaparken sayıları toplayacağı yere çarptığını görür ve adalet duygusu hemen dükkan sahibini uyarmaya yöneltir. Fakat adam umursamazca “toplasam da aynı sonuç yani 7,11 dolar çıkacaktı” der. Durunun aldığı eşyaların fiyatı nedir?
 
+Kullanıcıdan bir sayı istenir bu sayı palindromik ise Palindromik sayı yazdırılır, değilse Palindromik sayı değil yazdırılır. Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır. Örnek: 1, 4, 8, 99, 101, 363, 4004, 9889, 13531 vb.
+
 {% include footer.html %}
 
 {% include analytics.html %}
