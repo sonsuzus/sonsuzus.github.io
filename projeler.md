@@ -30,7 +30,7 @@ Satranç üzerine geliştirdiğim projelerin olduğu sayfadır. Öncesinde zaten
 
 Satranç severleri bir araya toplayan bu sistemlerde [Crazyhouse][1] gibi satrancın çeşitli versiyonları da oynanmaktadır.
 
-[1]: "Rakipten aldığınız taşları hamle sırası sizdeyken tahtanın istediğiniz yerine koyarak oynanan bir satranç türü. Elbette aldığınız taşlar kendi oyuncu renginize dönüşür."
+[1]: <https://sonsuzus.github.io/projeler> "Rakipten aldığınız taşları hamle sırası sizdeyken tahtanın istediğiniz yerine koyarak oynanan bir satranç türü. Elbette aldığınız taşlar kendi oyuncu renginize dönüşür."
 
 ## AçıkOkul - AçıkSoru
 
