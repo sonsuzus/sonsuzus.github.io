@@ -26,7 +26,7 @@ Hediye liste projesi insanların ihtiyacı olan hediyelerini yazdıkları ve sev
 
 ## Satranç Projeleri
 
-Satranç üzerine geliştirdiğim projelerin olduğu sayfadır. Öncesinde zaten aktif ve profesyonel satranç oyuncusu olduğum için bir çok turnuvaya katılmış ve önemli başarılara imza atmıştım. 2000 li yıllarda Satranc.net sitesini kurup bu konuda öncü hale gelmiş bir sitemiz vardı. Daha sonra canlı oyun oynanabilen Chessmoon.com adresinde php ve sql ile birlikte ajax kullanarak hazırladığımız sitede halen aktif ve canlı oyunlar oynanmakta ve turnuvalar yapılamaktadır.
+Satranç üzerine geliştirdiğim projelerin olduğu sayfadır. Öncesinde zaten aktif ve profesyonel satranç oyuncusu olduğum için bir çok turnuvaya katılmış ve önemli başarılara imza atmıştım. 2000 li yıllarda [Satranc.net](http://www.satranc.net) sitesini kurup bu konuda öncü hale gelmiş bir sitemiz vardı. Daha sonra canlı oyun oynanabilen [Chessmoon.com](https://www.chessmoon.com) adresinde php ve sql ile birlikte ajax kullanarak hazırladığımız sitede halen aktif ve canlı oyunlar oynanmakta ve turnuvalar yapılamaktadır.
 
 Satranç severleri bir araya toplayan bu sistemlerde Crazyhouse gibi satrancın çeşitli versiyonları da oynanmaktadır.
 
