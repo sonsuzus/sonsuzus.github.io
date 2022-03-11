@@ -70,6 +70,8 @@ Girilen 5 sayıdan en büyüğünü bulan programı yazınız.
 
 Girilen sayının basamaklarını tersten yazdıran program.
 
+Bir kişinin yaşı iki basamaklıdır ve tersten yazılıp kendisi ile toplandığında elde edilen sonuç bir sayının karesidir. Bu kişinin yaşı en az kaç olabilir. Programlayınız
+
 Girilen bir sayının yaklaşık kökünü bulan programı yazınız.
 
 İki sayı istenir bu sayıların OKEK ve OBEB i bulunur.
@@ -117,6 +119,50 @@ Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 
 Duru yurt dışı gezisinde bir dükkandan 4 parça eşya alır. Dükkan sahibinin hesap yaparken sayıları toplayacağı yere çarptığını görür ve adalet duygusu hemen dükkan sahibini uyarmaya yöneltir. Fakat adam umursamazca “toplasam da aynı sonuç yani 7,11 dolar çıkacaktı” der. Durunun aldığı eşyaların fiyatı nedir?
 
 Kullanıcıdan bir sayı istenir bu sayı palindromik ise Palindromik sayı yazdırılır, değilse Palindromik sayı değil yazdırılır. Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır. Örnek: 1, 4, 8, 99, 101, 363, 4004, 9889, 13531 vb.
+
+Öyle bir sayı bulun ki; İki katı bir sayının karesi, Üç katı bir sayının küpü olsun. Bu koşulları sağlayan en küçük pozitif sam sayı nedir? Programlayınız.
+
+Girilen bir sayının armstrong sayısı olup olmadığını bulma. 100000 e kadar armstrong sayıları bulma.
+
+1,2,3,4,5,6,7 sayıları yan yana diziliyor. En soldaki 3 sayının toplamı en sağdaki 5 sayının toplamına eşit olacak biçimde kaç farklı sıralama vardır? Programlama ile bulunuz.
+
+İki rakamı aynı, rakamları çarpımı 84 olan kaç tane beş basamaklı sayı vardır? Programlayınız.
+
+Kendini oluşturan rakamların faktöriyellerinin toplamına eşit olan yalnızca 4 sayı vardır.
+Bunlardan üçü
+1. 1 = 1!
+2. 2 = 2!
+3. 145 = 1! + 4! + 5!
+Dördüncü sayıyı bulunuz.
+
+Bir banka getirdiğiniz paraya %100 yıllık faiz vereceğini söyler. Hatta bu kampanyayı şu şekilde detaylandırır. Paranızı bir yıl boyunca istediğiniz süre zarflarında faizin ana paraya ekleterek devam edebilirsiniz. Yani 100 lirayı 1 yıllık yatırırsanız 200 liranız olurken 2 defa altışar aylık yatırırsanız ilk altı ayda 150 liranız tekrar faize girer ve ikinci altı ay sonunda 225 liranız olur.Banka kampanyayı abartıp aynı şekilde aylık, günlük, saatlik hatta dakika ve saniyelik şekilde bir yıl boyunca paranızı arttırmayı vaad eder.Süreyi istediğiniz kadar kısaltmayı size bırakır. Maksimum ne kadar karlı çıkarsınız? (Programlayınız)
+
+Mustafa elindeki çeki bozdurmak için bankaya gitti. Fakat veznedar bir yanlışlık yaptı ve çekin üzerinde yazılı liralar yerine kuruş ve kuruşlar yerine de lira vererek çeki ödedi. Mustafa da dikkat etmeden paraları cebine koydu. Eve giderken paranın 5 kuruşunu düşürdü. Bu vesile ile parasını saydı ve cebinde çekin değerinin tam iki katı parası olduğunun farkına vardı. Çekin üzerinde yazılı olan miktar ne kadardı? Programlama ile bulunuz.
+
+41 kişi daire şeklinde dizilir. Herkes kendi solundaki ikinci kişiyi öldürüyor. 1. Kişi başlarsa son kalan 2 kişi hangi sayılar olur? Programlayınız.
+
+Birbirinden farklı 6 pozitif tam sayıdan üçerli iki grup oluşturuyorsunuz. Sayıları incelediğinizde şu iki özellik fark ediliyor.
+Birinci ve ikinci gruptaki sayıların toplamları birbirine eşit.
+Birinci ve ikinci gruptaki sayıların karelerinin toplamları birbirine eşit.
+Bu koşulları sağlayan en küçük toplama sahip 6 sayıyı bulunuz.
+
+![](https://zekakup.com/uploads/editor/ub/b31i4r5o0729.png "")
+
+Küplerden oluşan bir piramitin birinci katında 1, ikinci katında 3, üçüncü katında 6 küp bulunmaktadır.
+Şayet bu piramit 100 katlı olsaydı toplam kaç küp bulunacaktır?
+
+Ayşegül, Buket, Cansu , Derya adlı dört arkadaşın her biri birinden farklı 4 uğurlu sayısı vardır. Bu sayıların toplamı 15, ve her uğurlu sayıya üyelerin baş harfini verirsek;
+A ve C nin toplamı D den küçüktür.
+B ve C nin toplamı A dan küçüktür.
+B, C den küçüktür.
+Sayılar pozitif ve birbirinden farklıdır.
+Uğurlu sayıları bulunuz.
+
+Bir kişinin telefon numarası oldukça ilginç. Yedi haneli telefon numarasının son dört rakamını blok halinde ön tarafa taşıyınca yeni numara orjinal sayının iki katının bir fazlası oluyor. Bu kişinin telefon numarası nedir?
+
+Eski zamanlarda acımasız bir kral, on mahkumu daire biçiminde sıralar ve içlerinden birini seçerek ona bir kılıç verir. Kılıç kimdeyse solundaki ilk mahkumu öldürecek ve ölenin solundaki ilk canlı mahkuma kılıcı verecektir. İşlem tek bir mahkum kalana kadar devam edecek ve bu mahkum serbest bırakılacaktır. Kılıcın ilk verildiği mahkuma 1'den başlayarak sola doğru takip eden sayılar verilirse, bu on kişi içinden sırasıyla 2,4,6,8,10,3,7,1,9 numaralı mahkumlar ölecek ve 5 numaralı mahkum kurtulacaktır. Aynı işlem ONBİN mahkumluk bir gruba uygulansa hangi mahkum kurtulur programlayınız.
+
+
 
 {% include footer.html %}
 
