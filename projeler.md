@@ -36,15 +36,6 @@ Satranç severleri bir araya toplayan bu sistemlerde [Crazyhouse][1] gibi satran
 
 2006 yılında başladığımız açık okul projesi o günler için oldukça önemliydi. moodle alt yapısını kullanarak oluşturduğumu projede yüzden fazla ders vermeye başlamıştık. Online eğitmenliğin ilk adımlarını atmış bulunduk. Bu projemiz malesef yarım kaldı ve yok olup gitti fakat bir çok uzaktan eğitim fikirlerinin ilk adımını attık. Bizden sonra bazı üniversiteler bu uygulamayı kullanmaya devam etti. Açıksoru da aynı şekilde online test sitesi şeklinde tasarlamıştık.
 
-<script src="https://utteranc.es/client.js"
-        repo="sonsuzus/sonsuzus.github.io"
-        issue-term="pathname"
-        label="Yorum"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
-
 {% include footer.html %}
 
 {% include analytics.html %}
