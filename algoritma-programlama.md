@@ -116,6 +116,12 @@ Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 
 
 2 ile 2022 arasında kaç sayı bir sayının karesi veya kübüdür. Sayıları da yazdırınız.
 
+Farklı üç adet 2 basamaklı asal sayımız var. 
+* Bu üç sayının ortalaması asal sayıdır. 
+* Her sayı çiftinin ortalaması asal sayıdır. 
+
+Bu üç sayıyı bulan program.
+
 Duru yurt dışı gezisinde bir dükkandan 4 parça eşya alır. Dükkan sahibinin hesap yaparken sayıları toplayacağı yere çarptığını görür ve adalet duygusu hemen dükkan sahibini uyarmaya yöneltir. Fakat adam umursamazca “toplasam da aynı sonuç yani 7,11 dolar çıkacaktı” der. Durunun aldığı eşyaların fiyatı nedir?
 
 Kullanıcıdan bir sayı istenir bu sayı palindromik ise Palindromik sayı yazdırılır, değilse Palindromik sayı değil yazdırılır. Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır. Örnek: 1, 4, 8, 99, 101, 363, 4004, 9889, 13531 vb.
@@ -133,6 +139,7 @@ Bunlardan üçü
 1. 1 = 1!
 2. 2 = 2!
 3. 145 = 1! + 4! + 5!
+
 Dördüncü sayıyı bulunuz.
 
 Bir banka getirdiğiniz paraya %100 yıllık faiz vereceğini söyler. Hatta bu kampanyayı şu şekilde detaylandırır. Paranızı bir yıl boyunca istediğiniz süre zarflarında faizin ana paraya ekleterek devam edebilirsiniz. Yani 100 lirayı 1 yıllık yatırırsanız 200 liranız olurken 2 defa altışar aylık yatırırsanız ilk altı ayda 150 liranız tekrar faize girer ve ikinci altı ay sonunda 225 liranız olur.Banka kampanyayı abartıp aynı şekilde aylık, günlük, saatlik hatta dakika ve saniyelik şekilde bir yıl boyunca paranızı arttırmayı vaad eder.Süreyi istediğiniz kadar kısaltmayı size bırakır. Maksimum ne kadar karlı çıkarsınız? (Programlayınız)
@@ -161,6 +168,10 @@ Uğurlu sayıları bulunuz.
 Bir kişinin telefon numarası oldukça ilginç. Yedi haneli telefon numarasının son dört rakamını blok halinde ön tarafa taşıyınca yeni numara orjinal sayının iki katının bir fazlası oluyor. Bu kişinin telefon numarası nedir?
 
 Eski zamanlarda acımasız bir kral, on mahkumu daire biçiminde sıralar ve içlerinden birini seçerek ona bir kılıç verir. Kılıç kimdeyse solundaki ilk mahkumu öldürecek ve ölenin solundaki ilk canlı mahkuma kılıcı verecektir. İşlem tek bir mahkum kalana kadar devam edecek ve bu mahkum serbest bırakılacaktır. Kılıcın ilk verildiği mahkuma 1'den başlayarak sola doğru takip eden sayılar verilirse, bu on kişi içinden sırasıyla 2,4,6,8,10,3,7,1,9 numaralı mahkumlar ölecek ve 5 numaralı mahkum kurtulacaktır. Aynı işlem ONBİN mahkumluk bir gruba uygulansa hangi mahkum kurtulur programlayınız.
+
+Sonsuzusun düzenlediği bir matematik yarışmasına   81 ilden (her ilden en az 1 en çok 10 öğrenci olmak üzere) bilinmeyen sayıda öğrenciler katılmıştır. Bütün öğrencilere yarışma salonuna girme sıralarına göre 1 ‘den başlamak üzere sırayla giriş numaraları verilmiştir. (Salona ilk girene 1, İkinci girene 2, vb.) Yarışma sonunda birinciliği kazanan öğrenci ye giriş numarası sorulduğunda şu cevabı vermiştir: 
+“Salona benden önce gelen arkadaşların giriş numaralarının toplamıyla benden sonra gelenlerin giriş numaralarının toplamı birbirine eşittir. Benim numaramı buradan bulabilirsiniz.”
+Öğrencinin giriş numarasını programlama ile  bulunuz.
 
 
 
