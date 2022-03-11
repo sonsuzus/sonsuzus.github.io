@@ -4,7 +4,7 @@ C Programlama oldukça eski fakat hala güncelliğini ve gücünü koruyan bir p
 
 Her programlama dilinde olduğu gibi ekrana bir merhaba yazdırarak başlayalım.
 
-```
+```c
 #include<stdio.h>
 
 int main()
@@ -22,7 +22,7 @@ C programlama dilinde bir değişkeni kullanmadan önce tanımlamamız gerekir. 
 
 Kullanıcıya yaşı sorulur ve doğum tarihi hesaplanır.
 
-```
+```c
 #include<stdio.h>
 
 int main()
@@ -39,7 +39,7 @@ Burada scanf ile verileri okumaya yarayan stdio.h içinde bulunan bir fonksiyon 
 
 Kullanıcıya iki tam sayı sorulur ve arasında dört işlem yaptırılıp ekrana yazdırılır.
 
-```
+```c
 #include<stdio.h>
 int main()
 {
@@ -68,7 +68,7 @@ Kullanıcıya havanın sıcaklığı santigrat cinsinden sorulur ve fahrenayta �
 
 Bunun formülü f=c\*1.8+32 dir.
 
-```
+```c
 #include<stdio.h>
 
 int main()
@@ -86,7 +86,7 @@ Burada yeni bir değişken tipi yani float dikkatinizi çekmiştir. Noktalıklı
 
 Yeni sorumuz da şu olsun. Kullanıcıya çap sorulur ve dairenin çevresi ve alanı hesaplanır.
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -104,7 +104,7 @@ int main()
 
 Sorularımıza devam edelim. Yine benzer bir soru. Kullanıcıya eşkenar üçgenin bir kenarı sorulur gelen yanıta göre eşkenar üçgenin alanı hesaplanır.
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -119,7 +119,7 @@ int main()
 
 Dolar ve euro hesaplayan sorumuz ise şu şekilde. Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.
 
-```
+```c
 #include <stdio.h>
 
 int main(){
@@ -134,7 +134,7 @@ int main(){
 
 Yeni sorumuz sıralama sorusu. Elbette döngülerle daha güzel sıralamalar yapılır ama şimdilik sadece iflerle sıralama yapalım. Kullanıcıdan üç sayı istenir ve büyükten küçüğe yazdırılır.
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -155,7 +155,7 @@ int main()
 }
 ```
 
-```
+```c
 #include <stdio.h>
 
 int main()
