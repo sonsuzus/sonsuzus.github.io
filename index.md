@@ -10,9 +10,9 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Haberler ve Duyurular
 
-* Algoritma sayfasına yeni sorular eklendi. 
-* Yorum sistemi githuba entegre edildi. 
-* Discussions bölümünde sorular çözülmeye başlandı.
+* [Algoritma](https://sonsuzus.github.io/algoritma-programlama) sayfasına yeni sorular eklendi. 
+* Yorum sistemi githuba entegre edildi. [issues](https://github.com/sonsuzus/sonsuzus.github.io/issues) bölümünden de ulaşabilirsiniz.
+* [Discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorular çözülmeye başlandı.
 
 ## Sürümler (versions)
 
