@@ -8,6 +8,12 @@ Siteler bölümünde web üzerinden yürütülen projelere ve sitelere ulaşabil
 
 Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java, bash, small basic, html, css, robotik programlama dahil olmak üzere bir çok alt alana da açılacak özellikle algoritma kurma ve geliştirme konusunda çalışmalar yapılacaktır.
 
+## Haberler ve Duyurular
+
+* Algoritma sayfasına yeni sorular eklendi. 
+* Yorum sistemi githuba entegre edildi. 
+* Discussions bölümünde sorular çözülmeye başlandı.
+
 ## Sürümler (versions)
 
 ### Sürüm 1.1
