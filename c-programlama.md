@@ -173,6 +173,45 @@ int main()
 }
 ```
 
+```c
+#include <stdio.h>
+/*2 ile 2022 arasinda tam kare ve küp olan sayilar kaç tanedir */
+
+int karemi(int sayi)
+{
+    int i;
+    for(i=1;i<sayi;i++)
+    {
+        if(i*i==sayi) return 1;
+    }
+    return 0;
+}
+
+int kupmu(int sayi)
+{
+    int i;
+    for(i=1;i<sayi;i++)
+    {
+        if(i*i*i==sayi) return 1;
+    }
+    return 0;
+}
+
+int main()
+{
+    int sayi,adet=0;
+    for(sayi=2;sayi<=2022;sayi++)
+    {
+        if(karemi(sayi)==1 || kupmu(sayi)==1)
+        {
+            printf("%d - ",sayi);
+            adet++;
+        }
+    }
+    printf("\n2 - 2022 arasinda %d adet kare veya kup sayi vardir.",adet);
+}
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
