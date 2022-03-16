@@ -296,6 +296,12 @@ Biriken log dosyalarını silmek için
 rm -rf /usr/local/lsws/logs/*
 ```
 
+Arka planda bir dosya çalıştırmak için. (Sunucudan veya sistemden çıkılsa bile)
+
+```
+nohup python3 dosya.py &
+```
+
 {% include footer.html %}
 
 {% include analytics.html %}
