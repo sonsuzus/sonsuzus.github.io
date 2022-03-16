@@ -10,6 +10,9 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Haberler ve Duyurular
 
+* [Bash Programlama](https://sonsuzus.github.io/bash-programlama) kısmına yeni konular eklenmiştir.
+* [Small Basic](https://sonsuzus.github.io/small-basic-programlama) bölümüne konular ve kitap eklenmiştir.
+* Discussions bölümünde algoritma sorularının çözümü başlanmıştır.
 * [Algoritma](https://sonsuzus.github.io/algoritma-programlama) sayfasına yeni sorular eklendi. 
 * Yorum sistemi githuba entegre edildi. [issues](https://github.com/sonsuzus/sonsuzus.github.io/issues) bölümünden de ulaşabilirsiniz.
 * [Discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorular çözülmeye başlandı.
