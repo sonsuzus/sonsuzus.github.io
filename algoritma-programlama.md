@@ -82,6 +82,8 @@ Arkadaş sayıları bulan program. (Arkadaş sayılar kendisi hariç bölenleri 
 
 Zengin sayıları veren program. (Zengin sayılar kendisi hariç bölenleri toplamı kendisinden büyük olan sayılardır)
 
+Eğer bir sayının kendisi hariç tam bölenleri toplamı sayıdan büyükse o sayıya zengin sayı diyoruz. Örneğin 12 nin bölenleri 1,2,3,4,6 nın toplamı 16>12 olduğu için zengin sayıdır. En küçük tek zengin sayı nedir programlayınız? 
+
 Elimizde 10 cm boyunda olan ve sonsuza dek gerip uzatabileceğimiz özdeş bir lastik ip var. Bu ipin A ucunu bir duvara bağlıyoruz. B ucunu da bir arabaya bağlıyoruz. A ucuna bir solucan yerleştiriyoruz. Solucan ipin B ucuna doğru gidiyor. Saniyede 1 cm yol alıyor. Solucan 1 saniye süreyle gidince duruyor. Solucan durunca araba lastik ipi çekerek B ucunu 10 cm ileriye götürüyor ve duruyor. Araba durunca solucan yine 1 saniye süreyle gidiyor ve duruyor. Solucan durunca araba lastik ipin B ucunu yine 10 cm ileriye götürüyor ve duruyor. Ve bu olay hiç durmadan böyle tekrarlanıyor. Solucan lastik ipin B ucunu yakalayabilir mi? Programlayınız.
 
 Bir okuldaki 100 kapalı dolabın önünde birer öğrenci duracak şekilde yerleşirler.
@@ -173,6 +175,20 @@ Sonsuzusun düzenlediği bir matematik yarışmasına   81 ilden (her ilden en a
 “Salona benden önce gelen arkadaşların giriş numaralarının toplamıyla benden sonra gelenlerin giriş numaralarının toplamı birbirine eşittir. Benim numaramı buradan bulabilirsiniz.”
 Öğrencinin giriş numarasını programlama ile  bulunuz.
 
+Okunuşunda ki harfleri birbirinden farklı en büyük üç haneli sayı nedir? Programlayınız.
+
+Fedai’nin Ödülü
+
+“Yüzüğümü Honoria’ya başarıyla teslim ettiğin için,” dedi Atilla, fedaisi Tarkan’a, “sana ödül olarak arazi vereceğim ve yerini-yurdunu bileceksin. Şuradaki kazık yığınından dilediğin sayıda kazık al ve araziye dilediğin gibi çak. Sonuçta ilk başladığın yere dön. kazıkları iple birleştireceğim ve ipin belirlediği konveks arazi senin olacak. karar verdiğin sayıda kazığı topladığın andan itibaren 24 saatin var.”
+
+Atilla’nın konveks falan dediğine bakmayın, matematik bilmez, ama Tarkan’da bilmez. Bir kazığı çakmasının 1 dakika sürdüğünü ve iki kazık arası mesafeyi daima aynı sabit hızla yürüdüğünü farz ederek, mümkün olduğunca büyük yüzölçümüne sahip olan araziyi çevreleyecek kazık sayısını bulması için Tarkan’a programlama ile yardım edin.
+
+Ek bilgiler:
+®tarkan ve ®honoria sonsuz’un tescilli kahramanıdır. Atilla Hun imparatorudur. Kazıklar Atilla’nın hazine müşteşarına zimmetlidir. İp çin malıdır.
+
+![image](https://user-images.githubusercontent.com/52765796/158804833-9d8b2889-2cd2-435b-a2b8-3904e8c12460.png)
+
+Şekilde 4x4 karenin her sütunda ve satırda 2 kare karalı olacak şekilde kaç farklı biçimde karalayabilirsiniz programlayınız.
 
 
 {% include footer.html %}
