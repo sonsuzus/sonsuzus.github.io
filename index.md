@@ -1,6 +1,6 @@
 # SonsuzUs Bilişim Projeleri ve Programlama
 
-Bilişim projeleri, siteler ve programlama olarak üç temel bölümden oluşacak çalışmaları bu sayfalarda paylaşacağım. Sitenin amacı bilginin yayılması üzerine olacaktır. Sayfalar güncellendikçe ana sayfa da güncellenecektir.
+Bilişim projeleri, siteler ve programlama olarak üç temel bölümden oluşacak çalışmaları bu sayfalarda paylaşacağım. Sitenin amacı bilginin yayılması üzerine olacaktır. Sayfalar güncellendikçe ana sayfa da güncellenecektir. [Sürüm 1.0](#Sürüm-1.0) ve [Sürüm 1.1](#Sürüm-1.1) bölümüne ulaşabilirsiniz.
 
 Üç temel bölümden oluşan proje ve programlarımıza sayfa altındaki linklerden ulaşabilirsiniz. Projeler bölümünde biten, devam eden, fikir olarak kalan projelerin tanıtımları gibi bir çok konuda bilgiye ulaşabilirsiniz.
 
