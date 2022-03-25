@@ -10,6 +10,7 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Haberler ve Duyurular
 
+* [Markdown kullanım kılavuzu](https://sonsuzus.github.io/markdown-kullanimi-turkce) eklenmiştir.
 * [Bash Programlama](https://sonsuzus.github.io/bash-programlama) kısmına yeni konular eklenmiştir.
 * [Small Basic](https://sonsuzus.github.io/small-basic-programlama) bölümüne konular ve kitap eklenmiştir.
 * Discussions bölümünde algoritma sorularının çözümü başlanmıştır.
