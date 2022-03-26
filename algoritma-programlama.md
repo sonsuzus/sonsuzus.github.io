@@ -124,6 +124,8 @@ Farklı üç adet 2 basamaklı asal sayımız var.
 
 Bu üç sayıyı bulan program.
 
+Öyle üç farklı sayma sayı bulunuz ki herhangi ikisinin çarpımına üçüncü eklendiğinde bir kare sayı olsun sorusu program.
+
 Duru yurt dışı gezisinde bir dükkandan 4 parça eşya alır. Dükkan sahibinin hesap yaparken sayıları toplayacağı yere çarptığını görür ve adalet duygusu hemen dükkan sahibini uyarmaya yöneltir. Fakat adam umursamazca “toplasam da aynı sonuç yani 7,11 dolar çıkacaktı” der. Durunun aldığı eşyaların fiyatı nedir?
 
 Kullanıcıdan bir sayı istenir bu sayı palindromik ise Palindromik sayı yazdırılır, değilse Palindromik sayı değil yazdırılır. Palindromik sayı, iki taraftan okunduğu zaman okunuş yönüyle aynı olan sayılardır. Örnek: 1, 4, 8, 99, 101, 363, 4004, 9889, 13531 vb.
