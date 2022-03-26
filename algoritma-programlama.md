@@ -138,6 +138,8 @@ Girilen bir sayının armstrong sayısı olup olmadığını bulma. 100000 e kad
 
 İki rakamı aynı, rakamları çarpımı 84 olan kaç tane beş basamaklı sayı vardır? Programlayınız.
 
+Rakamları toplamının 7 katına eşit olan iki basamaklı sayıları yazdıran program.
+
 Kendini oluşturan rakamların faktöriyellerinin toplamına eşit olan yalnızca 4 sayı vardır.
 Bunlardan üçü
 1. 1 = 1!
@@ -191,6 +193,12 @@ Ek bilgiler:
 ![image](https://user-images.githubusercontent.com/52765796/158804833-9d8b2889-2cd2-435b-a2b8-3904e8c12460.png)
 
 Şekilde 4x4 karenin her sütunda ve satırda 2 kare karalı olacak şekilde kaç farklı biçimde karalayabilirsiniz programlayınız.
+
+## Rekürsif Fonksiyon Soruları
+
+Faktoriyel hesabını rekürsif fonksiyon kullanarak bulunuz.
+
+Fibanocci  dizisi hesabını rekürsif fonksiyon ile bulunuz.
 
 
 {% include footer.html %}
