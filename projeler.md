@@ -2,9 +2,17 @@
 
 Projeler bölümünde biten, yarım kalan, destek bekleyen, sonuca ulaşan, süren projelerin bir özetini ve detaylarını bulacaksınız. Aynı zamanda destek ihtiyacı olan projelerde görev alabilir ve katılım sağlayabilirsiniz. Proje notları için [tartışmalar](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünü kullanacağım.
 
+## MetaBilsem Projesi
+
+Projenin detayları yakında paylaşılacaktır.
+
 ## Telegram botları
 
 Rüya tabiri yapan telegram botuna şu adresten ulaşabilirsiniz. Kodları için [rüya tabiri telegram botu](https://github.com/ruya-tabiri/ruya-tabiri-telegram-botu) sitesi için [rüya tabiri](https://ruya-tabiri.github.io) linkinden ulaşabilirsiniz.
+
+## Yapay zeka Projeleri
+
+Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğal dil işleme, 
 
 ## Rüya Projeleri
 
@@ -12,7 +20,7 @@ Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sons
 
 ## Tübitak Projeleri
 
-Tübitak 4006 Bilim Fuarı, Tübitak 4004 Boğaz Trafiği Analizi
+Tübitak 4006 Bilim Fuarı, Tübitak 4004 Boğaz Trafiği Analizi, Tübitak 4005 Sahte Fotoğraf Analizi
 
 ## Sosyal Sorumluluk Projeleri
 
