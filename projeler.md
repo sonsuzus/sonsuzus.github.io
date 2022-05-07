@@ -4,7 +4,7 @@ Projeler bölümünde biten, yarım kalan, destek bekleyen, sonuca ulaşan, sür
 
 ## MetaBilsem Projesi
 
-Projenin detayları yakında paylaşılacaktır.
+Metabilsem projesi bilsemler arası metaverse evrenine katılım ve blok zincir uygulamaları ve bilgilendirme ağı olarak [metabilsem.com](https://metabilsem.com) adresinde yayına geçmiştir. Zamanla proje detaylarını burada da paylaşacağım.
 
 ## Telegram botları
 
@@ -12,7 +12,7 @@ Rüya tabiri yapan telegram botuna şu adresten ulaşabilirsiniz. Kodları için
 
 ## Yapay zeka Projeleri
 
-Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğal dil işleme, 
+Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğal dil işleme, Sayı tahmin oyunu
 
 ## Rüya Projeleri
 
