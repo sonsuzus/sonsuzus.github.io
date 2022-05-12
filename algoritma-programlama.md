@@ -200,6 +200,12 @@ Faktoriyel hesabını rekürsif fonksiyon kullanarak bulunuz.
 
 Fibanocci  dizisi hesabını rekürsif fonksiyon ile bulunuz.
 
+## Olasılık Soruları
+
+Atılan iki zarın toplamının 7 gelme olasılığı nedir? (En az 10bin defa simule ediniz)
+
+Rastgele iki noktasından kırılan bir çubuğun oluşturduğu üç kenarın bir üçgen olma olasılığı nedir?
+
 
 {% include footer.html %}
 
