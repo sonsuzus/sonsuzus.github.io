@@ -22,7 +22,7 @@ yerindeyse, tam anlamıyla bir dönüm noktası olacak.
 O halde isterseniz lafı daha fazla uzatmadan işe ``print()`` fonksiyonunun ne
 olduğu ve ne işe yaradığını anlatarak başlayalım.
 
-Nedir, Ne İşe Yarar?
+## Nedir, Ne İşe Yarar?
 *********************
 
 Şimdiye kadar etkileşimli kabukta gerek karakter dizilerini gerekse sayıları
@@ -78,7 +78,7 @@ yazdıracağınızda ben size ``print()`` fonksiyonunu kullanmanızı tavsiye ed
 ``print()`` son derece güçlü bir fonksiyondur. Gelin isterseniz bu güçlü ve
 faydalı fonksiyonu derin derin incelemeye koyulalım.
 
-Nasıl Kullanılır?
+## Nasıl Kullanılır?
 *****************
 
 Yukarıda verdiğimiz örnekte ilk gözümüze çarpan şey, karakter dizisini
@@ -324,7 +324,7 @@ Elbette eğer istersek bu metni önce bir değişkene atamayı da tercih edebili
 Siz yukarıdaki çıktıyı tek veya çift tırnak kullanarak nasıl ekrana
 yazdırabileceğinizi düşünedurun, biz önemli bir konuya geçiş yapalım!
 
-Bir Fonksiyon Olarak print()
+## Bir Fonksiyon Olarak print()
 *****************************
 
 ``print()`` ifadesinin bir fonksiyon olduğunu söylemiştik hatırlarsanız.
@@ -393,7 +393,7 @@ Karakter dizisini tanımlamaya başlarken kullandığımız tırnak tipi ile kar
 dizisini tanımlamayı bitirirken kullandığımız tırnak tipi birbirinden farklı
 olduğu için bu iki kullanım da hata verecektir.
 
-print() Fonksiyonunun Parametreleri
+## print() Fonksiyonunun Parametreleri
 ************************************
 
 Şimdiye kadar verdiğimiz örneklerde belki çok da belli olmuyordur, ama aslında
@@ -402,7 +402,7 @@ fonksiyonun gücünü gözler önüne seren özelliklerini incelemeye başlayaca
 bölümü dikkatle takip etmeniz, ilerde yapacağımız çalışmaları daha rahat
 anlayabilmeniz açısından büyük önem taşır.
 
-sep
+### sep
 ========
 
 ``print()`` fonksiyonu ile ilgili olarak yukarıda verdiğimiz örnekleri
@@ -600,7 +600,7 @@ parametresine boş bir karakter dizisi vermeniz gerektiğini biliyorsunuz::
 incelediğimize göre, bu fonksiyonun bir başka özel parametresinden söz
 edebiliriz.
 
-end
+### end
 =======
 
 Bir önceki bölümde şöyle bir laf etmiştik:
@@ -756,7 +756,7 @@ parametresine boş bir karakter dizisi vermelisiniz::
 
     a b>>>
 
-file
+### file
 =======
 
 .. note:: Burada henüz öğrenmediğimiz bazı şeyler göreceksiniz. Hiç endişe
@@ -904,7 +904,7 @@ karşılaştık. Eğer yukarıda verilen örnekleri anlamakta zorlandıysanız h
 etmenize gerek yok. Birkaç bölüm sonra burada anlattığımız şeyler size çocuk
 oyuncağı gibi gelecek...
 
-flush
+### flush
 =========
 
 Şimdiye kadar ``print()`` fonksiyonunun `sep`, `end` ve `file` adlı özel
@@ -983,14 +983,14 @@ bekletilmeden doğrudan dosyaya yazılmasını isteyebilirsiniz. İhtiyacınıza
 olarak da `flush` parametresinin değerini `True` veya `False` olarak
 belirleyebilirsiniz.
 
-Birkaç Pratik Bilgi
+## Birkaç Pratik Bilgi
 ********************
 
 Buraya gelene kadar ``print()`` fonksiyonu ve bu fonksiyonun parametreleri
 hakkında epey söz söyledik. Dilerseniz şimdi de, programcılık maceranızda
 işinize yarayacak, işlerinizi kolaylaştıracak bazı ipuçları verelim.
 
-Yıldızlı Parametreler
+### Yıldızlı Parametreler
 ========================
 
 Şimdi size şöyle bir soru sormama izin verin: Acaba aşağıdaki gibi bir çıktıyı
@@ -1122,7 +1122,7 @@ Yukarıda verdiğimiz örnekler bize yıldızlı parametrelerin son derece kulla
 araçlar olduğunu gösteriyor. İleride de bu parametrelerden bol bol
 yararlanacağız. Biz şimdi bu konuyu burada kapatıp başka bir şeyden söz edelim.
 
-sys.stdout'u Kalıcı Olarak Değiştirmek
+### sys.stdout'u Kalıcı Olarak Değiştirmek
 ======================================
 
 Önceki başlıklar altında verdiğimiz örneklerden de gördüğünüz gibi, ``print()``
