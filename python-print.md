@@ -1,5 +1,5 @@
 
-# print() Fonksiyonu
+# Python print() Fonksiyonu
 
 
 Geçen bölümde bir yandan Python'ın etkileşimli kabuğunu yakından tanıyıp bu
