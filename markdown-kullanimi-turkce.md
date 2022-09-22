@@ -182,3 +182,7 @@ asdf
 >> Alıntı 2
 
 >>> Alıntı 3
+
+{% include footer.html %}
+
+{% include analytics.html %}
