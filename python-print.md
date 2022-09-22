@@ -1,6 +1,6 @@
-*******************
-print() Fonksiyonu
-*******************
+
+# print() Fonksiyonu
+
 
 Geçen bölümde bir yandan Python'ın etkileşimli kabuğunu yakından tanıyıp bu
 vesileyle bazı önemli fonksiyon ve araçları öğrenirken, öbür yandan bu
