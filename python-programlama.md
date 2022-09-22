@@ -23,6 +23,8 @@ Python programlama dili ve bu dili hakkıyla bilenler sadece uluslararası şirk
 
 Sözün özü, pek çok farklı sebepten, başka bir programlama dilini değil de, Python programlama dilini öğrenmek istiyor olabilirsiniz.
 
+[print() fonksiyonu için tıklayınız.](https://sonsuzus.github.io/python-print)
+
 ## Örnek Python soruları ve cevapları
 
 Bu bölüm [Algoritma](https://sonsuzus.github.io/algoritma) sayfasındaki soruların çözümlerini içermektedir.
