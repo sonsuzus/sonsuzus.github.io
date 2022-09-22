@@ -1397,3 +1397,7 @@ fonksiyonunu bütün ayrıntılarıyla incelemiş olduk, hem de Python programla
 diline dair başka çok önemli kavramlardan söz ettik. Bu bakımdan bu bölüm bize
 epey şey öğretti. Artık öğrendiğimiz bu bilgileri de küfemize koyarak başımız
 dik bir şekilde yola devam edebiliriz.
+
+{% include footer.html %}
+
+{% include analytics.html %}
