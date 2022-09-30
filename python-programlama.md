@@ -27,7 +27,7 @@ Sözün özü, pek çok farklı sebepten, başka bir programlama dilini değil d
 
 ## Örnek Python soruları ve cevapları
 
-Bu bölüm [Algoritma](https://sonsuzus.github.io/algoritma) sayfasındaki soruların çözümlerini içermektedir.
+Bu bölüm [Algoritma](https://sonsuzus.github.io/algoritma-programlama) sayfasındaki soruların çözümlerini içermektedir.
 
 Dolap düdük ve kapaklar sorusu için python kodu aşağıdadır.
 
