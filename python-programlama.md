@@ -25,6 +25,8 @@ Sözün özü, pek çok farklı sebepten, başka bir programlama dilini değil d
 
 [print() fonksiyonu için tıklayınız.](https://sonsuzus.github.io/python-print)
 
+[input() fonksiyonu için tıklayınız.](https://sonsuzus.github.io/python-input)
+
 ## Örnek Python soruları ve cevapları
 
 Bu bölüm [Algoritma](https://sonsuzus.github.io/algoritma-programlama) sayfasındaki soruların çözümlerini içermektedir.
