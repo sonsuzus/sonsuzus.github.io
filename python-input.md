@@ -89,8 +89,8 @@ Gördüğünüz gibi programımız bölme işlemini yapamadı. Buradan anlıyoru
 yapılabilmesini sağlıyor. Gelelim bu fonksiyonun bu işlevi nasıl yerine
 getirdiğini incelemeye.
 
-Tip Dönüşümleri
-****************
+## Tip Dönüşümleri
+
 
 Bir önceki bölümün sonunda verdiğimiz örnek programda ``int()`` adlı bir
 fonksiyon görmüş, bu fonksiyonu anlatmayı o zaman ertelemiştik. Çok gecikmeden,
