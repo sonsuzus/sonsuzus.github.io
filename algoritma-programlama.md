@@ -6,6 +6,8 @@ Bir işin veya programın yapılması için adımlara bölünmüş halidir. Asl�
 
 Bu bölümde programlama ile ilgili sorular sorulacaktır. Çözümlerine ilgili programlama sayfalarından ulaşabilirsiniz.
 
+Kullanıcıya hikayesindeki karakterlerin isimleri sorulur ve o isimlerle hikaye yazdırılır.
+
 Kullanıcıya yaşı sorulur ve doğum tarihi hesaplanır.
 
 Kullanıcıya iki tam sayı sorulur ve arasında dört işlem yaptırılıp ekrana yazdırılır.
