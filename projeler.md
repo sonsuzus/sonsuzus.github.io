@@ -16,7 +16,7 @@ Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğ
 
 ## Rüya Projeleri
 
-Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/ruyada-ruya-site) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io) ve [Rüyara](https://ruyara.com) siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) , [Rüya Me](https://ruya.me) , [Rüyada Me](https://ruyada.me) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Rüyada rüya için Q&A kullanılmış ve [Tabir Rüya Me](https://tabir.ruya.me) sitesi için de Q&A yapısı fakat farklı bir tema kullanılmıştır. Rüyara sitesi wordpress diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/html-programlama) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
+Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/ruyada-ruya-site) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io) ve [Rüyara](https://ruyara.com) siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Rüyada rüya için Q&A yapısı kullanılmıştır. Rüyara sitesi wordpress diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/html-programlama) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
 
 ## Tübitak Projeleri
 
