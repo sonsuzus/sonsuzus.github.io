@@ -210,6 +210,8 @@ Atılan iki zarın toplamının 7 gelme olasılığı nedir? (En az 10bin defa s
 
 Rastgele iki noktasından kırılan bir çubuğun oluşturduğu üç kenarın bir üçgen olma olasılığı nedir?
 
+10 tane madeni paranın 8 tanesi hilesizdir, 2 tanesinin ise her iki yüzü de turadır. Bu 10 madeni paradan bir tanesi rasgele seçilir ve 2 defa yazı-tura atılırsa, her ikisinin de tura gelme ihtimali kaçtır?
+
 
 {% include footer.html %}
 
