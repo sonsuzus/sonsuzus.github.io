@@ -12,7 +12,7 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Haberler ve Duyurular
 
-* [BSM](https://t.me/bilsembot) Bilgi Sentez Merkezi sohbet botu yayına başlamıştır. Detaylar için [tıklayınız](https://sonsuzus.github.io/bsmbot)
+* [BSM](https://t.me/bilsembot) Bilgi Sentez Motoru sohbet botu yayına başlamıştır. Detaylar için [tıklayınız](https://sonsuzus.github.io/bsmbot)
 * [Bilsem Python](https://sonsuzus.github.io/BilsemPython) dersleri bölümü eklenmiştir.
 * [Markdown kullanım kılavuzu](https://sonsuzus.github.io/markdown-kullanimi-turkce) eklenmiştir.
 * [Bash Programlama](https://sonsuzus.github.io/bash-programlama) kısmına yeni konular eklenmiştir.
