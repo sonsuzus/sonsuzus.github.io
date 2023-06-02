@@ -31,6 +31,38 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 e.preventDefault();
                 window.open('https://t.me');
             }
+        },
+                'google': {
+            'label': 'Google+',
+            'icon': 'fa fa-google-plus',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('https://plus.google.com/share?url='+encodeURIComponent(location.href));
+            }
+        },
+        'weibo': {
+            'label': 'Weibo',
+            'icon': 'fa fa-weibo',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('http://service.weibo.com/share/share.php?content=utf-8&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));
+            }
+        },
+        'instapaper': {
+            'label': 'Instapaper',
+            'icon': 'fa fa-instapaper',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('http://www.instapaper.com/text?u='+encodeURIComponent(location.href));
+            }
+        },
+        'vk': {
+            'label': 'VK',
+            'icon': 'fa fa-vk',
+            'onClick': function(e) {
+                e.preventDefault();
+                window.open('http://vkontakte.ru/share.php?url='+encodeURIComponent(location.href));
+            }
         }
     };
 
