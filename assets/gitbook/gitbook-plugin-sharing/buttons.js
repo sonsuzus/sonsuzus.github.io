@@ -5,7 +5,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-facebook',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
+                window.open('https://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
             }
         },
         'twitter': {
@@ -13,7 +13,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-twitter',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://twitter.com/home?status='+encodeURIComponent(document.title+' '+location.href));
+                window.open('https://twitter.com/home?status='+encodeURIComponent(document.title+' '+location.href));
             }
         },
         'github': {
