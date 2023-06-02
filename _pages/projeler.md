@@ -7,8 +7,6 @@ layout: post
 permalink: /projeler
 ---
 
-# Projeler
-
 Projeler bölümünde biten, yarım kalan, destek bekleyen, sonuca ulaşan, süren projelerin bir özetini ve detaylarını bulacaksınız. Aynı zamanda destek ihtiyacı olan projelerde görev alabilir ve katılım sağlayabilirsiniz. Proje notları için [tartışmalar](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünü kullanacağım.
 
 ## MetaBilsem Projesi
