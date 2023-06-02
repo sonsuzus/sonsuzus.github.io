@@ -1,5 +1,5 @@
 # Configurations
-title:            Jekyll Gitbook
+title:            SonsuzUs Github
 longtitle:        Jekyll Gitbook
 author:           HE Tao
 email:            sighingnow@gmail.com
@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://sonsuzus.github.io'
+baseurl:          ''
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
@@ -53,6 +53,9 @@ collections:
   pages:
     output: true
     permalink: /:collection/:path/
+
+tracker:
+  google_analytics: "G-JPVWNYQQ08"
 
 page_width: 800px
 
