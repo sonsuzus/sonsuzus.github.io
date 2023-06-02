@@ -31,7 +31,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 e.preventDefault();
                 window.open('https://t.me');
             }
-        },
+        }
     };
 
 
