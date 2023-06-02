@@ -7,8 +7,6 @@ layout: post
 permalink: /siteler
 ---
 
-# Siteler
-
 Bugüne kadar yaptığım sitelerin detayları ve çalışma prensipler siteler bölümünde olacak. Siteler bölümünde gerekirse ayrı başlıklar halinde detaylı yorum ve konulara ulaşabilirsiniz.
 
 ## Rüya siteleri
