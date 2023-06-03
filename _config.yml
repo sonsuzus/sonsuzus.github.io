@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://sonsuzus.github"
+url: "https://sonsuzus.github.io"
 
 github:
   username: sonsuzus # change to your github username
@@ -70,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: light # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
