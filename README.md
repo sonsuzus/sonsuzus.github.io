@@ -18,21 +18,20 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Haberler ve Duyurular
 
-* [BSM](https://t.me/bilsembot) Bilgi Sentez Motoru sohbet botu yayına başlamıştır. Detaylar için [tıklayınız](https://sonsuzus.github.io/bsmbot)
-* [Bilsem Python](https://sonsuzus.github.io/BilsemPython) dersleri bölümü eklenmiştir.
-* [Markdown kullanım kılavuzu](https://sonsuzus.github.io/markdown-kullanimi-turkce) eklenmiştir.
-* [Bash Programlama](https://sonsuzus.github.io/bash-programlama) kısmına yeni konular eklenmiştir.
-* [Small Basic](https://sonsuzus.github.io/small-basic-programlama) bölümüne konular ve kitap eklenmiştir.
+* [BSM](https://t.me/bilsembot) Bilgi Sentez Motoru sohbet botu yayına başlamıştır. Detaylar için [tıklayınız](https://sonsuzus.github.io/proje/bsm)
+* [Markdown kullanım kılavuzu](https://sonsuzus.github.io/program/markdown-kullanimi-turkce) eklenmiştir.
+* [Bash Programlama](https://sonsuzus.github.io/program/bash) kısmına yeni konular eklenmiştir.
+* [Small Basic](https://sonsuzus.github.io/program/small-basic) bölümüne konular ve kitap eklenmiştir.
 * Discussions bölümünde algoritma sorularının çözümü başlanmıştır.
-* [Algoritma](https://sonsuzus.github.io/algoritma-programlama) sayfasına yeni sorular eklendi. 
-* Yorum sistemi githuba entegre edildi. [issues](https://github.com/sonsuzus/sonsuzus.github.io/issues) bölümünden de ulaşabilirsiniz.
+* [Algoritma](https://sonsuzus.github.io/program/algoritma) sayfasına yeni sorular eklendi. 
+* ~Yorum sistemi githuba entegre edildi. [issues](https://github.com/sonsuzus/sonsuzus.github.io/issues) bölümünden de ulaşabilirsiniz.~
 * [Discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorular çözülmeye başlandı.
 
 ## Sürümler (versions)
 
 ### Sürüm 2.0
 
-Tema değişti ve ona göre yenilikler yapılmaya başlandı. 
+Tema değişti ve ona göre yenilikler yapılmaya başlandı. Yeni tema olarak git-book seçildi.
 
 ### Sürüm 1.1
 

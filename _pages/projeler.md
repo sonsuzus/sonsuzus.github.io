@@ -11,7 +11,7 @@ Projeler bölümünde biten, yarım kalan, destek bekleyen, sonuca ulaşan, sür
 
 ## MetaBilsem Projesi
 
-Metabilsem projesi bilsemler arası metaverse evrenine katılım ve blok zincir uygulamaları ve bilgilendirme ağı olarak [metabilsem.com](https://metabilsem.com) adresinde yayına geçmiştir. Zamanla proje detaylarını burada da paylaşacağım.
+Metabilsem projesi bilsemler arası metaverse evrenine katılım ve blok zincir uygulamaları ve bilgilendirme ağı olarak [metabilsem](https://sonsuzus.github.io) adresinde yayına geçmiştir. Zamanla proje detaylarını burada da paylaşacağım.
 
 ## Telegram botları
 
@@ -23,7 +23,7 @@ Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğ
 
 ## Rüya Projeleri
 
-Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/ruyada-ruya-site) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io) ve [Rüyara](https://ruyara.com) siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Rüyada rüya için Q&A yapısı kullanılmıştır. Rüyara sitesi wordpress diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/html-programlama) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
+Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/site/ruyada-ruya) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io) ve [Rüyara](https://ruyara.com) siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Rüyada rüya için Q&A yapısı kullanılmıştır. Rüyara sitesi wordpress diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/program/html) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
 
 ## Tübitak Projeleri
 
