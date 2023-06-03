@@ -18,6 +18,7 @@ Programlama bölümünde ise başta python ve C/C++ olmak üzere php, sql, java,
 
 ## Haberler ve Duyurular
 
+* [Etkinlik Takvimi](https://calendar.google.com/calendar/embed?src=58b2a98c508e6975efc06b963a4f9c05926184c6557f70edf49530ab34d9ec14%40group.calendar.google.com&ctz=Europe%2FIstanbul&mode=WEEK) ders, çalışma ve program açısından takvimli gideceğiz.
 * [BSM](https://t.me/bilsembot) Bilgi Sentez Motoru sohbet botu yayına başlamıştır. Detaylar için [tıklayınız](https://sonsuzus.github.io/proje/bsm)
 * [Markdown kullanım kılavuzu](https://sonsuzus.github.io/program/markdown-kullanimi-turkce) eklenmiştir.
 * [Bash Programlama](https://sonsuzus.github.io/program/bash) kısmına yeni konular eklenmiştir.
