@@ -1,6 +1,6 @@
 ---
 title: Python print fonksiyonu
-author: Sonsuz
+author: sonsuz
 date: 2023-01-30 22:25:00 +0300
 categories: [Python]
 tags: [python,programlama,print,fonksiyon]

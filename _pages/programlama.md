@@ -1,6 +1,6 @@
 ---
 title: Programlama
-author: Sonsuz
+author: sonsuz
 date: 2022-02-04
 category: Program
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Rüyada Rüya Site
-author: Sonsuz
+author: sonsuz
 date: 2022-04-30 13:13:00 +0300
 categories: [Site,Proje]
 tags: [Q&A,site,web,rüya]

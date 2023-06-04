@@ -1,6 +1,6 @@
 ---
 title: Small Basic Programlama
-author: Sonsuz
+author: sonsuz
 date: 2022-07-30 20:55:00 +0300
 categories: [Program, Basic]
 tags: [programlama,basic,small basic]

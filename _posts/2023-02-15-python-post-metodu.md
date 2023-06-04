@@ -1,6 +1,6 @@
 ---
 title: Python Post Metodu
-author: Sonsuz
+author: sonsuz
 date: 2023-01-30 14:25:00 +0300
 categories: [Python]
 tags: [python,programlama,post,requests,metod]

@@ -1,6 +1,6 @@
 ---
 title: Python input fonksiyonu
-author: Sonsuz
+author: sonsuz
 date: 2023-01-30 22:00:00 +0300
 categories: [Python]
 tags: [programlama,input,python,fonksiyon]

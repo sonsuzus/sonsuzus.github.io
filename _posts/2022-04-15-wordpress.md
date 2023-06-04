@@ -1,6 +1,6 @@
 ---
 title: Wordpress Kullanımı
-author: Sonsuz
+author: sonsuz
 date: 2022-04-15 22:22:00 +0300
 categories: [Site]
 tags: [site,wordpress,web,cms]
