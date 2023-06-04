@@ -1,5 +1,5 @@
 ---
-icon: fas fa-citemap
+icon: fas fa-sitemap
 order: 5
 ---
 

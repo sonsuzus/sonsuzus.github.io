@@ -1,9 +1,9 @@
 ---
 title: Python Post Metodu
 author: Sonsuz
-date: 2023-01-30
-category: Python
-layout: post
+date: 2023-01-30 14:25:00 +0300
+categories: [Python]
+tags: [python,programlama,post,requests,metod]
 ---
 
 ## HTTP POST Method:

@@ -1,9 +1,9 @@
 ---
 title: Wordpress Kullanımı
 author: Sonsuz
-date: 2022-04-15
-category: Site
-layout: post
+date: 2022-04-15 22:22:00 +0300
+categories: [Site]
+tags: [site,wordpress,web,cms]
 ---
 
 Wordpress sitelerinde kullanılan eklentiler, ayarlar, temalar ve bunlara ilişkin değişimleri nasıl yapacağınızı ve neler yapmanız gerektiğini kısaca açıklayalım. Wordpress siteleri oldukça yaygındır. Kullanımı temelde blog gibi olsa da artık eklentileri ve temaları sayesinde hem forum hem alışveriş siteleri hem kişisel tanıdım siteleri hem de galeri gibi ve çok daha fazlası olacak şekilde kullanılabilir. En çok kullanılan cms sistemlerinden biri haline gelen wordpress için ipuçları ve önemli detayları bu sayfada bulabilirsiniz.

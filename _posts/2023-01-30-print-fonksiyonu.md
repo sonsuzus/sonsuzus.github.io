@@ -1,9 +1,9 @@
 ---
 title: Python print fonksiyonu
 author: Sonsuz
-date: 2023-01-30
-category: Python
-layout: post
+date: 2023-01-30 22:25:00 +0300
+categories: [Python]
+tags: [python,programlama,print,fonksiyon]
 ---
 
 Geçen bölümde bir yandan Python'ın etkileşimli kabuğunu yakından tanıyıp bu

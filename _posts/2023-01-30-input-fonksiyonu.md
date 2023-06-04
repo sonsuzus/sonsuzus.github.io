@@ -1,9 +1,9 @@
 ---
 title: Python input fonksiyonu
 author: Sonsuz
-date: 2023-01-30
-category: Python
-layout: post
+date: 2023-01-30 22:00:00 +0300
+categories: [Python]
+tags: [programlama,input,python,fonksiyon]
 ---
 
 ``input()`` bir fonksiyondur dedik. Henüz fonksiyon kavramının ayrıntılarını

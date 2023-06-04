@@ -1,9 +1,9 @@
 ---
 title: Algoritma
 author: Sonsuz
-date: 2019-04-28
-category: Program
-layout: post
+date: 2019-04-28 20:55:00 +0300
+categories: [Program, Algoritma]
+tags: [algoritma,soru]
 ---
 
 ## Algoritma Programlama

@@ -1,9 +1,9 @@
 ---
 title: Small Basic Programlama
 author: Sonsuz
-date: 2022-07-30
-category: Program
-layout: post
+date: 2022-07-30 20:55:00 +0300
+categories: [Program, Basic]
+tags: [programlama,basic,small basic]
 ---
 
 Bilgisayar Programlaması, programlama dilleri kullanılarak, bilgisayar yazılımlarının oluşturulması
