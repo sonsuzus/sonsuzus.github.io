@@ -1,7 +1,7 @@
 ---
 title: Anagram Sorusu
 author: sonsuz
-date: 2023-06-05 12-22-20 +0300
+date: 2023-06-05 12:22:20 +0300
 categories: [Program, Algoritma, Soru]
 tags: [python,c,basic,algoritma,soru]
 ---
