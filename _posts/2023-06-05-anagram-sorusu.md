@@ -13,9 +13,13 @@ Verilen iki string s ve t için, t'nin s'nin bir anagramı ise true değeri dön
 Bir anagram genellikle tüm orjinal harfleri yalnızda bir kez kullanarak farklı bir kelime veya kelime grubunun harflerini yeniden düzenleyerek oluşturulan bir kelime veya ifadedir.
 
 Örnek 1:
+
 > Girdi: s="anagram", t="nagaram"
+
 > Çıktı: True
 
 Örnek 2:
+
 > Girdi: s="rat", t="car"
+
 > Çıktı: False
