@@ -35,11 +35,11 @@ RolOyun hem reel hem de internet üzerinden oynanan bir cesaret ve yaşam oyunud
 
 ## Soyağacı projesi
 
-Soyağacı projesi Türkiye çapında görsel olarak soy ağaçlarını girebilmeleri ve akrabalarını bulabilmeleri konusunda başlatılmış bir projeydi. Epey müdavimi ve ekleyeni oldu fakat daha sonra isimlerin google ve benzeri yerlerde çıkmaları insanları rahatsız etmeye başladı. Zaten yıllar sonra devlet de bu duruma biraz da olsa açıklık getirdi ama yine de daha derine uzanan kökleri bulma konusunda bu projem oldukça etkiliydi. Kodları eklenecektir.
+Soyağacı projesi Türkiye çapında görsel olarak soy ağaçlarını girebilmeleri ve akrabalarını bulabilmeleri konusunda başlatılmış bir projeydi. Epey müdavimi ve ekleyeni oldu fakat daha sonra isimlerin google ve benzeri yerlerde çıkmaları insanları rahatsız etmeye başladı. Zaten yıllar sonra devlet de bu duruma biraz da olsa açıklık getirdi ama yine de daha derine uzanan kökleri bulma konusunda bu projem oldukça etkiliydi. [Site Kodları](https://github.com/sonsuzus/soysop).
 
 ## HediyeListe
 
-Hediye liste projesi insanların ihtiyacı olan hediyelerini yazdıkları ve sevenlerin bunları takip edip gerekli organizasyonu yapmalarına yönelik bir projeydi. Daha sonra facebook ve benzeri sosyal medyalar bu özellikleri kullanmaya başlamıştı. öncesinde php kodu ile yazmıştım daha sonra drupal arayüzünü kullandım.
+Hediye liste projesi insanların ihtiyacı olan hediyelerini yazdıkları ve sevenlerin bunları takip edip gerekli organizasyonu yapmalarına yönelik bir projeydi. Daha sonra facebook ve benzeri sosyal medyalar bu özellikleri kullanmaya başlamıştı. öncesinde php kodu ile yazmıştım daha sonra drupal arayüzünü kullandım. İlk olarak projenin ortaya çıkışı [banahediyeal](https://github.com/sonsuzus/banahediyeal) olarak gündemdeydi. O zamanlar epey popülerdi(2007 senesinde). Tabiki kodlar çok ilkel kaldı.
 
 ## Satranç Projeleri
 
