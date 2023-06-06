@@ -98,7 +98,7 @@ comments:
   giscus:
     repo: sonsuzus/sonsuzus.github.io # <gh-username>/<repo>
     repo_id: MDEwOlJlcG9zaXRvcnkzODMyNzczMzI=
-    category: General
+    category: Genel
     category_id: DIC_kwDOFthZFM4B-OID
     mapping: title # optional, default to 'pathname'
     input_position: top # optional, default to 'bottom'
