@@ -2,15 +2,10 @@
 title:  Python Programlamaya Giriş 1 – İlk Adımlar
 author: sonsuz
 date: 2023-06-10 10:03:09 +0300
-categories: [Program]
-tags: [python]
+categories: [Program,Python]
+tags: [python,temel,kurulum]
 math: true
 ---
-
-  
-
-
-
 ## Kurulum
 
 
@@ -31,34 +26,22 @@ Bir editör ve yorumlayıcı, program yazmanız ve çalıştırmanız için yete
 
 Python kurmak için başka bir yol [Anaconda](https://www.anaconda.com/download/) veya [Canopy](https://www.enthought.com/product/canopy/) gibi Python dağıtımları. Bunların en büyük avantajı, ileri seviye kullanıcıların ihtiyaç duyduğu modüllerin, sürümleri birbiriyle uyumlu olacak şekilde düzenlenerek bir araya getirilmiş olmaları. Spyder, Jupyter Notebook gibi yazılımlar da bu dağıtımlara dahil. Tabii bu modülleri ayrı ayrı da kurabilirsiniz.
 
-
-
-
 ## Basit etkileşimli kullanım
 
 
 Python’u işletim sisteminizin komut yorumlayıcısı ile (DOS command prompt veya shell/terminal) çalıştırıp etkileşimli olarak kullanabilirsiniz. Dolar ($) işareti komut yorumlayıcısının işareti. Aşağıdaki ekran görüntüsünde bazı örnekler görülüyor. `>>>` işareti Python’un bir komut beklediğini gösteriyor. Komutu yazdıktan sonra işlenmesi için Enter tuşuna basın.
-
-
-
-
 
 Python etkileşimli halde çalışırken, bir ifadeyi yazıp Enter’a basmanız ifadenin değerinin ekrana yazılmasını sağlar. Meselâ “2+2” yazıp Enter’e bastığımızda “4” yazması sadece etkileşimli modda mümkün. Bir betiğin (programın) içinde “2+2” ifadesinin değeri hesaplanır, ama ekrana basılmaz. Betik içindeki bir ifadenin değerinin ekrana basılmasını istiyorsanız için `print()` fonksiyonunu kullanmalısınız.
 
 
 Yorumlayıcıyı kapatmak için `quit()` yazabilir, ya da Ctrl-D (Linux) veya Ctrl-Z (Windows) tuşlarına basabilirsiniz.
 
-
-
-
 ## Program çalıştırma
 
 
 Python programları, bir düz metin dosyasına yazılmış Python ifadelerinden ibarettir. Notepad, emacs, gedit gibi herhangi bir düz metin editörü açın ve aşağıdaki satırları yazın. Dosyayı *ortalama.py* ismiyle kaydedin.
 
-
-
-```
+```python
 a = float(input("Bir sayı girin: "))
 
 b = float(input("Bir sayı girin: "))
@@ -68,18 +51,10 @@ c = float(input("Bir sayı girin: "))
 d = float(input("Bir sayı girin: "))
 
 
-
 print("Ortalama:", (a+b+c+d)/4)
-
-
-
-
 ```
 
 Komut terminalini açıp dosyayı kaydettiğiniz dizine geçin ve `python ortalama.py` yazıp Enter’a basın. (Windows’ta dosya ikonuna tıklamak yeterli olacaktır). Program çalışınca ayrı ayrı dört reel sayı yazıp Enter’a basın.
-
-
-
 
 
 `a = float(input("Bir sayı girin: "))` satırında, `input()` fonksiyonu ekrana  
@@ -91,17 +66,12 @@ yazısını çıkarır ve siz klavyeyle bir şey yazana kadar bekler. Sizden ald
 
 Bunu adım adım şöyle düşünebilirsiniz:
 
-
-
-```
+```python
 a = float(input("Bir sayı girin: "))
 
 a = float("1.2")
 
 a = 1.2
-
-
-
 
 ```
 
@@ -109,7 +79,7 @@ Alternatif olarak, kodumuzu şöyle de yazabilirdik:
 
 
 
-```
+```python
 a = input("Bir sayı girin: ")
 
 a = float(a)
@@ -129,9 +99,6 @@ d = float(d)
 
 
 print("Ortalama:", (a+b+c+d)/4)
-
-
-
 
 ```
 
@@ -183,7 +150,7 @@ Python’a ısınmak için küçük işler yaparak işe başlayabilirsiniz.
 1. Python yorumlayıcısını etkileşimli kullanarak aşağıdaki değerleri hesaplayın.
 	* $$\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16}$$
 	* $$(2.1^3 – 4.7^{-4.3}) / (2.5^{0.5} + 10^{0.25})$$
-	* $$x=1,2,3$ için $x^3 – 3x^2 + 5x -1$$
+	* $$x=1,2,3$$ için $$x^3 – 3x^2 + 5x -1$$
 2. Aritmetik ortalama alma programına ekleme yapın: Program girilen sayıların standart sapmasını, geometrik ortalamasını ve harmonik ortalamasını hesaplayıp ekrana yazsın. Karekök almak için $$\sqrt{x} = x^{0.5}$$ denkliğini kullanabilirsiniz.
 
 
