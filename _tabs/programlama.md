@@ -10,19 +10,19 @@ Güzel bir söz ile başlayalım.
 
 ## Algoritma
 
-Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/posts/algoritma) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz.
+Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/tags/algoritma) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz.
 
 ## Python Programlama
 
-Python programlama diğerlerine kıyasla daha geç başladığım en kullanışlı bulduğum programlama dilidir. Yapısı gereği kod bloklarına alışkanlık kazandırdığı gibi, kütüphaneleri oldukça zengindir. Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/posts/python) adresinden ulaşabilirsiniz.
+Python programlama diğerlerine kıyasla daha geç başladığım en kullanışlı bulduğum programlama dilidir. Yapısı gereği kod bloklarına alışkanlık kazandırdığı gibi, kütüphaneleri oldukça zengindir. Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/tags/python) adresinden ulaşabilirsiniz.
 
 ## C/C++ Programlama
 
-Uzun yıllardır c ve c++ programlama ile uğraşmaktayım. Bu konuda Tübitak bilişim olimpiyatlarına öğrenci hazırladığım da oldu. Bu sayfalarda temel bazı işlemleri anlatacağım ve uygulamaları göstereceğim. [C/C++ programlama](https://sonsuzus.github.io/posts/c) adresinden ulaşabilirsiniz.
+Uzun yıllardır c ve c++ programlama ile uğraşmaktayım. Bu konuda Tübitak bilişim olimpiyatlarına öğrenci hazırladığım da oldu. Bu sayfalarda temel bazı işlemleri anlatacağım ve uygulamaları göstereceğim. [C/C++ programlama](https://sonsuzus.github.io/tags/c) adresinden ulaşabilirsiniz.
 
 ## SQL Programlama
 
-SQL ile ilgili sıkça kullanılan kodları [sql programlama](https://sonsuzus.github.io/posts/sql) sayfasında bulabiliriz.
+SQL ile ilgili sıkça kullanılan kodları [sql programlama](https://sonsuzus.github.io/tags/sql) sayfasında bulabiliriz.
 
 ## PHP Programlama
 
@@ -30,7 +30,7 @@ PHP programlama dili internet tabanlı ve sunucu taraflı çalışan bir dildir.
 
 ## HTML Programlama
 
-HTML programlama ile ilgili bilgilerin ipuçların olduğu bölümdür. Bu bölümde html etiketleri ve kullanımları hakkında kısaca bilgi vereceğim. [HTML Programlama](https://sonsuzus.github.io/posts/html)
+HTML programlama ile ilgili bilgilerin ipuçların olduğu bölümdür. Bu bölümde html etiketleri ve kullanımları hakkında kısaca bilgi vereceğim. [HTML Programlama](https://sonsuzus.github.io/tags/html)
 
 ## CSS Programlama
 
@@ -38,13 +38,13 @@ CSS web sitelerinin görünümü makyajıdır. Aynı içeriğe sahip siteler bil
 
 ## Bash Programlama
 
-Linux kabuk programlamada küçük ama işe yarar kod satırlarlarının olduğu bölüm [bash programlama](https://sonsuzus.github.io/posts/bash) adresinde bulunuyor.
+Linux kabuk programlamada küçük ama işe yarar kod satırlarlarının olduğu bölüm [bash programlama](https://sonsuzus.github.io/tags/bash) adresinde bulunuyor.
 
 ## Robotik Programlama
 
-Robotik programlama ilgili her yaşa uygun içeriğime (aslında özellikle çocuklara) [robotik programlama](https://sonsuzus.github.io/posts/robotik) linkinden ulaşabilirsiniz. Robotik programlamaya nasıl başlanmalı neler yapılmalı bu konuda zorlanan öğrenciler neler yapmalı bu soruların cevabını buluyoruz. Ayrıca robotik programlama ile ilgili kodlara ve çalışmalara da ulaşabilirsiniz.
+Robotik programlama ilgili her yaşa uygun içeriğime (aslında özellikle çocuklara) [robotik programlama](https://sonsuzus.github.io/tags/robotik) linkinden ulaşabilirsiniz. Robotik programlamaya nasıl başlanmalı neler yapılmalı bu konuda zorlanan öğrenciler neler yapmalı bu soruların cevabını buluyoruz. Ayrıca robotik programlama ile ilgili kodlara ve çalışmalara da ulaşabilirsiniz.
 
 ## Small Basic Programlama
 
-Small Basic Microsoftun ürünü olup temel ve çocuklar için programlamada kullandığım bir dildir. Basit algoritmalar oluşturma ve görsel çizim ve turtle kütüphaneleri ile kolay ve kullanışlıdır. Bu konuda daha detaylı bilgi için [Small Basic Programlama](https://sonsuzus.github.io/posts/small-basic) sayfasını ziyaret ediniz.
+Small Basic Microsoftun ürünü olup temel ve çocuklar için programlamada kullandığım bir dildir. Basit algoritmalar oluşturma ve görsel çizim ve turtle kütüphaneleri ile kolay ve kullanışlıdır. Bu konuda daha detaylı bilgi için [Small Basic Programlama](https://sonsuzus.github.io/tags/small-basic) sayfasını ziyaret ediniz.
 
