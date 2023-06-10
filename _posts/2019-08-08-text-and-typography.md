@@ -1,9 +1,9 @@
 ---
-title: Text and Typography
-author: cotes
+title: Yazım ve uygulama
+author: sonsuz
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+categories: [Blog,Rehber]
+tags: [rehber]
 math: true
 mermaid: true
 image:
@@ -12,35 +12,35 @@ image:
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
-This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
+Bu yazı markdown kullanımı ve diğer biçimlendirmeler için rehberdir.
 
-## Headings
+## Başlıklar
 
-<h1 class="mt-5">H1 - heading</h1>
+<h1 class="mt-5">H1 - başlık</h1>
 
-<h2 data-toc-skip>H2 - heading</h2>
+<h2 data-toc-skip>H2 - başlık</h2>
 
-<h3 data-toc-skip>H3 - heading</h3>
+<h3 data-toc-skip>H3 - başlık</h3>
 
-<h4>H4 - heading</h4>
+<h4>H4 - başlık</h4>
 
-## Paragraph
+## Paragraf
 
 Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
 
-## Lists
+## Liste
 
-### Ordered list
+### Sıralı Liste
 
-1. Firstly
-2. Secondly
-3. Thirdly
+1. Birinci
+2. İkinci
+3. Üçüncü
 
-### Unordered list
+### Sırasız Liste
 
-- Chapter
-  + Section
-    * Paragraph
+- Üst bölüm
+  + Bölüm
+    * Paragraf
 
 ### ToDo list
 
@@ -49,7 +49,7 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
   + [x] Step 2
   + [ ] Step 3
 
-### Description list
+### Açıklama listesi
 
 Sun
 : the star around which the earth orbits
@@ -57,7 +57,7 @@ Sun
 Moon
 : the natural satellite of the earth, visible by reflected light from the sun
 
-## Block Quote
+## Alıntı
 
 > This line shows the _block quote_.
 
@@ -75,7 +75,7 @@ Moon
 > An example showing the `danger` type prompt.
 {: .prompt-danger }
 
-## Tables
+## Tablo
 
 | Company                      | Contact          | Country |
 |:-----------------------------|:-----------------|--------:|
