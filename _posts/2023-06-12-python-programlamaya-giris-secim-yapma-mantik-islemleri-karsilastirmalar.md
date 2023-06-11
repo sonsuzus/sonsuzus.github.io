@@ -10,7 +10,7 @@ tags: [python,karşılaştırma,if,else]
 
 En basit programlarda bile sık sık “şu şart doğruysa şöyle yap, yoksa yapma”, veya “doğruysa şöyle yap, yanlışsa öbür türlü yap” şeklinde düzenlemelere ihtiyaç duyarız. Sözgelişi, “cevap doğruysa puanı bir arttır”, veya “yanlış sayısı dördün katıysa puanı bir azalt” gibi. Birçok dil gibi Python’da da seçim yapısı `if-else` komutlarıyla kurulur.
 
-# if komutu
+## if komutu
 
 Karar yapılarının en basit hali, bir şartın doğruluğunu yoklamak ve doğruysa belli işlemler yapmaktır. Sözgelişi aşağıdaki programa bakalım. Hücreyi Shift-Enter ile çalıştırdığımızda tahminimizi soran bir kutu ortaya çıkacak. Kutuya bir cevap yazıp Enter’e basın.
 
@@ -150,7 +150,7 @@ komutu `if` blokunun dışında olduğu için, tahmin doğru olsa da olmasa da �
 
 `if` içindeki blokun kaç boşluk sağa kaydırılacağı önemli değildir; bir tek boşluk bile yeterlidir. Çoğu IDE otomatik olarak dört boşluk genişlikte bir sıçrama yapar; Python programcılık camiasında tavsiye edilen de budur. Sonraki satırlar da aynı kaydırma seviyesinde başlar. Bu yüzden, bloku bitirmek için yeni satıra geçtikten sonra geriye silme (Backspace) tuşuna basmalısınız.
 
-# if-else komutu
+## if-else komutu
 
 Yukarıdaki program bize sadece tahminimiz doğruysa bir cevap veriyor. Tahminimizin yanlış olduğunu da söylemesini istersek `if-else` yapısını kullanırız.
 
@@ -184,7 +184,7 @@ Yanlış
 
 Her `else` bir `if`‘e bağlı olmalıdır, ama tersi doğru değildir. Her `if`‘e bir `else` gerekmez.
 
-# if-elif-else komutu
+## if-elif-else komutu
 
 `if` kullanımının en genel hali budur. `elif` kelimesi `else if`‘in kısaltmasıdır.
 
@@ -262,7 +262,7 @@ else:
 
 Görüldüğü gibi `elif` kullanmak programı sadeleştiriyor.
 
-# Karşılaştırmalar
+## Karşılaştırmalar
 
 `if`‘den sonra, mantıksal olarak doğru veya yanlış sayılacak ifadeler gelmelidir. Eşitlikten yukarıda bahsettik. Ayrıca `>` (büyük), `<` (küçük), `>=` (büyük veya eşit), `<=` (küçük veya eşit) ve `!=` (eşit değil) işlemleri kullanılabilir.
 
@@ -362,7 +362,7 @@ Out[11]:
 (True, False, True)
 ```
 
-# Doğru ve yanlış sabitleri
+## Doğru ve yanlış sabitleri
 
 `True` ve `False`, aslında 1 ve 0 sayılarına verilen yeni isimlerdir. Ayrıca,
 
@@ -418,7 +418,7 @@ abc
 
 ```
 
-# Mantıksal işlemler
+## Mantıksal işlemler
 
 Birden fazla şartı Boole işlemleri (`and`, `or`, `not`) ile biraraya getirerek, daha karmaşık şartlar oluşturmak mümkün olur.
 
@@ -554,7 +554,7 @@ Out[22]:
 True
 ```
 
-# “Kısa devre” işlemler
+## “Kısa devre” işlemler
 
 Mantıksal işlemlerin yan etkileri vardır: Mantıksal `or` (veya) işleminde, işlenen değerlerden sadece birisinin doğru olması işlem sonucunun doğru olması için yeterlidir. Bu yüzden, Python `X or Y` işlemini yaparken `X`‘in doğru olduğunu görürse `Y`‘ye hiç bakmaz, onu değerlemez, ve işlem sonucu olarak `X`‘in değerini geri verir. Buna *kısa devre hesaplama* adı verilir. Eğer `X` doğru değilse, `Y` ne olursa olsun, `Y`‘yi verir.
 
@@ -692,7 +692,7 @@ else:
     X = None
 ```
 
-# Üçlü if-else ifadesi
+## Üçlü if-else ifadesi
 
 Birçok durumda, bir değişkene, bir şartın doğru veya yanlış olmasına göre farklı değerler atarız. Sözgelişi, `x` mantık ifadesinin doğru olması halinde `a`‘ya `y` değeri verelim, aksi takdirde `z` verelim.
 

@@ -17,7 +17,7 @@ Yeni başlayanlar için Python programlamayı anlatan yazı dizimizin ikinci bö
 Bu yazıda sadece kısa ve işlevsel bir giriş yapıyoruz. Sonraki bölümlerimizde veri yapılarının kullanımından daha fazla bahsedeceğiz.
 
 
-# Sayılar ve aritmetik
+## Sayılar ve aritmetik
 
 
 Python’da öntanımlı (built-in) üç çeşit sayı var: *Tamsayılar*, *reel sayılar*, ve *karmaşık sayılar*. Reel sayılar bilgisayarda *kayan nokta* (floating point) biçiminde temsil edilir. Bilimsel hesaplama yapanlar için kayan nokta temsilini iyi anlamak çok mühim, ama bunu daha sonraya bırakalım.

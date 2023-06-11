@@ -8,7 +8,7 @@ tags: [python,programlama,döngü,while,for]
 
 Döngüler, daha önce bahsettiğimiz karar yapısı `if` ile benzer bir yapıya sahiptir. Blok kaydırma yapısı ve mantıksal şartlara aşina değilseniz önce [python mantık işlemleri ve karşılaştırmaları](https://sonsuzus.github.io/posts/python-programlamaya-giris-secim-yapma-mantik-islemleri-karsilastirmalar/) okumanız iyi olur.
 
-# while döngüsü
+## while döngüsü
 
 `while` döngüleri, bir mantıksal şart mantıksal “doğru” değerine sahip olduğu sürece tekrarlanır. Döngünün sona ermesi için şartın eninde sonunda yanlış hale gelmesi gerekir. Bunun için döngünün içinde değişkenler uygun şekilde güncellenir. Bu güncellemeyi unutursak sonsuz döngü içine düşeriz ve programımız biz zorla kapatmadıkça durmaz.
 
@@ -316,7 +316,7 @@ p = 6 , 1^p + ... + 10^p = 1978405
 
 ```
 
-# break: Döngüyü bitirmek
+## break: Döngüyü bitirmek
 
 Bir döngünün, döngü şartı yanlış hale geldiğinde sona erdiğini gördük. Ancak bazı durumlarda döngü bloku içinde bir çıkış sağlamak daha kolay olabilir, ve bazen kodun daha okunaklı olmasını sağlar.
 
@@ -364,7 +364,7 @@ Yukarıdaki programda döngünün tekrarlama şartı `True` olduğu için, bu bi
 
 ---
 
-# continue: Döngünün kalanını atlamak
+## continue: Döngünün kalanını atlamak
 
 `continue` komutu da, aynı `break` gibi, sadece bir döngü içinde ve bir `if` şartı altında mânâ ifade eder. `continue` döngü blokunun işlemesini yarıda keser ve başa döner. `break`‘den farkı, programın döngünün dışına çıkmaması, ama döngünün başına dönmesi ve tekrar başlatmasıdır. Bu arada döngü şartının doğru olup olmadığı da kontrol edilir.
 
@@ -418,7 +418,7 @@ Toplam: 89
 
 Programda 0-100 aralığı dışındaki girdiler `continue`‘ya takılıyor, o yüzden toplama eklenmiyorlar. Programı -99’la bitirmek hâlâ mümkün çünkü bunun yoklaması daha önce yapılıyor. İki `if` blokunun sırasını değiştirirseniz bu özellik bozulur, program sonsuz döngüde kalır.
 
-# else
+## else
 
 Python dilinde `while` ve `for` döngülerinde bir `else` bloku bulunabilmesi mümkündür. Bu özellik, C’de ve birçok başka dilde bulunmaz.
 
@@ -604,7 +604,7 @@ Asal.
 
 ```
 
-# for: Sıralı nesneler üzerinde döngü
+## for: Sıralı nesneler üzerinde döngü
 
 C, Java ve benzeri dillere aşinaysanız, `for` ve `while` döngülerinin tamamen denk olduğunu bilirsiniz. Python’da `for` başka bir görev üstlenmiştir: Liste, dize, çokuz gibi sıralı bir nesnedeki elemanları sırayla tek tek alır ve döngü blokunda işler.
 
