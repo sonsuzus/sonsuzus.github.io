@@ -100,7 +100,7 @@ Bu yöntemi kullanarak karekök değerini hesaplayan bir program yazın.
 
 Program kullanıcıya karekökü alınacak sayıyı ve ilk tahmini sorsun. 
 
-Bir döngü içinde, hata değeri $$|x_n^2 – N|$$ programda belirlenen bir toleranstan (sözgelişi $$10^{-10}$$) küçük olana kadar iterasyonlar tekrarlansın. 
+Bir döngü içinde, hata değeri $x_n^2 – N$ programda belirlenen bir toleranstan (sözgelişi $10^{-10}$) küçük olana kadar iterasyonlar tekrarlansın. 
 
 Program karekökün tahmini değerini ve sonuca ulaşmak için kaç iterasyon gerektiğini ekrana bassın.
 
