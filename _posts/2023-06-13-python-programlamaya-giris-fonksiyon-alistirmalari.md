@@ -4,6 +4,7 @@ author: sonsuz
 date: 2023-06-13 01:42:19 +0300
 categories: [Program,Python]
 tags: [python,fonksiyon]
+math: true
 ---
 
 
@@ -13,7 +14,7 @@ tags: [python,fonksiyon]
 
 [Python fonksiyonlarının uygulamalarının](https://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyonlara-ornekler/) ardından, şimdi kendiniz uygulayabileceğiniz birkaç fonksiyon alıştırması verelim. Çözümleri bulmak size ait. Buradaki alıştırmaların ötesinde, daha önceki bölümlerde verdiğimiz örnekleri de bir fonksiyona dönüştürmeyi deneyebilirsiniz. Ayrıca internet kaynaklarında pek çok değişik konuda alıştırma örneği bulabilirsiniz.
 
-Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/category/python) kategorimize bakabilirsiniz. 
+Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/categories/python) kategorimize bakabilirsiniz. 
 
 * Fonksiyona verilen en küçük parametreyi bulma
 * Fibonacci sayıları
