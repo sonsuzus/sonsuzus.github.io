@@ -25,9 +25,9 @@ math: true
 Collatz dizisinden önceki bölümde bahsetmiştik. Diziyi $n$ sayısıyla başlatırsak, sonraki sayıyı şu bulma kuralla buluruz:
 
 
-* $n\_i$ çift sayıysa: $n\_{i+1} = n\_i/2$
-* $n\_i$ tek sayıysa: $n\_{i+1} = 3n\_i+1$
-* $n\_i=1$ ise dizi sonlanır.
+* $n_i$ çift sayıysa: $n_{i+1} = n_i/2$
+* $n_i$ tek sayıysa: $n_{i+1} = 3n_i+1$
+* $n_i=1$ ise dizi sonlanır.
 
 
 Meselâ 13 ile başlarsak, on eleman uzunlukta olan 13, 40, 20, 10, 5, 16, 8, 4, 2, 1 dizisini elde ederiz. Bu dizinin uzunluğu 10’dur.
@@ -45,7 +45,7 @@ Sorumuz şu: Bir milyonun altındaki bütün başlangıç değerleri içinde han
 Üstel fonksiyonun $x=0$ çevresinde bir sonsuz seri ile gösterilebileceğini temel analiz derslerinden biliyoruz.
 
 
-$$e^x = \sum\_{n=0}^{\infty} \frac {x^n}{n!} = 1 + x + \frac{1}{2}x^2 + \frac{1}{6}x^3 + \cdots$$
+$$e^x = \sum_{n=0}^{\infty} \frac {x^n}{n!} = 1 + x + \frac{1}{2}x^2 + \frac{1}{6}x^3 + \cdots$$
 
 
 Bu seri bütün $x$ değerleri için yakınsar, yani her $x$ değeri için yeterince terim ekleyerek $e^x$ değerini istediğimiz hassasiyette hesaplayabiliriz.
@@ -82,21 +82,21 @@ Matematik kütüphanesindeki fonksiyonla karşılaştırmak isterseniz `math.exp
 ## Babil yöntemiyle karekök bulma
 
 
-Verilen bir $N$ sayısının karekökünü bulmak için Babil döneminden beri kullanılan tekrarlamalı (iteratif) bir yöntem vardır: Önce, karekök için bir tahminde bulunun ve buna $x\_0$ deyin. Bir sonraki tahminimiz  
+Verilen bir $N$ sayısının karekökünü bulmak için Babil döneminden beri kullanılan tekrarlamalı (iteratif) bir yöntem vardır: Önce, karekök için bir tahminde bulunun ve buna $x_0$ deyin. Bir sonraki tahminimiz  
 
-$$x\_1 = \frac{1}{2}\left(x\_0 + N/x\_0\right)$$  
+$$x_1 = \frac{1}{2}\left(x_0 + N/x_0\right)$$  
 
 olacak. Genel olarak,  
 
-$$x\_{n+1} = \frac{1}{2}\left(x\_n + N/x\_n\right)$$  
+$$x_{n+1} = \frac{1}{2}\left(x_n + N/x_n\right)$$  
 
-kuralıyla ardışık iterasyonlar yaparsak, $x\_n$ değerleri hızlıca $N$’nin kareköküne yakınsayacaktır.
+kuralıyla ardışık iterasyonlar yaparsak, $x_n$ değerleri hızlıca $N$’nin kareköküne yakınsayacaktır.
 
 
 Bu yöntem, fonksiyon köklerini bulmak için kullanılan en iyi algoritmalardan biri olan Newton yönteminin özel bir durumudur.
 
 
-Bu yöntemi kullanarak karekök değerini hesaplayan bir program yazın. Program kullanıcıya karekökü alınacak sayıyı ve ilk tahmini sorsun. Bir döngü içinde, hata değeri $|x\_n^2 – N|$ programda belirlenen bir toleranstan (sözgelişi $10^{-10}$) küçük olana kadar iterasyonlar tekrarlansın. Program karekökün tahmini değerini ve sonuca ulaşmak için kaç iterasyon gerektiğini ekrana bassın.
+Bu yöntemi kullanarak karekök değerini hesaplayan bir program yazın. Program kullanıcıya karekökü alınacak sayıyı ve ilk tahmini sorsun. Bir döngü içinde, hata değeri $|x_n^2 – N|$ programda belirlenen bir toleranstan (sözgelişi $10^{-10}$) küçük olana kadar iterasyonlar tekrarlansın. Program karekökün tahmini değerini ve sonuca ulaşmak için kaç iterasyon gerektiğini ekrana bassın.
 
 
 Örnek çıktı:
@@ -153,16 +153,16 @@ Machin formülüyle $\pi$’yi hesaplayacak bir program yazın. Programda $\arct
 ## Lojistik fonksiyon ve kaos
 
 
-Matematiksel kaosun gözlendiği en basit sistemlerden biri, [*lojistik fonksiyon*](https://www.wikizero.com/en/Logistic_map) denen fonksiyonun iterasyonlarında bulunur. Lojistik dizinin her yeni terimi $x\_{t+1}$, bir önceki terim $x\_t$’den şu formülle elde edilir.:
+Matematiksel kaosun gözlendiği en basit sistemlerden biri, [*lojistik fonksiyon*](https://www.wikizero.com/en/Logistic_map) denen fonksiyonun iterasyonlarında bulunur. Lojistik dizinin her yeni terimi $x_{t+1}$, bir önceki terim $x_t$’den şu formülle elde edilir.:
 
 
-$$x\_{t+1} = r x\_t (1-x\_t)$$
+$$x_{t+1} = r x_t (1-x_t)$$
 
 
-Burada $x\_t$ 0 ile 1 arasında kalan dinamik değişken, $r$ ise 0 ile 4 arasında bir parametredir. Parametre bir kere belirlendikten sonra dizi içinde değişmez.
+Burada $x_t$ 0 ile 1 arasında kalan dinamik değişken, $r$ ise 0 ile 4 arasında bir parametredir. Parametre bir kere belirlendikten sonra dizi içinde değişmez.
 
 
-1. $x\_0 = 0.1$ değerinden başlayarak, kullanıcıdan alınan bir $r$ değerini kullanarak ardışık $x\_0\ldots x\_{100}$ değerlerini ekrana yazan bir program yazın. Programı, $r$ parametresine sırayla 2.1, 3.1, 3.4, 3.5 değerleri vererek çalıştırın. Elde edilen $x\_t$ değerlerinin uzun vadeli davranışını inceleyin (sabit bir noktaya mı yakınsıyor, periyodik bir döngüye mi oturuyor?)  
+1. $x_0 = 0.1$ değerinden başlayarak, kullanıcıdan alınan bir $r$ değerini kullanarak ardışık $x_0\ldots x_{100}$ değerlerini ekrana yazan bir program yazın. Programı, $r$ parametresine sırayla 2.1, 3.1, 3.4, 3.5 değerleri vererek çalıştırın. Elde edilen $x_t$ değerlerinin uzun vadeli davranışını inceleyin (sabit bir noktaya mı yakınsıyor, periyodik bir döngüye mi oturuyor?)  
 
 Örnek çıktı:
 
@@ -201,10 +201,10 @@ r parametresi (0-4): 2.1
 ## Salgın hastalıklar – SIR modeli
 
 
-[SIR (susceptible-infected-recovered) modeli](https://www.wikizero.com/en/Compartmental_models_in_epidemiology), salgın hastalıkların yayılmasını incelemekte kullanılan modellerin en sadelerindendir. Modelde bir topluluk üç kategoriye ayrılır: Şimdilik sağlıklı olan ama hastalığa yakalanması mümkün olanlar (S), hastalığa yakalanmış ve S’lere bulaştırabilecek olanlar (I), ve hastalanıp iyileşmiş, tekrar hastalanmayacak ve hastalığı başkasına bulaştıramayacak olanlar (R). Belli bir $t$ anında bu üç kategoride bulunanların nüfustaki oranlarını sırayla $S\_t, I\_t, R\_t$ olarak gösterelim. O zaman, ayrık zaman adımlarında modelin denklemleri şöyle yazılabilir:
+[SIR (susceptible-infected-recovered) modeli](https://www.wikizero.com/en/Compartmental_models_in_epidemiology), salgın hastalıkların yayılmasını incelemekte kullanılan modellerin en sadelerindendir. Modelde bir topluluk üç kategoriye ayrılır: Şimdilik sağlıklı olan ama hastalığa yakalanması mümkün olanlar (S), hastalığa yakalanmış ve S’lere bulaştırabilecek olanlar (I), ve hastalanıp iyileşmiş, tekrar hastalanmayacak ve hastalığı başkasına bulaştıramayacak olanlar (R). Belli bir $t$ anında bu üç kategoride bulunanların nüfustaki oranlarını sırayla $S_t, I_t, R_t$ olarak gösterelim. O zaman, ayrık zaman adımlarında modelin denklemleri şöyle yazılabilir:
 
 
-$$\begin{array}{rcl}S\_{t+1} &=& S\_t – a I\_t S\_t \\ I\_{t+1} &=& I\_t + a I\_t S\_t – b I\_t \\ R\_{t+1} &=& R\_t + bI\_t \end{array}$$
+$$\begin{array}{rcl}S_{t+1} &=& S_t – a I_t S_t \\ I_{t+1} &=& I_t + a I_t S_t – b I_t \\ R_{t+1} &=& R_t + bI_t \end{array}$$
 
 
 Burada $a$ parametresi, kullanılan zaman birimi içinde (gün, hafta, ay) hastalıkla temas sıklığı veya bulaşma olasılığı, $b$ parametresi ise ortalama iyileşme oranıdır. Buna göre 1/$b$ değeri hastalığın iyileşmesi için bir zaman ölçeği sağlar, bu bilgiyle de $b$ için bir tahmin yapılabilir.
@@ -213,7 +213,7 @@ Burada $a$ parametresi, kullanılan zaman birimi içinde (gün, hafta, ay) hasta
 SIR modelini kullanarak her zaman adımında S, I, ve R kategorisindekilerin oranını listeleyen bir program yazın. Veriler hasta olanların oranı %0.1’in üzerinde olduğu sürece, ama en fazla 100 zaman adımı gösterecek şekilde listelensin. Başlangıçta sağlıklı olanların oranı %99, hastaların oranı %1, iyileşmiş olanlar ise %0 olsun. Parametreler için $a = 0.6$ ve $b = 0.2$ kullanın (epeyce bulaşıcı, ama tipik iyileşme süresinin 5 zaman adımı olduğu bir hastalık).
 
 
-SIR modelinde salgının kısa sürdüğü ve salgın süresince toplam nüfusun sabit kaldığı varsayılır. Yukarıdaki denklemlerin sağ taraflarını topladığınızda bazı terimlerin birbirini götürdüğünü ve $S\_{t+1} + I\_{t+1} + R\_{t+1} = S\_t + I\_t + R\_t = 1$ olacağını görebilirsiniz. Her zaman adımında $S\_t + I\_t + R\_t$ toplamını da ekrana bastırın. Bu toplamın sabit kalmaması programınızda bir hata olduğunu göstergesidir.
+SIR modelinde salgının kısa sürdüğü ve salgın süresince toplam nüfusun sabit kaldığı varsayılır. Yukarıdaki denklemlerin sağ taraflarını topladığınızda bazı terimlerin birbirini götürdüğünü ve $S_{t+1} + I_{t+1} + R_{t+1} = S_t + I_t + R_t = 1$ olacağını görebilirsiniz. Her zaman adımında $S_t + I_t + R_t$ toplamını da ekrana bastırın. Bu toplamın sabit kalmaması programınızda bir hata olduğunu göstergesidir.
 
 
 Örnek çıktı:
@@ -271,7 +271,7 @@ r = r + b*i            # hata
 
 ```
 
-yazmak, ilk bakışta gözden kaçabilecek ciddi bir hataya yol açar. İkinci atamadaki `s` değişkeni aslında $S\_{t}$ değerini değil, yenilenen $S\_{t+1}$ değerini taşımaktadır. Aynı sorun üçüncü atamadaki `i` değişkeni için de geçerli. Bunu engellemenin iki yolu var. Birincisi, eski değerleri ayrı adlar altında saklamak ve döngünün sonunda güncelleme yapmak:
+yazmak, ilk bakışta gözden kaçabilecek ciddi bir hataya yol açar. İkinci atamadaki `s` değişkeni aslında $S_{t}$ değerini değil, yenilenen $S_{t+1}$ değerini taşımaktadır. Aynı sorun üçüncü atamadaki `i` değişkeni için de geçerli. Bunu engellemenin iki yolu var. Birincisi, eski değerleri ayrı adlar altında saklamak ve döngünün sonunda güncelleme yapmak:
 
 
 
