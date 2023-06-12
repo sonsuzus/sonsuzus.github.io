@@ -2,8 +2,8 @@
 title:  Python Programlamaya Giriş 7 – Fonksiyonlar
 author: sonsuz
 date: 2023-06-13 00:50:42 +0300
-categories: [Blog]
-tags: [alıntı]
+categories: [Program,Python]
+tags: [python,fonksiyon,kütüphane]
 ---
 
 
