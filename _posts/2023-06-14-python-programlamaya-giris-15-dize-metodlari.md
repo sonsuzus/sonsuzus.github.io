@@ -11,7 +11,7 @@ tags: [python,dize,metod]
 
 
 
-Python programlamaya giriş yazı dizimizin bu bölümünde dizelerin kullanımını daha ayrıntılı inceleyeceğiz ve dize veri tipine ait olan metodların bazılarına örneklerle göz atacağız. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/categories/python-giris/) kategorimize bakabilirsiniz.
+Python programlamaya giriş yazı dizimizin bu bölümünde dizelerin kullanımını daha ayrıntılı inceleyeceğiz ve dize veri tipine ait olan metodların bazılarına örneklerle göz atacağız. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/categories/python) kategorimize bakabilirsiniz.
 
 **Dize**, bir veya daha fazla karakterden bir araya gelmiş bir sıralı veri tipidir. Dizelerle düz metin halindeki veriler alınıp işlenebilir. Veriler pek çok zaman düz metin dosyaları halinde bulunur. HTML, XML, JSON veya CSV gibi standartlardaki veriler de düz metinden oluşur. Bir metin verisini dize halinde aldığımızda, dize metodlarını kullanarak bu verileri işleyebilir, biçimlerini değiştirebilir, parçalayabilir, birleştirebilir, sıralayabilir, değişiklik yapabiliriz.
 
