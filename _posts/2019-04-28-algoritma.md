@@ -171,7 +171,7 @@ Birinci ve ikinci gruptaki sayıların toplamları birbirine eşit.
 Birinci ve ikinci gruptaki sayıların karelerinin toplamları birbirine eşit.
 Bu koşulları sağlayan en küçük toplama sahip 6 sayıyı bulunuz.
 
-![](https://zekakup.com/uploads/editor/ub/b31i4r5o0729.png)
+![]([https://zekakup.com/uploads/editor/ub/b31i4r5o0729.png](https://user-images.githubusercontent.com/52765796/245173246-0003a1f0-23a3-433b-99ce-8c2486713ea5.png))
 
 Küplerden oluşan bir piramitin birinci katında 1, ikinci katında 3, üçüncü katında 6 küp bulunmaktadır.
 Şayet bu piramit 100 katlı olsaydı toplam kaç küp bulunacaktır?
