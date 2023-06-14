@@ -792,7 +792,7 @@ Out[25]:
 [['ax', 'bx', 'cx'], ['ay', 'by', 'cy'], ['az', 'bz', 'cz']]
 ```
 
-Bir matris bir listeler listesi olarak yazılabilir. Listenin her elemanı (satır) bir listedir. Sözgelişi, $\left[\begin{array}{ccc}1&2&3\\ 4&5&6\\7&8&9\end{array}\right]$ matrisini bu şekilde temsil etmek için aşağıdaki yapıyı kullanabiliriz.
+Bir matris bir listeler listesi olarak yazılabilir. Listenin her elemanı (satır) bir listedir. Sözgelişi, $\left[\begin{array}{ccc}1&2&3\\\\ 4&5&6\\\\7&8&9\end{array}\right]$ matrisini bu şekilde temsil etmek için aşağıdaki yapıyı kullanabiliriz.
 
 In [26]:
 
