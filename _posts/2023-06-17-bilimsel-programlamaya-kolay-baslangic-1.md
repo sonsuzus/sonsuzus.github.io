@@ -3,7 +3,7 @@ title:  Bilimsel Programlamaya Kolay Başlangıç – 1
 author: sonsuz
 date: 2023-06-17 19:09:21 +0300
 categories: [Program,Python,Bilim]
-tags: [bilim,düşünce,algoritma,python,programlama]
+tags: [bilim,düşünce,algoritma,python,programlama,matplotlib,fizik,serbest düşüş]
 math: true
 ---
 
