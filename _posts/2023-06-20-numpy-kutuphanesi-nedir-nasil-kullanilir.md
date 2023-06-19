@@ -10,16 +10,6 @@ tags: [python,numpy,veri,veri bilimi,veri analizi,modül,kütüphane]
 
 NumPy, [Python](https://sonsuzus.github.io/tags/python) programlama diline ait çok boyutlu dizilerle ve matrislerle çalışmamıza yardım eden ileri düzey matematiksel işlemler yapabileceğimiz bir kütüphanedir. Günümüzde özellikle [veri bilimi](https://sonsuzus.github.io/tags/veri) üzerine çalışanlar başta olmak üzere Numpy, Python programlayanlar tarafından çok sık kullanılan bir **kütüphanedir.**
 
-## İçindekiler
-
-* [Numpy Nedir?](#Numpy_Nedir "Numpy Nedir?")
-* [Numpy Kullanımı](#Numpy_Kullanimi "Numpy Kullanımı")
-	+ [Boş Array Oluşturma](#Bos_Array_Olusturma "Boş Array Oluşturma")
-	+ [Lineer Cebir](#Lineer_Cebir "Lineer Cebir")
-	+ [İstatistik](#Istatistik "İstatistik")
-* [Numpy’ın Dizinleri vs. Python’un Kendi Dizinleri](#Numpy%E2%80%99in_Dizinleri_vs_Python%E2%80%99un_Kendi_Dizinleri "Numpy’ın Dizinleri vs. Python’un Kendi Dizinleri")
-* [Numpy Veri Tipleri](#Numpy_Veri_Tipleri "Numpy Veri Tipleri")
-
 ## Numpy Nedir?
 
 * Açık Kaynak ve numerik bir Python kütüphanesidir.

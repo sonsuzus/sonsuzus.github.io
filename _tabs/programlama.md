@@ -49,4 +49,3 @@ Robotik programlama ilgili her yaşa uygun içeriğime (aslında özellikle çoc
 ## Small Basic Programlama
 
 Small Basic Microsoftun ürünü olup temel ve çocuklar için programlamada kullandığım bir dildir. Basit algoritmalar oluşturma ve görsel çizim ve turtle kütüphaneleri ile kolay ve kullanışlıdır. Bu konuda daha detaylı bilgi için [Small Basic Programlama](https://sonsuzus.github.io/tags/small-basic) sayfasını ziyaret ediniz.
-
