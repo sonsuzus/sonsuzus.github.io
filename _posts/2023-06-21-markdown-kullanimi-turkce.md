@@ -145,20 +145,35 @@ YazıYazıYazıYazıYazıYazıYazıYazı.
 
 ### Resim
 
+#### Aynı Satıra Yazarak
+
 ```md
-Resim: 
-![alt yazı][resim]
+![alt yazı][resim adresi]
 
-[resim]: https://www.freeiconspng.com/uploads/github-logo-icon-0.png "Resim Başlığı"
-
-![](resim-linki)
+![Proje](son.jpg "GitHub")
 ```
+ 
+![Proje](son.jpg)
 
-Resim:
+#### Referans İle
 
-![alt yazı][resim]
+```md
+![Proje][resim]
 
-[resim]: https://www.freeiconspng.com/uploads/github-logo-icon-0.png "Resim Başlığı"
+[resim]: son.jpg "Resim Başlığı"
+```
+ 
+![Proje][resim]
+
+[resim]: son.jpg "Resim Başlığı"
+
+#### Resimin Boyutunu Değiştirerek (HTML Kullanarak)
+
+```html
+<img src="https://sonsuzus.github.io/img/son.jpg" alt="alt yazı" width="320">
+```
+ 
+<img src="https://sonsuzus.github.io/img/son.jpg" alt="Proje" width="320">
 
 ### Kod
 
