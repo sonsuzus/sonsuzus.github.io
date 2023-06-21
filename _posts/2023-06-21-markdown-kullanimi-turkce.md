@@ -143,13 +143,15 @@ YazıYazıYazıYazıYazıYazıYazıYazı.
 | B | 100TL   | 10    |
 | C | 1TL     | 1000  |
 
-### Resim/Görsel
+### Resim
 
 ```md
 Resim: 
 ![alt yazı][resim]
 
-[resim]: https://www.freeiconspng.com/uploads/github-logo-icon-0.png"Resim Başlığı"
+[resim]: https://www.freeiconspng.com/uploads/github-logo-icon-0.png "Resim Başlığı"
+
+![](resim-linki)
 ```
 
 Resim:
