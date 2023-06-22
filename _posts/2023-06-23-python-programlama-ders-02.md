@@ -145,77 +145,15 @@ SyntaxError: invalid syntax
 
  Python otuz bir adet anahtar kelimeye sahiptir (bu kelimeleri değişken ismi olarak kullanamazsınız):
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-|
- and
-  |
- del
-  |
- from
-  |
- not
-  |
- while
-  |
-|
- as
-  |
- elif
-  |
- global
-  |
- or
-  |
- with
-  |
-|
- assert
-  |
- else
-  |
- if
-  |
- pass
-  |
- yield
-  |
-|
- break
-  |
- except
-  |
- import
-  |
- print
-  |  |
-|
- class
-  |
- exec
-  |
- in
-  |
- raise
-  |  |
-|
- continue
-  |
- finally
-  |
- is
-  |
- return
-  |  |
-|
- def
-  |
- for
-  |
- lambda
-  |
- try
-  |  |
+|		|  		| 		 | 		 | 		 |
+| --- 	| --- 	| --- | --- | --- |
+| and 	| del 	| from| not | while  |
+| as  	| elif	| global | or | with  |
+| assert | else | if  | pass  | yield  |
+| break  | except  | import  | print  |  |
+| class  | exec  | in  | raise  |  |
+| continue  | finally  | is  | return  |  |
+| def  | for  | lambda  | try  |  |
 
 Bu listeyi akılda tutmalı veya gerektiğinde erişebileceğiniz bir yerde olmalıdır. Eğer yorumlayıcı değişkenlerinizden birinin isminden şikayet eder ve siz nedenini bulamazsanız, bir de değişkenlerinizi bu listeye göre kontrol edersiniz.
 
