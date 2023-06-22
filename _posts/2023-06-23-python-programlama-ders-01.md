@@ -22,6 +22,7 @@ Bir yönden programlamayı öğrenirken - ki kendisi yararlı bir yetenektir - b
 Ancak avantajları oldukça fazladır. İlk olarak, yüksek seviyeli dillerde programlamak oldukça kolaydır. Yüksek seviyeli dilde yazılmış programlar daha az sürede yazılır, daha kısadır, okuması daha kolay ve doğru olma ihtimalleri daha yüksektir. İkinci olarak, **yüksek seviyeli diller**dir, bunun anlamı farklı bilgisayarlarda az değişiklik veya değişiklik yapmadan çalıştırılabilirler. Düşük seviyeli programlar sadece tek bir bilgisayar çeşidinde çalışabilirler ve başka bir bilgisayarda çalışabilmesi için tekrar yazılmalıdır.
 
 Yüksek seviyeli dilleri, düşük seviyeli dillere çevirmek için iki çeşit program kullanılmaktadır: **yorumlayıcılar** ve **derleyiciler**.Yorumlayıcılar yüksek seviyeli programı okur ve işletir, bunun anlamı program ne diyorsa onu yapar. Programı biraz biraz işler, satırları okur ve ilgili hesaplamaları gerekleştirir.
+
 ![](illustrations/interpret.png)
 
 Derleyici programı okur ve programı çalıştırmadan önce tamamen başka bir şeye dönüştürür. Bu durumda yüksek seviyeli programa **kaynak kod**, çevrildiği programa ise **hedef kod** veya **çalıştırılabilir** denir. Program derlendikten sonra, daha fazla çevirme yapmadan tekrar tekrar çalıştırılabilir.
@@ -70,12 +71,16 @@ Ayrıntılar farklı programlama dillerinde farklı gözükebilir, ancak bazı b
 
 girdi:
 : Klavyeden, dosyadan veya başka bir aygıttan veriyi alma.
+
 çıktı:
 : Ekranda veriyi görüntüleme veya veriyi bir dosya ya da başka bir aygıta gönderme.
+
 matematik:
 : Toplama, çarpma gibi bazı temel matematiksel işlemleri gerçekleştirme.
+
 koşullu yürütme:
 : Belirli durumlar için sınama yapma ve uygun cümle sırasını çalıştırma.
+
 tekrarlama:
 : Bazı eylemleri genellikle ufak tefek bazı değişikliklerle tekrar tekrar yürütme.
 
@@ -86,11 +91,13 @@ Bu biraz belirsiz gelebilir, ancak bu konuya **algoritmalar** hakkında konuşur
 ## 1.3 Hata ayıklama (Debugging) nedir?
 
 Programlama karmaşık bir süreçtir, ve insanlar tarafından yapıldığı için hatalara yol açabilir. Garip nedenlerden dolayı, programlama hatalarına bug adı verilmektedir, ve bu hataları belirleme ve düzeltme işlemine **debugging** adı verilmektedir (çn. Bug böcek anlamına gelir. Eski dönemlerde odayı kaplayan bilgisayarlarda böcek görülmesi üzerine kullanıldığına dair iddialar var. Türkçe'de hata ayıklama ifadesini kullanacağımız için aslında bu açıklamanın sadece ingilizce için geçerli olduğunu belirtmek gerekiyor).
+
 Bir programda üç tür hata oluşabilir : sözdizimsel hatalar, çalışma zamanı hataları ve anlambilimsel hatalar. Bu hataları daha hızlı belirleyebilmek için ayırt edici özelliklerinin anlatılması önemlidir.
 
 ## 1.4 Sözdizimsel hatalar
 
 Python bir programı eğer sözdizimsel olarak doğruysa çalıştırabilir; aksi halde, işlem başarısız olur ve bir hata mesajı döndürür. Sözdizimi programın yapısını kasteder ve bu yapı hakkındaki kuralları tanımlar. Örneğin, Türkçe'de bir cümle büyük harfle başlamalı ve nokta işaretiyle tamamlanmalıdır. bu cümle bir **sözdizimi hatası** içermektedir. Ayrıca bu cümle de
+
 Çoğu okuyucu için, bazı sözdizimi hataları çok önemli değildir, bu yüzden bazı şiir örneklerini hata mesajları vermeden okuyabiliriz. Python bu kadar affedici değildir. Programın herhangi bir yerinde tek bir sözdizimi hatası olduğunda bile, bir hata mesajı verip çıkacaktır ve programı çalıştırmanız mümkün olmayacaktır. Programlama kariyerinizin ilk bir kaç haftasında, bu sözdizimi hatalarını belirlemek ve düzeltmek için oldukça fazla zaman harcayacaksınız. Deneyim kazandıkça, daha az hata yapmaya ve hataları daha hızlı belirleyip düzeltmeye başlayacaksınız.
 
 ## 1.5 Çalışma zamanı hataları
@@ -139,6 +146,7 @@ Her ne kadar biçimsel ve doğal diller bir çok ortak özelliğe - tokenler, ya
 
 belirsizlik:
 : Doğal diller belirsizlikle doludur, kişiler bağlamsal ipuçları ve diğer bilgilerden yararlanarak bu belirsizliği aşarlar. Biçimsel diller neredeyse veya tamamen belirli olmak üzere tasarlanmıştır. Bunun anlamı cümlenin sadece bir anlamı vardır, bağlam ne olursa olsun.
+
 fazlalık (redundancy):
 : Belirsizliği önlemek ve yanlış anlamaları azaltmak için, doğal diller bir çok gereksiz içeriğe sahiptir. Bu yüzden bir çok fazlalık barındırır. Biçimsel diller fazlalık içermez, az ve öz olmalıdır.
 
@@ -151,7 +159,7 @@ Doğal bir dili konuşarak büyüyen kişiler - herkes - biçimsel dillere alı�
 : Kelimeler anlamları olduğu kadar sesleri için de kullanılır, ve tüm şiir bir etki veya duygusal bir tepki yaratır. Belirsizlik yaygın olmasının yanında sıklıkla bir gerekliliktir.
 
 Düzyazı:
-Kelimelerin gerçek anlamı daha önemlidir, ve yapı anlama daha fazla katkı sağlar. Düzyazının şiire göre çözümlemesi daha kolaydır ancak yine de belirsizlikler içerebilir.
+: Kelimelerin gerçek anlamı daha önemlidir, ve yapı anlama daha fazla katkı sağlar. Düzyazının şiire göre çözümlemesi daha kolaydır ancak yine de belirsizlikler içerebilir.
 
 Programlar:
 : Bilgisayar programının anlamı belirli (tek anlamlı) ve gerçek olmalıdır, ve token ile yapının çözümlenmesiyle tamamen anlaşılmalıdır.
@@ -228,7 +236,7 @@ problem çözme:
 : Problemi formüle etme, çözüm bulma ve çözümü ifade etme süreci
 
 program:
-Bilgisayar tarafından gerçekleştirilecek eylemleri ve hesaplamaları belirten art arda gelen komutlar
+: Bilgisayar tarafından gerçekleştirilecek eylemleri ve hesaplamaları belirten art arda gelen komutlar
 
 Python kabuğu:
 : Python yorumlayıcısının etkileşimli kullanıcı arayüzü. Python kabuğu kullanıcısı bilgi isteminde (>>>) komutları yazar ve Giriş (Enter) tuşuna basarak komutları anında yorumlayıcıya işlenmeleri için gönderir.
@@ -260,7 +268,9 @@ token:
 ## 1.11 Alıştırmalar
 
 1. Anlaşılabilir anlama sahip ama sözdizimsel olarak yanlış olan Türkçe bir cümle yazınız. Sözdizimsel olarak doğru ancak anlambilimsel hatalara sahip bir başka cümle yazınız.
+
 2. Python kabuğunu başlatın. `1 + 2` yazıp Giriş tuşuna basın. Python bu *ifadeyi değerlendirir*, sonucu ekranda gösterir ve başka bir bilgi istemi yazar. *\* çarpma işleci*dir, ve *\*\* üs alma işleci*dir. Farklı ifadeler girerek deneyin, Python yorumlayıcısının sonuçlarını kaydedin. */ işleci*ni kullandığınızda ne oluyor? Sonuçlar beklediğiniz gibi mi? Açıklayınız.
+
 3. `1 2` yazıp Giriş tuşuna basın. Python bu ifadeyi değerlendirmeye çalışır, ancak yapamaz çünkü bu ifade sözdizimsel olarak geçerli değildir. Yerine aşağıdaki hata mesajını gösterir: 
  
 ```
@@ -274,9 +284,11 @@ SyntaxError: invalid syntax
 
 Bu örnekte, Python numaralar arasında işleç olmadığı için şikayet etmektedir. 
 
- Python bilgi isteminde yazdığınızda hata mesajına neden olacak üç ifade örneği daha üretiniz. Her ürettiğiniz ifadenin Python sözdizimi açısından neden geçerli olmadığını açıklayınız.
+Python bilgi isteminde yazdığınızda hata mesajına neden olacak üç ifade örneği daha üretiniz. Her ürettiğiniz ifadenin Python sözdizimi açısından neden geçerli olmadığını açıklayınız.
+ 
 4. `print 'merhaba'` yazınız. Python bu cümleyi yürütecektir, m-e-r-h-a-b-a harflerini ekranda göstermek gibi bir etkisi olacaktır. Ekranda gösterilen ifadede, cümlede kullandığınız tırnak işaretlerinin olmadığına dikkat edin.
  Şimdi `print '"merhaba"'` yazıp, sonucu tanımlayıp, açıklayınız.
+
 5. `print peynir` ifadesini tırnak işaretleri olmadan yazın. Çıktı aşağıdaki gibi bir şey olacaktır: 
  
 ```
@@ -299,6 +311,6 @@ Bu bir çalışma zamanı hatasıdır, *NameError* hatasıdır, isimsel bir hata
 print 'Bu bir testtir...'
 ```
 
- ve tekrar çalıştırın. Bu sefer ne oldu?
+ve tekrar çalıştırın. Bu sefer ne oldu?
  
- Ne zaman bir deyim Python bilgi istemine yazılırsa, değerlendirilir ve sonuç ekranda bir satır aşağıya yazılır. 'Bu bir testtir...' bir deyimdir, 'Bu bir testtir...' şeklinde değerlendirilir (42 deyiminin 42 şeklinde değerlendirilmesi gibi). Bir betikte ise, deyimlerin değerlendirilmesi program çıktısına gnderilmez, bu yüzden açıkça ekranda gösterilmesinin gerektiği belirtilmelidir.
+Ne zaman bir deyim Python bilgi istemine yazılırsa, değerlendirilir ve sonuç ekranda bir satır aşağıya yazılır. 'Bu bir testtir...' bir deyimdir, 'Bu bir testtir...' şeklinde değerlendirilir (42 deyiminin 42 şeklinde değerlendirilmesi gibi). Bir betikte ise, deyimlerin değerlendirilmesi program çıktısına gnderilmez, bu yüzden açıkça ekranda gösterilmesinin gerektiği belirtilmelidir.
