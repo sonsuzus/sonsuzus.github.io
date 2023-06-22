@@ -267,11 +267,11 @@ token:
 
 ## 1.11 Alıştırmalar
 
-1. Anlaşılabilir anlama sahip ama sözdizimsel olarak yanlış olan Türkçe bir cümle yazınız. Sözdizimsel olarak doğru ancak anlambilimsel hatalara sahip bir başka cümle yazınız.
+- Anlaşılabilir anlama sahip ama sözdizimsel olarak yanlış olan Türkçe bir cümle yazınız. Sözdizimsel olarak doğru ancak anlambilimsel hatalara sahip bir başka cümle yazınız.
 
-2. Python kabuğunu başlatın. `1 + 2` yazıp Giriş tuşuna basın. Python bu *ifadeyi değerlendirir*, sonucu ekranda gösterir ve başka bir bilgi istemi yazar. *\* çarpma işleci*dir, ve *\*\* üs alma işleci*dir. Farklı ifadeler girerek deneyin, Python yorumlayıcısının sonuçlarını kaydedin. */ işleci*ni kullandığınızda ne oluyor? Sonuçlar beklediğiniz gibi mi? Açıklayınız.
+- Python kabuğunu başlatın. `1 + 2` yazıp Giriş tuşuna basın. Python bu *ifadeyi değerlendirir*, sonucu ekranda gösterir ve başka bir bilgi istemi yazar. *\* çarpma işleci*dir, ve *\*\* üs alma işleci*dir. Farklı ifadeler girerek deneyin, Python yorumlayıcısının sonuçlarını kaydedin. */ işleci*ni kullandığınızda ne oluyor? Sonuçlar beklediğiniz gibi mi? Açıklayınız.
 
-3. `1 2` yazıp Giriş tuşuna basın. Python bu ifadeyi değerlendirmeye çalışır, ancak yapamaz çünkü bu ifade sözdizimsel olarak geçerli değildir. Yerine aşağıdaki hata mesajını gösterir: 
+- `1 2` yazıp Giriş tuşuna basın. Python bu ifadeyi değerlendirmeye çalışır, ancak yapamaz çünkü bu ifade sözdizimsel olarak geçerli değildir. Yerine aşağıdaki hata mesajını gösterir: 
  
 ```
   File "<stdin>", line 1
@@ -286,10 +286,10 @@ Bu örnekte, Python numaralar arasında işleç olmadığı için şikayet etmek
 
 Python bilgi isteminde yazdığınızda hata mesajına neden olacak üç ifade örneği daha üretiniz. Her ürettiğiniz ifadenin Python sözdizimi açısından neden geçerli olmadığını açıklayınız.
  
-4. `print 'merhaba'` yazınız. Python bu cümleyi yürütecektir, m-e-r-h-a-b-a harflerini ekranda göstermek gibi bir etkisi olacaktır. Ekranda gösterilen ifadede, cümlede kullandığınız tırnak işaretlerinin olmadığına dikkat edin.
+- `print 'merhaba'` yazınız. Python bu cümleyi yürütecektir, m-e-r-h-a-b-a harflerini ekranda göstermek gibi bir etkisi olacaktır. Ekranda gösterilen ifadede, cümlede kullandığınız tırnak işaretlerinin olmadığına dikkat edin.
  Şimdi `print '"merhaba"'` yazıp, sonucu tanımlayıp, açıklayınız.
 
-5. `print peynir` ifadesini tırnak işaretleri olmadan yazın. Çıktı aşağıdaki gibi bir şey olacaktır: 
+- `print peynir` ifadesini tırnak işaretleri olmadan yazın. Çıktı aşağıdaki gibi bir şey olacaktır: 
  
 ```
 Traceback (most recent call last):
@@ -299,7 +299,7 @@ NameError: name 'peynir' is not defined
 
 Bu bir çalışma zamanı hatasıdır, *NameError* hatasıdır, isimsel bir hatadır çünkü peynir ismi tanımlanmamıştır. Bu ne anlama geliyor bilmiyorsanız, yakında öğreneceksiniz.
 
-6. Python bilgi isteminde `'Bu bir testtir...'` yazıp Giriş tuşuna basın. Ne olduğunu kaydedin. Şimdi test1.py isminde bir betik oluşturun ve aşağıdaki içeriği betiğin içine yazın (çalıştırmadan önce kaydetmeyi unutmayın): 
+- Python bilgi isteminde `'Bu bir testtir...'` yazıp Giriş tuşuna basın. Ne olduğunu kaydedin. Şimdi test1.py isminde bir betik oluşturun ve aşağıdaki içeriği betiğin içine yazın (çalıştırmadan önce kaydetmeyi unutmayın): 
 
 ```
 'Bu bir testtir...'
