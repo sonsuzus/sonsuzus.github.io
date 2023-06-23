@@ -17,7 +17,7 @@ Bu değerler farklı **tiplere** aittir: `2` bir *tamsayı (integer)*dır, ve `"
 print cümlesi tamsayılar için de çalışır.
 
 ```
->>> print 4
+>>> print(4)
 4 
 ```
 
@@ -62,7 +62,7 @@ Python'da karakter dizileri tek tırnak (') veya çift tırnak (") arasına alı
  Büyük bir tamsayı yazdığınızda, üçlü rakam grupları arasında `1,000,000` örneğinde olduğu gibi virgül kullanmak isteyebilirsiniz. Bu Python için geçerli bir tamsayı gösterimi değildir, ancak geçerli bir ifadedir:
 
 ```py
->>> print 1,000,000
+>>> print(1,000,000)
 1 0 0 
 ```
 
@@ -96,7 +96,7 @@ Değişkenleri kağıt üstünde göstermenin genel bir yolu değişken isminden
 print cümlesi değişkenlerle de çalışır.
 
 ```py
- >>> print mesaj
+ >>> print(mesaj)
 Naber, doktor?
 >>> print n
 17
@@ -168,10 +168,9 @@ Bu listeyi akılda tutmalı veya gerektiğinde erişebileceğiniz bir yerde olma
  Örneğin, aşağıdaki betik:
 
 ```py
-
-        print 1
-        x = 2
-        printx
+print(1)
+x = 2
+print(x)
       
 ```
 
@@ -211,7 +210,7 @@ Bu listeyi akılda tutmalı veya gerektiğinde erişebileceğiniz bir yerde olma
 >>> message = "Naber, doktor?"
 >>> mesaj
 "Naber, doktor?"
->>> print mesaj
+>>> print(mesaj)
 Naber, doktor? 
       
 ```
@@ -221,12 +220,10 @@ Naber, doktor?
  Betik içerisinde, deyim kendi başına geçerli bir cümledir, ancak hiçbir şey yapmaz. Betik
 
 ```py
-
-        17
-        3.2
-        "Merhaba, Dünya!"
-        1 + 1
-      
+17
+3.2
+"Merhaba, Dünya!"
+1 + 1      
 ```
 
  herhangi bir çıktı üretmez. Bu betiği nasıl değiştirmeliyiz ki, bu dört deyimin değeri ekranda gösterilsin?
@@ -235,12 +232,7 @@ Naber, doktor?
 
 **İşleçler** toplama, çarpma, vb. hesaplamaları temsil eden özel sembollerdir. İşleçler tarafından kullanılan değerler **işlenen** adını almaktadır.
 
- Aşağıdakilerin hepsi geçerli (anlamı açık veya tam açık olmayan) Python deyimleridir:
 
-```py
- 20+32   hour-1   hour*60+minute   minute/60   5**2   (5+9)*(15-7) 
-      
-```
 
 `+`, `-`, ve `/` sembolleri ve gruplama için parantez kullanımı Python'da da matematikteki anlamlarıyla kullanılmaktadır. Yıldız işareti (`*`) çarpmanın ve `**` işareti de üs almanın sembolleridir.
 
@@ -277,9 +269,9 @@ Naber, doktor?
 
 2. **Ü**s alma daha az önceliğe sahiptir, `2**1+1` ifadesi 3'tür 4 değil, ve `3*1**3` ifadesi de 3'tür 27 değil.
 
-3. **Ç**arpma ve **B**ölme aynı önceliğe sahiptir, ve **T**oplama ve **Ç**ıkarmadan (ki bunlar da aynı önceliğe sahiptir) yüksek önceliklidir. `2*3-1` ifadesi 4 yerine 5 üretir, ve `2/3-1` ifadesi -1'dir, 1 değil (tamsayı bölmede 2/3=0 olduğunu hatırlayalım).
+3. **Ç**arpma ve **B**ölme aynı önceliğe sahiptir, ve **T**oplama ve **Ç**ıkarmadan (ki bunlar da aynı önceliğe sahiptir) yüksek önceliklidir. `2*3-1` ifadesi 4 yerine 5 üretir, ve `2//3-1` ifadesi -1'dir, 1 değil.
 
-4. Aynı önceliğe sahip işleçlerin değerlendirilmesinde soldan sağa kuralı izlenir. `dakika*100/60` ifadesinde, çarpma işlemi önceliklidir 5900/60 sonucuna yol açar, bu ifade de 98'i üretir. Eğer işleçler sağdan sola değerlendirilecek olsaydı sonuç `59*1` olacaktır, bu da 59'u, yanlış bir sonucu üretecekti.
+4. Aynı önceliğe sahip işleçlerin değerlendirilmesinde soldan sağa kuralı izlenir. `dakika*100//60` ifadesinde, çarpma işlemi önceliklidir 5900/60 sonucuna yol açar, bu ifade de 98'i üretir. Eğer işleçler sağdan sola değerlendirilecek olsaydı sonuç `59*1` olacaktır, bu da 59'u, yanlış bir sonucu üretecekti.
 
 ## 2.8 Karakter dizisi üzerindeki işlemler
 
@@ -296,7 +288,7 @@ Naber, doktor?
 
         meyve = "muz"
         iyi_pisirilmis = " fındık ekmeği"
-        print meyve + iyi_pisirilmis
+        print(meyve + iyi_pisirilmis)
       
 ```
 
@@ -312,10 +304,10 @@ Naber, doktor?
 
 ```py
 
-        n = raw\_input("Lütfen isminizi giriniz: ")
-        print n
-        n = input("Nümerik bir ifade giriniz: ")
-        print n
+n = input("Lütfen isminizi giriniz: ")
+print (n)
+n = int(input("Nümerik bir ifade giriniz: "))
+print (n)
       
 ```
 
@@ -339,7 +331,7 @@ Nümerik bir ifade giriniz: 7 * 3
  Programlama dillerinin en kullanışlı özelliklerinden biri küçük yapısal blokları üretmek ve bunları `birleştirebilme (kompozisyon)` özelliğidir. Örneğin, sayıları nasıl ekleyeceğimizi ve ekranda değeri nasıl göstereceğimizi biliyoruz; bu ikisini birleştirerek aynı anda gerçekleştirebiliriz:
 
 ```
->>>  print 17 + 3
+>>>  print (17 + 3)
 20 
       
 ```
@@ -348,7 +340,7 @@ Nümerik bir ifade giriniz: 7 * 3
 
 ```
 
-        print "Geceyarısından beri geçen dakika: ", saat*60+dakika
+print("Geceyarısından beri geçen dakika: ", saat*60+dakika)
       
 ```
 
@@ -356,7 +348,7 @@ Nümerik bir ifade giriniz: 7 * 3
 
 ```
 
-        yuzde = (dakika * 100) / 60
+yuzde = (dakika * 100) / 60
       
 ```
 
@@ -372,8 +364,8 @@ Nümerik bir ifade giriniz: 7 * 3
 
 ```py
 
-        # gecen saatin yuzdesini hesaplayalim 
-        yuzde = (dakika * 100) / 60
+# gecen saatin yuzdesini hesaplayalim 
+yuzde = (dakika * 100) / 60
       
 ```
 
@@ -381,7 +373,7 @@ Nümerik bir ifade giriniz: 7 * 3
 
 ```py
 
-        yuzde = (dakika * 100) / 60 # dikkat: tamsayi bolme
+yuzde = (dakika * 100) / 60 # dikkat: tamsayi bolme
       
 ```
 
@@ -412,7 +404,7 @@ Nümerik bir ifade giriniz: 7 * 3
 
 ```py
 
-            n = n + 1
+n = n + 1
           
 ```
 
@@ -465,21 +457,21 @@ Nümerik bir ifade giriniz: 7 * 3
 - Aşağıdaki atama cümlelerini çalıştırdığınızda olanları kaydedin:
 
 ```
- >>> print n = 7 
+ >>> print(n = 7)
             
 ```
 
  Peki bu?
 
 ```
- >>> print 7 + 5 
+ >>> print (7 + 5)
             
 ```
 
  Ya bu?
 
 ```
- >>> print 5.2, "bu", 4 - 2, "şu", 5/2.0 
+ >>> print (5.2, "bu", 4 - 2, "şu", 5/2.0 )
             
 ```
 
@@ -491,46 +483,6 @@ Nümerik bir ifade giriniz: 7 * 3
 
 - Daha önce çalışmış bir koda yorum ekleyerek tekrar çalıştırın, ve sonucu inceleyin.
 
-- `input` ve `raw_input` arasındaki fark `input` girdi karakter dizisini değerlendirirken, `raw_input` değerlendirmemektedir. Aşağıdakileri yorumlayıcıda sınayın ve sonucu inceleyin:
-
-```py
- >>> x = input()
-3.14
->>> type(x) 
-            
-```
-
-```
- >>> x = raw_input()
-3.14
->>> type(x) 
-            
-```
-
-```
- >>> x = input()
-'The knights who say "ni!"'
->>> x 
-            
-```
-
- Aşağıdakini tırnak işaretleri olmadan denerseniz ne olur?
-
-```
- >>> x = input()
-The knights who say "ni!"
->>> x 
-            
-```
-
-```
- >>> x = raw_input()
-'The knights who say "ni!"'
->>> x 
-            
-```
-
- Her sonucu anlatın ve açıklayın.
 
 - Python yorumlayıcısını başlatın ve `bruce+4` ifadesini bilgi istemine girin. Bu size bir hata verecektir:
 
@@ -541,4 +493,3 @@ The knights who say "ni!"
 
 `bruce` ismine bir değer atayın, böylece `bruce + 4` `10` değerini üretebilsin.
 
-- İsmi `madlib.py` bir program (Python betiği) yazın, bu program kullanıcıdan peşpeşe isimler, yüklemler, tümleçler, sıfatlar, çoğul isimler, geçmiş zaman yüklemleri, vb. cümle öğeleri istesin ve daha sonra bu girilen ifadeleri sözdizimi olarak doğru ancak anlambilimsel olarak yanlış bir paragraf üretsin (örnekler için [http://madlibs.org](http://madlibs.org/) adresini inceleyebilirsiniz).

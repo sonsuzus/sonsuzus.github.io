@@ -38,7 +38,7 @@ $ python
 Python 2.5.1 (r251:54863, May  2 2007, 16:56:35) 
 [GCC 4.1.2 (Ubuntu 4.1.2-0ubuntu4)] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
->>> print 1 + 1
+>>> print(1 + 1)
 2
 ```
 
@@ -47,7 +47,7 @@ Bu örnekteki ilk satır, bir Unix komut satırında Python yorumlayıcısını 
 Alternatif olarak, programı bir dosya içine yazıp yorumlayıcının dosya içeriğini çalıştırmasını sağlayabiliriz. Bu tip dosyaya **betik** adı verilmektedir. Örneğin, bir metin dzenleyicisi yardımıyla firstprogram.py adlı dosyayı aşağıdaki içerikle yarattığımızı varsayalım:
 
 ```
-print 1 + 1
+print(1 + 1)
 ```
 
 Bir kural (gelenek) olarak, Python programlarını içeren dosyalar .py uzantısıyla biter.
@@ -171,7 +171,7 @@ Programları (ve diğer biçimsel dilleri) okumak için bazı öneriler şu şek
 Geleneksel olarak, yeni bir dilde yazılan ilk program "Merhaba, Dünya!" adı verilen programdır, çünkü ekranda "Merhaba, Dünya!" kelimelerini gösterir. Python'da aşağıdaki şekilde yazılmaktadır:
 
 ```
-print "Merhaba, Dünya!"
+print("Merhaba, Dünya!")
 ```
 
 Bu **print cümlesinin** bir örneğidir. Bu cümle kağıt üstüne bir şey yazmaz, ekranda bir değer gösterir. Yukarıdaki örnekte, sonuç aşağıdaki kelimelerin ekranda gözükmesidir:
@@ -286,10 +286,10 @@ Bu örnekte, Python numaralar arasında işleç olmadığı için şikayet etmek
 
 Python bilgi isteminde yazdığınızda hata mesajına neden olacak üç ifade örneği daha üretiniz. Her ürettiğiniz ifadenin Python sözdizimi açısından neden geçerli olmadığını açıklayınız.
  
-- `print 'merhaba'` yazınız. Python bu cümleyi yürütecektir, m-e-r-h-a-b-a harflerini ekranda göstermek gibi bir etkisi olacaktır. Ekranda gösterilen ifadede, cümlede kullandığınız tırnak işaretlerinin olmadığına dikkat edin.
- Şimdi `print '"merhaba"'` yazıp, sonucu tanımlayıp, açıklayınız.
+- `print('merhaba')` yazınız. Python bu cümleyi yürütecektir, m-e-r-h-a-b-a harflerini ekranda göstermek gibi bir etkisi olacaktır. Ekranda gösterilen ifadede, cümlede kullandığınız tırnak işaretlerinin olmadığına dikkat edin.
+ Şimdi `print('"merhaba"')` yazıp, sonucu tanımlayıp, açıklayınız.
 
-- `print peynir` ifadesini tırnak işaretleri olmadan yazın. Çıktı aşağıdaki gibi bir şey olacaktır: 
+- `print(peynir)` ifadesini tırnak işaretleri olmadan yazın. Çıktı aşağıdaki gibi bir şey olacaktır: 
  
 ```
 Traceback (most recent call last):
@@ -308,7 +308,7 @@ Bu bir çalışma zamanı hatasıdır, *NameError* hatasıdır, isimsel bir hata
  Bu betiği çalıştırdığınızda ne oluyor? Şimdi içeriği aşağıdaki şekilde değiştirin: 
  
 ```
-print 'Bu bir testtir...'
+print('Bu bir testtir...)'
 ```
 
 ve tekrar çalıştırın. Bu sefer ne oldu?
