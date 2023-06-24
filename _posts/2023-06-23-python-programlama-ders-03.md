@@ -42,39 +42,31 @@ Bu fonksiyon `yeni_satir` ismindedir. Boş parantezler parametre almadığını 
 Yeni bir fonksiyon tanımlamak o fonksiyonun çalışmasını sağlamaz. Fonksiyonu çalıştırabilmemiz için bir **fonksiyon çağrısı** yapmamız gerekir. Fonksiyon çağrıları, çalıştırılacak fonksiyonun ismi ve onu takip eden parantez içerisindeki fonksiyona aktarılacak olan değer listesinden - bunlara *argüman* adı verilir - oluşur. Bu argümanlar fonksiyon tanımındaki parametrelere eşlenir. İlk örneklerimiz, boş parametre listesine sahip olduğu için, çağrılarımızda argüman göndermeyeceğiz. Ancak yine de parantezleri - içi boş olsa da - yazmaya devam edeceğiz:
 
 ```py
-
 print("İlk satır.")
 yeni_satir()
 print("İkinci satır.")
-
 ```
 
 Programın çıktısı:
 
 ```py
-
 İlk satır.
-
 İkinci satır.
-
 ```
 
 İki satır arasındaki ek boşluk, `yeni_satir()` fonksiyon çağrısının bir sonucudur. Eğer satırlar arasında daha fazla boşluk isteseydik ne yapacaktık? Aynı fonksiyonu tekrar tekrar çağıracaktık:
 
 ```py
-
 print("İlk satır.")
 yeni_satir()
 yeni_satir()
 yeni_satir()
 print("İkinci satır.")
-
 ```
 
 Veya üç yeni satır yazan `uc_satir` isminde yeni bir fonksiyon yazabilirdik:
 
 ```py
-
 def uc_satir():
     yeni_satir()
     yeni_satir()
@@ -83,7 +75,6 @@ def uc_satir():
 print("İlk satır.")
 uc_satir()
 print("İkinci satır.")
-
 ```
 
 Bu fonksiyon üç cümle içermektedir, ve herbir cümle dört boşluk karakteri içeriden başlamaktadır. Sonraki satır içeriden başlamadığı için Python onun fonksiyonun bir parçası olmadığını anlayacaktır.
@@ -103,7 +94,6 @@ Bu program hakkında bir kaç şey dikkatinizi çekmiş olmalı:
 Önceki kod parçalarını biraraya getirip `tryme1.py` isimli bir betik içerisine yazdığımızda, tüm program aşağıdaki gibi gözükecektir:
 
 ```py
-
 def yeni_satir():
     print()
 
@@ -115,7 +105,6 @@ def uc_satir():
 print("İlk satır.")
 uc_satir()
 print("İkinci satır.")
-
 ```
 
 Bu program iki fonksiyon tanımlaması içermektedir:
@@ -145,7 +134,6 @@ Bu sefil hikayenin anafikri nedir? Bir programı okuduğunuzda, ne yukarıdan a�
 Çoğu fonksiyon argümanlara gereksinimi duyar, bu değerler fonksiyonun görevini yaparken kullandığı ve bir bakıma bu görevi nasıl yapacağını belirlerler. Örneğin, bir sayının mutlak değerini bulmak istiyorsanız, hangi sayının mutlak değerini bulmak istediğinizi belirtmeniz gerekir. Python bu iş için içerisinde mutlak değer hesaplayan bir fonksiyon barındırır:
 
 ```py
-
 >>> abs(5)
 5
 >>> abs(-5)
@@ -158,25 +146,21 @@ Bu örnekte, `abs` fonksiyonuna gönderdiğimiz argümanlar 5 ve -5'tir.
 Bazı fonksiyonlar birden fazla argüman alabilir. Örneğin Python içerisinde tanımlı `pow` fonksiyonu iki argüman alır, taban ve üs. Fonksiyonun içerisinde bu değerler **parametre** adı verilen değişkenlere atanırlar.
 
 ```py
-
 >>> pow(2, 3)
 8
 >>> pow(7, 4)
 2401
-
 ```
 
 Birden fazla argüman alan bir başka varolan fonksiyon `max`'tır.
 
 ```py
-
 >>> max(7, 11)
 11
 >>> max(4, 1, 17, 2, 12)
 17
 >>> max(3*11, 5**3, 512-9, 1024**0)
 503
-
 ```
 
 `max` fonksiyonuna virgüllerle ayrılmış dilediğiniz sayıda argüman gönderebilirsiniz. Gönderilen argümanlar arasından en büyük sayıyı bulup geri döndürecektir. Argümanlar basit değerler olabildiği gibi deyim de olabilirler. Son örnekte 503 döndürüldü, çünkü 33, 125 ve 1'den daha büyüktür (deyimler değerlendirilerek sonuçlar fonksiyona geçiyor).
@@ -184,10 +168,8 @@ Birden fazla argüman alan bir başka varolan fonksiyon `max`'tır.
 Kullanıcı tanımlı ve tek parametre içeren bir fonksiyon örneği:
 
 ```py
-
 def iki_kere_yaz(bruce):
     print(bruce, bruce)
-
 ```
 
 Bu fonksiyon tek bir **argüman** alır ve onu `bruce` isimli parametreye atar. Parametrenin değeri (bu noktada ne olduğuna dair bir fikrimiz yok) iki kere yazılır, sonrasında bir yeni satır ekranda gösterilir. `bruce` isminin seçilmesinin nedeni parametrelere dilediğiniz ismi verebileceğinizi göstermek içindir. Elbette `bruce` isminden daha yaratıcı ve anlamlı isimler seçmeniz kaynak kodun okunabilirliği açısından önemlidir.
@@ -195,7 +177,6 @@ Bu fonksiyon tek bir **argüman** alır ve onu `bruce` isimli parametreye atar. 
 Etkileşimli Python kabuğu bize fonksiyonlarımızı sınamak için elverişli bir yol sağlarlar. **import cümlesini** bir betik içerisinde tanımladığımız fonksiyonları yorumlayıcı oturumuna getirmek için kullanabiliriz. Bunun nasıl çalıştığını anlamak için, `iki_kere_yaz` fonksiyonunun `ders03.py` isimli bir betik içerisinde tanımlı olduğunu varsayalım. Etkileşimli olarak sınamak için betiği kendi Python kabuk oturumumuza *aktarırız*::
 
 ```py
-
 >>> from ders03 import *
 >>> iki_kere_yaz('Spam')
 Spam Spam
@@ -203,7 +184,6 @@ Spam Spam
 5 5
 >>> iki_kere_yaz(3.14159)
 3.14159 3.14159
-
 ```
 
 Bir fonksiyon çağrımında, argümanın değeri ilgili parametreye fonksiyon tanımlamasında atanmaktadır. Gerçekte `bruce = 'Spam'` ataması `iki_kere_yaz('Spam')` çağrımı yapılınca, `bruce = 5` `iki_kere_yaz(5)` ve `bruce = 3.14159` `iki_kere_yaz(3.14159)` çağrımı yapıldığında gerçekleşir.
@@ -213,10 +193,8 @@ Yazılabilir herhangi bir argüman `iki_kere_yaz` fonksiyonuna gönderilebilir. 
 İçsel (varolan) fonksiyonlar gibi `iki_kere_yaz` argümanı yerine deyim de kullanabiliriz:
 
 ```py
-
 >>> iki_kere_yaz('Spam'*4)
 SpamSpamSpamSpam SpamSpamSpamSpam
-
 ```
 
 `'Spam'*4` deyimi ilk önce değerlendirilip `'SpamSpamSpamSpam'` şeklinde `iki_kere_yaz` fonksiyonuna argüman olarak geçirilmektedir.
@@ -226,12 +204,10 @@ SpamSpamSpamSpam SpamSpamSpamSpam
 Matematiksel fonksiyonlarda olduğu gibi, Python fonksiyonları da **dizilebilir**, bunun anlamı bir fonksiyonun sonucu bir başka fonksiyona girdi olarak verilebilir.
 
 ```py
-
 >>> iki_kere_yaz(abs(-7))
 7 7
 >>> iki_kere_yaz(max(3, 1, abs(-11), 7))
 11 11
-
 ```
 
 İlk örnekte, `abs(-7)` deyimi 7 şeklinde değerlendirilir ve `iki_kere_yaz` fonksiyonuna argüman olarak verilir. İkinci örnekte iki seviyeli bir dizme sözkonusudur. İlk olarak `abs(-11)` ifadesi 11 sonucunu ürettiği için `max(3,1,11,7)` fonksiyonu 11 değerini üretir. Sonrasında bu 11 değeri `iki_kere_yaz(11)` fonksiyonuna argüman olarak geçirilir ve sonuç ekranda görüntülenir.
@@ -239,11 +215,9 @@ Matematiksel fonksiyonlarda olduğu gibi, Python fonksiyonları da **dizilebilir
 Ayrıca değişkenleri de argüman olarak kullanabiliriz:
 
 ```py
-
 >>> michael = 'Erik, yarım arı.'
 >>> iki_kere_yaz(michael)
 Erik, yarım arı. Erik, yarım arı.
-
 ```
 
 Burada dikkat etmeniz gereken önemli bir nokta var. Argüman olarak geçirdiğimiz değişkenin isminin (`michael`) parametre ismi (`bruce`) ile bir ilgisi yok. Çağrıldığı yerde o değişkenin isminin ne olduğunun bir önemi yok, fonksiyon içerisinde (`iki_kere_yaz`) parametre ismi (`bruce`) kullanılmaktadır, herkesi bu isim (`bruce`) ile sesleniriz.
@@ -253,31 +227,25 @@ Burada dikkat etmeniz gereken önemli bir nokta var. Argüman olarak geçirdiği
 Bir fonksiyon içerisinde bir **yerel değişken** yarattığınızda, o değişken sadece o fonksiyon içerisinde varolur, fonksiyon dışında o değişkeni kullanamazsınız. Örneğin:
 
 ```py
-
 def iki_kere_birlestir(part1, part2):
     cat = part1 + part2
     iki_kere_yaz(cat)
-
 ```
 
 Bu fonksiyon iki argüman alır, bu argümanları birleştirir ve sonucu iki kere ekranda görüntüler. Bu fonksiyonu iki karakter dizisi ile çağırabiliriz:
 
 ```py
-
 >>> chant1 = "Pie Jesu domine, "
 >>> chant2 = "Dona eis requiem."
 >>> iki_kere_birlestir(chant1, chant2)
 Pie Jesu domine, Dona eis requiem. Pie Jesu domine, Dona eis requiem.
-
 ```
 
 When `iki_kere_birlestir` bittiğinde, `cat` değişkeni yokedilir. Onu yazdırmaya kalkışırsak bir hata ile karşılaşırız:
 
 ```
-
 >>> print cat
 NameError: name 'cat' is not defined
-
 ```
 
 Parametreler de yereldir. Örneğin, `iki_kere_yaz` fonksiyonu dışında `bruce` ismiyle tanımlı bir değişken yoktur. Kullanmaya kalkışırsanız, Python yine şikayet edecektir.
@@ -299,7 +267,6 @@ Bir fonksiyon çağrımı esnasında bir hata oluşursa Python fonksiyon ismini 
 Bunun nasıl çalıştığını görmek için `tryme2.py` isminde ve içeriği aşağıdaki gibi olan bir betik yaratalım:
 
 ```py
-
 def iki_kere_yaz(bruce):
     print(bruce, bruce)
     print(cat)
@@ -311,13 +278,11 @@ def iki_kere_birlestir(part1, part2):
 chant1 = "Pie Jesu domine, "
 chant2 = "Dona eis requim."
 iki_kere_birlestir(chant1, chant2)
-
 ```
 
 `iki_kere_yaz` fonksiyonu içerisine `print cat` cümlesini ekledik, ancak `cat` değişkeni orada tanımlı olmadığı için bu betik hata üretecektir:
 
 ```py
-
 Traceback (innermost last):
   File "tryme2.py", line 11, in <module>
     cat_twice(chant1, chant2)
@@ -326,7 +291,6 @@ Traceback (innermost last):
   File "tryme2.py", line 3, in print_twice
     print(cat)
 NameError: global name 'cat' is not defined
-
 ```
 
 Bu fonksiyon listesine **geri izleme (traceback)** adı verilmektedir. Hangi program dosyasında, hangi satırda ve hangi fonksiyonları işletirken hatanın oluştuğuna dair bilgi verir. Ayrıca hataya neden olan kod satırını da gösterir.
@@ -351,11 +315,9 @@ bileşik cümle:
 Bileşik cümlenin sözdizimi aşağıdaki gibidir:
 
 ```py
-
 anahtar_kelime deyim :
     cümle
     cümle ...
-
 ```
 
 başlık:
@@ -379,24 +341,20 @@ içeri aktarma (import):
 Örneğin, aşağıdaki kodun `tryme.py` isimli bir betik içerisinde bulunduğunu düşünelim:
 
 ```py
-
 def print_thrice(thing):
     print(thing, thing, thing)
 
 n = 42
 s = "And now for something completely different..."
-
 ```
 
 Şimdi `tryme.py` dosyasının bulunduğu dizin içerisinde bir Python kabuğu başlatalım:
 
 ```py
-
 $ ls
 tryme.py  <ve diğer şeyler...>
 $ python
 >>>
-
 ```
 
 `tryme.py` içerisinde üç isim tanımlanmıştır:
@@ -404,7 +362,6 @@ $ python
 Eğer içe aktarmadan (import) bu isimleri kullanmaya çalışırsak, bir hata oluşur:
 
 ```py
-
 >>> n
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -419,7 +376,6 @@ NameError: name 'print_thrice' is not defined
 `tryme.py` betiğinden herşeyi içe aktarırsak, içerisinde tanımlı herşeyi kullanabiliriz:
 
 ```py
-
 >>> from tryme import *
 >>> n
 42
@@ -462,7 +418,6 @@ geri izleme:
 4. s karakter dizisini n kere yazacak şekilde `cat_n_times` *fonksiyon tanımlaması*nın *gövdesini* doldurun:
 
 ```py
-
 def cat_n_times(s, n):
     <kodu buraya yazın>
 
@@ -471,7 +426,6 @@ def cat_n_times(s, n):
 Bu kodu `import_test.py` betiği içerisine kaydedin. Şimdi sistemde bu betik ile aynı dizinde olduğunuzdan emin olduktan sonra Bir Python kabuğu başlatın ve aşağıdakileri deneyin:
 
 ```py
-
 >>> from import_test import *
 >>> cat_n_times('Spam', 7)
 SpamSpamSpamSpamSpamSpamSpam
