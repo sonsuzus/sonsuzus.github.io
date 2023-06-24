@@ -396,7 +396,9 @@ begin_fill()
 end_fill()
 : Boyamayı bitir
 
-circle(50) : 50 birimlik daire çiz
+circle(50) 
+: 50 birimlik daire çiz
+
 speed(1)
 : turtle hızını ayarla(1 yavaş-10 hızlı)
 

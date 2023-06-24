@@ -13,10 +13,8 @@ tags: [python,fonksiyon,parametre,işlem,ders]
 Programlama bağlamın, bir **fonksiyon (işlev)** belli bir işlemi gerçekleştirmek üzere isimlendirilmiş cümle (komut) serisidir. Bu işlem **fonksiyon tanımında** belirlenmiştir. Python'da, fonksiyon tanımı için sözdizimi şu şekildedir:
 
 ```py
-
 def ISIM( PARAMETRE LISTESI ):
     CUMLELER
-
 ```
 
 Fonksiyonlar için dilediğiniz ismi kullanabilirsiniz, ancak değişkenlerde de olduğu gibi Python anahtar kelimelerini kullanamazsınız. Parametre listesi fonksiyon tarafından kullanılması gereken, varsa, bilgileri belirtmek için kullanılır.
@@ -31,10 +29,8 @@ Bir fonksiyon tanımlamasında, başlıktaki anahtar kelime `def`tir, bu ifade d
 Yazacağımız ilk fonksiyon örnekleri parametre içermeyecektir, bu yüzden sözdizimi şu şekildedir:
 
 ```py
-
 def yeni_satir():
     print()          # herhangi bir arguman almayan print cumlesi yeni bir satir yazar
-
 ```
 
 Bu fonksiyon `yeni_satir` ismindedir. Boş parantezler parametre almadığını gösterir. Gövdesinde sadece bir cümle vardır, bu cümle yeni satır karakterini ekranda göstermektedir (bunun anlamı bir boş satır bırakılmasıdır, boş bir print cümlesi kullanıldığında oluşan durumdur).
