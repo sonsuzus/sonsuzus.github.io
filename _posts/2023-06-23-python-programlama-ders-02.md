@@ -3,7 +3,7 @@ title: Python Programlama Ders 2. Değişkenler, deyimler ve cümleler
 author: sonsuz
 date: 2023-06-23 00:45:31 +0300
 categories: [Program,Python]
-tags: [python,programlama,değişken,deyim,cümle]
+tags: [python,programlama,değişken,deyim,cümle,ders,tip,işlem]
 ---
 
 
@@ -16,7 +16,7 @@ Bu değerler farklı **tiplere** aittir: `2` bir *tamsayı (integer)*dır, ve `"
 
 print cümlesi tamsayılar için de çalışır.
 
-```
+```py
 >>> print(4)
 4 
 ```
@@ -32,7 +32,7 @@ Eğer bir değerin tipinden emin değilseniz, yorumlayıcı bunu size söyleyebi
 
  Sürpriz olmayacak şekilde, karakter dizisi **str** tipine ve tamsayılar da **int** tipine aittir. Ayrıca, ondalık basamağa sahip sayılar **float** adında bir tipe ait olacaktır, çünkü bu sayılar *kayan noktalı (floating point)* biçiminde temsil edilmektedir.
 
-```
+```py
 >>> type(3.2)
 <type 'float'> 
 ```
@@ -84,7 +84,7 @@ Bu örnek üç atama gerçekleştirmektedir. İlk atama `mesaj` isimli yeni yara
 
 **Atama işleci**, `=`, "eşittir" işaretiyle (aynı karakteri kullansa da) karıştırılmamalıdır. Atama işleçleri *isim* , işlecin sol tarafı, ve *değer* , işlecin sağ tarafı, ifadelerini birbirine bağlar. Bu yüzden aşağıdaki ifadeyi yazdığınızda hata mesajıyla karşılaşırsınız:
 
-```
+```py
  >>> 17 = n 
       
 ```
@@ -96,7 +96,7 @@ Değişkenleri kağıt üstünde göstermenin genel bir yolu değişken isminden
 print cümlesi değişkenlerle de çalışır.
 
 ```py
- >>> print(mesaj)
+>>> print(mesaj)
 Naber, doktor?
 >>> print n
 17
@@ -108,7 +108,7 @@ Naber, doktor?
 Her bir durumda sonuç değişkenin o an ki değeridir. Değişkenler de tiplere sahiptir; yorumlayıcıya tiplerini sorabiliriz.
 
 ```py
- >>> type(mesaj)
+>>> type(mesaj)
 <type 'str'>
 >>> type(n)
 <type 'int'>
@@ -117,7 +117,7 @@ Her bir durumda sonuç değişkenin o an ki değeridir. Değişkenler de tiplere
       
 ```
 
- Değişkenin tipi referans ettiği değerin tipidir.
+Değişkenin tipi referans ettiği değerin tipidir.
 
 ## 2.3 Değişken isimleri ve anahtar kelimeler
 
@@ -143,19 +143,117 @@ SyntaxError: invalid syntax
 
 `class` isminin Python tarafından kullanılan **anahtar kelimeler**den biri olduğu ortadadır. Anahtar kelimeler genellikle dilin kural ve yapısını tanımlarlar, ve değişken isimleri olarak kullanılamazlar.
 
- Python otuz bir adet anahtar kelimeye sahiptir (bu kelimeleri değişken ismi olarak kullanamazsınız):
+ Python otuz üç adet anahtar kelimeye sahiptir (bu kelimeleri değişken ismi olarak kullanamazsınız):
 
-|		|  		| 		 | 		 | 		 |
-| --- 	| --- 	| --- | --- | --- |
-| and 	| del 	| from| not | while  |
-| as  	| elif	| global | or | with  |
+|  |    |    |    |    |
+| --- | --- | --- | --- | --- |
+| and | del | from| not | while  |
+| as  | elif| global | or | with  |
 | assert | else | if  | pass  | yield  |
-| break  | except  | import  | print  |  |
-| class  | exec  | in  | raise  |  |
+| break  | except  | import  | print  | True |
+| class  | exec  | in  | raise  | False |
 | continue  | finally  | is  | return  |  |
 | def  | for  | lambda  | try  |  |
 
-Bu listeyi akılda tutmalı veya gerektiğinde erişebileceğiniz bir yerde olmalıdır. Eğer yorumlayıcı değişkenlerinizden birinin isminden şikayet eder ve siz nedenini bulamazsanız, bir de değişkenlerinizi bu listeye göre kontrol edersiniz.
+Bu listeyi akılda tutmalı veya gerektiğinde erişebileceğiniz bir yerde olmalıdır. Eğer yorumlayıcı değişkenlerinizden birinin isminden şikayet eder ve siz nedenini bulamazsanız, bir de değişkenlerinizi bu listeye göre kontrol edersiniz. 
+
+### 2.31 Anahtar kelimelerin anlamları
+
+and
+: Mantıksal işlemci
+
+as
+: Bağlantı oluşturmak iiçn kullanılır.
+
+assert
+: Hata ayıklama amacıyka kullanılır.
+
+class
+: Sınıf bildirimi yapmak için kullanılır.
+
+continue
+: Bir döngüde bir sonraki tekrara doğrudan geiş için kullanılır.
+
+def
+: Bir fonksiyon tanımlamak için kullanılır.
+
+del
+: Bir nesneyi silmek için kullanılır.
+
+elif
+: Koşula bağlı yapılarda kullanılır.
+
+else
+: Koşula bağlı yapılarda kullanılır.
+
+except
+: Bir istisna meydana geldiğinde, yapılacak işlemi tanımlamak için kullanılır.
+
+False
+: Karşılaştırma işlemlerinde yanlış değeri gösterir.
+
+finally
+: İstisnalar ile birlikte kullanılır ve bir istisna meydana gelip gelmediğine bakılmaksızın çalışan kodları gösterir
+
+for
+: Bir for döngüsü oluşturmak için kullanılır.
+
+from
+: Bir modülün belirli parçalarını almak için kullanılır.
+
+global
+: Global bir değişken tanımlamak için kullanılır.
+
+if
+: Koşula bağlı bir yapı tanımlamak için kullanılır.
+
+import
+: Bir modül almak için kullanılır.
+
+in
+: Bir değişkenin bir listede yer alıp almadığını kontrol etmek için kullanılır.
+
+is
+: İki değişkenin eşit olup omadığını belirlemek için kullanılır.
+
+lambda
+: Anonim bir fonksiyon oluşturmak için kullanılır.
+
+None
+: Null bir değeri temsil eder.
+
+nonlocal
+: Lokal olmayan bir değişken tanımlar.
+
+not
+: Mantıksal bir işlemcidir.
+
+or
+: Mantıksal bir işlemcidir.
+
+pass
+: Null bir ifadedir. Hiç bir işlem yapmaz.
+
+raise
+: Bir istisna tanımlar.
+
+return
+: Bir fonksiyondan çıkış yapar ve bir değer geri döndürür.
+
+True
+: Karşılaştırma işlemlerinde doğru değeri gösterir.
+
+try
+: Bir try...except yapısı tanımlar.
+
+while
+: Bir while döngüsü oluşturmak için kullanılır.
+
+with
+: İstisna işlemini kolaylaştırmak için kullanılır.
+
+yield
+: Bir fonksiyonu sona erdirir ve bir generator geri döndürür.
 
 ## 2.4 Cümleler
 
@@ -188,7 +286,7 @@ print(x)
 
  Bir **deyim** değerlerden, değişkenlerden ve işleçlerden oluşan bir yapıdır. Eğer bir deyimi komut satırına yazarsanız, yorumlayıcı deyimi **değerlendirir** ve sonucu gösterir:
 
-```
+```py
 >>> 1 + 1
 2 
       
@@ -196,7 +294,7 @@ print(x)
 
 *Deyimi değerlendirme* bir değer üretir, bu nedenle deyimler atama işlecinin sağ tarafından kullanılabilir. Değer de basit bir deyimdir, değişken de öyle.
 
-```
+```py
 >>> 17
 17
 >>> x
@@ -232,9 +330,7 @@ Naber, doktor?
 
 **İşleçler** toplama, çarpma, vb. hesaplamaları temsil eden özel sembollerdir. İşleçler tarafından kullanılan değerler **işlenen** adını almaktadır.
 
-
-
-`+`, `-`, ve `/` sembolleri ve gruplama için parantez kullanımı Python'da da matematikteki anlamlarıyla kullanılmaktadır. Yıldız işareti (`*`) çarpmanın ve `**` işareti de üs almanın sembolleridir.
+`+`, `-`, ve `/` sembolleri ve gruplama için parantez kullanımı Python'da da matematikteki anlamlarıyla kullanılmaktadır. Yıldız işareti (`*`) çarpmanın ve `**` işareti de üs almanın sembolleridir. Tam bölüm yapmak istediğinizde ise `//` kullanabilirsiniz.
 
  Bir işlenenin yerinde değişkenin ismi yer aldığında, işlem yapılmadan önce bu değişken değeriyle değiştirilir.
 
@@ -247,19 +343,19 @@ Naber, doktor?
       
 ```
 
-`dakika`'nın değeri 59'dur ve 59, 60 ile bölündüğünde sonuç 0.98333 olmalıdır, 0 değil. Python'da bu farklı sonucun ortaya çıkmasının nedeni yukarıdaki örnekte **tamsayı bölme** işleminin uygulanmasıdır.
+`dakika`'nın değeri 59'dur ve 59, 60 ile bölündüğünde sonuç 0.98333 olmalıdır, 0 değil. Python'da bu farklı sonucun ortaya çıkmasının nedeni yukarıdaki örnekte **tamsayı tam bölme** işleminin uygulanmasıdır.
 
- Eğer her iki işlenen de tamsayı ise, sonuçta bir tamsayı olmalıdır, ve geleneksel olarak tamsayı bölme işlemi her zaman *aşağı* yuvarlanır, hatta örnekte olduğu gibi tamsayıların birbirine çok yakın olduğu durumlarda dahi.
+ Eğer her iki işlenen de tamsayı ise, sonucun tam sayı çıkması için tam bölme kullanılır, ve geleneksel olarak tam bölme işlemi her zaman *aşağı* yuvarlanır, hatta örnekte olduğu gibi tamsayıların birbirine çok yakın olduğu durumlarda dahi.
 
- Bu soruna olası bir çözüm kesir yerine yüzdeyi hesaplamaktır:
+ Bu soruna olası bir çözüm tam bölme yerine normal bölme yapmtaktır:
 
 ```py
->>> dakika*100/60
-98
+>>> dakika/60
+0.98333
       
 ```
 
- Yine görüleceği üzere, sonuç aşağı yuvarlanmıştır ama en azından şimdi yaklaşık olarak doğru bir sonuç elde edebildik. Bir başka çözüm noktalı kayan (floating-point) bölme işlemini kullanmaktır. Dördüncü bölümde tamsayı değerleri ve değişkenleri kayan noktalı değerlere dönüştürmeyi göreceğiz.
+ Bir başka çözüm noktalı kayan (floating-point) bölme işlemini kullanmaktır. Dördüncü bölümde tamsayı değerleri ve değişkenleri kayan noktalı değerlere dönüştürmeyi göreceğiz. Ama artık yeni python sürümlerinde bölüm işlemi bu işi görüyor.
 
 ## 2.7 İşleçlerin sırası
 
@@ -271,13 +367,13 @@ Naber, doktor?
 
 3. **Ç**arpma ve **B**ölme aynı önceliğe sahiptir, ve **T**oplama ve **Ç**ıkarmadan (ki bunlar da aynı önceliğe sahiptir) yüksek önceliklidir. `2*3-1` ifadesi 4 yerine 5 üretir, ve `2//3-1` ifadesi -1'dir, 1 değil.
 
-4. Aynı önceliğe sahip işleçlerin değerlendirilmesinde soldan sağa kuralı izlenir. `dakika*100//60` ifadesinde, çarpma işlemi önceliklidir 5900/60 sonucuna yol açar, bu ifade de 98'i üretir. Eğer işleçler sağdan sola değerlendirilecek olsaydı sonuç `59*1` olacaktır, bu da 59'u, yanlış bir sonucu üretecekti.
+4. Aynı önceliğe sahip işleçlerin değerlendirilmesinde soldan sağa kuralı izlenir. `dakika*100//60` ifadesinde, çarpma işlemi önceliklidir 5900//60 sonucuna yol açar, bu ifade de 98'i üretir. Eğer işleçler sağdan sola değerlendirilecek olsaydı sonuç `59*1` olacaktır, bu da 59'u, yanlış bir sonucu üretecekti.
 
 ## 2.8 Karakter dizisi üzerindeki işlemler
 
  Genel olarak, karakter dizileri üzerinde matematiksel işlemler uygulanamaz, her ne kadar karakter dizileri sayı gibi gözükse de. Aşağıdaki deyimler geçersiz deyimlerdir (`mesaj`'ın `karakter dizisi (string)` tipinde olduğunu varsayalım):
 
-```
+```py
  mesaj-1   "Merhaba"/123   mesaj*"Merhaba"   "15"+2 
       
 ```
@@ -286,9 +382,9 @@ Naber, doktor?
 
 ```py
 
-        meyve = "muz"
-        iyi_pisirilmis = " fındık ekmeği"
-        print(meyve + iyi_pisirilmis)
+meyve = "muz"
+iyi_pisirilmis = " fındık ekmeği"
+print(meyve + iyi_pisirilmis)
       
 ```
 
@@ -322,7 +418,7 @@ Nümerik bir ifade giriniz: 7 * 3
       
 ```
 
- Her bir fonksiyon parantez içerisinde verilmiş ifadenin *gösterilmesini* sağlar.
+Her bir fonksiyon parantez içerisinde verilmiş ifadenin *gösterilmesini* sağlar.
 
 ## 2.10 Kompozisyon
 
@@ -330,7 +426,7 @@ Nümerik bir ifade giriniz: 7 * 3
 
  Programlama dillerinin en kullanışlı özelliklerinden biri küçük yapısal blokları üretmek ve bunları `birleştirebilme (kompozisyon)` özelliğidir. Örneğin, sayıları nasıl ekleyeceğimizi ve ekranda değeri nasıl göstereceğimizi biliyoruz; bu ikisini birleştirerek aynı anda gerçekleştirebiliriz:
 
-```
+```py
 >>>  print (17 + 3)
 20 
       
@@ -338,7 +434,7 @@ Nümerik bir ifade giriniz: 7 * 3
 
  Gerçekte, toplama işlemi görüntülemeden önce yapılmalıdır, bu yüzden eylemler aynı anda olmamaktadır. Buradaki önemli nokta; sayıları, karakter dizilerini ve değişkenleri içeren herhangi bir deyim print cümlesi içinde kullanılabilir. Bunun örneklerini daha önce görmüştünüz:
 
-```
+```py
 
 print("Geceyarısından beri geçen dakika: ", saat*60+dakika)
       
@@ -346,9 +442,9 @@ print("Geceyarısından beri geçen dakika: ", saat*60+dakika)
 
  İsteğe bağlı olarak bazı deyimleri atama cümlesinin sağında kullanabilirsiniz:
 
-```
+```py
 
-yuzde = (dakika * 100) / 60
+yuzde = (dakika * 100) // 60
       
 ```
 
@@ -365,7 +461,7 @@ yuzde = (dakika * 100) / 60
 ```py
 
 # gecen saatin yuzdesini hesaplayalim 
-yuzde = (dakika * 100) / 60
+yuzde = (dakika * 100) // 60
       
 ```
 
@@ -373,7 +469,7 @@ yuzde = (dakika * 100) / 60
 
 ```py
 
-yuzde = (dakika * 100) / 60 # dikkat: tamsayi bolme
+yuzde = (dakika * 100) // 60 # dikkat: tamsayi bolme
       
 ```
 
@@ -381,26 +477,26 @@ yuzde = (dakika * 100) / 60 # dikkat: tamsayi bolme
 
 ## 2.12 Sözlük
 
- değer:
- : Bir değişkende saklanabilecek veya bir deyimde hesaplanacak bir sayı veya karakter dizisidir (veya daha sonra isimlendirilecek bir şey).
+değer:
+: Bir değişkende saklanabilecek veya bir deyimde hesaplanacak bir sayı veya karakter dizisidir (veya daha sonra isimlendirilecek bir şey).
 
- tip:
- : Değerler kümesidir. Bir değerin tipi, deyimler içerisinde nasıl kullanabileceğini belirler. Şu ana kadar gördüğünüz değerler tamsayılar (`int` tipi), kayan noktalı sayılar (`float` tipi) ve karakter dizileridir (`string` tipi).
+tip:
+: Değerler kümesidir. Bir değerin tipi, deyimler içerisinde nasıl kullanabileceğini belirler. Şu ana kadar gördüğünüz değerler tamsayılar (`int` tipi), kayan noktalı sayılar (`float` tipi) ve karakter dizileridir (`string` tipi).
 
- int:
- : Pozitif ve negatif tam sayıları tutan Python veri tipidir.
+int:
+: Pozitif ve negatif tam sayıları tutan Python veri tipidir.
 
- str:
+str:
 : Karakter dizisi (string) tutan Python veri tipidir.
 
- float:
+float:
 : *Kayan noktalı* sayıları saklayan Python veri tipidir. Kayan noktalı sayılar içsel olarak iki parça şeklinde saklanır: bir *taban* ve bir *üst*. Standart biçimde görüntülendiğinde, ondalık sayılar gibi gözükürler. `float` kullandığınızda yuvarlama hatalarına dikkat etmeniz gerekmektedir, ve yaklaşık değer barındırırlar.
 
- değişken:
- : Bir değeri temsil eden isimdir.
+değişken:
+: Bir değeri temsil eden isimdir.
 
- atama cümlesi:
- : Bir isime (değişkene) değer atayan cümledir. Atama işlecinin , `=`, sol tarafı bir isimdir. Atama işlecinin sağ tarafı ise Python yorumlayıcısı tarafından değerlendirilecek ve isime atanacak değeri üretecek deyimdir. Atama işlecinin sol ve sağ taraflar arasındaki fark genellikle yeni programcıların kafasını karıştırabilir. Aşağıdaki atamada:
+atama cümlesi:
+: Bir isime (değişkene) değer atayan cümledir. Atama işlecinin , `=`, sol tarafı bir isimdir. Atama işlecinin sağ tarafı ise Python yorumlayıcısı tarafından değerlendirilecek ve isime atanacak değeri üretecek deyimdir. Atama işlecinin sol ve sağ taraflar arasındaki fark genellikle yeni programcıların kafasını karıştırabilir. Aşağıdaki atamada:
 
 ```py
 
@@ -410,67 +506,67 @@ n = n + 1
 
 `n` değişkeni `=` işlecinin iki tarafında farklı görevler üstlenir. Sağ tarafta bir *değerdir* ve Python yorumlayıcısı tarafından sol taraftaki isme atanmadan önce değerlendirilecek *deyimin* bir kısmını oluşturur.
 
- atama işleci:
+atama işleci:
 : `=` Python'un temel atama işlecidir, aynı işareti kullanan matematiksel karşılaştırma işleci ile karıştırılmamalıdır.
 
- durum diyagramı:
- : Değişkenlerin ve referans ettikleri değerlerin grafiksel bir gösterimidir.
+durum diyagramı:
+: Değişkenlerin ve referans ettikleri değerlerin grafiksel bir gösterimidir.
 
- değişken ismi:
- : Bir değişkene verilen isimdir. Python'da değişken isimleri bir harf ile başlayan harf (a..z, A..Z ve \_) ve sayılardan (0..9) serilerinden oluşur. En iyi programlama pratiğinde değişken isimleri program içerisindeki kullanımlarını anlatacak şekilde seçilir, böylece program için *öz belgeleme* yapmış olur.
+değişken ismi:
+: Bir değişkene verilen isimdir. Python'da değişken isimleri bir harf ile başlayan harf (a..z, A..Z ve \_) ve sayılardan (0..9) serilerinden oluşur. En iyi programlama pratiğinde değişken isimleri program içerisindeki kullanımlarını anlatacak şekilde seçilir, böylece program için *öz belgeleme* yapmış olur.
 
- anahtar kelime:
- : Derleyici tarafından programı ayrıştırmak için ayrılmış kelimelerdir; anahtar kelimelerini - `if`, `def`, ve `while` gibi - değişken isimleri olarak kullanamazsınız.
+anahtar kelime:
+: Derleyici tarafından programı ayrıştırmak için ayrılmış kelimelerdir; anahtar kelimelerini - `if`, `def`, ve `while` gibi - değişken isimleri olarak kullanamazsınız.
 
- cümle:
- : Python yorumlayıcı tarafından yürütülebilecek yönergedir (komuttur). Cümlelerin örnekleri atama cümleleri ve print cümlesini içerir.
+cümle:
+: Python yorumlayıcı tarafından yürütülebilecek yönergedir (komuttur). Cümlelerin örnekleri atama cümleleri ve print cümlesini içerir.
 
- deyim:
- : Tek bir sonuç değeri temsil eden değişken, işleç ve değerlerin bir kombinasyonudur.
+deyim:
+: Tek bir sonuç değeri temsil eden değişken, işleç ve değerlerin bir kombinasyonudur.
 
- değerlendirme:
- : Bir deyimi basitleştirmek ve tek bir değer üretmek için sırasıyla işlemleri gerçekleştirmektir.
+değerlendirme:
+: Bir deyimi basitleştirmek ve tek bir değer üretmek için sırasıyla işlemleri gerçekleştirmektir.
 
- işleç:
- : Toplama, çarpma veya karakter dizisi birleştirme gibi tek bir hesaplamayı temsil eden özel işarettir.
+işleç:
+: Toplama, çarpma veya karakter dizisi birleştirme gibi tek bir hesaplamayı temsil eden özel işarettir.
 
- işlenen:
- : İşlecin üzerinde işlem yaptığı değerlerden biridir.
+işlenen:
+: İşlecin üzerinde işlem yaptığı değerlerden biridir.
 
- tamsayı bölme:
- : Bir tamsayıyı başka bir tamsayı ile bölüp, tamsayı değer üreten işlemdir. Tamsayı bölme sadece bölünenin bölende kaç kere geçtiğini bulan tam sayılar üretir, kalanı yoksayar. Yeni python programlama dilinde tamsayı bölmek için `//` kullanmalısınız.
+tamsayı bölme:
+: Bir tamsayıyı başka bir tamsayı ile bölüp, tamsayı değer üreten işlemdir. Tamsayı bölme sadece bölünenin bölende kaç kere geçtiğini bulan tam sayılar üretir, kalanı yoksayar. Yeni python programlama dilinde tamsayı bölmek için `//` kullanmalısınız.
 
- öncelik kuralları:
- : Çok sayıda işleç ve işlenen içeren deyimlerin değerlendirilme sırasını belirleyen kurallar kümesidir.
+öncelik kuralları:
+: Çok sayıda işleç ve işlenen içeren deyimlerin değerlendirilme sırasını belirleyen kurallar kümesidir.
 
- birleştirme:
- : İki işlenen uç uca eklemedir.
+birleştirme:
+: İki işlenen uç uca eklemedir.
 
- kompozisyon:
- : Basit deyimleri ve cümleleri, karmaşık hesaplamaları temsil etmek için bir araya getirip bileşik cümleler ve deyimler oluşturma özelliğidir.
+kompozisyon:
+: Basit deyimleri ve cümleleri, karmaşık hesaplamaları temsil etmek için bir araya getirip bileşik cümleler ve deyimler oluşturma özelliğidir.
 
- yorum:
+yorum:
 : Program içerisinde diğer programcılar (veya kaynak kodu okuyan herhangi biri için) yazılmış olan bilgilerdir ve programın çalışması üzerinde bir etkisi yoktur.
 
 ## 2.13 Alıştırmalar
 
 - Aşağıdaki atama cümlelerini çalıştırdığınızda olanları kaydedin:
 
-```
+```py
  >>> print(n = 7)
             
 ```
 
  Peki bu?
 
-```
+```py
  >>> print (7 + 5)
             
 ```
 
  Ya bu?
 
-```
+```py
  >>> print (5.2, "bu", 4 - 2, "şu", 5/2.0 )
             
 ```
@@ -483,13 +579,23 @@ n = n + 1
 
 - Daha önce çalışmış bir koda yorum ekleyerek tekrar çalıştırın, ve sonucu inceleyin.
 
-
 - Python yorumlayıcısını başlatın ve `bruce+4` ifadesini bilgi istemine girin. Bu size bir hata verecektir:
 
-```
+```py
  NameError: name 'bruce' is not defined 
             
 ```
 
-`bruce` ismine bir değer atayın, böylece `bruce + 4` `10` değerini üretebilsin.
+`bruce` ismine bir değer atayın, böylece `bruce + 4`, `10` değerini üretebilsin.
 
+- Kullanıcıya iki tam sayı sorulur ve arasında dört işlem yaptırılıp ekrana yazdırılır.
+
+- Kullanıcıya havanın sıcaklığı santigrat cinsinden sorulur ve fahrenayta çevrilir. (F = 9C/5 + 32 )
+
+- Kullanıcıya hikayesindeki karakterlerin isimleri sorulur ve o isimlerle hikaye yazdırılır.
+
+- Kullanıcıya yaşı sorulur ve doğum tarihi hesaplanır.
+
+- Kullanıcıya çap sorulur ve dairenin çevresi ve alanı hesaplanır. (alan = pi r^2) (cevre = 2pi r) (r = R/2)
+
+- Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.

@@ -3,7 +3,7 @@ title: Python Programlama Ders 1. Programlama Yolu
 author: sonsuz
 date: 2023-06-23 00:21:17 +0300
 categories: [Program,Python]
-tags: [python,programlama,bilgisayar,bilim,problem]
+tags: [python,programlama,bilgisayar,bilim,problem,ders]
 ---
 
 

@@ -3,7 +3,7 @@ title: Python Programlama Ders 3. Fonksiyonlar
 author: sonsuz
 date: 2023-06-23 12:23:39 +0300
 categories: [Program,Python]
-tags: [python,fonksiyon,parametre]
+tags: [python,fonksiyon,parametre,işlem,ders]
 ---
 
 
@@ -192,11 +192,11 @@ def iki_kere_yaz(bruce):
 
 Bu fonksiyon tek bir **argüman** alır ve onu `bruce` isimli parametreye atar. Parametrenin değeri (bu noktada ne olduğuna dair bir fikrimiz yok) iki kere yazılır, sonrasında bir yeni satır ekranda gösterilir. `bruce` isminin seçilmesinin nedeni parametrelere dilediğiniz ismi verebileceğinizi göstermek içindir. Elbette `bruce` isminden daha yaratıcı ve anlamlı isimler seçmeniz kaynak kodun okunabilirliği açısından önemlidir.
 
-Etkileşimli Python kabuğu bize fonksiyonlarımızı sınamak için elverişli bir yol sağlarlar. **import cümlesini** bir betik içerisinde tanımladığımız fonksiyonları yorumlayıcı oturumuna getirmek için kullanabiliriz. Bunun nasıl çalıştığını anlamak için, `iki_kere_yaz` fonksiyonunun `chap03.py` isimli bir betik içerisinde tanımlı olduğunu varsayalım. Etkileşimli olarak sınamak için betiği kendi Python kabuk oturumumuza *aktarırız*::
+Etkileşimli Python kabuğu bize fonksiyonlarımızı sınamak için elverişli bir yol sağlarlar. **import cümlesini** bir betik içerisinde tanımladığımız fonksiyonları yorumlayıcı oturumuna getirmek için kullanabiliriz. Bunun nasıl çalıştığını anlamak için, `iki_kere_yaz` fonksiyonunun `ders03.py` isimli bir betik içerisinde tanımlı olduğunu varsayalım. Etkileşimli olarak sınamak için betiği kendi Python kabuk oturumumuza *aktarırız*::
 
 ```py
 
->>> from chap03 import *
+>>> from ders03 import *
 >>> iki_kere_yaz('Spam')
 Spam Spam
 >>> iki_kere_yaz(5)
@@ -350,7 +350,7 @@ bileşik cümle:
 
 Bileşik cümlenin sözdizimi aşağıdaki gibidir:
 
-```
+```py
 
 anahtar_kelime deyim :
     cümle
@@ -390,7 +390,7 @@ s = "And now for something completely different..."
 
 Şimdi `tryme.py` dosyasının bulunduğu dizin içerisinde bir Python kabuğu başlatalım:
 
-```
+```py
 
 $ ls
 tryme.py  <ve diğer şeyler...>
@@ -403,7 +403,7 @@ $ python
 `print_thrice`, `n`, and `s`.
 Eğer içe aktarmadan (import) bu isimleri kullanmaya çalışırsak, bir hata oluşur:
 
-```
+```py
 
 >>> n
 Traceback (most recent call last):
@@ -453,7 +453,7 @@ geri izleme:
 
 ## 3.8 Alıştırmalar
 
-1. Bir metin düzenleyici kullanarak `tryme3.py` bir Python betiği yazın. Bu dosya içerisinde `three_lines` fonksiyonunu kullanarak dokuz boş satır üreten `nine_lines` isimli bir fonksiyon yazın. Daha sonra `clear_screen` isimli, ekrana 25 adet boş satır yazıp, ekranı temizleyen fonksiyonu yazın. Programınızın son satırında `clear_screen` fonksiyonuna bir çağrı yapmanız gerekiyor.
+1. Bir metin düzenleyici veya python editörü kullanarak `tryme3.py` bir Python betiği yazın. Bu dosya içerisinde `three_lines` fonksiyonunu kullanarak dokuz boş satır üreten `nine_lines` isimli bir fonksiyon yazın. Daha sonra `clear_screen` isimli, ekrana 25 adet boş satır yazıp, ekranı temizleyen fonksiyonu yazın. Programınızın son satırında `clear_screen` fonksiyonuna bir çağrı yapmanız gerekiyor.
 
 2. `tryme3.py` programının son satırını en üste taşıyın, `clear_screen` fonksiyonuna yapılan *fonksiyon çağrısı* böylece *fonksiyon tanımlamasından* önce yapılmış olacak. Programı çalıştırın ve ortaya çıkan hata mesajını kaydedin. *Fonksiyon tanımlamaları* ve *fonksiyon çağrıları* ile ilgili birbirlerine bağlı olarak kod içerisinde nerede bulunabileceklerine dair bir kural oluşturabilir misiniz?
 
@@ -479,3 +479,5 @@ SpamSpamSpamSpamSpamSpamSpam
 ```
 
 Eğer herşey düzgünse sizin oturumunuz da yukarıdaki gibi çalışacaktır. `cat_n_times` fonksiyonuna farklı çağrıları deneyerek nasıl çalıştığını iyice anlamaya çalışın.
+
+- Kullanıcıya çap sorulur ve dairenin çevresi ve alanı hesaplanır. (alan = pi r^2) (cevre = 2pi r) (r = R/2) Bunun için alan ve çevre isimli iki fonksiyon tanımlayıp içinde hesaplayın. Parametre olarak R (Çap) alsın.
