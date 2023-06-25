@@ -1,9 +1,9 @@
 ---
-title: Python Programlama Ders 4.1 Koşul Turtle Modülü ve Kullanımı
+title: Python Programlama Ders 4.1 Turtle Modülü ve Kullanımı
 author: sonsuz
 date: 2023-06-24 20:08:23 +0300
 categories: [Program,Python]
-tags: [python,ders,modül,turtle,grafik,çizim]
+tags: [python,ders,modül,turtle,grafik,çizim,döngü,for]
 ---
 
 Kendi programlarımız içinde kullanabileceğimiz Python modülleri, oldukça
@@ -50,9 +50,9 @@ modül bize iki yeni farklı yeni tür kullanmamıza izin verir: `Turtle` ve
 `Screen` type. `turtle.Turtle` içindeki nokta bize, *"Turtle türü
 turtle modülü içinde tanımlanmıştır"* anlamını verir. ( Unutmayınız ki
 Python büyük harf ve küçük harf ayrımı yapar; bu yüzden, küçük harfle
-([turtle]{.title-ref}) başlayan modül ismi , büyük harfle başlayan
-[Turtle]{.title-ref} modül isminden farklıdır. Şansımıza
-[Turtle]{.title-ref} isimli bir modül Python'da yoktur.)
+([turtle]) başlayan modül ismi , büyük harfle başlayan
+[Turtle] modül isminden farklıdır. Şansımıza
+[Turtle] isimli bir modül Python'da yoktur.)
 
 Eğer screen (ekran) denilen şeyi yaratır ve bunu açarsak (ekran yerine,
 pencere demeyi tercih edeceğim), bu pencereye `wn` değişkenini atar. Her
@@ -80,9 +80,9 @@ Bir nesne farklı yöntemlere \-\-- birşey yapabilen şeyler\-\-- ve
 **nitelik**lere (bazen özellik diye de isimlendirilir.) Örneğin, her
 kamplumbağa bir *renk* özelliğine sahiptir. `ahmet.color("red")` ise bir
 yöntem etkinleştirmesi ile, `ahmet`i ve çizimleri kırmızı yapacaktır.
-(Dikkat ediniz ki [color]{.title-ref}'un hecelenmesi Amerikan
-İngilizcesi gibidir. Ç.n: İngiliz İngilizcesinde [color]{.title-ref} ,
-[colour]{.title-ref} diye yazılır.)
+(Dikkat ediniz ki [color]'un hecelenmesi Amerikan
+İngilizcesi gibidir. Ç.n: İngiliz İngilizcesinde [color] ,
+[colour] diye yazılır.)
 
 Kamplumbağa'nın rengi. pencere içindeki yeri, hangi yöne baktığı ve
 diğer özellikleri; kalemin çizgi genişliği gibi parçalar
@@ -462,7 +462,6 @@ değiştiren bir satırlık kod yazın; veya kalemi aşağıya indiren ve çizgi
 
 ## Sözlük
 
-
 nitelik, özellik (attribute)
 :   Belirli bir nesneye ait olan durum veya özellik. Örneğin, `tamer`
     bir renge sahiptir. Renk burda `tamer` nesnesinin bir özelliğidir.
@@ -493,14 +492,13 @@ döngü değişkeni
 yöntem
 :   Bir nesne ile ilişiklendirilen fonksiyon. Bir yöntemi çağırıldığında
     veya etkinleştirildiğinde, nesne buna karşılık verir. Örneğin,
-    [tess.forward(100)]{.title-ref}[ dediğimizde,
-    ]{.title-ref}[forward]{.title-ref}\` bir yöntemdir.
+    `tess.forward(100)` dediğimizde, `forward` bir yöntemdir.
 
 çağırmak
-:   Bir nesneye ait yöntemler vardır. [Çağırmak]{.title-ref} fiilini
+:   Bir nesneye ait yöntemler vardır. [Çağırmak] fiilini
     kullanarak, bu yöntemi etkinleştirdiğimizi ifade ederiz. Bir yöntemi
     çağırmak için, yöntemden sonra, içinde bir komut içeriği olan bir
-    çift parantez [()]{.title-ref} koyarız. Örneğin `tamer.forward()`,
+    çift parantez [()] koyarız. Örneğin `tamer.forward()`,
     `forward` yönteminin çağırılmasıdır.
 
 modül
@@ -522,7 +520,6 @@ sonlandırma koşulu
     koşuldur. Örneğin bu koşul; Bu bölümde gördüğümüz `for döngüsü`
     içinde, döngü değişkenine artık atayacağımız daha fazla madde
     kalmadığında oluşur.
-:::
 
 ## Alıştırmalar
 
@@ -549,10 +546,10 @@ sonlandırma koşulu
     a.  Herbir sayıyı yeni bir satırda ekrana yazdıran bir döngü yazın.
     b.  Herbir sayıyı ve onun karesini yeni bir satırda ekrana yazdıran
         bir döngü yazınız.
-    c.  Listedeki bütün sayıları toplayıp, sonucu [toplam]{.title-ref}
+    c.  Listedeki bütün sayıları toplayıp, sonucu `toplam`
         değişkenine atayan bir döngü yazınız. Bu sayıları toplamadan
-        önce [toplam]{.title-ref} değişkenini 0 sayısına atayın. Döngü
-        tamamlandıktan sonra, [toplam]{.title-ref}'ı yazdırın.
+        önce `toplam` değişkenini 0 sayısına atayın. Döngü
+        tamamlandıktan sonra, `toplam`'ı yazdırın.
     d.  Listedeki bütün sayıların çarpımlarını yazdırın.
 
 6. Aşağıdaki düzgün çokgenleri `for` döngüsü kullanarak kamplumbağaya
@@ -564,14 +561,14 @@ sonlandırma koşulu
     - Altıgen
     - Sekizgen
 
-7. ::: {#sarhos_korsan_problemi}
+7.  #### sarhos_korsan_problemi
     Bir sarhoş karson rastgele bir dönüş yapıyor ve 100 adım atıyor;
     daha sonra yeniden rastgele dönüş yapıyor ve 100 adım atıyor; ve bu
     böyle devam ediyor. Bir sosyal bilim öğrencisi, 100 adım alınmadan
     herbir dönüş öncesi bu açıları kaydediyor. Onun deneysel veriler:
     `[160, -43, 270, -97, -43, 200, -940, 17, -86]`. Kamplumbağayı
     kullanarak sarhoş arkadaş tarafından alınan yolu çiziniz.
-    :::
+    
 
 8. Yukarıdaki programı zenginleştirin: Sarhoş korsan etrafta
     gezindikten sonra, yöneldiği yönü söyleyen bir program yazınız (
