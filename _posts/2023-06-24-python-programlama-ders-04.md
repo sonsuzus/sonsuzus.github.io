@@ -226,7 +226,7 @@ Fonksiyonların geriye değer döndürmesi kısmında return daha da detaylı an
 
 ## 4.9 Klavye girdisi
 
-[2.](python-programlama-ders-02) Bölümde Python tarafından sağlanan ve klavyeden girdi almamızı sağlayan fonksiyonlarını görmüştük: `input()` Şimdi bu fonksiyonu ve kullanımlarını derinlemesine inceleyeceğiz.
+[2. Bölümde](https://sonsuzus.github.io/posts/python-programlama-ders-02/#29-girdi) Python tarafından sağlanan ve klavyeden girdi almamızı sağlayan fonksiyonlarını görmüştük: `input()` Şimdi bu fonksiyonu ve kullanımlarını derinlemesine inceleyeceğiz.
 
 Bu fonksiyonun herhhangi birisi çağrıldığında, program durup kullanıcının klavyeden bir şey girmesini bekler. Kullanıcı Giriş (Enter) tuşuna bastığında program çalışmasına devam eder ve `input()` kullanıcının girdiğini `karakter dizisi (string)` olarak döndürür:
 
