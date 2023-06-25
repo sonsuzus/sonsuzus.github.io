@@ -4,6 +4,7 @@ author: sonsuz
 date: 2023-06-25 20:08:23 +0300
 categories: [Program,Python]
 tags: [python,ders,modül,turtle,grafik,çizim,döngü,for]
+image: python-turtle.jpg
 ---
 
 Kendi programlarımız içinde kullanabileceğimiz Python modülleri, oldukça
