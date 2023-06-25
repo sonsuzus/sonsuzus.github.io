@@ -613,15 +613,18 @@ sonlandırma koşulu
         Kaplumbağayı yeniden görünür yapmak istiyorsanız,
         `tamer.showturtle()`'ı kullanın.
 
-12. Aşağıdaki şekle benzer bir yüz çizecek program yazınız.
+12. Yukarıdaki programı genişletin. Beş tane yıldız çizin. Herbir
+    yıldızdan sonra; kalemi yukarı kaldırın ( kalemi etkisizleştirin),
+    kalemi 144 derece sağa döndürün ve 350 birim ileri götürün, kalemi
+    aşağıya koyun, yeniden bir yıldız çizin. Şekliniz aşağıdaki gibi
+    olsun:
+
+    ![image](illustrations/five_stars.png)
+
+13. Aşağıdaki şekle benzer bir yüz çizecek program yazınız.
 
     ![image](illustrations/tess_clock1.png)
 
-13. Bir kaplumbağa yaratınız ve bu kaplumbağayı bir değişkene
+14. Bir kaplumbağa yaratınız ve bu kaplumbağayı bir değişkene
     atayınız. Bu değişkenin tipini komut satırından sorunuz. Ne cevap
     alıyorsunuz?
-
-14. Kaplumbağaların hangi takıma aittirler? Kaplumbağa'nın
-    Anadolu'da yaşayan cinsine ne denir?
-
-15. Python hangi takıma aittir? Bir yılan mıdır? Zehirli midir?

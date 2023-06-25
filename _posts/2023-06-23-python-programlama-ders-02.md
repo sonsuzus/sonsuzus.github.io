@@ -3,7 +3,7 @@ title: Python Programlama Ders 2. Değişkenler, deyimler ve cümleler
 author: sonsuz
 date: 2023-06-23 00:45:31 +0300
 categories: [Program,Python]
-tags: [python,programlama,değişken,deyim,cümle,ders,tip,işlem]
+tags: [python,programlama,değişken,deyim,cümle,ders,tip,işlem,değer, veri tipleri, karakter dizisi, tamsayı, kayan nokta, sınıf, tür]
 ---
 
 
@@ -12,7 +12,7 @@ tags: [python,programlama,değişken,deyim,cümle,ders,tip,işlem]
 
 **Değer** programın işlediği temel şeylerden - harf veya rakam gibi - biridir. Şimdiye kadar gördüğümüz değerler `2` (`1 + 1` işleminin sonucu), ve `"Merhaba, Dünya!"`.
 
-Bu değerler farklı **tiplere** aittir: `2` bir *tamsayı (integer)*dır, ve `"Merhaba, Dünya!"` bir *karakter dizisi (string)*dir, çünkü karakterlerden oluşan bir dizidir. Siz (ve yorumlayıcı) karakter dizilerini ayırtedebilir, çünkü tırnak işaretleri arasında yazılmıştır.
+Bu değerler farklı **tiplere** aittir: `2` bir *tamsayı (integer)*dır, ve `"Merhaba, Dünya!"` bir *karakter dizisi (string)*dir, çünkü karakterlerden oluşan bir dizidir. Siz (ve yorumlayıcı) karakter dizilerini ayırtedebilir, çünkü tırnak işaretleri arasında yazılmıştır. Şimdilik *sınıf* (class) ve *type* (tür) kelimelerini birbirinin yerine kullanabilirsiniz. Sınıfın ne olduğunu daha iyi anlamak için ileriki bölümlerde geri döneceğiz.
 
 print cümlesi tamsayılar için de çalışır.
 
@@ -66,7 +66,7 @@ Python'da karakter dizileri tek tırnak (') veya çift tırnak (") arasına alı
 1 0 0 
 ```
 
- Bu beklediğimiz bir sonuç değil! Python `1,000,000` ifadesini üç öğe içeren bir liste şeklinde yorumlar ve o şekilde ekranda görüntüler. Bu yüzden tamsayılarda rakamlar arasında virgül kullanmamayı unutmamalısınız.
+ Bu beklediğimiz bir sonuç değil! Python `1,000,000` ifadesini üç öğe içeren bir demet şeklinde yorumlar ve o şekilde ekranda görüntüler. Bu yüzden tamsayılarda rakamlar arasında virgül kullanmamayı unutmamalısınız.
 
 ## 2.2 Değişkenler
 
@@ -143,7 +143,7 @@ SyntaxError: invalid syntax
 
 `class` isminin Python tarafından kullanılan **anahtar kelimeler**den biri olduğu ortadadır. Anahtar kelimeler genellikle dilin kural ve yapısını tanımlarlar, ve değişken isimleri olarak kullanılamazlar.
 
- Python otuz üç adet anahtar kelimeye sahiptir (bu kelimeleri değişken ismi olarak kullanamazsınız):
+ Python otuzdan fazla anahtar kelimeye sahiptir ve güncelleme geldikçe bunlara ilave olacaktır. (bu kelimeleri değişken ismi olarak kullanamazsınız):
 
 |  |    |    |    |    |
 | --- | --- | --- | --- | --- |
@@ -156,6 +156,9 @@ SyntaxError: invalid syntax
 | def  | for  | lambda  | try  |  |
 
 Bu listeyi akılda tutmalı veya gerektiğinde erişebileceğiniz bir yerde olmalıdır. Eğer yorumlayıcı değişkenlerinizden birinin isminden şikayet eder ve siz nedenini bulamazsanız, bir de değişkenlerinizi bu listeye göre kontrol edersiniz. 
+
+> Python’u yeni öğrenenler, “insanlara anlamlı gelen” değişkenlerin “bilgisayarlara da anlamlı” geleceğini sanabilirler. Örnek olarak bir değişkeninin ismini ortalama veya pi olarak isimlendirdiklerinde, bunların bir sihirbazlıkla ortalamayı hesaplıyacağını veya pi‘nin değerinin 3.14159 olabileceğini düşünebilirler. Bilgisayar kafanızda değişkene verdiğiniz anlamı bilmez. Bazı öğretmenlerin yeni başlayanlara Python’u öğretirken bilerek anlamlı değişken ismi seçmemelerinin nedeni iyi bir alışkanlık olmadığından değil, fakat öğrenenlerin ortalamayı hesaplaması için mutlaka bir program yazması veya pi‘ye mutlaka bir değer aktarması gerektiğini pekiştirmeye çalışmaktır.
+{: .prompt-warning }
 
 ### 2.31 Anahtar kelimelerin anlamları
 
@@ -374,18 +377,15 @@ Naber, doktor?
  Genel olarak, karakter dizileri üzerinde matematiksel işlemler uygulanamaz, her ne kadar karakter dizileri sayı gibi gözükse de. Aşağıdaki deyimler geçersiz deyimlerdir (`mesaj`'ın `karakter dizisi (string)` tipinde olduğunu varsayalım):
 
 ```py
- mesaj-1   "Merhaba"/123   mesaj*"Merhaba"   "15"+2 
-      
+ mesaj-1   "Merhaba"/123   mesaj*"Merhaba"   "15"+2       
 ```
 
  Ancak, `+` işleci karakter dizileriyle çalışmaktadır, ancak beklediğiniz sonucu üretmemektedir. Karakter dizileri için, `+` işleci **birleştirme (concatenation)** , bunun anlamı iki karakter dizisini uç uca bağlamaktır, işlemini yapacaktır. Örneğin:
 
 ```py
-
 meyve = "muz"
 iyi_pisirilmis = " fındık ekmeği"
-print(meyve + iyi_pisirilmis)
-      
+print(meyve + iyi_pisirilmis)      
 ```
 
  Bu programın çıktısı `muz fındık ekmeği` olacaktır. `fındık`'tan önceki boşluk karakter dizisinin bir parçasıdır, ve birleştirme işleminde birleştirilen karakter dizileri arasında boşluk olmasını sağlıyor.
@@ -399,12 +399,10 @@ print(meyve + iyi_pisirilmis)
  Klavyeden girdi alabilmek için Python içerisinde tanımlı iki fonksiyon vardır:
 
 ```py
-
 n = input("Lütfen isminizi giriniz: ")
 print (n)
 n = int(input("Nümerik bir ifade giriniz: "))
-print (n)
-      
+print (n)      
 ```
 
  Bu betiğin çalıştırılması aşağıdaki gibi bir sonuç üretecektir:
@@ -414,8 +412,7 @@ $ python tryinput.py
 Lütfen isminizi giriniz: Arthur, İngiltere Kralı
 Arthur, İngiltere Kralı
 Nümerik bir ifade giriniz: 7 * 3
-21
-      
+21      
 ```
 
 Her bir fonksiyon parantez içerisinde verilmiş ifadenin *gösterilmesini* sağlar.
@@ -428,24 +425,19 @@ Her bir fonksiyon parantez içerisinde verilmiş ifadenin *gösterilmesini* sağ
 
 ```py
 >>>  print (17 + 3)
-20 
-      
+20       
 ```
 
  Gerçekte, toplama işlemi görüntülemeden önce yapılmalıdır, bu yüzden eylemler aynı anda olmamaktadır. Buradaki önemli nokta; sayıları, karakter dizilerini ve değişkenleri içeren herhangi bir deyim print cümlesi içinde kullanılabilir. Bunun örneklerini daha önce görmüştünüz:
 
 ```py
-
-print("Geceyarısından beri geçen dakika: ", saat*60+dakika)
-      
+print("Geceyarısından beri geçen dakika: ", saat*60+dakika)      
 ```
 
  İsteğe bağlı olarak bazı deyimleri atama cümlesinin sağında kullanabilirsiniz:
 
 ```py
-
-yuzde = (dakika * 100) // 60
-      
+yuzde = (dakika * 100) // 60      
 ```
 
  Bu özellik şu an etkileyici görünmeyebilir, ilerleyen süreçte kompozisyonun ne kadar etkili olabileceğini karmaşık hesaplamaları temiz ve kısaca yapabildiğinizde göreceksiniz.
@@ -459,18 +451,14 @@ yuzde = (dakika * 100) // 60
  Bu nedenle, programlara kodu açıklayan doğal dilde notlar ve açıklamalar yazmak iyi bir fikirdir. Bu notlara **yorumlar** adı verilmektedir, ve `#` işaretiyle belirtilir:
 
 ```py
-
 # gecen saatin yuzdesini hesaplayalim 
-yuzde = (dakika * 100) // 60
-      
+yuzde = (dakika * 100) // 60      
 ```
 
  Bu durumda yorum bir satır şeklinde gözükür. Yorumlar ayrıca satır sonuna da yerleştirilebilir:
 
 ```py
-
-yuzde = (dakika * 100) // 60 # dikkat: tamsayi bolme
-      
+yuzde = (dakika * 100) // 60 # dikkat: tamsayi bolme      
 ```
 
 `#` işaretinden itibaren satır sonuna kadar her şey yoksayılır - program üzerinde bir etkisi yoktur-. Yorumların amacı ileride programı okuyacak ve inceleyecek programcılar içindir. Bu durumda, okuyucuya tamsayı bölme durumunu hatırlatma görevi üstlenmiştir.
@@ -599,3 +587,7 @@ yorum:
 - Kullanıcıya çap sorulur ve dairenin çevresi ve alanı hesaplanır. (alan = pi r^2) (cevre = 2pi r) (r = R/2)
 
 - Kullanıcıya elindeki türk parası miktarı sorulur, gelen yanıta göre ne kadar dolar ve euro alacağı söylenir.
+
+- Saate bakıyorsunuz ve öğleden sonra 2 olduğunu görüyorsunuz. Alarmınızı 51 saat sonrasına kuruyorsunuz. Hangi saatte alarmınız çalışır? Programlayınız
+
+- Yukarıdaki programı çözecek genel bir Python programı yazın. Kullanıcıya saat cinsinden şimdiki zamanı ve kaç saat beklenmesini soran bir program yazınız. Programınız, alarm çaldığında saatin kaç olduğunu gösteren bir çıkış vermelidir.
