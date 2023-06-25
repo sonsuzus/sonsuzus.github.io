@@ -1,7 +1,7 @@
 ---
 title: Python Programlama Ders 4.1 Turtle Modülü ve Kullanımı
 author: sonsuz
-date: 2023-06-24 20:08:23 +0300
+date: 2023-06-25 20:08:23 +0300
 categories: [Program,Python]
 tags: [python,ders,modül,turtle,grafik,çizim,döngü,for]
 ---
