@@ -12,24 +12,24 @@ sayfasının içeriğini indirmek gibi. Bu bölümde bakacağımız modül, bize
 ekranda kaplumbağalar yaratmamamızı; bu kaplumbağaları kullanarak
 ekranda şekiller ve desenler çizmemizi sağlayacak.
 
-Kamplumbağalar oldukça eğlendiricidir, fakat bu bölümün gerçek amacı:
+Kaplumbağalar oldukça eğlendiricidir, fakat bu bölümün gerçek amacı:
 Biraz daha Python öğrenmek, hesaplamalı düşünmeyi geliştirmek veya "bir
 bilgisayar bilimcisi gibi düşünmeyi" öğrenmektir. Bu bölümde işlenen
 Python'un büyük bir kısmı daha sonra derinlemesine tekrar
 incelenecektir.
 
-## İlk kamplumbağa programımız
+## İlk kaplumbağa programımız
 
-Bir kamplumbağa yaratan ve bununla bir dikdörtgen çizen birkaç satırlık
-Python programı yazalım. (İlk yarattığımız kamplumbağaya atayacağımız
+Bir kaplumbağa yaratan ve bununla bir dikdörtgen çizen birkaç satırlık
+Python programı yazalım. (İlk yarattığımız kaplumbağaya atayacağımız
 değişkeni `ahmet` olarak adlandıracağız. Daha önceki bölümdeki değişken
 isimlendirme kurallarını kullanarak eğer istersek farklı bir isimde
 seçebiliriz.)
 
 ```py
-import turtle             # Kamplumbağalar yaratmamazı sağlar.
-wn = turtle.Screen()      # Kamplumbağalar için bir pencere aç (oyun alanı) yaratır. 
-ahmet = turtle.Turtle()    # Bir tane kamplumbağa yarat ve bunu  ahmet'e ata
+import turtle             # Kaplumbağalar yaratmamazı sağlar.
+wn = turtle.Screen()      # Kaplumbağalar için bir pencere aç (oyun alanı) yaratır. 
+ahmet = turtle.Turtle()    # Bir tane kaplumbağa yarat ve bunu  ahmet'e ata
 
 ahmet.forward(50)          # ahmet'e 50 birim ilerlemesini söyle
 ahmet.left(90)             # ahmet'in 90 derece dönmesini söyle
@@ -50,24 +50,24 @@ modül bize iki yeni farklı yeni tür kullanmamıza izin verir: `Turtle` ve
 `Screen` type. `turtle.Turtle` içindeki nokta bize, *"Turtle türü
 turtle modülü içinde tanımlanmıştır"* anlamını verir. ( Unutmayınız ki
 Python büyük harf ve küçük harf ayrımı yapar; bu yüzden, küçük harfle
-([turtle]) başlayan modül ismi , büyük harfle başlayan
-[Turtle] modül isminden farklıdır. Şansımıza
+(turtle) başlayan modül ismi , büyük harfle başlayan
+[Turtle] sınıf isminden farklıdır. Şansımıza
 [Turtle] isimli bir modül Python'da yoktur.)
 
 Eğer screen (ekran) denilen şeyi yaratır ve bunu açarsak (ekran yerine,
 pencere demeyi tercih edeceğim), bu pencereye `wn` değişkenini atar. Her
 pencerenin içinde çizim yapabileceğimiz alana **kanvas** (tuval) denir.
 
-3'üncü satırda bir kamplumbağa oluştururuz. `ahmet` değişkeni bu
-kamplumbağaya işaret eder.
+3'üncü satırda bir kaplumbağa oluştururuz. `ahmet` değişkeni bu
+kaplumbağaya işaret eder.
 
-Bu üç satırı halllettikten sonra, kamplumbağımıza kanvas üzerinde çizim
+Bu üç satırı halllettikten sonra, kaplumbağımıza kanvas üzerinde çizim
 yaptırabiliriz.
 
 5-7 satırlar arasında, `ahmet` **nesne**sini hareket ettiriyoruz ve
 döndürüyoruz. Biz bunu yaparken `ahmet`'in **yöntem**lerini
 çalıştırıyoruz (C.n: yöntemi bir fonksiyon gibi düşünebilirsiniz.) ya da
-etkinleştiriyoruz. Bütün kamplumbağalar bütün bu komutlara nasıl cevap
+etkinleştiriyoruz. Bütün kaplumbağalar bütün bu komutlara nasıl cevap
 vereceğini biliyor.
 
 Son satırında bir amacı vardır: `wn` değişkeni yukarıda gösterilen
@@ -78,21 +78,21 @@ Kullanıcı pencereyi kapattığında program sona erecektir.
 
 Bir nesne farklı yöntemlere \-\-- birşey yapabilen şeyler\-\-- ve
 **nitelik**lere (bazen özellik diye de isimlendirilir.) Örneğin, her
-kamplumbağa bir *renk* özelliğine sahiptir. `ahmet.color("red")` ise bir
+kaplumbağa bir *renk* özelliğine sahiptir. `ahmet.color("red")` ise bir
 yöntem etkinleştirmesi ile, `ahmet`i ve çizimleri kırmızı yapacaktır.
 (Dikkat ediniz ki [color]'un hecelenmesi Amerikan
 İngilizcesi gibidir. Ç.n: İngiliz İngilizcesinde [color] ,
 [colour] diye yazılır.)
 
-Kamplumbağa'nın rengi. pencere içindeki yeri, hangi yöne baktığı ve
+Kaplumbağa'nın rengi. pencere içindeki yeri, hangi yöne baktığı ve
 diğer özellikleri; kalemin çizgi genişliği gibi parçalar
-kamplumbağa'nın anlık **durumu**dur. Benzer olarak, pencere nesnesinin
+kaplumbağa'nın anlık **durumu**dur. Benzer olarak, pencere nesnesinin
 bir rengi, başlık çubuğunda bir ismi, büyüklüğü ve ekran üzerinde bir
 yeri vardır. Bunlar, pencere nesnesinin durumunun bölümleridir.
 
-Kamplumbağa ve pencere nesnesini değiştirmeye yarayan epeyce yöntem
+Kaplumbağa ve pencere nesnesini değiştirmeye yarayan epeyce yöntem
 vardır. Biz şimdilik birkaçını göstereceğiz. Diğer önceki örnekten
-farklı olan satırları aşağıdaki programda yorumladık ( ve bu kamplumbağa
+farklı olan satırları aşağıdaki programda yorumladık ( ve bu kaplumbağa
 için farklı bir değişken ismi kullandık.)
 
 ```py
@@ -138,10 +138,10 @@ Bu programı genişletelim...
     çevirmeniz gerekecek.
 
 
-## Örneklemeler - Kamplumbağa sürüleri
+## Örneklemeler - Kaplumbağa sürüleri
 
 Bir program içinde birçok farklı tamsayı olabileceği gibi, birçok
-kamplumbağa'da olabilir. Bunlardan herbirine **örnek** (instance)
+kaplumbağa'da olabilir. Bunlardan herbirine **örnek** (instance)
 denir. Her örnek'in kendine ait nitelikleri (özellikleri ) ye
 yöntemleri vardır. Böylece, `ahmet` siyah ince bir kalem ile çizebilir
 ve kanvas üzerinde bir konum üzerinde olabilir, bunun gibi `tamer`'de
@@ -188,7 +188,7 @@ da üçgeni tamamladığındaki resmi göstermektedir.
 
 Burda bazı *Bir bilgisayar bilimcisi gibi nasıl düşünülür* gözlemleri:
 
-- Bir tam çemberde 360 derece vardır. Bir kamplumbağ'nın yaptığı
+- Bir tam çemberde 360 derece vardır. Bir kaplumbağ'nın yaptığı
     bütün dönüşleri bir araya getirirsek, *dönüşler sırasında hangi
     adımlar olmuşsa olsun*, biz kolayca bunların 360 derecenin katları
     olup olmadığını anlayabiliriz. `ahmet` ilk anda yaratıldığında hangi
@@ -210,8 +210,8 @@ Burda bazı *Bir bilgisayar bilimcisi gibi nasıl düşünülür* gözlemleri:
 - Programdaki yorumlar kullanılmasının başlıca nedeni düşünce yapımızı
     ve büyük fikirlerimizi kaydetmektir. Bunlar her zaman kodun içinde
     açık olmayabilir.
-- Sürünüz için iki kamplumbağa yeterli olmayabilir. Burdaki önemli
-    fikir: İhtiyacınız olduğu kadar kamplumbağ yaratabilmeniz için,
+- Sürünüz için iki kaplumbağa yeterli olmayabilir. Burdaki önemli
+    fikir: İhtiyacınız olduğu kadar kaplumbağ yaratabilmeniz için,
     turtle modülü size bir fabrika verir. Her örneklemenin kendisine ait
     durum ve davranışları vardır.
 
@@ -289,10 +289,10 @@ basamaklarını ve nasıl yürüdüğünü göstermektedir.
 
 ![image](illustrations/flowchart_for.png)
 
-### Döngü bizim kamplumbağa programımızı basitleştirir
+### Döngü bizim kaplumbağa programımızı basitleştirir
 
 Bir kare çizmek için, aynı şeyi dört kere yapmamız
-gerekebilir, kamplumbağayı hareket ettir ve döndür. `ahmet`'in bir
+gerekebilir, kaplumbağayı hareket ettir ve döndür. `ahmet`'in bir
 karenin dört kenarını çizmesini sağlamak için 8 satır yazdık. Yalnızca 3
 satır kullanarak, aynı şeyi yapabiliriz.
 
@@ -370,9 +370,9 @@ for c in clrs:
     ahmet.left(90)
 ```
 
-## Birkaç tane daha kamplumbağa yöntemleri (fonksiyonları)
+## Birkaç tane daha kaplumbağa yöntemleri (fonksiyonları)
 
-Kamplumbağa yöntemleri negatif açı veya uzaklık kullanabilir. Örneğin,
+Kaplumbağa yöntemleri negatif açı veya uzaklık kullanabilir. Örneğin,
 `tamer.forward(-100)` tamer'i geriye doğru hareket ettirecek ve
 `tamer.left(-30)` ise tamer'i sağ döndürecektir. Ayrıca, bir çemberde
 360 derece olduğundan, onu 30 derece sola döndürmek, `tamer`'i aynı
@@ -388,13 +388,13 @@ de vardır (Eğer biraz uçuk iseniz, `ahmet.backward(-100)` komutunu
 
 Bizim konumuzda yapıyı ve aralarındaki bağlantıları daha iyi anlamak,
 *Bilgisayar bilimcisi gibi düşünmenin* bir parçasıdır. Eğer
-kamplumbağalar ile oynayacaksak, geometri ve sayı düzlemi hakkında basit
+kaplumbağalar ile oynayacaksak, geometri ve sayı düzlemi hakkında basit
 temel konulara bir göz atmak; sol, sağ, ileri, geri, negatif ve pozitif
 açılar arasındaki bağlantıları farketmek iyi bir başlangıç olabilir.
 
-Kamplumbağ kalemi çizgi çizmek için kullanabileceği gibi( pendown: kalem
+Kaplumbağ kalemi çizgi çizmek için kullanabileceği gibi( pendown: kalem
 aşağı) , isterse kullanmayabilir de (penup: kalem yukarı) . Bu,
-kamplumbağanın çizgi çizmeden başka yerlere hareket etmesine olanak
+kaplumbağanın çizgi çizmeden başka yerlere hareket etmesine olanak
 verir. Bu yöntemler:
 
 ```py
@@ -403,7 +403,7 @@ ahmet.forward(100)     # Çizgi çizilmeden ahmet'i hareket ettirir.
 ahmet.pendown()        # kalem yeniden konuldu. 
 ```
 
-Her kamplumbağaya farklı bir şekil verebiliriz. Halihazırda tanımlanmış
+Her kaplumbağaya farklı bir şekil verebiliriz. Halihazırda tanımlanmış
 yöntemler: `arrow`, `blank`, `circle`, `classic`, `square`, `triangle`,
 `turtle` bunlardan birkaçıdır.
 
@@ -413,8 +413,8 @@ ahmet.shape("turtle")
 
 ![image](illustrations/alex06.png)
 
-Kamplumbağanın canlandırmasını (animasyon) hızlandırabilir veya
-yavaşlatabiliriz ( Canlandırma, kamplumbağanın ne kadar hızlı döneceğini
+Kaplumbağanın canlandırmasını (animasyon) hızlandırabilir veya
+yavaşlatabiliriz ( Canlandırma, kaplumbağanın ne kadar hızlı döneceğini
 veya ileri hareket edeceğini kontrol eder.) Hızlandırma ayarlamaları 1
 (en yavaş) ve 10 (en hızlı) arasında ayarlanabilir. Eğer biz hızı 0'a
 ayarlarsak, bunun özel bir anlamı vardır: Canlandırma yapma ve en hızlı
@@ -424,7 +424,7 @@ gidebileceğin kadar hızlı git.
 ahmet.speed(10)
 ```
 
-Kamplumbağa kendi ayakizini kanvas üzerinde oluşturabilir ve başka bir
+Kaplumbağa kendi ayakizini kanvas üzerinde oluşturabilir ve başka bir
 yere hareket ettiğinde bu ayakizi kalacaktır. Kalem yukarı (penup) olsa
 bile, iz bırakma çalışır.
 
@@ -452,9 +452,9 @@ wn.mainloop()
 ![image](illustrations/tess07.png)
 
 Dikkatli olun! Kaçkere döngü gövdesi yürütüldü? Ekranda kaç tane
-kamplumbağa resmi görüyorsunuz. Bir tanesi hariç bütün ekranda
-gördüğünüz kamplumbağa izleri `stamp` yönergesi tarafından
-oluşturulmuştur. Fakat program yalnızca bir tane kamplumbağa örneklemesi
+kaplumbağa resmi görüyorsunuz. Bir tanesi hariç bütün ekranda
+gördüğünüz kaplumbağa izleri `stamp` yönergesi tarafından
+oluşturulmuştur. Fakat program yalnızca bir tane kaplumbağa örneklemesi
 içerir. Hangisinin gerçek `tess` olduğunu bulabilir misiniz? (İpucu:
 Eğer emin değilseniz, `for` döngüsünden sonra `tess`'in rengini
 değiştiren bir satırlık kod yazın; veya kalemi aşağıya indiren ve çizgi
@@ -486,7 +486,7 @@ döngü değişkeni
     tekrarında farlı bir değere işaret eder.
 
 örnek
-:   Bir sınıfa ait olan nesne. `ahmet` ve `tamer` kamplumbağa sınıfının
+:   Bir sınıfa ait olan nesne. `ahmet` ve `tamer` kaplumbağa sınıfının
     farklı örnekleridir.
 
 yöntem
@@ -508,7 +508,7 @@ modül
 
 nesne
 :   Bir değişkenin işaret edebileceği `şey.` Bu bir ekran penceresi veya
-    yarattığımız bir kamplumbağa olabilir.
+    yarattığımız bir kaplumbağa olabilir.
 
 range (aralık)
 :   Bir tamsayı dizisi yaratmak için Python'da tanımlanmış fonksiyon.
@@ -523,7 +523,7 @@ sonlandırma koşulu
 
 ## Alıştırmalar
 
-1. `Biz Python'un kamplumbağlarından hoşlanırız` cümlesini 1000 kere
+1. `Biz Python'un kaplumbağlarından hoşlanırız` cümlesini 1000 kere
     yazan program yazınız.
 
 2. Cep telefonunuza ait 3 tane özellik ve 3 tane yöntem veriniz.
@@ -536,7 +536,7 @@ sonlandırma koşulu
         | `Şubat yılın bir ayıdır.`
         | \...
 
-4. `tamer` kamplumbağınız yüzünü doğuya doğru 0 derecee ile çevirmiş
+4. `tamer` kaplumbağınız yüzünü doğuya doğru 0 derecee ile çevirmiş
     olsun. Eğer `tamer.left(3645)` komutu verirsek, `tamer` ne yapar ve
     hangi yöne doğru bakar?
 
@@ -552,7 +552,7 @@ sonlandırma koşulu
         tamamlandıktan sonra, `toplam`'ı yazdırın.
     d.  Listedeki bütün sayıların çarpımlarını yazdırın.
 
-6. Aşağıdaki düzgün çokgenleri `for` döngüsü kullanarak kamplumbağaya
+6. Aşağıdaki düzgün çokgenleri `for` döngüsü kullanarak kaplumbağaya
     çizdiriniz ( düzgün çokgen her kenarı ve her açısı aynı olan
     demektir.)
 
@@ -561,12 +561,12 @@ sonlandırma koşulu
     - Altıgen
     - Sekizgen
 
-7.  #### sarhos_korsan_problemi
-    Bir sarhoş karson rastgele bir dönüş yapıyor ve 100 adım atıyor;
+7.  #### Sarhoş Korsan Problemi
+    Bir sarhoş korsan rastgele bir dönüş yapıyor ve 100 adım atıyor;
     daha sonra yeniden rastgele dönüş yapıyor ve 100 adım atıyor; ve bu
     böyle devam ediyor. Bir sosyal bilim öğrencisi, 100 adım alınmadan
     herbir dönüş öncesi bu açıları kaydediyor. Onun deneysel veriler:
-    `[160, -43, 270, -97, -43, 200, -940, 17, -86]`. Kamplumbağayı
+    `[160, -43, 270, -97, -43, 200, -940, 17, -86]`. Kaplumbağayı
     kullanarak sarhoş arkadaş tarafından alınan yolu çiziniz.
     
 
@@ -574,7 +574,7 @@ sonlandırma koşulu
     gezindikten sonra, yöneldiği yönü söyleyen bir program yazınız (
     Onun 0 dereceden başladığını farzedin.)
 
-9. Eğer 18 kenarı olan bir düzgün çokgen çizerseniz, kamplumbağa her
+9. Eğer 18 kenarı olan bir düzgün çokgen çizerseniz, kaplumbağa her
     köşede kaç derecelik bir açıyla dönmelidir?
 
 10. Aşağıdaki herbir satırı, Python'un etkileşimli komut satırından
@@ -600,28 +600,28 @@ sonlandırma koşulu
 
     İpucu:
 
-    - Cep telefonunuzu sanki bir kamplumbağaymış gibi bir kağıt
+    - Cep telefonunuzu sanki bir kaplumbağaymış gibi bir kağıt
         parçası üzerinde hareket ettirip, döndürün. Yıldızı tamamlamadan
         önce, telefonunuzun kaçkere tam dönüş yaptığını gözlemleyiniz.
         Herbir tam dönüş 360 derece olduğundan, cep telefonunuzun kaç
         derece döndürüldüğünü bulabilirsiniz. Yıldızda 5 köşe
-        olduğündan, bunu beşe bölerseniz kamplumbağanızı her köşede kaç
+        olduğündan, bunu beşe bölerseniz kaplumbağanızı her köşede kaç
         derece döndürdüğünüzü bulabilirsiniz.
-    - Eğer kamplumbağanızın görünmesini istemiyorsanız onu görünmez
+    - Eğer kaplumbağanızın görünmesini istemiyorsanız onu görünmez
         yapabilirsiniz. Eğer kalem aşağıda ise hala çizim yapmaya devam
         edecek. Bu yöntem `tamer.hideturtle()` ile çağrılır.
-        Kamplumbağayı yeniden görünür yapmak istiyorsanız,
+        Kaplumbağayı yeniden görünür yapmak istiyorsanız,
         `tamer.showturtle()`'ı kullanın.
 
 12. Aşağıdaki şekle benzer bir yüz çizecek program yazınız.
 
     ![image](illustrations/tess_clock1.png)
 
-13. Bir kamplumbağa yaratınız ve bu kamplumbağayı bir değişkene
+13. Bir kaplumbağa yaratınız ve bu kaplumbağayı bir değişkene
     atayınız. Bu değişkenin tipini komut satırından sorunuz. Ne cevap
     alıyorsunuz?
 
-14. Kamplumbağaların hangi takıma aittirler? Kamplumbağa'nın
+14. Kaplumbağaların hangi takıma aittirler? Kaplumbağa'nın
     Anadolu'da yaşayan cinsine ne denir?
 
 15. Python hangi takıma aittir? Bir yılan mıdır? Zehirli midir?
