@@ -4,6 +4,7 @@ author: sonsuz
 date: 2023-07-02 15:58:56 +0300
 categories: [Program,Python]
 tags: [python,programlama,döngü,algoritma,yineleme,while,iç içe döngüler,sınama,ders]
+image: while-python.jpg
 ---
 
 ## Yineleme (Döngü)

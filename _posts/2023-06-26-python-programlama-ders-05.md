@@ -4,6 +4,7 @@ author: sonsuz
 date: 2023-06-26 18:10:15 +0300
 categories: [Program,Python]
 tags: [fonksiyon,değer döndüren,değer,return,ürün,kod,ders,eğitim,arttırımsal geliştirme]
+image: python-fonksiyonlar.png
 ---
 
 

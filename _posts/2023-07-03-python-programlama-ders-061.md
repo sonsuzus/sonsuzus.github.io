@@ -5,6 +5,7 @@ date: 2023-07-02 15:58:56 +0300
 categories: [Program,Python]
 tags: [python,programlama,döngü,algoritma,yineleme,for,iç içe döngüler,sınama,ders]
 math: true
+image: python-for-dongusu.png
 ---
 
  
@@ -1159,7 +1160,7 @@ yaklaşımız birbirine oldukça yakın olduğunda döngümüz duracaktır.
 eşit olmasını isteriz. Fakat gerçel sayıların bilgisayar aritmetiğinde
 birbirine tam olarak eşit olması biraz zor durumdur. Çünkü gerçel
 sayılar tam doğru olarak bilgisayarlarda temsil edilemez ( neticede, pi
-veya $$sqrt{2}$$ sonsuz sayıda ondalık basamağa sahiptir çünkü bu sayılar
+veya $$\sqrt{2}$$ sonsuz sayıda ondalık basamağa sahiptir çünkü bu sayılar
 irrasyonel sayılardır). Bir döngüyü durdurmasını sınamak için "[a]'nın [b]'ye yeterince yakın" olup
 olmadığını programa sormak gerekir. Bu durdurma koşulu şu şekilde
 kodlanabilir:
