@@ -4,6 +4,7 @@ author: sonsuz
 date: 2023-06-24 20:08:23 +0300
 categories: [Program,Python]
 tags: [python,koşul,karşılaştırma,modül,turtle,ders,modül,boolean,mantık]
+image: if-else-python.jpg
 ---
 
 
