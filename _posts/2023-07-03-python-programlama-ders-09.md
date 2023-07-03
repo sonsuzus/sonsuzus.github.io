@@ -884,7 +884,7 @@ ayırıcı
 
 ## 9.22 Alıştırmalar
 
-* Aşağıdaki listeyi dolaşan ve her öğenin boyutunu yazan bir döngü yazın:
+- Aşağıdaki listeyi dolaşan ve her öğenin boyutunu yazan bir döngü yazın:
 
 ```py
 ['spam!', 1, ['Brie', 'Roquefort', 'Pol le Veq'], [1, 2, 3]]
@@ -892,7 +892,7 @@ ayırıcı
 
 `len`'e tamsayı gönderince ne oluyor? `1`'i `'one'`'a çevirerek çözümünüzü tekrar çalıştırın.
 
-* `ch09e02.py` ismindeki bir dosyaya aşağıdaki içeriği yazın:
+- `ch09e02.py` ismindeki bir dosyaya aşağıdaki içeriği yazın:
 
 ```py
 # doctestleri buraya ekleyin:
@@ -910,58 +910,60 @@ if __name__ == '__main__':
 
 Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve bu testlerin geçmesi için gereken Python kodlarını yazın.
 
- 1. ```py
-
- """
-  >>> a_list[3]
-  42
-  >>> a_list[6]
-  'Ni!'
-  >>> len(a_list)
-  8
- """
-
- ```
- 2. ```py
- 
- """
-  >>> b_list[1:]
-  ['Stills', 'Nash']
-  >>> group = b_list + c_list
-  >>> group[-1]
-  'Young'
- """
- 
- ```
-
- 3. ```py
-
- """
-  >>> 'war' in mystery_list
-  False
-  >>> 'peace' in mystery_list
-  True
-  >>> 'justice' in mystery_list
-  True
-  >>> 'oppression' in mystery_list
-  False
-  >>> 'equality' in mystery_list
-  True
- """
-
- ```
-
- 4. ```py 
- """
-  >>> range(a, b, c)
-  [5, 9, 13, 17]
- """
- 
- ```
-
+	1. 
+	```py
+	"""
+	 >>> a_list[3]
+	 42
+	 >>> a_list[6]
+	 'Ni!'
+	 >>> len(a_list)
+	 8
+	"""
+	
+	```
+	2. 
+	```py
+	
+	"""
+	 >>> b_list[1:]
+	 ['Stills', 'Nash']
+	 >>> group = b_list + c_list
+	 >>> group[-1]
+	 'Young'
+	"""
+	
+	```
+	3. 
+	```py
+	
+	"""
+	 >>> 'war' in mystery_list
+	 False
+	 >>> 'peace' in mystery_list
+	 True
+	 >>> 'justice' in mystery_list
+	 True
+	 >>> 'oppression' in mystery_list
+	 False
+	 >>> 'equality' in mystery_list
+	 True
+	"""
+	
+	```
+	4. 
+	```py
+	
+	"""
+	 >>> range(a, b, c)
+	 [5, 9, 13, 17]
+	"""
+	
+	```
+	
 Her adımda bir doctest kümesini ekleyin. Önceki eklenen test başarılı olmadan, yeni doctestler eklenmemelidir.
 
-* Python yorumlayıcısının aşağıdakilere tepkisi nedir?
+- Python yorumlayıcısının aşağıdakilere tepkisi nedir?
 
 ```py
 >>> range(10, 0, -2) 
@@ -969,7 +971,7 @@ Her adımda bir doctest kümesini ekleyin. Önceki eklenen test başarılı olma
 
 *range* fonksiyonunun üç argümanı sırasıyla *başlangıç*, *bitiş* ve *adım*dır. Bu örnekte *başlangıç*, *bitiş*'ten daha büyüktür. `başlangıç < bitiş` ve `adım < 0` durumunda ne olur? *başlangıç*, *bitiş* ve *adım* arasındaki ilişki hakkında bir kural yazınız.
 
-* durum diyagramı sorusu
+- durum diyagramı sorusu
 
 ```py
 a = [1, 2, 3]
@@ -979,7 +981,7 @@ b[0] = 5
 
 `a` ve `b` için üçüncü satır işlenmeden ve işlendikten sonra durum diyagramı çiziniz.
 
-* Aşağıdaki programın çıktısı ne olur?
+- Aşağıdaki programın çıktısı ne olur?
 
 ```py
 this = ['I', 'am', 'not', 'a', 'crook']
@@ -991,44 +993,47 @@ print("Test 2: %s" % (id(this) == id(that)))
 
 Sonucun *ayrıntılı* bir açıklamasını yapınız.
 
-* `ch09e06.py` isminde bir dosya açıp, 2. alıştırmadaki aynı prosedürü aşağıdaki doctestler başarılı olacak şekilde tekrarlayın:
+- `ch09e06.py` isminde bir dosya açıp, 2. alıştırmadaki aynı prosedürü aşağıdaki doctestler başarılı olacak şekilde tekrarlayın: 
 
- 1. ```py
-
- """
-  >>> 13 in junk
-  True
-  >>> del junk[4]
-  >>> junk
-  [3, 7, 9, 10, 17, 21, 24, 27]
-  >>> del junk[a:b]
-  >>> junk
-  [3, 7, 27]
- """
-
- ```
- 2. ```py
- 
- """
-  >>> nlist[2][1]
-  0
-  >>> nlist[0][2]
-  17
-  >>> nlist[1][1]
-  5
- """
- 
- ```
-
- 3. ```py
-
- """
-  >>> import string
-  >>> string.split(message, '??')
-  ['this', 'and', 'that']
- """
-
- ```
+	1. 
+	```py
+	
+	"""
+	 >>> 13 in junk
+	 True
+	 >>> del junk[4]
+	 >>> junk
+	 [3, 7, 9, 10, 17, 21, 24, 27]
+	 >>> del junk[a:b]
+	 >>> junk
+	 [3, 7, 27]
+	"""
+	
+	```
+	
+	2. 
+	```py
+	
+	"""
+	 >>> nlist[2][1]
+	 0
+	 >>> nlist[0][2]
+	 17
+	 >>> nlist[1][1]
+	 5
+	"""
+	
+	```
+	3. 
+	```py
+	
+	"""
+	 >>> import string
+	 >>> string.split(message, '??')
+	 ['this', 'and', 'that']
+	"""
+	
+	```
 - Aynı uzunlukta olan ve sayılardan oluşan iki liste argümanı alan ve her bir listede birbirine karşılık gelen sayıların toplamını yeni bir liste olarak döndüren `add_lists(a, b)` fonksiyonunu yazınız.
 
 ```py
@@ -1046,7 +1051,7 @@ def add_lists(a, b):
 
 `add_lists` yukarıdaki doctestleri geçmelidir.
 
-* Aynı uzunlukta olan ve sayılardan oluşan iki liste argümanı alan ve her listede birbirine karşılık gelen sayılarının çarpımlarını yeni bir liste olarak döndüren `mult_lists(a, b)` fonksiyonunu yazınız.
+- Aynı uzunlukta olan ve sayılardan oluşan iki liste argümanı alan ve her listede birbirine karşılık gelen sayılarının çarpımlarını yeni bir liste olarak döndüren `mult_lists(a, b)` fonksiyonunu yazınız.
 
 ```py
 def mult_lists(a, b):
@@ -1063,7 +1068,7 @@ def mult_lists(a, b):
 
 `mult_lists` yukarıdaki doctestleri geçmelidir.
 
-* Test güdümlü geliştirme bölümünde anlatılan `matrices.py` programına aşağıdaki iki fonksiyonu ekleyin:
+- Test güdümlü geliştirme bölümünde anlatılan `matrices.py` programına aşağıdaki iki fonksiyonu ekleyin:
 
 ```py
 def add_row(matrix):
@@ -1094,7 +1099,7 @@ def add_column(matrix):
 
 Yeni fonksiyonlarınız doctestleri geçmelidir. Her fonksiyondaki son doctest `add_row` ve `add_column` fonksiyonlarının saf fonksiyon olduğunu garantilemek için yazılmıştır.
 
-* `m1` ve `m2`'yi toplayan ve toplamlarını yeni bir matris olarak döndüren `add_matrices(m1, m2)` fonksiyonunu yazınız. `m1` ve `m2` aynı büyüklükte olduğunu kabul edebilirsiniz. Matrislerini birbirine karşılık gelen değerlerini toplayarak toplarsınız.
+- `m1` ve `m2`'yi toplayan ve toplamlarını yeni bir matris olarak döndüren `add_matrices(m1, m2)` fonksiyonunu yazınız. `m1` ve `m2` aynı büyüklükte olduğunu kabul edebilirsiniz. Matrislerini birbirine karşılık gelen değerlerini toplayarak toplarsınız.
 
 ```py
 def add_matrices(m1, m2):
@@ -1117,7 +1122,7 @@ def add_matrices(m1, m2):
 
 Yeni fonksiyonunuzu `matrices.py` programına ekleyin, ve yukarıdaki doctestleri geçmesini sağlayın. Son iki doctest `add_matrices` fonksiyonunun saf fonksiyon olmasını sağlamak içindir.
 
-* Bir matrisi,`m`, bir büyüklük, `n` ile çarpan `scalar_mult(n, m)` fonksiyonunu yazın.
+- Bir matrisi,`m`, bir büyüklük, `n` ile çarpan `scalar_mult(n, m)` fonksiyonunu yazın.
 
 ```py
 def scalar_mult(n, m):
@@ -1136,7 +1141,7 @@ def scalar_mult(n, m):
 
 Fonksiyonunuzu `matrices.py` programına ekleyin ve yukarıdaki doctestleri geçmesini sağlayın.
 
-* matris soruları
+- matris soruları
 
 ```py
 def row_times_column(m1, row, m2, column):
@@ -1165,7 +1170,7 @@ def matrix_mult(m1, m2):
 
 Yeni fonksiyonlarını `matrices.py` programına ekleyin ve yukarıdaki doctestleri geçmesini sağlayın.
 
-* `s` karakter dizisindeki tüm `old` olan yerleri `new` ile değiştiren `replace(s, old, new)` fonksiyonunu yazınız.
+- `s` karakter dizisindeki tüm `old` olan yerleri `new` ile değiştiren `replace(s, old, new)` fonksiyonunu yazınız.
 
 ```py
 def replace(s, old, new):
