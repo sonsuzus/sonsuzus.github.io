@@ -1042,6 +1042,7 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 	"""
 	
 	```
+
 - Aynı uzunlukta olan ve sayılardan oluşan iki liste argümanı alan ve her bir listede birbirine karşılık gelen sayıların toplamını yeni bir liste olarak döndüren `add_lists(a, b)` fonksiyonunu yazınız.
 
 ```py
