@@ -910,7 +910,8 @@ if __name__ == '__main__':
 
 Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve bu testlerin geçmesi için gereken Python kodlarını yazın.
 
-	1. ```py	
+	1. 
+	```py	
 	"""
 	 >>> a_list[3]
 	 42
@@ -921,7 +922,8 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
-	2. ```py
+	2. 
+	```py
 	
 	"""
 	 >>> b_list[1:]
@@ -932,7 +934,8 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
-	3. ```py
+	3. 
+	```py
 	
 	"""
 	 >>> 'war' in mystery_list
@@ -948,7 +951,8 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
-	4. ```py
+	4. 
+	```py
 	
 	"""
 	 >>> range(a, b, c)
@@ -956,6 +960,7 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
+	
 Her adımda bir doctest kümesini ekleyin. Önceki eklenen test başarılı olmadan, yeni doctestler eklenmemelidir.
 
 - Python yorumlayıcısının aşağıdakilere tepkisi nedir?
@@ -990,7 +995,8 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 
 - `ch09e06.py` isminde bir dosya açıp, 2. alıştırmadaki aynı prosedürü aşağıdaki doctestler başarılı olacak şekilde tekrarlayın: 
 
-	1. ```py
+	1. 
+	```py
 	
 	"""
 	 >>> 13 in junk
@@ -1004,7 +1010,9 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 	"""
 	
 	```
-	2. ```py
+	
+	2. 
+	```py
 	
 	"""
 	 >>> nlist[2][1]
@@ -1016,7 +1024,8 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 	"""
 	
 	```
-	3. ```py
+	3. 
+	```py
 	
 	"""
 	 >>> import string
