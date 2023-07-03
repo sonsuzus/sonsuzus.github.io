@@ -910,7 +910,8 @@ if __name__ == '__main__':
 
 Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve bu testlerin geçmesi için gereken Python kodlarını yazın.
 
-	1. 
+1. 
+	
 	```py
 	"""
 	 >>> a_list[3]
@@ -922,7 +923,8 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
-	2. 
+2. 
+	
 	```py
 	
 	"""
@@ -934,7 +936,8 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
-	3. 
+3. 
+	
 	```py
 	
 	"""
@@ -951,7 +954,8 @@ Aşağıdaki her bir dostest kümesini dosyanın üstündeki docstringe koyup ve
 	"""
 	
 	```
-	4. 
+4. 
+	
 	```py
 	
 	"""
@@ -995,7 +999,8 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 
 - `ch09e06.py` isminde bir dosya açıp, 2. alıştırmadaki aynı prosedürü aşağıdaki doctestler başarılı olacak şekilde tekrarlayın: 
 
-	1. 
+1. 
+	
 	```py
 	
 	"""
@@ -1011,7 +1016,8 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 	
 	```
 	
-	2. 
+2. 
+	
 	```py
 	
 	"""
@@ -1024,7 +1030,9 @@ Sonucun *ayrıntılı* bir açıklamasını yapınız.
 	"""
 	
 	```
-	3. 
+	
+3. 
+	
 	```py
 	
 	"""
