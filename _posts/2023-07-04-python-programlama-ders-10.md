@@ -758,14 +758,14 @@ bu adresle sisteminizde kurulu Python kütüphanelerini gezebilirsiniz.
 
 Bu yaklaşımı kullanarak `pydoc`'u başlatın ve `math` modülünü gözden geçirin.
 
-	1. `math` modülünde kaç fonksiyon vardır?
+1. `math` modülünde kaç fonksiyon vardır?
 
 	
-	2. `math.ceil` ne yapar? Peki `math.floor`?(*ipucu:* hem `floor` hem de `ceil` kayan noktalı argüman kabul etmektedir)
+2. `math.ceil` ne yapar? Peki `math.floor`?(*ipucu:* hem `floor` hem de `ceil` kayan noktalı argüman kabul etmektedir)
 	
-	3. `math` modülünü kullanmadan `math.sqrt` ile aynı değeri nasıl hesaplayabileceğimizi açıklayın?
+3. `math` modülünü kullanmadan `math.sqrt` ile aynı değeri nasıl hesaplayabileceğimizi açıklayın?
 	
-	4. `math` modülündeki iki veri sabiti nedir?
+4. `math` modülündeki iki veri sabiti nedir?
 
 Bu alıştırmadaki keşiflerinizin ayrıntılı notlarını tutun.
 
