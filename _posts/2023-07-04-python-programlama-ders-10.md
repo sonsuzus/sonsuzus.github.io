@@ -446,7 +446,7 @@ Bu örnek, `/` adı verilen sistemin en üst dizini altındaki `usr` dizini alt�
 
 `/usr/share/dict/words` dosyası Unix tabanlı sistemlerde var olmalıdır ve alfabetik sıralı kelime listesi içerir.
 
-## 10.10 Counting Letters
+## 10.10 Harfleri saymak
 
 `ord` fonksiyonu bir karakterin tamsayı temsilini döndürmektedir:
 
