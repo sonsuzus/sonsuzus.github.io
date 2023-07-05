@@ -335,7 +335,7 @@ Aşağıdaki kodu `infinite_recursion.py` isimli bir dosyaya yazın:
 # infinite_recursion.py
 #
 def recursion_depth(number):
-    print ("Recursion depth number %d." % number)
+    print("Recursion depth number %d." % number)
     recursion_depth(number + 1)
 
 recursion_depth(0)
@@ -365,7 +365,7 @@ Her ne zaman bir çalışma zamanı hatası oluşursa, bir **istisna** ortaya ç
 Örneğin sıfırla bölme aşağıdaki istisnayı yaratır:
 
 ```py
->>> print (55/0)
+>>> print(55/0)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 ZeroDivisionError: integer division or modulo by zero
@@ -377,7 +377,7 @@ Var olmayan bir liste öğesine erişmeye çalışmak:
 
 ```py
 >>> a = []
->>> print (a[5])
+>>> print(a[5])
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 IndexError: list index out of range
@@ -468,7 +468,7 @@ Hata mesajı bizim sağladığımız istisna tipini ve ek bilgiyi içermektedir.
 # infinite_recursion.py
 #
 def recursion_depth(number):
-    print ("Recursion depth number %d." % number)
+    print("Recursion depth number %d." % number)
     try:
         recursion_depth(number + 1)
     except:
@@ -488,9 +488,9 @@ Aşağıda 6. bölümde yazdığımız `gerisayim` fonksiyonunun kuyruk özyinel
 ```py
 def gerisayim(n):
     if n == 0:
-        print ("Defol!")
+        print("Defol!")
     else:
-        print (n)
+        print(n)
         gerisayim(n-1)
 ```
 
@@ -649,8 +649,8 @@ if __name__ == '__main__':
     else:
         filestring = 'files'
 
-    print (tree_str)
-    print ('%d %s, %d %s' % (dirs, dirstring, files, filestring))
+    print(tree_str)
+    print('%d %s, %d %s' % (dirs, dirstring, files, filestring))
 ```
 
 Alıştırmaların bir çoğunda bu programı incelemeniz istenecek.
