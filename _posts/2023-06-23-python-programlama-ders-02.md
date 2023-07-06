@@ -98,9 +98,9 @@ print cümlesi değişkenlerle de çalışır.
 ```py
 >>> print(mesaj)
 Naber, doktor?
->>> print n
+>>> print(n)
 17
->>> print pi
+>>> print(pi)
 3.14159
       
 ```
