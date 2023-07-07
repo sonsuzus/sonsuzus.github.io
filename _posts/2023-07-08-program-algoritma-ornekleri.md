@@ -64,8 +64,8 @@ Girdi : iki tamsayı
 1.  a ve b sayılarını oku
 2.  c =0
 3.  b>0 olduğu sürece tekrarla
-    3.1. c=c + a
-	3.2. b = b-1
+    * c=c + a
+	* b = b-1
 4. c değerini yaz ve dur
 
 - İki tamsayının bölme işlemini sadece çıkarma işlemi kullanarak gerçekleyin. Bölüm ve kalanın ne olduğu bulunacak.
@@ -73,24 +73,24 @@ Girdi : iki tamsayı
 1. a ve b değerlerini oku
 2. m=0
 3. a>=b olduğu sürece tekrarla
-    3.1  a=a-b 
-    3.2   m = m + 1
+    -  a=a-b 
+    -   m = m + 1
 4. kalan a ve bölüm m 'yi yaz
 
 - 100 tane sayıyı okuyup, ortalamasını bul
     1.  T=0,	i=0
     2.  i<101 olduğu sürece tekrarla
-        2.1      m değerini oku
-        2.2   T = T + m
-        2.3   i = i + 1
+        - m değerini oku
+        - T = T + m
+        - i = i + 1
     3.  T = T / 100
     4.  Ortalama T ‘yi yaz
     5.  Dur
 
 - Bir sınava giren öğrencilerin not ortalamasının hesaplanması
-    1.  Tüm sınav kağıtlarını inceleyip notların toplamını hesapla
-    2.  Ortalamayı notların toplamını incelenen sınav kağıdına bölerek hesapla
-    3.  Ortalamayı yaz.
+    *  Tüm sınav kağıtlarını inceleyip notların toplamını hesapla
+    *  Ortalamayı notların toplamını incelenen sınav kağıdına bölerek hesapla
+    *  Ortalamayı yaz.
 
     1.  Notların toplamını ve incelenen sınav kağıdı sayısını sıfır kabul et
     2.  Sıradaki sınav kağıdının notunu notların toplamına ekle 
@@ -99,9 +99,9 @@ Girdi : iki tamsayı
     5.  Ortalamayı notların toplamını incelenen sınav kağıdına bölerek hasapla
     6.  Ortalamayı yaz
 
-    1.  Notların toplamını ve incelenen sınav kağıdı sayısını sıfır kabul et
-    2.  Her bir sınav kağıdı için
-        2.1.  Sıradaki sınav kağıdının notunu notların toplamına ekle
-        2.2.  İncelenen sınav kağıdı sayısını bir arttır
-    3.  Ortalamayı notların toplamını incelenen sınav kağıdına bölerek hesapla
-    4.  Ortalamayı yaz
+    -  Notların toplamını ve incelenen sınav kağıdı sayısını sıfır kabul et
+    -  Her bir sınav kağıdı için
+        *  Sıradaki sınav kağıdının notunu notların toplamına ekle
+        *  İncelenen sınav kağıdı sayısını bir arttır
+    -  Ortalamayı notların toplamını incelenen sınav kağıdına bölerek hesapla
+    -  Ortalamayı yaz
