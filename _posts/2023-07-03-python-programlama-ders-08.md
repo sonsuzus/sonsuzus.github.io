@@ -884,12 +884,12 @@ Dikkatlice bakın:
 ```py
 print("{:>15}".format("istihza"))
 
-        istihza
+         istihza
 ```
 
-Bu gösterim gözünüze oldukça yabancı ve karışık gelmiş olabilir. Ama aslında hiç de öyle anlaşılmaz bir yanı yoktur bu kodların. Gördüğünüz gibi, burada öncelikle : adlı bir işaretten yararlanıyoruz. Bu işaretin ardından > adlı başka bir işaret görüyoruz. Son olarak da 15 sayısını kullanıyoruz.
+Bu gösterim gözünüze oldukça yabancı ve karışık gelmiş olabilir. Ama aslında hiç de öyle anlaşılmaz bir yanı yoktur bu kodların. Gördüğünüz gibi, burada öncelikle `:` adlı bir işaretten yararlanıyoruz. Bu işaretin ardından `>` adlı başka bir işaret görüyoruz. Son olarak da 15 sayısını kullanıyoruz.
 
-: işareti, bir biçimlendirme işlemi yapacağımızı gösteriyor. > işareti ise bu biçimlendirmenin bir hizalama işlemi olacağını haber veriyor. En sondaki 15 sayısı ise bu hizalama işleminin 15 karakterlik bir alan ile ilgili olduğunu söylüyor. Bu şekilde karakter dizisini 15 karakterlik bir alan içine yerleştirip karakter dizisini sağa yasladık. Yukarıdaki çıktıyı daha iyi anlayabilmek için kodları şöyle de yazabilirsiniz:
+`:` işareti, bir biçimlendirme işlemi yapacağımızı gösteriyor. `>` işareti ise bu biçimlendirmenin bir hizalama işlemi olacağını haber veriyor. En sondaki 15 sayısı ise bu hizalama işleminin 15 karakterlik bir alan ile ilgili olduğunu söylüyor. Bu şekilde karakter dizisini 15 karakterlik bir alan içine yerleştirip karakter dizisini sağa yasladık. Yukarıdaki çıktıyı daha iyi anlayabilmek için kodları şöyle de yazabilirsiniz:
 
 ```py
 print("|{:>15}|".format("istihza"))
@@ -921,15 +921,15 @@ Gördüğünüz gibi, python3 ile gelen format() metodunu hizalama işlemleri i�
 
 `>`
 
-sağa yaslama
+*sağa yaslama*
 
 `<`
 
-sola yaslama
+*sola yaslama*
 
 `^`
 
-ortalama
+*ortalama*
 
 Yukarıdaki işaretler, yaptıkları işi çağrıştırdıkları için, bunları akılda tutmak çok zor olmasa gerek. Mesela örnek olması açısından, eski biçimlendirme yönteminin son kısmında verdiğimiz şu örneği:
 
@@ -962,7 +962,7 @@ s
 
 Yalnız bu biçimlendirici karakterlerin {} işaretleri içindeki kullanımı ilk bakışta gözünüze biraz karışık gelebilir:
 
-print("{:s}".format("karakter dizisi"))
+`print("{:s}".format("karakter dizisi"))`
 
 karakter dizisi
 : Bu arada, harfleri {} yapısının içinde nasıl kullandığımıza dikkat edin. Gördüğünüz gibi biçimlendirme karakterini kullanırken, karakterin sol tarafına bir adet : işareti de yerleştiriyoruz. Bir örnek verelim:
@@ -1089,3 +1089,5 @@ Böylece Python’da karakter dizisi biçimlendirmenin hem eski hem de yeni yön
 - Kullanıcıdan telefon numarasını isteyin ve içinde harf varsa tamamı sayı girene kadar istemeye devam edin.
 
 - Kullanıcının girdiği sayıyı para formatında yazınız. (binlik ayraçlar "," ile kuruş ayracı "." ile olacak şekilde)
+
+- maketrans ve translate metodları ile bir şifreleme programı yazınız.
