@@ -1167,12 +1167,6 @@ Kullanıcıdan girdileri f-string’in içinde alarak tek satırlık bir hesap m
 
 f-string ifadelerinde süslü parantezler ({}) yazılan ifadenin bir operatörüdür. f-string içerisinde süslü parantez yazabilmek için genel kaçış karakteri olan ters eğik çizgi (\) yerine { veya } parantezi 2 defa eklenir:
 
-```py
-fstring = "f-string"
-# f"{{ {fstring}: f'{{ifade}}' şeklinde kullanılır. }}"
-"{ f-string: f'{ifade}' şeklinde kullanılır. }"
-```
-
 Formatlanacak ifadeden sonra = işareti eklenerek değişken adı ile birlikte sahip olduğu değerin repr hali elde edilebilir. print ile debug edildiği durumlarda pratik bir şekilde kullanılabilir:
 
 ```py
