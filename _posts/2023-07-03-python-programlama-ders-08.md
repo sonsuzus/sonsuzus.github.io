@@ -1169,7 +1169,7 @@ f-string ifadelerinde süslü parantezler ({}) yazılan ifadenin bir operatörü
 
 ```py
 fstring = "f-string"
-f"{{ {fstring}: f'{{ifade}}' şeklinde kullanılır. }}"
+# f"{{ {fstring}: f'{{ifade}}' şeklinde kullanılır. }}"
 "{ f-string: f'{ifade}' şeklinde kullanılır. }"
 ```
 
