@@ -3,7 +3,7 @@ title:  Python itertools kullanımı
 author: sonsuz
 date: 2023-07-25 01:19:51 +0300
 categories: [Program,Python]
-tags: [python,programlama,veri,döngü,itertools]
+tags: [python,programlama,veri,döngü,itertools,count,cycle,repeat,kombinasyon,permütasyon]
 ---
 
 Python'un Itertool'u, karmaşık döngüler üretmek için döngüler ve listeler üzerinde çalışan çeşitli işlevler sağlayan bir modüldür .
@@ -146,3 +146,121 @@ print(list(itertools.repeat(25, 4)))
 Çıktı:
 
 `[25, 25, 25, 25]`
+
+## Kombinatorik yineleyiciler
+
+Permütasyonlar, kombinasyonlar ve Kartezyen çarpımlar gibi kombinatoryal yapıları basitleştirmek için kullanılan özyinelemeli üreteçlere kombinatoryal yineleyiciler denir.
+
+Python'da 4 kombinatorik yineleyici vardır: 
+
+**Product()**: Bu araç, girdi yinelenebilirlerinin kartezyen çarpımını hesaplar. Bir yinelenebilirin kendisiyle çarpımını hesaplamak için, tekrar sayısını belirtmek üzere isteğe bağlı repeat anahtar kelime argümanını kullanırız. Bu fonksiyonun çıktısı sıralanmış tuple'lardır.
+
+```python
+from itertools import product
+
+print("repeat kullanarak kartezyan:")
+print(list(product([1, 2], repeat=2)))
+print()
+
+print("konteynar kullanarak kartezyan:")
+print(list(product(['sonsuz', 'us', 'github'], '2')))
+print()
+
+print("konteynar kullanarak kardezyan:")
+print(list(product('AB', [3, 4])))
+```
+
+```
+repeat kullanarak kartezyan:
+[(1, 1), (1, 2), (2, 1), (2, 2)]
+
+konteynar kullanarak kartezyan:
+[('sonsuz', '2'), ('us', '2'), ('github', '2')]
+
+konteynar kullanarak kardezyan:
+[('A', 3), ('A', 4), ('B', 3), ('B', 4)]
+```
+
+**Permutations()**: Permutations(), adından da anlaşılacağı gibi, bir yinelenebilirin tüm olası permütasyonlarını oluşturmak için kullanılır. Tüm öğeler değerlerine göre değil, konumlarına göre benzersiz olarak değerlendirilir. Bu fonksiyon bir iterable ve group_size alır, group_size değeri belirtilmezse veya None'a eşitse group_size değeri iterable'ın uzunluğu olur.
+
+```py
+from itertools import permutations
+
+print("Listedeki tüm permitasyonlar:")
+print(list(permutations([1, 'sonsuz'], 2)))
+print()
+
+print("Stringteki tüm permütasyonlar:")
+print(list(permutations('AB')))
+print()
+
+print("Konteynırdaki tüm permütasyonlar:")
+print(list(permutations(range(3), 2)))
+```
+
+```
+Listedeki tüm permitasyonlar:
+[(1, 'sonsuz'), ('sonsuz', 1)]
+
+Stringteki tüm permütasyonlar:
+[('A', 'B'), ('B', 'A')]
+
+Konteynırdaki tüm permütasyonlar:
+[(0, 1), (0, 2), (1, 0), (1, 2), (2, 0), (2, 1)]
+```
+
+**Combinations()**: Bu yineleyici, belirtilen grup boyutundaki argümanlarda aktarılan kabın tüm olası kombinasyonlarını (değiştirmeden) sıralı olarak yazdırır.
+
+```py
+from itertools import combinations
+
+print ("Listeden Tüm kombiyasyonlar sıralı olarak (değiştirmeden):")
+print(list(combinations(['A', 2], 2)))
+print()
+
+print ("Stringten tüm kombinasyonlar sıralı olarak (değiştirmeden):")
+print(list(combinations('AB', 2)))
+print()
+
+print ("Konteynarlardan tüm kombinasyonlar sıralı olarak (değiştirmeden):")
+print(list(combinations(range(2), 1)))
+```
+
+```
+Listeden Tüm kombiyasyonlar sıralı olarak (değiştirmeden):
+[('A', 2)]
+
+Stringten tüm kombinasyonlar sıralı olarak (değiştirmeden):
+[('A', 'B')]
+
+Konteynarlardan tüm kombinasyonlar sıralı olarak (değiştirmeden):
+[(0,), (1,)]
+```
+
+**Combinations_with_replacement()**: Bu fonksiyon yinelenebilir dosyanın elemanlarından n uzunluğunda bir alt dizi döndürür; burada n, fonksiyonun aldığı ve fonksiyon tarafından oluşturulan alt dizilerin uzunluğunu belirleyen argümandır. Combinations_with_replacement() fonksiyonunda her bir eleman kendini tekrar edebilir.
+
+```py
+from itertools import combinations_with_replacement
+
+print("Stringlerde tüm kombinasyonlar sıralı olarak (değiştirilerek):")
+print(list(combinations_with_replacement("AB", 2)))
+print()
+
+print("Listelerde tüm kombinasyonlar sıralı olarak (değiştirilerek):")
+print(list(combinations_with_replacement([1, 2], 2)))
+print()
+
+print("Konteynırlarda tüm kombinasyonlar sıralı olarak (değiştirilerek):")
+print(list(combinations_with_replacement(range(2), 1)))
+```
+
+```
+Stringlerde tüm kombinasyonlar sıralı olarak (değiştirilerek):
+[('A', 'A'), ('A', 'B'), ('B', 'B')]
+
+Listelerde tüm kombinasyonlar sıralı olarak (değiştirilerek):
+[(1, 1), (1, 2), (2, 2)]
+
+Konteynırlarda tüm kombinasyonlar sıralı olarak (değiştirilerek):
+[(0,), (1,)]
+```
