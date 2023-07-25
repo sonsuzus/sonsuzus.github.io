@@ -264,3 +264,232 @@ Listelerde tüm kombinasyonlar sıralı olarak (değiştirilerek):
 Konteynırlarda tüm kombinasyonlar sıralı olarak (değiştirilerek):
 [(0,), (1,)]
 ```
+
+## Yineleyicileri sonlandırma
+
+Sonlandırıcı yineleyiciler, kısa giriş dizileri üzerinde çalışmak ve kullanılan yöntemin işlevselliğine bağlı olarak çıktı üretmek için kullanılır.
+
+Farklı sonlandırıcı yineleyici türleri şunlardır: 
+
+**accumulate(iter, func)**: Bu yineleyici iki argüman alır, yinelenebilir hedef ve hedefteki değerin her yinelenmesinde izlenecek işlev. Herhangi bir fonksiyon geçilmezse, varsayılan olarak toplama işlemi gerçekleşir. Giriş yinelenebiliri boşsa, çıkış yinelenebiliri de boş olacaktır.
+
+```py
+import itertools
+import operator
+
+#  list 1 oluşturuluyor
+li1 = [1, 4, 5, 7]
+
+#  accumulate() kullanılıyor
+# elemanları toplayarak yazdırılıyor
+print("Her iterasyondan sonraki ürün  : ", end="")
+print(list(itertools.accumulate(li1)))
+
+# elemanların ardışık çarpımını yazdırır
+print("Her iterasyondan sonraki ürün : ", end="")
+print(list(itertools.accumulate(li1, operator.mul)))
+```
+
+```
+Her iterasyondan sonraki ürün  : [1, 5, 10, 17]
+Her iterasyondan sonraki ürün : [1, 4, 20, 140]
+```
+
+**chain(iter1, iter2..)**: Bu fonksiyon, argümanlarında belirtilen iterable hedeflerindeki tüm değerleri birbiri ardına yazdırmak için kullanılır.
+
+```py
+import itertools
+
+# list 1 oluştur
+li1 = [1, 4, 5, 7]
+
+# list 2 oluştur
+li2 = [1, 6, 5, 9]
+
+#  list 3 oluştur
+li3 = [8, 10, 5, 4]
+
+#  chain() kullanarak listelerdeki elemanları yazdırma
+print("Tüm değerler birleştirildikten sonra: ", end="")
+print(list(itertools.chain(li1, li2, li3)))
+```
+
+```
+Tüm değerler birleştirildikten sonra: [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
+```
+
+**chain.from_iterable()**: Bu işlev chain() işlevine benzer şekilde uygulanır, ancak buradaki argüman bir liste listesi veya başka bir yinelenebilir kapsayıcıdır.
+
+```py
+import itertools
+
+li1 = [1, 4, 5, 7]
+
+li2 = [1, 6, 5, 9]
+
+li3 = [8, 10, 5, 4]
+
+li4 = [li1, li2, li3]
+
+# listelerin listesini gönderiyoruz
+print ("Söz konusu zincirdeki tüm değerler : ", end ="")
+print (list(itertools.chain.from_iterable(li4)))
+```
+```
+Söz konusu zincirdeki tüm değerler : [1, 4, 5, 7, 1, 6, 5, 9, 8, 10, 5, 4]
+```
+
+**compress(iter, selector)**: Bu yineleyici, diğer bağımsız değişkenler olarak geçirilen boolean liste değerine göre geçirilen kapsayıcıdan yazdırılacak değerleri seçerek alır. Boolean true'ya karşılık gelen argümanlar yazdırılır, aksi takdirde hepsi atlanır.
+
+```py
+import itertools
+
+# compress() kullanarak veri değerlerini seçerek yazdırma
+print("Dize içindeki sıkıştırılmış değerler şunlardır : ", end="")
+print(list(itertools.compress('SONSUZUSGITHUB', [1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1])))
+```
+
+```
+Dize içindeki sıkıştırılmış değerler şunlardır : ['S', 'Z', 'G', 'B']
+```
+
+**dropwhile(func, seq)**: Bu yineleyici, yalnızca func. in bağımsız değişkeni ilk kez false değerini döndürdükten sonra karakterleri yazdırmaya başlar.
+
+```py
+# Python code to demonstrate the working of
+# dropwhile()
+
+import itertools
+
+# initializing list
+li = [2, 4, 5, 7, 8]
+
+# using dropwhile() to start displaying after condition is false
+print ("The values after condition returns false : ", end ="")
+print (list(itertools.dropwhile(lambda x : x % 2 == 0, li)))
+```
+
+```
+The values after condition returns false : [5, 7, 8]
+```
+
+**filterfalse(func, seq)**: Adından da anlaşılacağı gibi, bu yineleyici yalnızca geçirilen işlev için false döndüren değerleri yazdırır.
+
+```py
+# Python code to demonstrate the working of
+# filterfalse()
+
+
+import itertools
+
+# initializing list
+li = [2, 4, 5, 7, 8]
+
+# using filterfalse() to print false values
+print ("The values that return false to function are : ", end ="")
+print (list(itertools.filterfalse(lambda x : x % 2 == 0, li)))
+```
+
+```
+The values that return false to function are : [5, 7]
+```
+
+**islice(iterable, start, stop, step)**: Bu yineleyici, argüman olarak geçirilen yinelenebilir kabında belirtilen değerleri seçerek yazdırır. Bu yineleyici 4 argüman alır, yinelenebilir kap, başlangıç konumu, bitiş konumu ve adım.
+
+```py
+# Python code to demonstrate the working of
+# islice()
+
+import itertools
+
+# initializing list
+li = [2, 4, 5, 7, 8, 10, 20]
+	
+# using islice() to slice the list acc. to need
+# starts printing from 2nd index till 6th skipping 2
+print ("The sliced list values are : ", end ="")
+print (list(itertools.islice(li, 1, 6, 2)))
+```
+
+```
+The sliced list values are : [4, 7, 10]
+```
+
+**starmap(func., tuple list)**: Bu yineleyici bir işlevi ve tuple listesini argüman olarak alır ve listenin her tuple'ından işleve göre değeri döndürür.
+
+```py
+import itertools
+
+
+# initializing tuple list
+li = [ (1, 10, 5), (8, 4, 1), (5, 4, 9), (11, 10, 1) ]
+
+# using starmap() for selection value acc. to function
+# selects min of all tuple values
+print ("The values acc. to function are : ", end ="")
+print (list(itertools.starmap(min, li)))
+```
+
+```
+The values acc. to function are : [1, 1, 4, 1]
+```
+
+**takewhile(func, iterable)**: Bu yineleyici dropwhile() işlevinin tersidir, işlev ilk kez yanlış dönene kadar değerleri yazdırır.
+
+```py
+import itertools
+
+# initializing list
+li = [2, 4, 6, 7, 8, 10, 20]
+
+# using takewhile() to print values till condition is false.
+print ("The list values till 1st false value are : ", end ="")
+print (list(itertools.takewhile(lambda x : x % 2 == 0, li )))
+```
+
+```
+The list values till 1st false value are : [2, 4, 6]
+```
+
+**tee(iterator, count)**:- Bu iteratör, konteyneri argümanda belirtilen sayıda iteratöre böler.
+
+```py
+import itertools
+
+# initializing list
+li = [2, 4, 6, 7, 8, 10, 20]
+
+# storing list in iterator
+iti = iter(li)
+
+# using tee() to make a list of iterators
+# makes list of 3 iterators having same values.
+it = itertools.tee(iti, 3)
+
+# printing the values of iterators
+print("The iterators are : ")
+for i in range(0, 3):
+	print(list(it[i]))
+```
+
+```
+The iterators are : 
+[2, 4, 6, 7, 8, 10, 20]
+[2, 4, 6, 7, 8, 10, 20]
+[2, 4, 6, 7, 8, 10, 20]
+```
+
+**zip_longest( iterable1, iterable2, fillval)**: Bu yineleyici, yinelenebilirlerin değerlerini sırayla yazdırır. Yinelenebilirlerden biri tam olarak yazdırılırsa, kalan değerler fillvalue'ya atanan değerlerle doldurulur.
+
+```py
+import itertools
+
+# using zip_longest() to combine two iterables.
+print("The combined values of iterables is : ")
+print(*(itertools.zip_longest('GesoGes', 'ekfrek', fillvalue='_')))
+```
+
+```
+The combined values of iterables is  : 
+('G', 'e') ('e', 'k') ('s', 'f') ('o', 'r') ('G', 'e') ('e', 'k') ('s', '_')
+```
