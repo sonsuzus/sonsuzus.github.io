@@ -1,7 +1,7 @@
 ---
 title:  Türkçe Sator Kareleri
 author: sonsuz
-date: 2023-07-28 19:09:53 +0300
+date: 2023-07-28 16:09:53 +0300
 categories: [Program,Algoritma]
 tags: [python,program,döngü,liste,veri,türkçe,palindrom]
 ---
