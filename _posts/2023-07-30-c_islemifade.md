@@ -1,5 +1,5 @@
 ---
-title:  İşlem satırı ve ifade
+title:  C İşlem satırı ve ifade
 author: sonsuz
 date: 2023-07-30 22:10:51 +0300
 categories: [Program,C]
