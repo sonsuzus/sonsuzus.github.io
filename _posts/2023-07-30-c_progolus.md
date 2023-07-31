@@ -1,5 +1,5 @@
 ---
-title:  Program oluşturma
+title:  C Program oluşturma
 author: sonsuz
 date: 2023-07-30 21:32:39 +0300
 categories: [Program,C]
