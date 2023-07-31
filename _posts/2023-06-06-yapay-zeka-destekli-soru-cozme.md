@@ -3,7 +3,7 @@ title: Yapay zeka destekli soru çözme uygulaması
 author: sonsuz
 date: 2023-06-06 18:11:00 +0300
 categories: [Proje]
-tags: [yapayzeka,uygulama,c#]
+tags: [yapayzeka,uygulama,c]
 ---
 
 ## Amaç

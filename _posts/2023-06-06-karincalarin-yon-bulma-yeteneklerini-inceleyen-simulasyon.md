@@ -3,7 +3,7 @@ title: Karıncaların yön bulma yeteneklerini inceleyen program
 author: sonsuz
 date: 2023-06-06 18:37:00 +0300
 categories: [Proje]
-tags: [simulasyon,c#,unity]
+tags: [simulasyon,c,unity]
 ---
 
 ## Özet
