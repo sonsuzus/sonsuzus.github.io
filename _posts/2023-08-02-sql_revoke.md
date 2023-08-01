@@ -17,7 +17,7 @@ REVOKE yetki\_adı
 
 ON nesne\_adı
 
-FROM { kullanıcı\_adı | PUBLIC | rol\_adı }
+FROM { kullanıcı\_adı \| PUBLIC \| rol\_adı }
 
 yetki\_adı : Geri alınacak olan erişim yetkisidir.
 
