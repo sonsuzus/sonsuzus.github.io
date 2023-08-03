@@ -141,7 +141,7 @@ Bit işlemcileri bir tamsayı içinde yer alan bit değerlerini işlem yaparak k
 | İşlemci | Adı | Açıklama |
 | --- | --- | --- |
 | & | Ve | İşleme giren değerlerin her ikisinde de bit değeri 1 ise sonuç 1 olur. |
-| | | Veya | İşleme giren değerlerin herhangi birinin bit değeri 1 ise karşılık 1 olur. |
+| \| | Veya | İşleme giren değerlerin herhangi birinin bit değeri 1 ise karşılık 1 olur. |
 | ^ | Ayrıcalıklı Veya | İşleme giren değerlerin bitleri farklı ise sonuç 0, aksi takdirde 1 olur. |
 | ~ | Değil | İşleme giren değerin 1 olan bitleri 0, 0 olan bitleri ise 1 olur. |
 | << | Sola kaydırma | Solda yer alan değerin bitleri sağda yer alan değer kadar sola kayar. |
@@ -206,9 +206,7 @@ Yukarıdaki PHP dosyasında, $deg01 değişkenine sıra ile 128, 64, 32, 16, 8, 
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -291,9 +289,7 @@ ikili\_yazdir() fonksiyonuna geçirilen onluk sistem değeri önce bu değerle d
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -354,9 +350,7 @@ Karşılaştırma işlemcilerini kullanarak iki değeri karşılaştırabilir ve
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -374,8 +368,6 @@ Karşılaştırma işlemcilerini kullanarak iki değeri karşılaştırabilir ve
 
 </body>
 </html>
-
-
 ```
 
 Yukarıdaki dosyayı çalıştırdığımızda, web tarayıcımızda aşağıdaki ifadeler karşımıza çıkar:
@@ -397,9 +389,7 @@ Eğer track\_errors özelliği etkinse bu ifade tarafından oluşturulan hata me
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -437,9 +427,7 @@ Artırma ve azaltma işlemcileri bir değişkenin önüne gelirse elde edilen so
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -479,15 +467,13 @@ Ve ve veya işlemcilerinin 2 farklı şekilde kullanılmasının nedeni, işlemc
 | İşlemci | Adı | Açıklama |
 | --- | --- | --- |
 | && (and) | Ve | İşleme giren değerlerin her ikisi de doğru ise sonuç TRUE olur. |
-| || (or) | Veya | İşleme giren değerlerin herhangi birinin değeri doğru ise sonuç TRUE olur. |
+| \|\| (or) | Veya | İşleme giren değerlerin herhangi birinin değeri doğru ise sonuç TRUE olur. |
 | xor | Ayrıcalıklı Veya | İşleme giren değerler farklı ise sonuç TRUE olur. |
 | ! | Değil | İşleme giren değerin değili alınır (TRUE ise FALSE, FALSE ise TRUE). |
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -521,9 +507,7 @@ PHP'de kullanılan karakter dizisi işlemcisi birleştirme işlemcisi olan . (no
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -569,9 +553,7 @@ Birleşim işlemcisi işlem yapılan dizilerin tüm elemanlarını birleştirere
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -624,9 +606,7 @@ array
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
@@ -658,9 +638,7 @@ instanceof işlemcisi, bir değişkenin belli bir sınıf için tanımlanan bir 
 
 Örnek
 
-```
-
-
+```php
 <html>
 <body>
 
