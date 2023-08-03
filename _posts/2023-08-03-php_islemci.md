@@ -83,7 +83,7 @@ Diğer işlemcilerden bazıları temel atama işlemcisi ile birlikte kullanılar
 | .= | Birleştirme ve Atama | Sol tarafındaki dizi ile sağ tarafındaki diziyi birleştirir ve sonucu sol tarafındaki değişkene atar. |
 | %= | Kalan ve Atama | Sol tarafındaki değişken değerini sağ tarafındaki değere böler ve kalan değeri sol tarafındaki değişkene atar. |
 | &= | Ve ve Atama | İki değer arasında & işlemi uygular ve sonucu sol tarafındaki değişkene atar. |
-| \|= | Veya ve Atama | İki değer arasında | işlemi uygular ve sonucu sol tarafındaki değişkene atar. |
+| \|= | Veya ve Atama | İki değer arasında \| işlemi uygular ve sonucu sol tarafındaki değişkene atar. |
 | ^= | Ayrıcalıklı Veya ve Atama | İki değer arasında ^ işlemi uygular ve sonucu sol tarafındaki değişkene atar. |
 | <<= | Sola kaydırma ve Atama | İki değer arasında << işlemi uygular ve sonucu sol tarafındaki değişkene atar. |
 | >>= | Sağa kaydırma ve Atama | İki değer arasında >> işlemi uygular ve sonucu sol tarafındaki değişkene atar. |
@@ -421,7 +421,7 @@ Artırma ve azaltma işlemcileri tek bir değere işlem yapan işlem yapılan de
 | İşlemci | Adı | Açıklama |
 | --- | --- | --- |
 | ++ | Artırma | İşlem yapılan değişkenin değerini 1 artırır. |
-| -- | Azaltma | İşlem yapılan değişkenin değerini 1 azaltır. |
+| \-\- | Azaltma | İşlem yapılan değişkenin değerini 1 azaltır. |
 
 Artırma ve azaltma işlemcileri bir değişkenin önüne gelirse elde edilen sonuç işlemcinin kullanıldığı ifade içinde, arkasına gelirse daha sonraki işlem satırlarında kullanılır:
 
