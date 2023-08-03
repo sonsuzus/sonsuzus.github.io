@@ -136,7 +136,7 @@ Yukarıdaki dosyayı çalıştırdığımızda, web tarayıcımızda aşağıdak
 
 ## Bit işlemcileri
 
-Bit işlemcileri bir tamsayı içinde yer alan bit değerlerini işlem yaparak kulanmamızı sağlar. Bu konuyu daha iyi anlayabilmek için temel bilgilerinizi gözden geçirmek veya bilgi sahibi olmak amacıyla [sayı sistemleri](bilgi_sayi) bölümünü okuyabilirsiniz.
+Bit işlemcileri bir tamsayı içinde yer alan bit değerlerini işlem yaparak kulanmamızı sağlar. Bu konuyu daha iyi anlayabilmek için temel bilgilerinizi gözden geçirmek veya bilgi sahibi olmak amacıyla sayı sistemleri bölümünü okuyabilirsiniz.
 
 | İşlemci | Adı | Açıklama |
 | --- | --- | --- |
