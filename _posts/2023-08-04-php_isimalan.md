@@ -661,9 +661,9 @@ dizi değildir
 
 5. İsim alanı içindeki (A\B olsun), nitelenmemiş işlev çağrıları çalışma anında çözümlenir. fonk() diye bir işlev şöyle çözümlenir:
 
-a. Geçerli isim alanında A\B\fonk() işlevi aranır.
+	a. Geçerli isim alanında A\B\fonk() işlevi aranır.
 
-b. Global fan() işlevi bulunmaya ve çağrılmaya çalışılır.
+	b. Global fan() işlevi bulunmaya ve çağrılmaya çalışılır.
 
 6. İsim alanı içindeki (A\B olsun), nitelenmemiş (tamamen nitelenmemiş) veya nitelenmiş sınıf ismi çağrıları çalışma anında çözümlenir. new C() ve new D\E() deyimlerinin çözümlenişi aşağıda verilmiştir.
 
