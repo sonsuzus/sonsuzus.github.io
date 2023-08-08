@@ -23,7 +23,7 @@ Bir işlemci için çoklu görev tanımlama işlemi yapıldığında yani birden
 
 Sınıf üyesi olarak tanımlanan işlemci fonksiyonunun genel yapısı aşağıda gösterilmektedir:
 
-```cpp
+```c++
 veri-türü sınıf-adı::operatorişlemci(parametreler)
 {
   // Kod bloğu
@@ -39,7 +39,7 @@ veri-türü sınıf-adı::operatorişlemci(parametreler)
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -133,7 +133,7 @@ Sınıf üyesi olarak tanımlanan işlemci fonksiyonunun genel yapısı aşağı
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -224,7 +224,7 @@ Friend fonksiyon kullanılarak, ++ ve -- işlemcilerine çoklu görev tanımlama
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -319,7 +319,7 @@ Eğer ++ ve -- işlemcilerine friend fonksiyonlar ile çoklu görev tanımlama i
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -416,7 +416,7 @@ C++'da, << ve >> işlemcilerini mevcut ve kullanıcı tanımlı veri tipleri üz
 
 Oluşturduğumuz bir sınıf için aşağıdaki genel yapı ile bir << işlemcisine çoklu görev tanımlama işlemi uygulayabiliriz:
 
-```cpp
+```c++
 ostream &operator<<(ostream &stream, const sınıf_adı &nesne)
 {
   // Kod bloğu
@@ -433,7 +433,7 @@ ostream &operator<<(ostream &stream, const sınıf_adı &nesne)
 
 Şimdi, çoklu görev tanımlama işlemi yapılmış bir << işlemcisinin kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -497,7 +497,7 @@ veri-türü sınıf-adı::operator<<(sınıf_adı nesne)
 
 Ancak, << işlemcisi ile yapılan çoklu görev tanımlama işlemi ile oluşturulan bir fonksiyonda, en solda yer alan ilk parametre bir stream değeri, ikinci parametre ise sınıftan oluşturulmuş bir nesne olmalıdır.
 
-```cpp
+```c++
 ostream &operator<<(ostream &stream, const sınıf_adı &nesne)
 
 ```
@@ -508,7 +508,7 @@ Bu nedenlerle, << işlemcisi ile yapılan çoklu görev tanımlama işlemi ile o
 
 Şimdi, bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -567,7 +567,7 @@ Program, üç adet private int değer, bu int değerlere birer değer atayan con
 
 Oluşturduğumuz bir sınıf için aşağıda genel yapı ile bir >> işlemcisine çoklu görev tanımlama işlemi uygulayabiliriz:
 
-```cpp
+```c++
 istream &operator>>(istream &stream, sınıf_adı &nesne)
 {
   // Kod bloğu
@@ -584,7 +584,7 @@ istream &operator>>(istream &stream, sınıf_adı &nesne)
 
 Şimdi, bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -682,7 +682,7 @@ Dönüştürme fonksiyonları;
 
 Şimdi, dönüştürme fonksiyonlarının kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

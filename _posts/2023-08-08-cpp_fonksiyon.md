@@ -13,7 +13,7 @@ C++'da, fonksiyon bir veya daha fazla işlem satırından oluşan kodların bir 
 
 Fonksiyon, eğer varsa, kendisine geçirilen parametreleri de kullanarak kod bloğu içindeki işlem satırları ile bir takım işlemler yaparak bir sonuç elde eder. Elde edilen sonuç, ihtiyaca bağlı olarak, fonksiyon içinde ya da return komutu ile geri döndürüldükten sonra program içinde kullanılır.
 
-```cpp
+```c++
 veri-türü fonksiyon-adı (parametreler)
 {
   işlem satırı
@@ -52,7 +52,7 @@ Bir fonksiyonun geri verdiği veri türü dizi dışında herhangi bir veri olab
 
 Bir fonksiyon için geri dönen veri türü ve parametre tanımlanmadığında, bu ifadelerin yerine void ifadesini kullanarak bu durumu derleyiciye bildirebiliriz. main() fonksiyonundan önce de void ifadesini kullanılabilir.
 
-```cpp
+```c++
 void fonksiyon-adı (void)
 {
   işlem satırları
@@ -64,7 +64,7 @@ veri-türü ifadesi Eğer bir fonksiyonun adının başında veri türü tanıml
 
 Aşağıdaki bir ve ikinci fonksiyonlar int bir değer, üçüncü fonksiyon ise float bir değer geri verir:
 
-```cpp
+```c++
 fonk(int d1, int d2)
 {
   .
@@ -99,7 +99,7 @@ float fonk(float fd1, float fd2)
 
 Normal olarak, fonksiyonların kullanılmadan önce fonksiyon prototipi yöntemiyle bildirimi yapılmalıdır. Ffonksiyonların ana yapısı main() fonksiyonundan önce yer alırsa, fonksiyon bildirimi yapılmayabilir. Ancak, main() fonksiyonundan sonra yer alıyorsa, mutlaka main() fonksiyonunda önce fonksiyon bildirimi yapılmalıdır.
 
-```cpp
+```c++
 // Fonksiyon bildiriminin yapılması gereken durum
 fonk(int d1, int d2); // Fonksiyon bildirimi
 
@@ -158,7 +158,7 @@ Fonksiyon bildirimini bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -202,7 +202,7 @@ Yukarıdaki satırda yer alan ilk void ifadesi fonk() fonksiyonunun herhangi bir
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -253,7 +253,7 @@ Program, id1 ve id2 adlı iki adet int değişken tanımlayarak sırasıyla 7 ve
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -304,7 +304,7 @@ return ifadesi fonksiyonun geri döndürmesi gereken değerle dönüş yapar (vo
 
 return ifadesinin genel kullanım şekli aşağıdaki şekildedir:
 
-```cpp
+```c++
 veri-türü fonksiyon-adı (parametreler)
 {
   işlem satırı
@@ -329,7 +329,7 @@ Fonksiyon void bir değer döndürecek şekilde tanımlandığında, bir değer 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -367,7 +367,7 @@ Program, deger\_yaz() fonksiyonu yoluyla, 1'den başlayarak fonksiyona parametre
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -413,7 +413,7 @@ Program, deger\_yaz\_topla() fonksiyonu yoluyla, 1'den başlayarak fonksiyona pa
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -486,7 +486,7 @@ Fonksiyonların kendi kendini çağırma özelliğini sadece gerekli olduğu zam
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -531,7 +531,7 @@ Yukarıdaki örnekte, program iki karakter dizisini birbirine ekleyen bir fonksi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -586,7 +586,7 @@ Program, bg\_strcpy() fonksiyonu ile, 20 byte uzunluğundaki iki diziye aynı ka
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -650,7 +650,7 @@ Bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -697,7 +697,7 @@ Bu özelliği bir önceki örneği değiştirerek incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -742,7 +742,7 @@ Kısaca ifade etmek gerekirse, bir fonksiyona argüman olarak geçirilen değerl
 
 Eğer bir fonksiyonu çağırırken argüman olarak bir dizi kullanırsak, program sadece dizinin ilk elemanının bellek adresini (dizi başlangıç adresi) fonksiyon parametrelerine geçirir. Bir dizinin başlangıç adresini bir fonksiyona geçirmek için, fonksiyon parametresini bu işlemi yapacak şekilde tanımlamak gerekir. Aşağıdaki her üç işlem satırı da bir dizinin ilk elemanının bellek adresini geçirebileceğimiz parametreye sahip bir fonksiyon bildirimi yapar:
 
-```cpp
+```c++
 void fonk (int idizi[10]);
 void fonk (int idizi[]);
 void fonk (int *ip);
@@ -756,7 +756,7 @@ Yukarıdaki ilk işlem satırı, fonksiyonun çağrılmasında argüman olarak k
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -844,7 +844,7 @@ Program, üç adet fonksiyon bildirimi yapar. Her üç fonksiyon da parametre oa
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -884,7 +884,7 @@ Program iki adet char işaretçi parametre içeren fonk() adlı bir fonksiyon bi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -935,7 +935,7 @@ Bir fonksiyona argüman olarak bir işaretçi geçirdiğinizde, fonksiyon kendis
 
 Örnek
 
-```cpp
+```c++
 // Bu program derleyici tarafından derlenmez.
 #include <iostream>
 
@@ -979,7 +979,7 @@ C++'da, çok boyutlu diziler de, tıpkı tek boyutlu diziler gibi, bir fonksiyon
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1079,7 +1079,7 @@ Yukarıdaki satır komut satırında iken yazıldığında, deneme.exe programı
 
 Daha önce incelediğimiz gibi, bir programda yer alan bir fonksiyona argümanlar yoluyla geçirilen değerleri, fonksiyonun mevcut parametrelerine aktardık. C++'da yazılmış bir programa işletim sistemi ortamından, komut satırı argümanları yoluyla geçirilen değerler ise main() fonksiyonuna ait argc ve argv adlı parametrelere aktarılır. Komut satırı argümanları kullanıldığında, programımızdaki main() fonksiyon başlangıç satırı aşağıdaki şekilde olacaktır:
 
-```cpp
+```c++
 void main(int argc, char *argv[])
 
 
@@ -1091,7 +1091,7 @@ Yukarıdaki satırda yer alan argv parametresi ise bir karakter dizisi işaretç
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1122,7 +1122,7 @@ C++'da, main() fonksiyonu ile birlikte kullanılan parametrelere argc ve argv ad
 
 İşletim sistemi komut satırından programa geçirilen argümanlar bir karakter dizisi olarak geçirildiğinden, programa int bir değer bile geçirilse, program bu sayıları karakter dizisi olarak kabul eder. Programa karakter dizisi olarak geçirilen sayıları, program içinde sayısal bir değer olarak kullanabilmek için, bu karakter dizilerini sayısal bir değere çevirmemiz gerekir. Bu işlemi gerçekleştirebilmek için aşağıda gösterilen standart kütüphane fonksiyonlarını kullanabiliriz:
 
-```cpp
+```c++
 int atoi(char *cdizi);    // cdizi değerini int bir değere çevirir.
 double atof(char *cdizi); // cdizi değerini double bir değere çevirir.
 long atol(char *cdizi);   // cdizi değerini long int bir değere çevirir.
@@ -1134,7 +1134,7 @@ Yukarıda yer alan fonksiyonların tamamı stdlib.h başlık dosyasını kullanm
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1163,7 +1163,7 @@ Program, komut satırında program adından sonra argüman girilirse, sıra ile 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1189,7 +1189,7 @@ deneme 3
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1217,7 +1217,7 @@ Yukarıdaki örnekler, komut satırında program adı dışında bir argüman ku
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1255,7 +1255,7 @@ Yukarıdaki satır, uygun sayıda argüman kullanılmadığında, kullanıcıya 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 #include <cstring>
@@ -1282,7 +1282,7 @@ Program, komut satırından girilen iki karakter dizisinin uzunluğunu ekrana ya
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1327,7 +1327,7 @@ veri-türü (\*işaretçi-adı) (par1, par2, ...);
 
 int bir değer geri veren ve 2 adet int parametre içeren bir fonksiyona bir işaretçi tanımlamak için aşağıdaki ifadeyi kullanabiliriz:
 
-```cpp
+```c++
 int (*fp) (int id1, int id2);
 
 
@@ -1339,7 +1339,7 @@ Bir fonksiyon bildirimi yapılmasını, fonksiyon giriş noktası adresinin bir 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1389,7 +1389,7 @@ Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1454,7 +1454,7 @@ Program, iki fonksiyon için iki elemanlı işaretçisi dizisi bildirimini yapar
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstring>
 
@@ -1523,7 +1523,7 @@ Bu yöntemde, çağıracağımız fonksiyona bir dizi geçirerek, fonksiyon içi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1575,7 +1575,7 @@ Fonksiyona parametre olarak geçirilen diziye kendi boyutundan fazla değer yük
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1617,7 +1617,7 @@ Bu yöntemde, fonksiyon tarafından geri döndürülecek dizi fonksiyon içinde 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1666,7 +1666,7 @@ Bu durumu aşağıdaki örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1721,7 +1721,7 @@ Bu yöntemde, fonksiyon tarafından geri döndürülecek dizi için fonksiyon i�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1771,7 +1771,7 @@ Bu yöntemde, içinde int bir dizi içeren global bir yapı oluşturulur. Fonksi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

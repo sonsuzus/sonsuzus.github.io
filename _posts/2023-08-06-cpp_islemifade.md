@@ -13,7 +13,7 @@ main() fonksiyonu ve diğer fonksiyonlarda yer alan ve noktalı virgül (;) kara
 
 İşlem satırı bir değişken bildirimi, değişkene bir değer atama, aritmetik bir ifade, bir fonksiyon çağrısı veya bir döngü içerebilir.
 
-```cpp
+```c++
 int id1, id2, id3;  // Değişken bildirimi
 id1 = 4;            // Değişkene değer atama
 id2 = 5;            // Değişkene değer atama
@@ -47,7 +47,7 @@ veriler = değişkenler + sabitler
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

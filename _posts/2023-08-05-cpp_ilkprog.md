@@ -21,7 +21,7 @@ C++ programlama dilinde büyük ve küçük harflere farklı işlem yapılmaktad
 
 Örnek
 
-```cpp
+```c++
 #include <iostream> // Başlık dosyasını programa ekleme
 
 using namespace std; // std isim alanını kullanıma açma 
@@ -48,7 +48,7 @@ C++ Programlama Dili
 
 Şimdi, programı satır satır incelemeye çalışalım.
 
-```cpp
+```c++
 #include <iostream>
 
 
@@ -58,7 +58,7 @@ C++'da, # karakteri ile başlayan satırlar önişlemci direktifi olup, program 
 
 Bu durumda, <iostream> başlık dosyasını programımıza dahil ederek, std isim alanını dolayısıyla da cout komutunu programımızda kullanabilme olanağına sahip oluyoruz.
 
-```cpp
+```c++
 using namespace std;
 
 
@@ -66,7 +66,7 @@ using namespace std;
 
 Yukarıdaki satır, <iostream> adlı başlık dosyasında bulunan std isim alanını kullanmamızı sağlar.
 
-```cpp
+```c++
 int main(void)
 
 
@@ -76,7 +76,7 @@ Bir C++ programı çalışmaya başladığında, ilk önce program içinde mutla
 
 C++ dilinde, main ifadesinden sonraki parentezler içindeki void ifadesi, main() fonksiyonunun bir parametreye sahip olmadığını gösterir.
 
-```cpp
+```c++
 cout << "C++ Programlama Dili";
 
 
@@ -88,7 +88,7 @@ Yukarıda verilen satır main() fonksiyonu içinde ilk sırada yer alan ve "C++ 
 
 Burada, << işareti çıktı alma işlemcisi olarak çalışır. cout ifadesi ekran ile ilgili olup << işareti ile birlikte kullanılarak sağ tarafta yer alan ifadeyi ekrana yazmaya yarar.
 
-```cpp
+```c++
 return 0;
 
 
@@ -102,7 +102,7 @@ Aynı programı using namespace std; satırını kullanmadan yazdığımızda, c
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 int main()
@@ -120,7 +120,7 @@ int main()
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -151,7 +151,7 @@ Yukarıdaki iki adet işlem satırını tek satırda yazmakla aşağıda göster
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -175,7 +175,7 @@ Fonksiyonları tanımlanma şekilleri açısından ikiye ayırabiliriz:
 
 Programlarımızda hazır kütüphane fonksiyonlarını kullanmak istediğimizde, kütüphaneye ait başlık dosyasını programın başında tanımladıktan sonra, sadece fonksiyon adını yazarak çağırmamız yeterlidir. Ancak kullanıcı tanımlı fonksiyonlar kullanmak istediğimizde, fonksiyonu çağırmadan önce, program içinde tanımlamamız gerekir. Şimdi, bir program içinde kullanıcı tanımlı bir fonksiyonu oluşturmanın yolunu incelemeye çalışalım. Fonksiyon C++ programlama dilinde aşağıdaki gibi genel bir yapı ile ifade edilir:
 
-```cpp
+```c++
 fonksiyon_adı(parametre1, paramtre2, ...)
 {
   işlem satırı;
@@ -189,7 +189,7 @@ fonksiyon_adı(parametre1, paramtre2, ...)
 
 Eğer fonksiyon genel yapısı main() fonksiyonundan sonra dosyaya dahil edilirse, main() fonksiyonundan önce aşağıdaki şekilde fonksiyon bildirimi yapılmalıdır.
 
-```cpp
+```c++
 fonksiyon_adı(parametre1, parametre2, ...); // fonksiyon bildirimi
 
 int main(void)
@@ -215,7 +215,7 @@ Fonksiyon tanımlamalarında fonksiyon adı tanımlayabileceğimiz herhangi bir 
 
 Bir fonksiyonu yukarıda gösterildiği şekilde tanımladıktan sonra tıpkı kütüphane fonksiyonları gibi çağırabiliriz. Bir fonksiyon main() fonksiyonu veya diğer bir fonksiyon içinden adı kullanılarak çağrılabilir:
 
-```cpp
+```c++
 fonksiyon_adı();
 
 
@@ -223,7 +223,7 @@ fonksiyon_adı();
 
 Bir fonksiyona çağrı yapmak için işlem satırına önce fonksiyon adı ve hemen peşinden de parantez açma ve kapama işaretleri yazılır. İşlem satırı ise doğal olarak noktalı virgül ile sonlandırılır:
 
-```cpp
+```c++
 fonk1();
 
 
@@ -239,7 +239,7 @@ Yukarıda çalıştırdığımız program içinde yer alan main() fonksiyonu da 
 
 Program çalışmaya başladığında, direkt olarak main() fonksiyonuna giriş yaptığından ve ilk işlem satırından itibaren işlemleri gerçekleştirdiğinden bahsetmiştik. İşlem satırları açma yaylı parantezi ({) ile kapama yaylı parantezi (}) arasında yer alır:
 
-```cpp
+```c++
 int main(void)
 {
   işlem satırı:
@@ -257,7 +257,7 @@ Program içinde main() fonksiyonu dışında fonksiyon kullanmak için, yukarıd
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

@@ -34,7 +34,7 @@ Değişken bildiriminde değişken-adı ifadesi yerine kullanılacak değişken 
 
 Aşağıdaki işlem satırlarından birincisi id adlı int, ikincisi fd adlı float ve üçüncüsü dd adlı double bir değişken bildirimi yapar:
 
-```cpp
+```c++
 int id;
 float fd;
 double dd;
@@ -46,7 +46,7 @@ Değişken bildirimlerini, main() fonksiyonu da dahil olmak üzere, fonksiyonlar
 
 Aynı türden olan birden fazla değişken bildirimini aynı işlem satırında yapabiliriz. Aşağıdaki işlem satırı id1, id2 ve id3 adlarında üç adet int değişken bildirimi yapar:
 
-```cpp
+```c++
 int id1, id2, id3;
 
 
@@ -63,7 +63,7 @@ Lokal değişkenlerin en önemli özelliği sadece tanımlanmış olduğu fonksi
 
 Aynı ada sahip olsalar bile, bir fonksiyondaki lokal bir değişkenin diğer bir fonksiyon içindeki lokal değişken ile herhangi bir ilgisi yoktur.
 
-```cpp
+```c++
 void fonk1(void)     void fonk2(void)
 {                    {
   int id;              int id;
@@ -84,7 +84,7 @@ Lokal değişkenlerle ilgili bahsettiklerimizi bir örnek üzerinde incelemeye �
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -144,7 +144,7 @@ Bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -185,7 +185,7 @@ Bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -231,7 +231,7 @@ Bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -279,7 +279,7 @@ Global değişkenler bir program çalıştığı sürece varlıklarını sürdü
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -328,7 +328,7 @@ Program, gid adlı global int bir değişken ve main() fonksiyonu içinde id adl
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -381,7 +381,7 @@ Global değişkenlere herhangi bir ilk değer atanmadığında, otomatik olarak 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -418,7 +418,7 @@ Bir değişkene değer atamak için işlem satırında önce değişkenin adı, 
 
 Bir değişken bildirimi ve bu değişkene değer atama işlemi iki ayrı satırda yapılabileceği gibi tek işlem satırında da yapılabilir. Aşağıda yer alan ilk işlem satırı id adlı bir değişken bildirimi yapar ve ikinci işlem satırı id değişkenine 537 değerini atar. Üçüncü işlem satırı ise, id2 adlı int bir değişken bildirimi yaparken değişkene 751 değerini atayarak, üstteki iki satırın yaptığı işlemi tek işlem satırında gerçekleştirir.
 
-```cpp
+```c++
 int id1;   // Değişken bildirim satırı
 id1 = 537; // Değişkene değer atama satırı
 
@@ -433,7 +433,7 @@ Değişkenlere ilk değer atama işlemini bir örnek üzerinde incelemeye çalı
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -469,7 +469,7 @@ Program, oluşturduğu cd adlı char bir değişkene 'A' karakterini, id adlı i
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -519,7 +519,7 @@ Bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -570,7 +570,7 @@ Global bir değişkene bir ilk değer atamazsak, değişken sıfır (0) değerin
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -608,7 +608,7 @@ float fd1 = 45.324, fd2 = 852.321
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -651,7 +651,7 @@ Bu özelliği bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -712,7 +712,7 @@ Eğer sol taraftaki veri türü sağ taraftakinden büyük ise veri türü dön�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -774,7 +774,7 @@ int değişken-adı = float (ifade); // Ondalık bölümü ortadan kalkar (Float
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -841,7 +841,7 @@ Bir fonksiyona geçirilen bir parametrenin, fonksiyon tarafından değiştirilme
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -885,7 +885,7 @@ Program, id1 adlı int ve id2 adlı const int değişken bildirimleri yaparken h
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -935,7 +935,7 @@ Bir değişken volatile olarak tanımlandığında, derleyicinin herhangi bir iy
 
 Volatile niteleyicisinin değişken ve işaretçilerle kullanılmasını gösteren farklı örnekler aşağıda gösterilmektedir:
 
-```cpp
+```c++
 volatile int id; // volatile değişken bildirimi
 volatile int *ip; // işaretçi volatile değil, gösterdiği değişken volatile
 int *volatile ip; // işaretçi volatile, gösterdiği değişken volatile değil
@@ -946,7 +946,7 @@ volatile int *volatile ip; // işaretçi ve değişken volatile
 
 Bir değişken normal yöntemle tanımlandığında, derleyici iyileştirme uygulamaz ve değişken değerinin değişmeyeceğini kabul ederek, yazmaca yükler. Değişkeni kullanmak istediğinde, her defasında yazmaçtan okur.
 
-```cpp
+```c++
 // Normal değişken bildirimi (Derleyici iyileştirme yapar)
 int id1 = 21;
 yazmaç = id1; // id1 değeri yazmaca kopyalanır.
@@ -1011,7 +1011,7 @@ Mantıksal olarak herhangi bir etkisi olmasa bile, değişken erişiminin gereki
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib> // exit() fonksiyonu için
 #include <pthread.h>
@@ -1109,7 +1109,7 @@ Bu durumda, main() fonksiyonu ve her üç thread'e ait fonksiyonlarda yer alan s
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib> // exit() fonksiyonu için
 #include <pthread.h>
@@ -1250,7 +1250,7 @@ Aslında, normal koşullarda bir değişken herhangi bir değişken niteleyicisi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <ctime>
 
@@ -1295,7 +1295,7 @@ Program clock() fonksiyonu ile bir döngü çalışmasından önce ve sonra olma
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <ctime>
 
@@ -1346,7 +1346,7 @@ Static değişkenler, sadece tanımlandıkları fonksiyon içinde kalıcı olara
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1416,7 +1416,7 @@ static depolama sınıfı belirleyicisini global değişkenlerle de kullanabilir
 
 Örnek
 
-```cpp
+```c++
 // deneme1.cpp
 #include <iostream>
 
@@ -1476,7 +1476,7 @@ extern değişken belirleyicisinin kullanılmasını örnekler üzerinde incelem
 
 Örnek
 
-```cpp
+```c++
 // deneme1.cpp
 #include <iostream>
 
@@ -1531,7 +1531,7 @@ Bir sınıf içinde const olarak tanımlanan bir fonksiyonun, sınıf içindeki 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

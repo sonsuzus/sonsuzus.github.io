@@ -33,7 +33,7 @@ C++'da, işlemciler arasında öncelik sırası adı verilen bir kural vardır. 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -71,7 +71,7 @@ Program ilk satırda, \* işlemcisine öncelik verdiğinden, önce 4 ile 3 sayı
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -103,7 +103,7 @@ Program, farklı değerlerle yapılan işlemlerin sonuçlarını ekrana yazar. c
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -159,7 +159,7 @@ C++ ilişkisel işlemcileri
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -196,7 +196,7 @@ Program, bildirimini yaptığı id1 ve id2 adlı iki adet int değişkene birer 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -260,7 +260,7 @@ Yukarıdaki tabloda gösterilen x ve y ifadeleri, sabit, değişken veya ifadele
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -296,7 +296,7 @@ Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri
 
 Program farklı değerler atadığı 2 adet int değişken arasında yaptığı karşılaştırmaları ve bu karşılama sonuçları ile yaptığı mantıksal işlem sonuçlarını ekrana yazar. İlişkisel işlemciler öncelikli işlem gördüğünden birinci safha sonunda aşağıdaki değerler elde edilir. Daha sonra, devreye giren mantıksal işlemciler ile elde edilen sonuç ekrana yazılır.
 
-```cpp
+```c++
 cout << ((id1<id2) && (id1!=id2)) << " " << ((id1<id2) || (id1!=id2)) << "\n";
 
 1 && 1, 1 || 1 // İlişkisel işlemler sonucu (İlk safha)
@@ -318,7 +318,7 @@ Aynı programı değişken karşılaştırmalarını da farklı değişkenlere a
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -366,7 +366,7 @@ Mantıksal işlemcilerin normal öncelik sırası parantezler tarafından deği�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -437,7 +437,7 @@ Aşağıdaki örnekte, program iki adet int değer arasında bit işlemcileri il
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -486,7 +486,7 @@ Program ile yapılan işlemleri bit seviyesinde gösteren karşılaştırma bilg
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -585,7 +585,7 @@ Eğer iki değişken değeri arasında ^ bit işlemcisi ile işlem yaptıktan so
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -650,7 +650,7 @@ Program, sid1 ve sid2 değişkenleri arasında ^ bit işlemcisi ile işlem yapt�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -727,7 +727,7 @@ Bu özellikleri bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -795,7 +795,7 @@ id = id << 1; // id = id*2
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -844,7 +844,7 @@ Bir sayı üzerinde uygulanan bit kaydırma işlemlerini ve elde edilen değerle
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -905,7 +905,7 @@ Bit ve bit kaydırma işlemcilerinin birlikte kullanımını unsigned integer bi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdlib>
 
@@ -1028,7 +1028,7 @@ Yukarıdaki satırda yer alan veri-türü ifadesi C++'da kullanılan herhangi bi
 
 Aşağıdaki işlem satırı ip adlı int veri türünden bir işaretçi tanımlar:
 
-```cpp
+```c++
 int *ip;
 
 
@@ -1042,7 +1042,7 @@ işaretçi-adı = &değişken-adı;
 
 Yukarıdaki satırda yer alan işaretçi-adı ifadesi işaretçi adı olarak kullanabileceğimiz herhangi bir karakter dizisini, değişken-adı ifadesi ise herhangi bir değişken adını göstermektedir. Aşağıdaki ilk işlem satırı ip adlı int bir işaretçi ve id adlı int bir değişken tanımlar. İkinci işlem satırı ise id değişkeninin bellek adresini ip işaretçisine atar:
 
-```cpp
+```c++
 int *ip, id;
 ip = &id;
 
@@ -1053,7 +1053,7 @@ ip = &id;
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1115,7 +1115,7 @@ C++'da, -> işlemcisi yapı ve sınıflarla birlikte kullanılmaktadır. Farklı
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1167,7 +1167,7 @@ Program, önce bir adet int ve bir adet char değişken içeren yap adlı bir ya
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1226,7 +1226,7 @@ Program, önce bir adet priid adlı private int ve bir adet pubid adlı public i
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1276,7 +1276,7 @@ Program, önce bir adet int ve bir adet char değişken içeren yap adlı bir ya
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1339,7 +1339,7 @@ değişken-adı++;
 
 Bir değişken değerini birer birer artıran ve iki adet artı (+) işaretinden oluşan bu işlemciye artırma işlemcisi adı verilir. Artı işaretlerinin arasında boşluk olmamalıdır. Aşağıda yer alan her iki işlem satırı da aynı işlemi gerçekleştirir:
 
-```cpp
+```c++
 id = id + 1;
 id++;
 
@@ -1350,7 +1350,7 @@ Yukarıdaki iki satır arasında, yaptıkları işlem açısından, hiçbir fark
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1388,7 +1388,7 @@ Program, başlangıçta 21 sayısını atadığı id int değişken değerini ö
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1442,7 +1442,7 @@ değişken-adı--;
 
 Eksi işaretlerinin arasında boşluk olmamalıdır. Aşağıda yer alan her iki işlem satırı da aynı işlemi gerçekleştirir:
 
-```cpp
+```c++
 id = id - 1;
 id--;
 
@@ -1453,7 +1453,7 @@ Yukarıdaki iki işlem satırı arasında yaptıkları işlem açısından hiçb
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1497,7 +1497,7 @@ Bu konuyu bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1571,7 +1571,7 @@ koşul ? ifade1 : ifade2;
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1605,7 +1605,7 @@ Program, id1 ve id2 adlı 2 değişkene atadığı değerleri < ilişkisel işle
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1640,7 +1640,7 @@ Yukarıdaki örnekte, program id1 ve id2 adlı 2 değişkene atadığı değerle
 
 Normal koşullarda, atama işlemcisini kullanarak tek bir değişkene değer atayabiliriz.
 
-```cpp
+```c++
 int id;
 id = 17;
 
@@ -1649,7 +1649,7 @@ id = 17;
 
 Aynı zamanda, aynı işlem satırında birden fazla değişkene değer atayabiliriz. Aşağıdaki işlem satırı id1, id2 ve id3 değişkenlerine 26 değerini atar:
 
-```cpp
+```c++
 id1 = id2 = id3 = 26;
 
 
@@ -1667,7 +1667,7 @@ Yukarıda yer alan her iki tanımlama da aynı işlemi gerçekleştirmektedir. �
 
 İkinci işlem satırında yer alan atamalarda, işlemci ile = işareti arasında boşluk bırakılmamalıdır.
 
-```cpp
+```c++
 id = id + 5;
 id += 5;
 
@@ -1682,7 +1682,7 @@ Yukarıdaki işlem satırında yer alan işlemci ifadesi yerine aşağıdaki iş
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1717,7 +1717,7 @@ Program, üç adet int değişken bildirimi yapar. Tek işlem satırında her ü
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1759,7 +1759,7 @@ Virgül işlemcisi genellikle for döngüsünün bölümlerinde birden fazla iş
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1798,7 +1798,7 @@ Parantez işlemcisi, içinde yer alan işlemleri parantez dışında kalan işle
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1834,7 +1834,7 @@ Program, 1 ve 2 sayısı ile gösterilen işlem satırlarında, ifadelerde aynı
 
 [] işlemcisi dizilerle ilgili işlemlerde kullanılır. [] işlemcisini kullanarak bir dizi bildirimi yapabilir veya dizi elemanlarına direk olarak erişme olanağı sağlayabiliriz. Aşağıda yer alan ilk işlem satırı 10 elemanlı ve idizi adlı int bir dizi bildirimi yapar. İkinci işlem satırı ise bu dizinin beşinci (Dördüncü değil çünklü dizinin ilk elemanı sıfır ile gösterilir) elemanına 11 sayısını atar:
 
-```cpp
+```c++
 int idizi[20]; // 20 elemanlı int bir dizi bildirimi yapar.
 idizi[4] = 11; // Dizinin beşinci elemanına 11 değeri atar. 
 
@@ -1845,7 +1845,7 @@ Bu işlemciyi bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1885,7 +1885,7 @@ Geçici veri türü değiştirme işlemcisini kullanarak bazen bir değişkenin 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1942,7 +1942,7 @@ sizeof ifadesi veri türü ile kullanıldığında parantezlerle birlikte tanım
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

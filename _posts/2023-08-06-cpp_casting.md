@@ -23,7 +23,7 @@ Otomatik dönüştürme olarak ta bilinen üstü kapalı veri türü dönüştü
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -57,7 +57,7 @@ Program, id adlı int bir değişken bildirimi yaparak 21 değerini atar ve fd a
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -109,7 +109,7 @@ Bu özelliği bir program üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -146,7 +146,7 @@ Bir atama işleminde, atama işaretinin sol tarafında type cast metodu kullanı
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -206,7 +206,7 @@ Bu özelliği bir program üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -265,7 +265,7 @@ const\_cast işlemcisi, bir sabit nesnenin sabit durumunu doğrudan geçersiz k�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -315,7 +315,7 @@ Program, önce int veri türünden bir adet const değişken tanımlar. Bu deği
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -374,7 +374,7 @@ Dönüştürme işlemi başarısız olduğunda, işlem işaretçi ile yapılıyo
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -515,7 +515,7 @@ Sonra, dynamic\_cast işlemcisini kullanarak, pnes\_tur işaretçisini sinifana 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -725,7 +725,7 @@ ifade: Değişken, sabit ve işlemcilerden oluşan değerlerdir. Çevrilecek ola
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -766,7 +766,7 @@ Program, int veri türünden bir değişken ve bir işaretçi oluşturur. Deği�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -823,7 +823,7 @@ ifade: Değişken, sabit ve işlemcilerden oluşan değerlerdir. Çevrilecek ola
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -884,7 +884,7 @@ Yukarıdaki kurala göre, bir ifade içinde long double bir veri türü yer alı
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -917,7 +917,7 @@ Program, unsigned int bir değerle float bir değerin çarpımını ekrana yazar
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

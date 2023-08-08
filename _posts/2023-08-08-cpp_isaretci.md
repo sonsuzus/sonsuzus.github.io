@@ -18,7 +18,7 @@ veri-türü \*değişken-adı;
 
 Yukarıdaki satırda yer alan veri-türü ifadesi işaretçinin adresini gösterdiği değerin veri türünü, değişken-adı ifadesi ise işaretçinin adını göstermektedir. \* işareti işaretçi değişken bildiriminde kullanılmaktadır. Aşağıdaki işlem satırı ip adlı int bir işaretçi değişkeni oluşturmaktadır:
 
-```cpp
+```c++
 int *ip;
 
 
@@ -42,7 +42,7 @@ Konunun daha kolay anlaşılması için işaretçi kullanılması ile \* ve & i�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -74,7 +74,7 @@ Program önce id adlı bir int değişken ve ip adlı bir işaretçi değişkeni
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -132,7 +132,7 @@ Bu iki yöntemle işaretçiye bir bellek adresi atamadan önce, işaretçi bilin
 
 Programlarda oluşabilecek muhtemel sorunları çözmek için, bir bellek adresi atanmamış statik olmayan ve yerel işaretçilerde ilk değer olarak 0 veya NULL değeri ilk değer olarak verilir.
 
-```cpp
+```c++
 char *p = 0;
 
 veya 
@@ -146,7 +146,7 @@ Ancak, bu uygulama sorunun tamamen çözülmesi için yeterli değildir. Bu işl
 
 C++'da, bir işaretçiye karakter dizisi sabitlerini ilk değer olarak atayabiliriz.
 
-```cpp
+```c++
 char *cp = "Bilgisayar";
 
 
@@ -160,7 +160,7 @@ Burada, cp bir işaretçi olduğundan sadece bir bellek adresini gösterdiği ka
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -212,7 +212,7 @@ Bir işaretçi kullanmadan önce, bir bellek adresi mutlaka işaretçiye atanmal
 
 Aşağıda yer alan işlem satırlarından 1 ve 2 sayıları ile gösterilen satırlar, C++ dili kurallarına göre geçersizdir:
 
-```cpp
+```c++
 int *ip;
 
 *ip = 357;   // 1
@@ -225,7 +225,7 @@ cout << *ip; // 2
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -264,7 +264,7 @@ Daha önce incelediğimiz \* ve & işlemcilerine ek olarak, işaretçilerle kull
 
 Artırma ve azaltma işlemcilerinin işaretçilerle kullanılmasında özel bir durum vardır. Herhangi bir veri türünden tanımlanmış olan bir işaretçi değerini bir değer artırmak veya azaltmak istediğimizde, işaretçi değere sadece tanımlandığı veri türünün boyutu kadar bir değer ekler veya çıkarabiliriz.
 
-```cpp
+```c++
 int *ip, id;
 
 ip = &id;
@@ -283,7 +283,7 @@ Yukarıdaki son iki işlem satırının her ikisinde de, ip işaretçisinin gös
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -318,7 +318,7 @@ Program, cdizi adlı bir diziye ilk değer atama yöntemi ile A-F arasındaki ha
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -383,7 +383,7 @@ Sonuç olarak, for döngüsünün her tekrarında ip++ işlemi ile ip işaretçi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -437,7 +437,7 @@ Programın çalışma süresince bellek içeriğindeki değişim aşağıda gös
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -476,7 +476,7 @@ Program, ip adlı int bir işaretçi ve id adlı int bir değişken oluşturur. 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -517,7 +517,7 @@ Program, bir önceki programın yaptığı işlemin aynısını gerçekleştirir
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -579,7 +579,7 @@ Dizinin ikinci eleman bellek adresi: 0x6dfedc
 
 Program, ip adlı bir işaretçi ile 5 elemanlı idizi adlı int bir dizi oluşturur. Dizinin ilk elemanının adresini ip işaretçisine atar. Dizinin ilk eleman değeri ile bellek adresini, değişken adını ve işaretçiyi kullanarak ikişer defa ekrana yazar. ip işaretçinin gösterdiği adresi int boyutu kadar artırdıktan sonra değerleri tekrar ekrana yazar. ip işaretçisinin adresini gösterdiği değişkenin değerini artırdıktan sonra değerleri tekrar ekrana yazar.
 
-```cpp
+```c++
 ip++;    // İşaretçinin gösterdiği bellek adresini artırır.
 
 (*ip)++; // İşaretçinin gösterdiği bellek adresindeki değişken değerini artırır.
@@ -591,7 +591,7 @@ ip++;    // İşaretçinin gösterdiği bellek adresini artırır.
 
 Bir dizi oluşturduktan sonra, sadece dizi adı kullanıldığında dizi başlangıç elemanını gösteren bir işaretçi tanımlanmış olur. Bu durumda aşağıdaki son işlem satırında gösterilen her iki ifade aynı sonucu sağlar. Dizi adını doğrudan kullanmak veya dizi başlangıç elemanının adresini kullanmak, dizinin bellek başlangıç adresini gösterir.
 
-```cpp
+```c++
 int idizi[10]; // int dizi bildirimi
 int id;
 int *ip;
@@ -607,7 +607,7 @@ Bir dizinin ilk elemanının bellek adres değerini bir işaretçiye geçirerek 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -656,7 +656,7 @@ Dizinin sütun sayısı ile dizi elemanının bulunduğu satır numarasını ça
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -693,7 +693,7 @@ Bir işaretçi tıpkı bir dizi gibi indekslenebilir. Ancak bu işlemi gerçekle
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -732,7 +732,7 @@ Dizi adı, dizi başlangıcını gösteren bir işaretçi olarak kullanılabildi
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -765,7 +765,7 @@ Program, dizi adını kullanarak bir işaretçi oluşturur ve dizinin beşinci e
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstring>
 
@@ -815,7 +815,7 @@ Daha önce karakter dizilerinin gerek normal değer atama gerekse ilk değer ata
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -855,7 +855,7 @@ Karakter dizisi bir dizi ile tanımlandığında ise, karakter dizisi için bell
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -889,7 +889,7 @@ Program, oluşturduğu cp1 ve cp2 adlı iki adet char işaretçiye adreslerini a
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstring>
 
@@ -932,7 +932,7 @@ Yukarıdaki örnekte, program tanımladığı char işaretçi ve dizilere farkl�
 
 İşaretçiler bir dizi elemanı olarak tanımlanabilir. Örneğin, aşağıdaki işlem satırı aynı anda 10 adet int işaretçi tanımlar:
 
-```cpp
+```c++
 int *ip[10];
 
 
@@ -942,7 +942,7 @@ int *ip[10];
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -982,7 +982,7 @@ Program, önce üç elemanlı int bir işaretçi dizisi tanımlar. Üç adet int
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1024,7 +1024,7 @@ Program, önce char bir işaretçi dizi tanımlar. İlk değer atama metodu ile 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1079,7 +1079,7 @@ veri-türü \*\*işaretçi-adı;
 
 Örneğin aşağıdaki ilk işlem satırı, ip adlı int bir işaretçinin adresini gösteren ipp adlı int bir işaretçi değişkeni ve ayrıca id adlı int bir değişken tanımlar. İkinci işlem satırı id değişkeninin adresini ip adlı işaretçiye, üçüncü işlem satırı ise ip işaretçisinin adresini ipp adlı işaretçiye atar. Bu durumda ipp işaretçisini kullanarak id değişkenine bir değer atayabilir veya değerini değiştirebiliriz.
 
-```cpp
+```c++
 int **ipp, *ip, id;
 ip = &id
 ipp = &ip
@@ -1093,7 +1093,7 @@ Ayrıca, çoklu dolaylı yönlendirme işlemini ikiden fazla işaretçi ile de k
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1149,7 +1149,7 @@ id vd cd değişken değerlerini, değişken adı, işaretçi ve işaretçi adre
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstring>
 
@@ -1188,7 +1188,7 @@ Program, char veri türünden birer adet işaretçi adresi gösteren işaretçi 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1237,7 +1237,7 @@ Program, int veri türünden ikişer adet işaretçi adresi gösteren değişken
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1282,7 +1282,7 @@ Bir karakter dizisinin sadece adını tanımlayarak bir fonksiyona bir argüman 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstring>
 
@@ -1322,7 +1322,7 @@ Yukarıdaki örnekte, program iki char diziye kopyalanan karakter dizilerini fon
 
 Standart kütüphane fonksiyonlarından puts() fonksiyonu kendisine geçirilen karakter dizisini ekrana yazar ve otomatik olarak satır başı ve satır aralığı karakteri ekleyerek yeni satıra geçiş olanağı sağlar.
 
-```cpp
+```c++
 int puts(const char *str);
 
 
@@ -1334,7 +1334,7 @@ str parametresi ile gösterilen karakter dizisindeki tüm karakterleri ve bir ad
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <cstdio>
 #include <cstring>
@@ -1382,7 +1382,7 @@ fonksiyonu karakter dizisini ekrana yazarken sonuna "\n" karakteri ekler. bg\_pu
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1471,7 +1471,7 @@ Program, strcpy(), strcat(), strcmp() ve strlen() fonksiyonlarına benzeyen fonk
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -1511,7 +1511,7 @@ Program, oluşturduğu id1 ve id2 adlı değişkenlere sırasıyla 62 ve 153 say
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

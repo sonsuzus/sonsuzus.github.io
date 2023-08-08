@@ -13,7 +13,7 @@ Programlarımızda, iki veya daha fazla seçenekli koşul kontrolü sağlayan bi
 
 Şimdi, C++'da çok seçenekli bir sistem sağlayan switch kalıbını incelemeye çalışalım. yelim. switch kalıbı bir ifadenin sonucuna bağlı olarak içinde yer alan herhangi bir seçenekteki işlem satırlarını çalıştıran bir kalıptır. Bu kalıbın genel yapısını birlikte inceleyelim:
 
-```cpp
+```c++
 switch(ifade) {
    case sabit1:
         işlem-satırı
@@ -52,7 +52,7 @@ Yukarıda anlattıklarımızı bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -105,7 +105,7 @@ Switch kalıbını içinde default deyimini kullanmadan da kullanabiliriz. Norma
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -150,7 +150,7 @@ Bir switch kalıbında son case satırı dışındaki case satırlarından birin
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -193,7 +193,7 @@ Program, 1 ile 5 arasında bir sayı girmenizi ister. Girilen değeri id değiş
 
 switch kalıplarını birbiri içinde kullanabiliriz. Yani, bir switch kalıbına ait bir case satırı ile ilgili işlem satırları yerine başka bir switch kalıbı tanımlayabiliriz. Aşağıda birbiri içinde tanımlanmış 2 switch kalıbı gösterilmektedir:
 
-```cpp
+```c++
 switch(değişken1) {
    case sabit1:
         switch(değişken2) {
@@ -224,7 +224,7 @@ switch(değişken1) {
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;

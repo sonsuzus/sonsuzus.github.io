@@ -28,7 +28,7 @@ String sınıfı kullanmanın sağladığı avantajlar:
 
 Birçok üye fonksiyon ve constructor fonksiyonu içeren string sınıfında en yaygın olarak kullanılan constructor fonksiyonlarının genel yapısı aşağıda gösterilmektedir:
 
-```cpp
+```c++
 string();
 string(const char *str);
 string(const string &str);
@@ -60,7 +60,7 @@ Kullanılan işlemciler
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -109,7 +109,7 @@ Atama işlemcisini kullanarak, bir karakter dizisini str1 nesnesine ve str4 nesn
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -162,7 +162,7 @@ String sınıfı üye fonksiyonlarını kullanarak, bir string nesnesine değer 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -231,7 +231,7 @@ String sınıfı nesnelerinde karakterlere erişim için at() üye fonksiyonunu 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -269,7 +269,7 @@ String sınıfından bir nesne içinde, bir karakter dizisinin indeksini bulma, 
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -318,7 +318,7 @@ String sınıfından bir nesne ile ilgili boyut alma, yeniden boyutlandırma, i�
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 
@@ -373,7 +373,7 @@ String sınıfı ile ilgili işlemlerde takrarlayıcıları kullanabiliriz. Şim
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 #include <string>
 

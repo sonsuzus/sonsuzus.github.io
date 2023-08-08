@@ -22,7 +22,7 @@ Bir C++ programında, genel olarak aşağıda gösterilen bölümler sırayla ye
 
 Bir C++ programının temel yapısı aşağıda gösterilmektedir:
 
-```cpp
+```c++
 // Başlık dosya bildirimleri
 #include <başlık-dosya-adı>
 .

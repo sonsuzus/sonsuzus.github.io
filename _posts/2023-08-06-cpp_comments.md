@@ -23,7 +23,7 @@ Yorum satırı // işareti ile başlar. Bu tanımlamada tek satırlık yorum ekl
 
 Örnek
 
-```cpp
+```c++
 #include <iostream>
 
 using namespace std;
@@ -56,7 +56,7 @@ Yorum satırlarını programınızın herhangi bir yerinde kullanabiliriz. Bu ko
 
 C++'da, /\* ve \*/ işaretleri ile birbiri içinde yer alan yorum satırları kullanamayız. Bu şekilde oluşturduğumuz bir dosyayı derlemek istediğinizde derleyici hata verir.
 
-```cpp
+```c++
 /* Bu yorum satırı içindeki /* diğer yorum satırı */ hataya yol açar! */
 
 
