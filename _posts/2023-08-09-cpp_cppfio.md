@@ -34,11 +34,11 @@ fstream io;   // Giriş ve çıkış akışı
 
 Bir akış oluşturduktan sonra, akışı bir dosya ile ilişkilendirerek dosya açmak için, her üç akış sınıfının içinde ayrı ayrı tanımlanmış olan open() üye fonksiyonu kullanılır. Open() fonksiyonunun bildirimleri aşağıda gösterilmektedir:
 
-void ifstream::open(const char \*dosya-adı, ios::openmode mode = ios::in);
+`void ifstream::open(const char *dosya-adı, ios::openmode mode = ios::in);`
 
-void ofstream::open(const char \*dosya-adı, ios::openmode mode = ios::out | ios::trunc);
+`void ofstream::open(const char *dosya-adı, ios::openmode mode = ios::out | ios::trunc);`
 
-void fstream::open(const char \*dosya-adı, ios::openmode mode = ios::in | ios::out);
+`void fstream::open(const char *dosya-adı, ios::openmode mode = ios::in | ios::out);`
 
 Burada, dosya-adı ifadesi dosyanın adını göstermektedir. Bu ifade dosyasının yol tanımlamasını da içerebilir. İkinci parametre olan mode değeri dosyanın açılma yöntemini belirler.
 
@@ -77,23 +77,12 @@ Başlık dosyasında (ios\_base.h) yer alan sabit değerlerin kullanım amaçlar
 
 | Mod | Açıklama |
 | --- | --- |
-| ios::app | 
-* Yazma amacıyla açılan bir dosyaya gönderilen tüm verilerin dosyanın sonuna eklenmesini sağlar.
-* Dosyaya yapılan her yazma işleminde, dosya konum göstergesi dosyanın sonunu gösterecek şekilde ayarlanır.
-* Dosya konum göstergesi farklı bir konuma ayarlanamaz. Daima dosya sonunu gösterir.
-* Tüm yazma işlemleri dosya sonuna eklenir. Dosya başka bir konumuna yazma işlemi yapılamaz.
- |
-| ios::ate | 
-* Dosya açılışında, dosya konum göstergesini dosya sonuna ayarlar.
-* Dosya konum göstergesi farklı bir konuma ayarlanabilir.
- |
+| ios::app | Yazma amacıyla açılan bir dosyaya gönderilen tüm verilerin dosyanın sonuna eklenmesini sağlar.<br>Dosyaya yapılan her yazma işleminde, dosya konum göstergesi dosyanın sonunu gösterecek şekilde ayarlanır. <br> Dosya konum göstergesi farklı bir konuma ayarlanamaz. Daima dosya sonunu gösterir. <br> Tüm yazma işlemleri dosya sonuna eklenir. Dosya başka bir konumuna yazma işlemi yapılamaz. |
+| ios::ate | <br> Dosya açılışında, dosya konum göstergesini dosya sonuna ayarlar. <br> Dosya konum göstergesi farklı bir konuma ayarlanabilir. |
 | ios::binary | Dosyanın ikili modda açılmasını sağlar. |
 | ios::in | Dosyayı veri okuma amacıyla açar. |
 | ios::out | Dosyayı veri yazma amacıyla açar. |
-| ios::trunc | 
-* Önceden var olan aynı isme sahip bir dosya içeriğinin tamamen silinmesini ve dosya uzunluğunun sıfır değerine getirilmesini sağlar.
-* dosya açılırken ofstream parametresi kullanılırsa, aynı isme sahip bir dosya varsa, otomatik olarak içeriği silinir.
- |
+| ios::trunc |  Önceden var olan aynı isme sahip bir dosya içeriğinin tamamen silinmesini ve dosya uzunluğunun sıfır değerine getirilmesini sağlar.<br> dosya açılırken ofstream parametresi kullanılırsa, aynı isme sahip bir dosya varsa, otomatik olarak içeriği silinir. |
 
 Bu değerlerden iki veya daha fazlasını OR işlemcisi ile birleştirerek kullanabiliriz.
 
@@ -106,7 +95,7 @@ Bu değerlerden iki veya daha fazlasını OR işlemcisi ile birleştirerek kulla
 
 Dosya ile ilgili işlemleri tamamladıktan sonra bir dosyayı kapatmak için close() fonksiyonu kullanılır. Fonksiyonun genel yapısı aşağıdaki şekildedir:
 
-akış-adı.close();
+`akış-adı.close();`
 
 Fonksiyon herhangi parametre almaz ve herhangi bir değer geri döndürmez.
 
@@ -140,7 +129,7 @@ int main(void)
 
 ```
 
-Program, bir dosyaya yazma işlemi yapmak için, ofstream sınıfı türünden bir nesne oluşturur. Bu nesne yoluyla ostream sınıfı içindeki open() üye fonksiyonu ile deneme.txt adlı bir dosya oluşturur. Open() fonksiyonunun ikinci parametresinin ön tanımlı değeri ios::out | ios::trunc olduğundan, dosya bu modda açılır. Herhangi bir işlem yapmadan dosyayı kapatır.
+Program, bir dosyaya yazma işlemi yapmak için, ofstream sınıfı türünden bir nesne oluşturur. Bu nesne yoluyla ostream sınıfı içindeki open() üye fonksiyonu ile deneme.txt adlı bir dosya oluşturur. Open() fonksiyonunun ikinci parametresinin ön tanımlı değeri ios::out \| ios::trunc olduğundan, dosya bu modda açılır. Herhangi bir işlem yapmadan dosyayı kapatır.
 
 Program çalıştırıldığında, .exe dosyanın bulunduğu dizinde deneme.txt adlı bir dosya oluşturulur.
 
@@ -170,7 +159,7 @@ int main(void)
 
 ```
 
-Program, bir dosyaya yazma işlemi yapmak için, ofstream sınıfı türünden bir nesne oluşturur. Bu nesneyi oluştururken, ostream sınıfı içindeki constructor fonksiyonu ile deneme.txt adlı bir dosya oluşturur. Constructor() fonksiyonunun ikinci parametresinin ön tanımlı değeri ios::out | ios::trunc olduğundan, dosya bu modda açılır. Herhangi bir işlem yapmadan dosyayı kapatır.
+Program, bir dosyaya yazma işlemi yapmak için, ofstream sınıfı türünden bir nesne oluşturur. Bu nesneyi oluştururken, ostream sınıfı içindeki constructor fonksiyonu ile deneme.txt adlı bir dosya oluşturur. Constructor() fonksiyonunun ikinci parametresinin ön tanımlı değeri ios::out \| ios::trunc olduğundan, dosya bu modda açılır. Herhangi bir işlem yapmadan dosyayı kapatır.
 
 ## Dosya açma işleminde hata kontrolü
 
@@ -225,7 +214,7 @@ Program, bir dosyaya yazma işlemi yapmak için, ofstream sınıfı türünden o
 
 Dosya açma işlemi esnasında herhangi bir hata meydana gelip gelmediğini, fstream, ifstream ve ofstream sınıflarının üyesi olan ve aşağıda genel yapısı verilen is\_open() fonksiyonu ile de yapabiliriz:
 
-bool is\_open();
+`bool is_open();`
 
 Oluşturulan akış nesnesi bir dosyaya bağlandığında doğru (true) aksi takdirde yanlış (false) bir değer geri döndürür.
 
@@ -287,11 +276,11 @@ Program, bir dosyaya yazma işlemi yapmak için, ofstream sınıfı türünden o
 
 ## Dosyaya yazma ve dosyadan okuma işlemleri
 
-Bir metin dosyasına yazma ve okuma işlemleri, ekrana veri gönderirken ve klavyeden veri okurken kullandığımız, << ve >> işlemcileri ile yapılır. Dosya işlemlerinde fstream, ifstream ve ofstream sınıflarından tanımlanan akış nesneleri bu işlemcilerle birlikte kullanılır.
+Bir metin dosyasına yazma ve okuma işlemleri, ekrana veri gönderirken ve klavyeden veri okurken kullandığımız, `<<` ve `>>`işlemcileri ile yapılır. Dosya işlemlerinde fstream, ifstream ve ofstream sınıflarından tanımlanan akış nesneleri bu işlemcilerle birlikte kullanılır.
 
 ## Dosyaya yazma işlemleri
 
-Bir dosyaya veri yollamak için, önce ofstream sınıfından bir akış nesnesi tanımlayarak dosyayı açmak ve bu işlem esnasında constructor fonksiyonu yoluyla dosya adını belirtmek gerekir. Dosyaya yazma işlemi << işlemcisi ile yapıldıktan sonra dosya kapatılır.
+Bir dosyaya veri yollamak için, önce ofstream sınıfından bir akış nesnesi tanımlayarak dosyayı açmak ve bu işlem esnasında constructor fonksiyonu yoluyla dosya adını belirtmek gerekir. Dosyaya yazma işlemi `<<` işlemcisi ile yapıldıktan sonra dosya kapatılır.
 
 Şimdi, bir dosyaya yazma işlemi yapılmasını bir örnek üzerinde incelemeye çalışalım:
 
@@ -326,7 +315,7 @@ int main(void)
 
 ```
 
-Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işlemcisini kullanarak bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
+Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile `<<` işlemcisini kullanarak bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
 
 Programın çalışması sona erdikten sonra, bir metin editöründe açtığınızda dosya içeriği aşağıdaki şekilde olacaktır.
 
@@ -341,6 +330,7 @@ Bilgisayar
 Programın çalışması sona erdikten sonra, bir hex editörde açtığınızda dosya içeriği aşağıdaki şekilde olacaktır.
 
 ![](cprog/dosya01.png)
+
 Her satır arasında bir satır başı 0x0D (ASCII 13) ve bir yeni satır 0x0A (ASCII 10) karakteri yer alır.
 
 ## Dosyadan okuma işlemleri
@@ -411,7 +401,7 @@ Bilgisayar
 
 ```
 
-Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işaretçisini kullanarak bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
+Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile `<<` işaretçisini kullanarak bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
 
 > Program, bir dosyadan okuma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ifstream sınıfı türünden infile adlı bir akış nesnesi oluşturur. Ayrıca, dosyadan okuyacağı değerleri atamak için bir karakter dizisi, bir int ve bir float değer oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile >> işlemcisini kullanarak bir karakter dizisi, bir int ve bir float değeri dosyadan okur ve daha önce oluşturduğu dizi ve değişkenlere atar. Okuduğu değerleri ekrana yazdıktan sonra, close() fonksiyonu ile dosyayı kapatır.
 {: .prompt-tip }
@@ -426,19 +416,21 @@ Metin dosyalarının yanı sıra, verileri ikili sistem olarak ta oluşturabilir
 
 Bir dosya ile ilgili yazma ve okuma işlemlerini tek bir karakter ile yapmak istediğimizde, ostream sınıfı içindeki put() fonksiyonunu ve istream sınıfı içindeki get() fonksiyonunu kullanabiliriz. Her iki fonksiyonun genel yapıları aşağıda gösterilmektedir:
 
+```c++
 ostream& put(char ch);
 
 int get();
 
 istream& get(char &ch);
 
-istream& get(char \*ptr, streamsize n);
+istream& get(char *ptr, streamsize n);
 
-istream& get(char \*ptr, streamsize n, char delim);
+istream& get(char *ptr, streamsize n, char delim);
 
 istream& get(streambuf &sbuf);
 
 istream& get(streambuf &sbuf, char delim);
+```
 
 ch: Akıştan okunacak karakterin atanacağı değişkeni gösterir.
 
