@@ -238,7 +238,7 @@ Program, önce aynı veri türünden iki parametre alarak toplamını ekrana yaz
 
 ## Şablon fonksiyonlarını veri türü için şablon fonksiyon benzeri bildirim ile çoklu görev tanımlama işlemi
 
-Bu yöntemde, yeni yapılan fonksiyon bildiriminde, şablon fonksiyonunun benzeri bir yapı kullanılarak, <class t> ifadesi yerine ve parametre bölümündeki t ifadeleri yerine doğrudan veri türü olan int ifadesi yazılır.
+Bu yöntemde, yeni yapılan fonksiyon bildiriminde, şablon fonksiyonunun benzeri bir yapı kullanılarak, `<class t>` ifadesi yerine ve parametre bölümündeki t ifadeleri yerine doğrudan veri türü olan int ifadesi yazılır.
 
 ```
 

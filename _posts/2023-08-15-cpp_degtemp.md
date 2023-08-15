@@ -87,7 +87,7 @@ Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri
 
 ```
 
-Program, önce typename anahtar kelimesini kullanarak, x, y, ve z değişken ismine sahip üç farklı değişken şablonu oluşturur. Her şablonu sırasıyla int ve float veri türü ile çağırır. İlk şablon için yapılan int veri türü çağrısında x<int> değişkenine 21 değeri, float veri çağrısında x<float> değişkenine 21.7564 değeri atanır. İkinci şablon için yapılan int veri türü çağrısında y<int> değişkenine 75 değeri, float veri çağrısında y<float> değişkenine 75.2189 değeri atanır. üçüncü şablon için yapılan int veri türü çağrısında z<int> değişkenine 5 ve 5 sayısını çarpımı olan 35 değeri, float veri çağrısında z<float> değişkenine 5.25 ve 7.45 sayılarının çarpımı olan 39.1125 değeri atanır.
+Program, önce typename anahtar kelimesini kullanarak, x, y, ve z değişken ismine sahip üç farklı değişken şablonu oluşturur. Her şablonu sırasıyla int ve float veri türü ile çağırır. İlk şablon için yapılan int veri türü çağrısında x`<int>` değişkenine 21 değeri, float veri çağrısında x`<float>` değişkenine 21.7564 değeri atanır. İkinci şablon için yapılan int veri türü çağrısında y`<int>` değişkenine 75 değeri, float veri çağrısında y`<float>` değişkenine 75.2189 değeri atanır. üçüncü şablon için yapılan int veri türü çağrısında z`<int>` değişkenine 5 ve 5 sayısını çarpımı olan 35 değeri, float veri çağrısında z`<float>` değişkenine 5.25 ve 7.45 sayılarının çarpımı olan 39.1125 değeri atanır.
 
 Tüm değişken şablon kullanımlarında belirtilen veri türü, ilgili şablona geçirilerek, şablon içindeki t ifadesinin yerini alır.
 
