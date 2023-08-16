@@ -79,9 +79,9 @@ Vektör konteyneri içinde tanımlanan bazı üye fonksiyonlar aşağıdaki tabl
 | iterator erase(iterator start, iterator end); | start ile end arasındaki elemanları siler.Silinen en son elemandan sonraki elemanı gösteren bir tekrarlayıcı geri döndürür. |
 | reference front();const\_reference front() const; | Vektördeki ilk elemanı gösteren bir referans geri döndürür. |
 | iterator insert(iterator i, const T &val); | i ile gösterilen elemandan hemen önce val değerini ekler.Elemanı gösteren bir tekrarlayıcı geri döndürür. |
-| void insert(iterator i, size\_type num, const T &val) | i ile gösterilen elemandan hemen önce num değeri kadar val değerini ekler. |
+| `void insert(iterator i, size_type num, const T &val)` | i ile gösterilen elemandan hemen önce num değeri kadar val değerini ekler. |
 | template  void insert(iterator i, InIter start, InIter end); | i ile gösterilen elemandan önce start ve end ile gösterilen sırayı ekler. |
-| reference operator[ ](size\_type i) const;const\_reference operator[ ](size\_type i) const; | i ile gösterilen elemanın referansını geri döndürür. |
+| `reference operator[ ](size_type i) const;const_reference operator[ ](size\_type i) const;` | i ile gösterilen elemanın referansını geri döndürür. |
 | void pop\_back(); | Vektördeki son elemanı siler. |
 | void push\_back(const T &val); | val ile gösterilen değeri vektörün sonuna ekler. |
 | size\_type size() const; | Vektördeki elemanların sayısını geri döndürür. |
