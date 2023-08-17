@@ -1,7 +1,7 @@
 ---
 title:  C Programlama Örnekleri
 author: sonsuz
-date: 2023-08-17 23:20:15 +0300
+date: 2023-08-17 23:10:15 +0300
 categories: [Program,C]
 tags: [c,programlama,alıştırma,algoritma,örnek]
 ---
