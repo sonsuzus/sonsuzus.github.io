@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 00
+title:  C Programlama Örnekleri Girdi/Çıktı Değişken ve İşlemler 00
 author: sonsuz
 date: 2023-08-17 23:26:15 +0300
 categories: [Program,C]

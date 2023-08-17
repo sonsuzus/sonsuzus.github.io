@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 07
+title:  C Programlama Örnekleri Pointer - İşaretçiler 07
 author: sonsuz
 date: 2023-08-18 00:30:15 +0300
 categories: [Program,C]

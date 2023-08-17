@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 03
+title:  C Programlama Örnekleri Diziler 03
 author: sonsuz
 date: 2023-08-17 23:54:15 +0300
 categories: [Program,C]

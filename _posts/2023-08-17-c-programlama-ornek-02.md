@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 02
+title:  C Programlama Örnekleri Karşılaştırmalar Döngüler 02
 author: sonsuz
 date: 2023-08-17 23:40:15 +0300
 categories: [Program,C]

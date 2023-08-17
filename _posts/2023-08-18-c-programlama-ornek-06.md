@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 06
+title:  C Programlama Örnekleri Özyineleme - Rekürsif 06
 author: sonsuz
 date: 2023-08-18 00:15:15 +0300
 categories: [Program,C]

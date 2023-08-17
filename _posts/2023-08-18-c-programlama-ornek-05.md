@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 05
+title:  C Programlama Örnekleri String İşlemleri 05
 author: sonsuz
 date: 2023-08-18 00:01:15 +0300
 categories: [Program,C]

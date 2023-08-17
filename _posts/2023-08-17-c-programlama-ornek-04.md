@@ -1,5 +1,5 @@
 ---
-title:  C Programlama Örnekleri 04
+title:  C Programlama Örnekleri Fonksiyonlar 04
 author: sonsuz
 date: 2023-08-17 23:56:15 +0300
 categories: [Program,C]
