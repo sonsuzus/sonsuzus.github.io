@@ -1,6 +1,6 @@
 ---
 title:  C++ Alıştırmalar
-author: NecatiErgin
+author: sonsuz
 date: 2023-08-17 19:20:15 +0300
 categories: [Program,C++]
 tags: [cpp,programlama,alıştırma,algoritma]
