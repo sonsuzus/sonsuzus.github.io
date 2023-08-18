@@ -3,7 +3,7 @@ title: Python Ses Kaydetme Programları
 author: sonsuz
 date: 2023-08-18 21:51:44 +0300
 categories: [Program,Python]
-tags: [python,programlama,ses,kayıt,pyaudio,wave]
+tags: [python,programlama,ses,kayıt,pyaudio,wave,numpy,sounddevice,scipy]
 ---
 
 
@@ -12,7 +12,7 @@ tags: [python,programlama,ses,kayıt,pyaudio,wave]
 
 Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneleri kullanacağız:
 
-1. PyAudio kütüphanesi
+- PyAudio kütüphanesi
 
 Tüm işletim sistemlerinde çalışan ses giriş/çıkış akışı kütüphanesidir. Ses ile ilgili işlemlerde kullanılır.
 
@@ -30,7 +30,7 @@ pip install PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 
 ```
 
-2. Wave kütüphanesi
+- Wave kütüphanesi
 
 Sesleri ses dosyalarına kaydetmek için kullanılır.
 
@@ -84,7 +84,7 @@ Sounddevice kütüphanesi ile, mikrofonumuzdan sesi alarak bir NumPy dizisi olar
 
 Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneleri kullanacağız:
 
-1. Sounddevice kütüphanesi
+- Sounddevice kütüphanesi
 
 PortAudio kütüphanesi bağlantıları ve fonksiyonlarla ses sinyalleri içeren NumPy dizilerini oynatır ve kaydeder.
 
@@ -98,7 +98,7 @@ pip install sounddevice
 
 Bu kütüphane ile birlikte, cffi ve pycparser kütüphaneleri otomatik olarak yüklenir.
 
-2. Scipy kütüphanesi
+- Scipy kütüphanesi
 
 NumPy kütüphanesine bağlı olarak çalışan bu kütüphane sesleri ses dosyalarına kaydetmek için kullanılır.
 
@@ -138,7 +138,7 @@ Sounddevice kütüphanesi ile, mikrofonumuzdan sesi alarak bir NumPy dizisi olar
 
 Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneleri kullanacağız:
 
-1. Sounddevice kütüphanesi
+- Sounddevice kütüphanesi
 
 PortAudio kütüphanesi bağlantıları ve fonksiyonlarla ses sinyalleri içeren NumPy dizilerini oynatır ve kaydeder.
 
@@ -152,7 +152,7 @@ pip install sounddevice
 
 ```
 
-2. SoundFile kütüphanesi
+- SoundFile kütüphanesi
 
 PortAudio kütüphanesi bağlantıları ve fonksiyonlarla ses sinyalleri içeren NumPy dizilerini oynatır ve kaydeder.
 
@@ -166,7 +166,7 @@ pip install SoundFile
 
 Bu kütüphane ile birlikte, cffi ve pycparser kütüphaneleri otomatik olarak yüklenir.
 
-3. NumPy kütüphanesi
+- NumPy kütüphanesi
 
 NumPy, Python ile dizi hesaplamada kullanılan temel kütüphanedir.
 
