@@ -17,7 +17,7 @@ Python'da işlemciler ile değişkenler ve sabitler üzerinde işlem yapılır. 
 * Mantıksal işlemciler: and or not
 * Tanımlama işlemcileri: is, is not
 * Üyelik işlemcileri: in, not in
-* Bit işlemcileri: & | ^ ~ << >>
+* Bit işlemcileri: & \| ^ ~ \<< \>>
 
 Ayrıca, aritmetik işlemciler ile bit işlemcilerinin 5 tanesi (~ hariç) atama işlemcisi ile kullanılarak 12 adet ek işlemci oluşturulur.
 
@@ -232,7 +232,6 @@ Python'da kullanılan 6 adet karşılaştırma işlemcisi 2 değerin karşılaş
 | < | Küçüklük | Değişken ve/veya sabitlerden oluşan bir değerin diğerinden küçük olup olmadığını belirler. |
 | >= | Büyük ve eşitlik | Değişken ve/veya sabitlerden oluşan bir değerin diğerinden büyük veya eşit olup olmadığını belirler. |
 | <= | Küçük ve eşitlik | Değişken ve/veya sabitlerden oluşan bir değerin diğerinden küçük veya eşit olup olmadığını belirler. |
-|
 
 Şimdi, karşılaştırma işlemcilerinin kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 
@@ -303,8 +302,7 @@ Mantıksal işlemciler, karşılaştırma işlemcileri ile yapılan işlemlerde 
 | Değişken sembolü | Değişken adı | Açıklama |
 | --- | --- | --- |
 | and | Ve | Her iki ifade doğru ise doğru bir değer geri döndürür. |
-| or | Veya | İki ifadeden sadece biri doğru ise doğru bir değer geri döndürür. |.
-
+| or | Veya | İki ifadeden sadece biri doğru ise doğru bir değer geri döndürür. |
 | not | Değil | İfade sonucunun tersini geri döndürür. |
 
 Şimdi, mantıksal işlemcilerin kullanılmasını bir örnek üzerinde incelemeye çalışalım:
@@ -422,13 +420,13 @@ Python'da, bit işlemcileri sayıları ikili sistem esasına göre değerlendirm
 | Değişken sembolü | Değişken adı | Açıklama |
 | --- | --- | --- |
 | & | AND | Her iki sayıda karşılıklı bit değeri 1 ise, sonuç değerinin bit değerini 1 yapar. |
-| | | OR | Sayıların karşılıklı bit değerinin herhangi biri 1 ise, sonuç değerinin bit değerini 1 yapar. |
+| \| | OR | Sayıların karşılıklı bit değerinin herhangi biri 1 ise, sonuç değerinin bit değerini 1 yapar. |
 | ^ | XOR | Sayıların karşılıklı bit değerinden sadece birisi 1 ise, sonuç değerinin bit değerini 1 yapar. |
 | ~ | NOT | Bir sayının bit değerlerinin tamamını tersine çevirir. |
-| << | Sola kaydırma | Bir sayının basamak bit değerlerini sola doğru kaydırır. |
-| >> | Sağa kaydırma | Bir sayının basamak bit değerlerini sağa doğru kaydırır. |
+| `<<` | Sola kaydırma | Bir sayının basamak bit değerlerini sola doğru kaydırır. |
+| `>>` | Sağa kaydırma | Bir sayının basamak bit değerlerini sağa doğru kaydırır. |
 
-<< işlemlerinde en soldan kaydırılan bit değerleri kaybolmaz, >> işlemlerinde ise en sağdan kaydırılan bit değerleri kaybolur.
+`<<` işlemlerinde en soldan kaydırılan bit değerleri kaybolmaz, `>>` işlemlerinde ise en sağdan kaydırılan bit değerleri kaybolur.
 
 Şimdi, bit işlemcilerinin kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 
