@@ -4,6 +4,7 @@ author: sonsuz
 date: 2019-04-28 20:55:00 +0300
 categories: [Program, Algoritma]
 tags: [algoritma,soru]
+mermaid: true
 ---
 
 ## Algoritma Programlama
@@ -51,6 +52,15 @@ Kullanıcıya beş tane cümlenin doğru mu yanlış mı olduğu sorulur sırayl
 Kullanıcıya üçgen, kare, düzgün beşgen veya düzgün altıgen çeşidi sorulur ve bir kenar uzunluğu istenir. Girilen kenar uzunluğundan alan hesaplanır.
 
 1 den 100 e kadar sayılar yazdırılır. (döngü)
+
+```mermaid
+flowchart LR
+    A[Sayı = 1] --> B{Sayı<=100}
+    B -->|Evet| C[Sayıyı yazdır]
+    C --> D[Sayıyı 1 arttır]
+    D --> B
+    B ---->|Hayır| E[Programı bitir]
+```
 
 1 ile 100 arasında 3 veya 7 ye tam bölünen sayılar yazdırılır.
 
