@@ -40,6 +40,14 @@ Kullanıcıya kürenin çapı sorulur, gelen yanıta göre hacmi hesaplanır.
 Kullanıcıya notu sorulur. 50 den büyükse geçtin, 50 den küçükse kaldın yazdırılır.
 
 Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100 den büyükse gaz yazdırılır.
+```mermaid
+flowchart LR
+	A[Suyun sıcaklığı?] --> B{Su kaç derece?}
+    B -->|0 dan küçük| C[Katı halde]
+    B -->|0 - 100 arasında| D[Sıvı halde]
+    B -->|100 den büyük| E[Gaz halde]
+
+```
 
 Kullanıcıdan bir sayı girmesi istenir. Bu sayı tek mi çift mi yazdırılır.
 
@@ -81,6 +89,21 @@ Kullanıcıdan parası, yıllık faiz oranı ve kaç yıl yatıracağı sorulur.
 Evrenin gizemli bir yerinde Diven diye bir gezegende Azanyum ve Sazanyum adlı iki türlü yaratık yaşıyordu. Her yılın son günü her Azanyum, bir sazanyum ve bir azanyum yaratacak şekilde bölünüyordu. Bir sazanyum ise bir azanyum iki sazanyuma bölünmekteydi. Bu gezegende hayatın tek bir azanyum ile başladığı bilinmekteydi. İncemeler şunu gösterdiki Sazanyum/Azanyum oranı 5/3 ü aştığında bu gezegende yaşam son bulacak. Sizce Diven gezegeninde yaşam bir gün son bulur mu? (Bu arada bölünen Azanyum ve Sazanyumlar yaşamaya devam ediyor)
 
 Kullanıcıdan bir sayı istenir. Asal olup olmadığı yazdırılır.
+
+```mermaid
+flowchart LR
+	A[Sayı iste] --> B[Bolen = 2 , Asal = True]
+	B --> C{Bolen sayıdan küçük mü}
+	C -->|Evet| D{Sayının Bolene kalanı?}
+	D -->|0| E[Asal = False]
+	D -->|0 dan farklı| F[Boleni 1 arttır]
+	F --> C
+	C -->|Hayır| G{Asal?}
+	G -->|True| H[Sayı Asaldır]
+	G -->|False| I[Sayı Asal değildir]
+	E --> G
+
+```
 
 Girilen bir sayının palindrom olup olmadığını tespit eder. (tersinden de okunuşu aynı mı?)
 
@@ -222,6 +245,8 @@ Faktoriyel hesabını rekürsif fonksiyon kullanarak bulunuz.
 
 Fibanocci  dizisi hesabını rekürsif fonksiyon ile bulunuz.
 
+Collatz serisini rekürsif fonksiyonla yapınız.
+
 ## Olasılık Soruları
 
 Atılan iki zarın toplamının 7 gelme olasılığı nedir? (En az 10bin defa simule ediniz)
@@ -229,3 +254,5 @@ Atılan iki zarın toplamının 7 gelme olasılığı nedir? (En az 10bin defa s
 Rastgele iki noktasından kırılan bir çubuğun oluşturduğu üç kenarın bir üçgen olma olasılığı nedir?
 
 10 tane madeni paranın 8 tanesi hilesizdir, 2 tanesinin ise her iki yüzü de turadır. Bu 10 madeni paradan bir tanesi rasgele seçilir ve 2 defa yazı-tura atılırsa, her ikisinin de tura gelme ihtimali kaçtır?
+
+Bilgisayarın yukarı aşağı oyunu oynaması programı
