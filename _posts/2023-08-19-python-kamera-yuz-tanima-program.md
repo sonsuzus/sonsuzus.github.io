@@ -1,5 +1,5 @@
 ---
-title: Python Kameradan Yüz Algılama Programı
+title: Python Kameradan Yüz Tanıma Programı
 author: sonsuz
 date: 2023-08-19 14:35:12 +0300
 categories: [Program,Python]
