@@ -97,4 +97,15 @@ for s in range(T):
     print(to)
 ```
 
-Bu kodlar doğru sonuçları verse de daha güzel ve hızlı çalışan algoritmalar üretilebilir. Konu güncellenecektir.
+Bu kodlar doğru sonuçları verse de daha güzel ve hızlı çalışan algoritmalar üretilebilir. 
+
+Ama, bunu O(1) zaman karmaşıklığı ile yapmak için matematiksel bir formül elde etmek gerekiyor. Biraz üzerinde çalıştım ve sonunda `f(x) = 2*x**2 + 3x + 1` formülünü elde ettim. Bu formülü bir Python fonksiyonuna çevirirsek O(1) hızında bir fonksiyonumuz olur.
+
+```python
+def g(n: int):
+    return 2 * n ** 2 + 3 * n + 1
+
+T = int(input())
+for s in range(T):
+    print(g(int(input())-1)%(10**9+7))
+```
