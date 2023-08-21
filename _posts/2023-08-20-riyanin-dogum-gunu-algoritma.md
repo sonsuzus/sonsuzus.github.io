@@ -4,6 +4,7 @@ author: sonsuz
 date: 2023-08-20 22:01:41 +0300
 categories: [Program,Algoritma]
 tags: [algoritma,problem,soru,python,liste]
+math: true
 ---
 
 ## Riya'nın Doğum Günü Sorusu
@@ -99,7 +100,7 @@ for s in range(T):
 
 Bu kodlar doğru sonuçları verse de daha güzel ve hızlı çalışan algoritmalar üretilebilir. 
 
-Ama, bunu O(1) zaman karmaşıklığı ile yapmak için matematiksel bir formül elde etmek gerekiyor. Biraz üzerinde çalıştım ve sonunda `f(x) = 2*x**2 + 3x + 1` formülünü elde ettim. Bu formülü bir Python fonksiyonuna çevirirsek O(1) hızında bir fonksiyonumuz olur.
+Ama, bunu O(1) zaman karmaşıklığı ile yapmak için matematiksel bir formül elde etmek gerekiyor. Biraz üzerinde çalıştım ve sonunda $ f(x) = 2x^2 + 3x + 1 $ formülünü elde ettim. Bu formülü bir Python fonksiyonuna çevirirsek O(1) hızında bir fonksiyonumuz olur.
 
 ```python
 def g(n: int):
