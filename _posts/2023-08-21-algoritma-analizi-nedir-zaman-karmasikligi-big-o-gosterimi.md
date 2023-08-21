@@ -90,16 +90,11 @@ gibi çıkarımlar yapabiliriz.Bu ikilemlere sahip algoritmaların tercihinde, �
 
 ```py
 def topla(dizi, N):
-
-    topla, i = 0, 0
-
-    while(i < N):
-
-        topla += dizi[i]
-
-        i += 1
-
-    return topla
+	topla, i = 0, 0
+	while(i < N):
+		topla += dizi[i]
+		i += 1
+	return topla
 ```
 
 Görüldüğü gibi ‘topla’ isimli fonksiyonda ilk olarak, 2. satırdaki topla ve i değişkenlerine atama işlemi yapıyoruz ve toplamda 2 işlem yapmış oluyoruz. Daha sonra 3. satırda while döngüsü için dizi boyutu olarak gönderilen N değişkeninin bir fazlası kadar kontrol işlemi yapılıyor ki buradaki toplam işlem sayısı da N + 1 şeklinde oluyor.
@@ -108,16 +103,12 @@ Görüldüğü gibi ‘topla’ isimli fonksiyonda ilk olarak, 2. satırdaki to
 
 Daha iyi kavramak için faktöriyel hesabı yapan C fonksiyonunun çalışma zamanını bulalım.
 
-```py
+```c
 int faktoriyel(int n){
-
-    if (n <= 1)
-
-        return 1;
-
-    else
-
-        return (n * faktoriyel(n - 1));
+	if (n <= 1)
+		return 1;
+	else
+		return (n * faktoriyel(n - 1));
 
 }
 ```
@@ -126,23 +117,15 @@ Burada da gördüğünüz gibi 2. satırda n tekrar, 3. satırda 1 tekrar, 5. sa
 
 Şimdi ise, argüman olarak aldığı dizideki en küçük elemanı bulan bir algoritmaya bakalım.
 
-```py
+```c
 int bulEnkucuk(int A[], int n){
-
-    int enkucuk;
-
-    int k;
-
-    enkucuk = A[0];
-
-    for (k = 0; k < n; k++)
-
-        if (A[k] < enkucuk)
-
-            enkucuk = A[k];
-
-    return enkucuk;
-
+	int enkucuk;
+	int k;
+	enkucuk = A[0];
+	for (k = 0; k < n; k++)
+		if (A[k] < enkucuk)
+			enkucuk = A[k];
+	return enkucuk;
 }
 ```
 
@@ -154,20 +137,15 @@ Tabii, buradaki gönderilen dizinin, küçükten büyüğe sıralanmış şekild
 
  Bunu zaman karmaşıklığında, tekrar sayıları sonsuza giderken çok daha iyi anlayacağız çünkü tekrar sayılarının sonsuza gitmesini ele alırken, değil en iyi ihtimali göz önünde bulundurmak, 1 kez tekrar eden sabitler bile bir anlam ifade etmeyecek. Çok fazla uzatmadan, son bir örnekle çalışma zamanı hesabını bitirelim.
 
-```py
+```c
 void toplamMatris(int A[2][2], int B[2][2])
 
 {
-
-    int C[2][2];
-
-    int i, j;
-
-    for (i = 0; i < 2; i++)
-
-        for (j = 0; j < 2; j++)
-
-            C[i][j] = A[i][j] + B[i][j];
+	int C[2][2];
+	int i, j;
+	for (i = 0; i < 2; i++)
+		for (j = 0; j < 2; j++)
+			C[i][j] = A[i][j] + B[i][j];
 
 }
 ```
@@ -217,7 +195,7 @@ Bu üç durumu incelediğimize göre, *karmaşıklık analizinde* neden daha ço
 
 Aşağıdaki TA ve TB fonksiyonların çalışma zamanının, veri boyutuna göre nasıl değiştiğini gözlemleyelim.
 
-![Algoritma Analizi Çalışma Zamanı Veri Boyutu](algo/Algoritma-analizi-çalışma-zamanı-veri-boyutu.PNG)
+![Algoritma Analizi Çalışma Zamanı Veri Boyutu](algo/Algoritma-analizi-çalışma-zamanı-veri-boyutu.png)
 
 Algoritma Analizinde Zaman Karmaşıklığı - Büyüme Oranı
 
@@ -286,12 +264,9 @@ Big O Notasyonu Sabit Algoritma
 
 ```py
 i = 1
-
 while(i < 100):
-
-    i += 1
-
-    # işlemler
+	i += 1
+	# işlemler
 ```
 
 ![Big-O Gösterimi -  Doğrusal Lineer Döngü - Algoritma](algo/big-o-notasyonu-lineer-döngü.png)
@@ -302,24 +277,17 @@ Big O Notasyonu Doğrusal Lineer Algoritma Grafiği
 
 ```py
 i = 1
-
 while(i < 100):
-
-    i *= 2
-
-    # işlemler
+	i *= 2
+	# işlemler
 ```
 
 ```py
 i = 100
-
 while(i >= 1):
-
-    i /= 2
-
-    print(i)
-
-    # işlemler
+	i /= 2
+	print(i)
+	# işlemler
 ```
 
 ![big-o-notasyonu-logaritmik-döngü](algo/big-o-notasyonu-logaritmik-döngü.png)
@@ -330,30 +298,20 @@ Büyük O Gösterimi Logaritmik Algoritma Örneği
 
 ```py
 i = 1
-
 while(i <= 10):
-
-    j = 1
-
-    while(j <= 10):
-
-        j += 1
-
-    i += 1
+	j = 1
+	while(j <= 10):
+		j += 1
+	i += 1
 ```
 
 ```py
 i = 1
-
 while(i <= 100):
-
-    j = 1
-
-    while(j <= i):
-
-        j += 1
-
-    i += 1
+	j = 1
+	while(j <= i):
+		j += 1
+	i += 1
 ```
 
 ![big-o-notasyonu-karesel-döngü](algo/big-o-notasyonu-karesel-döngü.png)
@@ -364,16 +322,11 @@ Big O Notation Karesel Algoritma (Loop)
 
 ```py
 i = 1
-
 while(i <= 10):
-
-    j = 1
-
-    while(j <= 10):
-
-        j *= 2
-
-    i += 1
+	j = 1
+	while(j <= 10):
+		j *= 2
+	i += 1
 ```
 
 ![big-o-notasyonu-lineer-logaritmik-döngü](algo/big-o-notasyonu-lineer-logaritmik-döngü.png)
