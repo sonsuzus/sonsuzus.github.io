@@ -22,13 +22,13 @@ class sınıf-adı:
    .
 
    # Sınıf dışından erişilemeyen değişken bildirimleri (çift alt çizgi ile başlar.)
-   \_\_özel-değişken1
-   \_\_özel-değişken2
+   __özel-değişken1
+   __özel-değişken2
    .
    .
    
    # Başlangıç değer atama fonksiyonu
-   def \_\_init\_\_(sınıf-kopya-değişkeni, param1, param2, ...):
+   def __init__(sınıf-kopya-değişkeni, param1, param2, ...):
          sınıf-kopya-değişkeni.param1 = ...
          sınıf-kopya-değişkeni.param2 = ...
          .
