@@ -7,7 +7,7 @@ tags: [javascript,js,for,in,döngü,programlama]
 ---
 
 
-## Javascript For/In Döngüsü
+## Javascript For/In Döngüsü Kullanımı
 
 Javascript **for/in** döngüsü ile bir javascript nesnesinin tüm özelliklerine ulaşabiliriz. 
 
