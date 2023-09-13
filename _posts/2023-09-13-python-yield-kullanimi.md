@@ -8,7 +8,7 @@ tags: [python,programlama,iter,iterator,yield,generator]
 
 ## Python yield kullanımı
 
-### Pytho iter deyimi
+### Python iter deyimi
 
 Python dilindeki yield deyimini anlamak için, generator'ları bilmek gerekiyor, generator'ları anlamak için de, iterator ve iterable kavramlarını anlamak gerekiyor. İngilizcede "iterate" kelimesi, tekrar tekrar uygulanmak veya işlenmek anlamına geliyor. Python'daki iterable ve iterator kavramları bu kelimeden türetilmiş. Python'da `iter()` yerleşik fonksiyona argüman olarak verebildiğimiz objelere iterable diyoruz. iter() fonksiyonu bize bir iterator döndürüyor. Iterator, objenin elemanları ne şekilde tanımlanırsa tanımlansın, bir koleksiyon içindeki tüm elemanlara sırasıyla erişebilmemiz için ortak bir arayüz oluşturan bir mekanizma. Kısacası, elemanları üzerinde sırasıyla gezinebildiğimiz, listeler ve demetler gibi objelere iterable diyoruz. Bu objeler, `iter()` fonksiyonu ile çağrıldığında, birer iterator döndürüyor, ve bu iterator'lar bir koleksiyondan sırasıyla eleman almak için kullanılıyor.
 
@@ -172,3 +172,222 @@ Bu örnekte, biz istedikçe bir sonraki fibonacci sayısını veren bir generato
 > yield deyimi ilk görüldüğünde kafa karıştırıcı olabilir. Buna rağmen, yield deyimini anlamaya çalışmakta yarar var, çünkü yeri geldiğinde bunu bilmek, diğer yollardan çözemeyeceğiniz problemleri bir çırpıda çözmenize olanak sağlıyor.
 {: .prompt-tip }
 
+## yield nasıl çalışır.
+
+Sade bir dille anlatmak gerekirse;
+
+Bir dizi sayı üzerinde işlem yapmak istiyorum, ancak bu dizinin yaratılmasıyla uğraşmak istemiyorum. Sadece yapmak istediğim işleme odaklanmak istiyorum. Bu yüzden aşağıdakileri yapıyorum:
+
+Sizi arayıp belirli bir şekilde üretilmiş bir dizi sayı istediğimi söylüyorum ve algoritmanın ne olduğunu da söylüyorum.
+Bu adım, generator fonksiyonunun, yani yield içeren fonksiyonun tanımlanmasına karşılık geldi.
+
+Bir süre sonra sana “Tamam, bana sayıların sırasını anlatmaya hazır ol” diyorum.
+
+Bu adım, bir generator nesnesi döndüren generator fonksiyonu çağırmaya karşılık geldi. Henüz bana bir sayı söylemediniz; sadece kağıt ve kaleminizi aldınız.
+
+Şimdi size, “bana bir sonraki numarayı söyleyin” diyorum ve siz bana ilk numarayı söylüyorsunuz. Ondan sonra, benden bir sonraki numarayı sormamı bekliyorsunuz. Nerede olduğunuzu, hangi sayıları söylediğinizi ve bir sonraki sayının ne olduğunu hatırlamak sizin işiniz. Detaylar benim için önemli değil.
+
+Bu adım, generator nesnesinde .next()‘i çağırmaya karşılık geldi.
+Buraya kadar önceki adımları tekrar ettik ve sona geldik. Burada artık bana “başka sayı yok!” diyorsunuz.
+
+Bu adım, generator nesnenin işini bitirmesine ve bir StopIteration istisnasının fırlatılmasına karşılık geldi. Generator fonksiyonunun istisnayı oluşturması gerekmez. Fonksiyon sona erdiğinde veya bir dönüt verdiğinde otomatik olarak fırlatılır.
+
+Dolayısıyla generatorun yaptığı şey şöyledir; yürütmeye başlar, bir ürün verdiğinde duraklar ve bir .next() değeri sorulduğunda son noktadan devam eder. Python’un yineleyici protokolü ile de tasarımı gereği mükemmel uyum sağlar.
+
+## yield from deyimi kullanımı
+
+Genellikle from sözcüğünü, bir kütüphaneyi import sözcüğü ile programa yüklerken kullanıyoruz. Ancak from sözcüğünün kullanıldığı başka bir yer daha var. Bu başlıkta bundan bahsetmek isterim.
+
+Diyelim aşağıdaki gibi bir fonksiyonumuz var. Bu aşağıdaki fonksiyon ne yapıyor bilmeyenler için anlatayım, izninizle.
+
+`def f(*args): pass`
+
+`f(*args)` ifadesi, f fonksiyonunun -255’e kadar- bir sürü argüman alabileceğini gösteriyor. Ana konudan sapmadan, isterseniz, 255 tane argüman alabileceğini nasıl öğrenebiliriz bulmaya çalışalım.
+
+Yukarıdaki fonksiyona 255 tane argüman vererek çağırmaya çalışalım.
+
+`exec(f"f({', '.join(map(str, range(255)))})")`
+
+Bir de 256 tane argüman vererek çağırmaya çalışalım.
+
+`exec(f"f({', '.join(map(str, range(256)))})")`
+
+Şöyle bir hata almış olmamız lazım.
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<string>", line 1
+SyntaxError: more than 255 arguments
+```
+
+Gördüğünüz gibi bir fonksiyona en fazla 255 tane argüman verilebiliyor.
+
+Şimdi izninizle from sözcüğünün farklı kullanımını sizlere anlatmaya çalışmak isterim.
+
+Örneğin, aşağıdaki gibi bir fonksiyonumuz olsun.
+
+```py
+def f(*args):
+    for i in args:
+        yield i
+
+```
+Yukarıdaki fonksiyonun ne yaptığını henüz bilmeyen arkadaşlar için kısaca bir açıklamada bulunayım.
+
+Öncelikle yield deyimi tıpkı return gibi bir fonksiyondan değer döndürmeye yarar ancak burada bir değerden çok bir çok değer içeren bir üreteç elde edersiniz. Yukarıdaki fonksiyonda yield yerine return kullanılmış olsaydı, ilk i değeri geri döndürülecekti, oysa yield sözcüğü burada bütün i'lere ulaşma imkanı tanıyor.
+
+Şimdi basit bir tane dizi tanımlayalım.
+
+`dizi = ["elma", "armut", "çilek", "karpuz"]`
+
+dizi'yi `f(*args)` fonksiyonuna argüman olarak verelim. Ve aşağıdaki gibi ekrana yazdıralım.
+
+`print(*f(dizi))`
+
+Yukarıdaki print fonksiyonunun ekrana bastıracağı çıktı aşağıdaki gibi olacaktır.
+
+`['elma', 'armut', 'çilek', 'karpuz']`
+
+`f()` fonksiyonunun argümanı dizi değil de `*dizi` olsun bu sefer.
+
+`print(*f(*dizi))`
+
+Bu kez alacağımız çıktı aşağıdaki gibi olacaktır.
+
+`elma, armut, çilek, karpuz`
+
+Şimdi gelin yukarıdaki fonksiyonu biraz değiştirelim:
+
+```py
+def f(*args):
+    yield from args    
+    
+print(*f(dizi))
+```
+
+f fonksiyonunun argümanına dizi'yi yazalım ve bakalım nasıl bir sonuç elde ediyoruz.
+
+`['elma', 'armut', 'çilek', 'karpuz']`
+
+Gördüğünüz gibi bu fonksiyon da ilk `f(dizi)` fonksiyonuna benzer bir çıktı verdi. f fonksiyonuna argüman olarak bir de `*dizi`'yi verelim.
+
+`print(*f(*dizi))`
+
+Şöyle bir çıktı almamız gerekir.
+
+`elma, armut, çilek, karpuz`
+
+Yine diğer fonksiyonun ürettiği sonuca benzer bir sonuç üretildi. Peki bu her zaman böyle mi olur? Gelin fonksiyonu biraz daha değiştirelim ve bu sorunun cevabını bulmaya çalışalım.
+
+```py
+def f(*args):
+    for i in args:
+        yield i.upper() if isinstance(i, str) else i
+```
+
+Şimdi `f(*args)` fonksiyonununa önce dizi sonra *dizi'yi argüman olarak verip, döndürdüğü değerleri ekrana yazdırmaya çalışalım…
+
+`print(*f(dizi))`
+
+Aşağıdaki gibi bir çıktı almamız gerekiyor:
+
+`['elma', 'armut', 'çilek', 'karpuz']`
+
+Argümanı \*dizi olduğunda nasıl bir çıktı veriyor ona bakalım.
+
+```py
+print(*f(*dizi))
+ELMA ARMUT ÇILEK KARPUZ
+```
+
+Yazdığımız `i.upper() if isinstance(i, str) else i` deyimi sayesinde, tipi str olan argüman büyük harflerle ekrana yazdırıldı.
+Bu son f fonksiyonumuzu from yield deyimiyle birlikte tekrar yazalım.
+
+```py
+def f(*args):
+    yield from args.upper() if isinstance(args, str) else args
+```
+
+Fonksiyona önce dizi'yi argüman olarak verelim ve nasıl bir çıktı aldığımıza bakalım.
+
+```py
+print(*f(dizi))
+['elma', 'armut', 'çilek', 'karpuz']
+```
+
+Gördüğünüz gibi diğer fonksiyon ile benzer bir sonuç aldık. Peki argümana \*dizi'yi yazsak, o da benzer bir sonuç üretiyor mu bakalım.
+
+```py
+print(*f(*dizi))
+elma armut çilek karpuz
+```
+
+Bakın bu sefer farklı bir sonuç aldık. Yani ilk örnekte her iki argüman için de benzer sonuçlar almıştık ama bu örnekte son sonuç farklı çıktı. Acaba from yield kullandığımız fonksiyonda nasıl bir değişiklik yapılmalı ki `print(*f(*dizi))` fonksiyonu string değerlerini büyük harflerle ekrana bastırsın?
+
+Şöyle yapabilirdik herhalde:
+
+```py
+def f(*args):
+    yield from [i.upper() for i in args] \
+        if isinstance(args, tuple) else args
+    
+
+print(*f(*dizi))
+```
+
+
+Yukarıdaki kodları çalıştırdığımızda alacağımız çıktı şöyle olacaktır.
+
+`ELMA ARMUT ÇILEK KARPUZ`
+
+Peki, aynı fonksiyon `print(*f(dizi))` şeklinde çağrılabilir miydi?
+
+`print(*f(dizi))`
+
+Bu kodları çalıştırdığımızda aşağıdaki gibi bir çıktı almamız gerekiyor:
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in f
+  File "<stdin>", line 2, in <listcomp>
+AttributeError: 'list' object has no attribute 'upper'
+```
+
+Peki, nasıl bir f fonksiyonu yazılmalı ki, fonksiyonu `print(*f(dizi))` şeklinde çağırdığımızda, bir önceki `print(*f(*dizi))` fonksiyonunun ürettiği çıktı olan ELMA ARMUT ÇILEK KARPUZ ile benzer olsun? Aşağıdakini bir deneyelim.
+
+```py
+def f(*args):
+    yield from [i.upper() for i in args[0]] \
+        if isinstance(args, tuple) else arg
+        
+print(*f(dizi))
+```
+
+Bu kodları çalıştırdığımızda alacağımız çıktı aşağıdaki gibi olacaktır.
+
+`ELMA ARMUT ÇILEK KARPUZ`
+
+Son f fonksiyonunun argümanı \*dizi şeklinde olursa alacağımız çıktı da şöyle olacaktır:
+
+`E L M A`
+
+Örneği bu kadar uzatmamın nedeni kafa karışıklığı yaratmak değildi, eğer bir kafa karışıklığına yol açtıysam şimdiden özür dilerim. Hatırlıyorsanız yukarıda şöyle bir şey yazmıştım:
+
+Yine diğer fonksiyonun ürettiği sonuca benzer bir sonuç üretildi. Peki bu her zaman böyle mi olur? Gelin fonksiyonu biraz daha değiştirelim ve bu sorunun cevabını bulmaya çalışalım.
+
+İşte bu soruya cevap aramaya çalıştım ve gördüğüm kadarıyla,
+
+```py
+def f(*args):
+    yield from args
+
+# ile
+
+def f(*args):
+    for i in args:
+        yield args
+```
+
+ifadeleri benzer sonuçlar üretiyor üretmesine ancak yukarıdaki diğer fonksiyon örneklerini bu yapıya uydurarak çağırmaya çalıştığımızda farklı sonuçlar alabildiğimizi gördük ve benzer sonuçlar almak için fonksiyonları değiştirmek zorunda kaldık.
