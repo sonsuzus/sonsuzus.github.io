@@ -391,3 +391,68 @@ def f(*args):
 ```
 
 ifadeleri benzer sonuçlar üretiyor üretmesine ancak yukarıdaki diğer fonksiyon örneklerini bu yapıya uydurarak çağırmaya çalıştığımızda farklı sonuçlar alabildiğimizi gördük ve benzer sonuçlar almak için fonksiyonları değiştirmek zorunda kaldık.
+
+## yield ile büyük dosyaları okuma
+
+Oluşturucuların (generator) yaygın bir kullanım durumu, veri akışlarıyla veya CSV dosyaları gibi büyük dosyalarla çalışmaktır. Bu metin dosyaları verileri virgül kullanarak sütunlara ayırır. Bu biçim, verileri paylaşmanın yaygın bir yoludur. Peki ya bir CSV dosyasındaki satır sayısını saymak isterseniz? Aşağıdaki kod bloğu bu satırları saymanın bir yolunu gösterir:
+
+```py
+csv_gen = csv_reader("some_csv.txt")
+row_count = 0
+
+for row in csv_gen:
+    row_count += 1
+
+print(f"Row count is {row_count}")
+```
+
+Bu örneğe baktığınızda csv_gen'in bir liste olmasını bekleyebilirsiniz. Bu listeyi doldurmak için `csv_reader()` bir dosya açar ve içeriğini csv_gen'e yükler. Daha sonra program liste üzerinde yinelenir ve her satır için satır_sayımı değerini artırır.
+
+Bu makul bir açıklama, ancak dosya çok büyük olsa bile bu tasarım yine de çalışır mı? Dosya, mevcut bellekten daha büyükse ne olur? Bu soruyu cevaplamak için `csv_reader()` fonksiyonunun dosyayı açtığını ve onu bir diziye okuduğunu varsayalım:
+
+```py
+def csv_reader(file_name):
+    file = open(file_name)
+    result = file.read().split("\n")
+    return result
+```
+
+Bu işlev belirli bir dosyayı açar ve her satırı bir listeye ayrı bir öğe olarak eklemek için `file.read()` işlevini `.split()` ile birlikte kullanır. Daha yukarıda gördüğünüz satır sayma kod bloğunda `csv_reader()` işlevinin bu sürümünü kullanırsanız aşağıdaki çıktıyı alırsınız:
+
+```
+Traceback (most recent call last):
+  File "ex1_naive.py", line 22, in <module>
+    main()
+  File "ex1_naive.py", line 13, in main
+    csv_gen = csv_reader("file.txt")
+  File "ex1_naive.py", line 6, in csv_reader
+    result = file.read().split("\n")
+MemoryError
+```
+
+Bu durumda, `open()` tembel bir şekilde satır satır yineleyebileceğiniz bir oluşturucu nesnesi döndürür. Ancak `file.read().split()` her şeyi belleğe aynı anda yükleyerek `MemoryError` hatasına neden olur.
+
+Bu gerçekleşmeden önce muhtemelen bilgisayarınızın taramanın yavaşladığını fark edeceksiniz. Programı `KeyboardInterrupt` ile durdurmanız bile gerekebilir. Peki bu devasa veri dosyalarını nasıl yönetebilirsiniz? `csv_reader()`'ın yeni haline bir göz atalım:
+
+```py
+def csv_reader(file_name):
+    for row in open(file_name, "r"):
+        yield row
+```
+
+Bu haliyle dosyayı açarsınız, yinelersiniz ve bir sonuç sayısı elde edersiniz. Bu kod, hiçbir bellek hatası olmadan aşağıdaki çıktıyı üretmelidir:
+
+`Row count is 64186394`
+
+Burada neler oldu? Aslında `csv_reader()` işlevini bir generatör işlevine dönüştürdünüz. Bu sürüm bir dosyayı açar, her satırda döngü yapar ve onu döndürmek yerine her satırı verir.
+
+Ayrıca, liste kavramalarına çok benzer bir sözdizimine sahip olan bir oluşturucu ifadesi (oluşturucu kavrama olarak da adlandırılır) da tanımlayabilirsiniz. Bu şekilde generatörü bir işlevi çağırmadan kullanabilirsiniz:
+
+```py
+csv_gen = (row for row in open(file_name))
+```
+
+Bu, csv_gen demetini oluşturmanın daha kısa ve öz bir yoludur.
+
+- yield kullanılması bir generatör nesnesi döndürür.
+- yield yerine return kullanılması dosyanın yalnızca ilk satırını döndürür.
