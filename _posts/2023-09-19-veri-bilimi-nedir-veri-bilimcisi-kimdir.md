@@ -1,0 +1,15 @@
+---
+title: Veri bilimi nedir? Veri bilimcisi kimdir
+author: sonsuz
+date: 2023-09-19 21:16:41 +0300
+categories: [Proje,Veri]
+tags: [veri,veri bilimi,veri tabanı,data,big data]
+---
+
+Daha büyük veri (big data) nedir ne değildir derken son yıllarda ortalıkta bir de veri bilimi, “datascience“, tabiri dolaşmaya başladı. Ülkemizin her ne kadar bu kavramlarla tanışıklığı yeni yeni olsa da dünyada epey bir yaygınlık kazanmaya başladığını görüyoruz. Aslında bu yaygınlık doğal bir gelişimin sonucu, yani kimse yapmacık yere veri bilimi, veri bilimci, “datascientist”, büyük veri, “big data” kavramlarını üretmiyor. Bu kavramlar şöyle bir doğal serüvenin sonunda patlamaya başladı: Bilgi sistemlerinde teknolojik ilerleme tüm hızıyla devam ediyor. Her geçen gün veriyi üretmek daha kolaylaşıyor. Üretilen bu verilerin bir yerden başka yere taşınması konusunda ağ teknolojilerinin veri iletim performansları fiber teknoloji ile birlikte akıl almaz hızlara ulaşmaya başladı. Veriyi saklamak için disk birim alan maliyeti oldukça düşük bir seviyeye inmiş durumda. Ayrıca şunu da belirtmeden geçmek istemem o da veri üreten kaynakların bolluğudur. Bilgi sistemleri gittikçe yaygınlaştı ve insan hayatının girmedik köşesini bırakmadı. Müşteri işlemleri, bankacılık işlemleri, e-ticaret işlemleri, ürün yorumları, RFID verileri, elektronik sağlık kayıtları, sigorta geri ödeme kayıtları, sensörler tarafından üretilen veriler gibi bir çok veri kaynağı bulunmaktadır. Hal böyle olunca dünyada bir veri bolluğu yaşanmaya başlandı.
+
+Ancak veri üretme, iletme, işleme ve saklamanın kolaylığı ile beraber başka sorunlar da baş göstermeye başlıyor. Yığınlarla verimiz var. Eee ne olmuş yani? Peki bu kadar çok veriyi ne yapacağız? Sonsuza kadar turşusunu kuracak halimiz yok. Hangisini saklayıp, hangisini ne zaman çöpe atacağız? Ve asıl soru bu işi nasıl yapacağız? İşte bu noktada büyük veri teknolojileriyle birlikte veri bilimleri ve veri bilimci kavramları ortaya çıkmaya başladı. Veri bilimi adından da anlaşılacağı gibi veriyle uğraşan bilim. Ve bu bilimin odağında da yığınlarla veriden değer üretme, anlam çıkarma bulunuyor.
+
+Çok yakın zamana kadar, büyük veri akımından önce diyelim, veri tabanları konusunda ilişkisel veri tabanı en yaygın veri tabanı olarak hemen hemen bütün ihtiyaçları gideriyordu. Ancak büyük veri akımıyla beraber ilişkisel veri tabanı büyük veri özelliklerine sahip (hacim, hız, çeşitlilik) veriyle başa çıkamaz duruma düştü. Yatay ölçekleme (scale out) kabiliyeti olmayan ilişkisel veri tabanlarının yerine yatay ölçekleme özelliğine sahip NoSQL veri tabanları ve büyük veri teknolojileri yer almaya başladı. Bu teknolojide bir sunucu kümesi (cluster) yüzlerce-binlerce düğüme (node) kadar genişleme imkanı sunmaktadır.
+
+Özetlemek gerekirse veri bilimci; yığınlarla veriden değer üreten, iş problemlerini veriye dayalı çözebilen veya şirketin kurumun bir alandaki üstünlüğünü veriyi kullanarak arttıran pekiştiren kişidir diyebiliriz. Tabiri caizse modern çağın Simyacısı…
