@@ -25,9 +25,9 @@ Bilim ve sanat merkezlerinin işleyişi, örnek projeler, ders programları, ve 
 
 Mitolojiye merakım çok eskilere dayanır. Bu amaçla başladığım bu site günümüzde mitoloji konusunda epey zengin içeriğe sahip ve gelişmeye de devam ediyor. [Dünya Mitolojisi](https://www.mitolojisi.com) sitesini ziyaret edip dilerseniz site gönüllüleri arasına da katılabilirsiniz. Alt yapı olarak wordpress kullanıyorum.
 
-## Sonsuz Bilgi sonsuz.me
+## Sonsuzus Github Programlama
 
-Eski sonsuz.us tarzında her türlü konunun konuşulduğu [sonsuz.me](https://sonsuz.me) sitesi vanilla forum alt yapısında kurulmuştur. Teknik olarak tek sorun vanilla forumlarındaki permission sorunudur. Onun dışında sitenin alt yapısı hızlı ve estetik, mobil uyumlu ve kullanıcı dostudur. Her konuda özgün düşüncenizi yazabileceğiniz bir forumdur.
+Sonsuzus programlama sitesi olan şu an bulunduğunuz yer github pages ve jekyll üzerinde Chirpy teması ile yapılmıştır. Çeşitli blog yazıları, programlama dilleri eğitimi ve algoritmalarla ilgili kaynaklara sahiptir.
 
 ## Sonsuz Us sonsuz.us
 
