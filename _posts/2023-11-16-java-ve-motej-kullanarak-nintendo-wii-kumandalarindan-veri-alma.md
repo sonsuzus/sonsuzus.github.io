@@ -2,7 +2,7 @@
 title: Java ve moteJ kullanarak Nintendo Wii kumandalarından veri alma 
 author: sonsuz
 date: 2023-11-16 16:02:41 +0300
-categories: [Programlama,Java]
+categories: [Program,Java]
 tags: [veri,java,motej,nintendo wii]
 ---
 
