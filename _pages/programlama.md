@@ -7,14 +7,14 @@ layout: post
 permalink: /programlama
 ---
 
-Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine çalışmalar ve bilgiler olacaktır. Sizler de takıldığınız kısımları ve paylaşmak istediklerinizi github [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz.
+Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine çalışmalar ve bilgiler olacaktır. Sizler de takıldığınız kısımları ve paylaşmak istediklerinizi github [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz. Garip programlama dilleri de eklenmeye başlamıştır.
 
 Güzel bir söz ile başlayalım.
 >“Eğer derleyicilerin nasıl çalıştığını bilmiyorsanız, bilgisayarların nasıl çalıştığını da bilmiyorsunuz demektir. Eğer derleyicilerin tam olarak nasıl çalıştığından emin değilseniz, o halde nasıl çalıştıklarını bilmiyorsunuzdur.”— Steve Yegge
 
 ## Algoritma
 
-Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/program/algoritma) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz.
+Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/program/algoritma) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz. Algoritma bölümü daha da geliştirilmek üzere tasarlanacaktır.
 
 ## Python Programlama
 
@@ -51,4 +51,3 @@ Robotik programlama ilgili her yaşa uygun içeriğime (aslında özellikle çoc
 ## Small Basic Programlama
 
 Small Basic Microsoftun ürünü olup temel ve çocuklar için programlamada kullandığım bir dildir. Basit algoritmalar oluşturma ve görsel çizim ve turtle kütüphaneleri ile kolay ve kullanışlıdır. Bu konuda daha detaylı bilgi için [Small Basic Programlama](https://sonsuzus.github.io/program/small-basic) sayfasını ziyaret ediniz.
-
