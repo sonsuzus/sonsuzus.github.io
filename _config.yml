@@ -20,10 +20,10 @@ timezone: Europe/Istanbul
 
 title: SonsuzUs Github
 
-tagline: Bilişim ve Programlama
+tagline: Yazılım ve Programlama
 
 description: >- # used by seo meta and the atom feed
-  SonsuzUs bilişim, programlama, eğitim, algoritma ve projeler.
+  SonsuzUs yazılım, programlama, eğitim, algoritma ve projeler.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://sonsuzus.github.io"
