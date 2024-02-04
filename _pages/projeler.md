@@ -9,6 +9,14 @@ permalink: /projeler
 
 Projeler bölümünde biten, yarım kalan, destek bekleyen, sonuca ulaşan, süren projelerin bir özetini ve detaylarını bulacaksınız. Aynı zamanda destek ihtiyacı olan projelerde görev alabilir ve katılım sağlayabilirsiniz. Proje notları için [tartışmalar](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünü kullanacağım.
 
+## Tübitak 4006 Projeleri
+
+Bu bölümde Tübitak 4006 Projeleri yer alacaktır.
+
+## Tübitak 2204 Projeleri
+
+Bu bölümde Tübitak 2204 Liseler arası projeler yarışmasına örnek veya katıldığımız projeler yer alacaktır.
+
 ## MetaBilsem Projesi
 
 Metabilsem projesi bilsemler arası metaverse evrenine katılım ve blok zincir uygulamaları ve bilgilendirme ağı olarak [metabilsem](https://sonsuzus.github.io) adresinde yayına geçmiştir. Zamanla proje detaylarını burada da paylaşacağım.
@@ -25,9 +33,9 @@ Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğ
 
 Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/site/ruyada-ruya) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io) ve [Rüyara](https://ruyara.com) siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Rüyada rüya için Q&A yapısı kullanılmıştır. Rüyara sitesi wordpress diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/program/html) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
 
-## Tübitak Projeleri
+## Diğer Tübitak Projeleri
 
-Tübitak 4006 Bilim Fuarı, Tübitak 4004 Boğaz Trafiği Analizi, Tübitak 4005 Sahte Fotoğraf Analizi
+Eski Tübitak 4006 Bilim Fuarı, Tübitak 4004 Boğaz Trafiği Analizi, Tübitak 4005 Sahte Fotoğraf Analizi
 
 ## Sosyal Sorumluluk Projeleri
 
@@ -56,4 +64,3 @@ Satranç severleri bir araya toplayan bu sistemlerde [Crazyhouse][1] gibi satran
 ## AçıkOkul - AçıkSoru
 
 2006 yılında başladığımız açık okul projesi o günler için oldukça önemliydi. moodle alt yapısını kullanarak oluşturduğumu projede yüzden fazla ders vermeye başlamıştık. Online eğitmenliğin ilk adımlarını atmış bulunduk. Bu projemiz malesef yarım kaldı ve yok olup gitti fakat bir çok uzaktan eğitim fikirlerinin ilk adımını attık. Bizden sonra bazı üniversiteler bu uygulamayı kullanmaya devam etti. Açıksoru da aynı şekilde online test sitesi şeklinde tasarlamıştık.
-
