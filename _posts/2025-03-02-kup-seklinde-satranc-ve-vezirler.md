@@ -9,7 +9,7 @@ image: 8x8x8-satranc.jpg
 
 Elimizde 8x8x8 lik bir satranç kübü var. Bu tahtaya birbirini yemeyen maksimum kaç vezir yerleştirilir? (Vezirler derinlemesine de hareket edebilmektedir)
 
-Aşağıdaki program vezirlerinizi sırayla koyduktan sonra tahtanızı ve boş yerleri gösterecektir. Bu soru için program yazabilir ve en hızlı çözümü bulmaya çalışabilirsiniz.
+Aşağıdaki program vezirlerinizi sırayla koyduktan sonra tahtanızı ve boş yerleri gösterecektir. Bu soru için program yazabilir ve en hızlı çözümü bulmaya çalışabilirsiniz. Tahmin olarak da yazabilirsiniz yorumunuzu.
 
 ```py
 import numpy as np
