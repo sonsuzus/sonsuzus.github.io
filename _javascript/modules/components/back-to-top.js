@@ -3,15 +3,17 @@
  */
 
 export function back2top() {
-  $(window).on('scroll', () => {
-    if ($(window).scrollTop() > 50) {
-      $('#back-to-top').fadeIn();
+  const btn = document.getElementById('back-to-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      btn.classList.add('show');
     } else {
-      $('#back-to-top').fadeOut();
+      btn.classList.remove('show');
     }
   });
 
-  $('#back-to-top').on('click', () => {
-    window.scrollTo(0, 0);
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0 });
   });
 }
