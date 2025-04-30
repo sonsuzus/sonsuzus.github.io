@@ -97,7 +97,7 @@ layout: page
         {% endif %}
       </div>
       <!-- .card-header -->
-		{% endif %}
+		
       <!-- Sub-categories -->
       {% if sub_categories_size > 0 %}
         <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
@@ -132,7 +132,7 @@ layout: page
       {% endif %}
     </div>
     <!-- .card -->
-
+	{% endif %}
     {% assign group_index = group_index | plus: 1 %}
   {% endif %}
 {% endfor %}
