@@ -17,7 +17,7 @@ layout: page
   {% assign posts_of_category = category | last %}
   {% assign first_post = posts_of_category | first %}
 
-  {% if category_name == first_post.categories[0] %}
+ {# {% if category_name == first_post.categories[0] %} #}
     {% assign sub_categories = '' | split: '' %}
 
     {% for post in posts_of_category %}
@@ -134,5 +134,5 @@ layout: page
     <!-- .card -->
 	{% endif %}
     {% assign group_index = group_index | plus: 1 %}
-  {% endif %}
+{#  {% endif %} #}
 {% endfor %}
