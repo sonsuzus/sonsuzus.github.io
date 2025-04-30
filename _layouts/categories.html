@@ -31,7 +31,7 @@ layout: page
 
     {% assign sub_categories = sub_categories | sort %}
     {% assign sub_categories_size = sub_categories | size %}
-
+	{% if posts_of_category.size > 0 %}
     <div class="card categories">
       <!-- top-category -->
       <div
@@ -97,7 +97,7 @@ layout: page
         {% endif %}
       </div>
       <!-- .card-header -->
-
+		{% endif %}
       <!-- Sub-categories -->
       {% if sub_categories_size > 0 %}
         <div id="{{ LIST_PREFIX }}{{ group_index }}" class="collapse show" aria-expanded="true">
