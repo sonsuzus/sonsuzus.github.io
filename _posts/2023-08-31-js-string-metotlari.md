@@ -229,7 +229,7 @@ Aşağıdaki string metot örneklerini yapınız.
 ```js
 var sentence = " Template Literals or template strings is the ability Have multi-line strings without any funny business. ";
 
-var url = "http://sadikturan.com/Modern Javascipt KURSU sıfırdan ileri seviye ü ö ş";
+var url = "https://sadikturan.com/Modern Javascipt KURSU sıfırdan ileri seviye ü ö ş";
 ```
 
 1- Cümle kaç karakterlidir ?
@@ -267,7 +267,7 @@ console.log(sentence.replace('-',''));
 6- url'nin içinden str kısmını çıkarınız.
 
 ```js
-var str = 'http://';
+var str = 'https://';
 
 console.log(url.substr(str.length));
 

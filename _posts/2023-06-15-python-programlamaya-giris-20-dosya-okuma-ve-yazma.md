@@ -591,9 +591,9 @@ HTML dosyaları zaten düz metinden oluştuğu için onları okumakta teknik bir
 
 ### Excel
 
-MS Excel dosyalarını CSV olarak kaydederseniz *CSV okuma/yazma* kısmındaki yöntemleri kullanabilirsiniz. Bunu istemiyorsanız, veya tablodaki verileriniz bu işleme uygun değilse, veya birden fazla yapraktan oluşuyorsa, Excel dosyasını doğrudan açmak için [*xlrd* modülünü](http://xlrd.readthedocs.io/en/latest/) kullanabilirsiniz.
+MS Excel dosyalarını CSV olarak kaydederseniz *CSV okuma/yazma* kısmındaki yöntemleri kullanabilirsiniz. Bunu istemiyorsanız, veya tablodaki verileriniz bu işleme uygun değilse, veya birden fazla yapraktan oluşuyorsa, Excel dosyasını doğrudan açmak için [*xlrd* modülünü](https://xlrd.readthedocs.io/en/latest/) kullanabilirsiniz.
 
-Daha geniş özelliklere sahip bir paket olan [*pyexcel*](http://pyexcel.readthedocs.io/en/latest/) ile hem okuma hem de yazmayı daha kolay işlemlerle yapabilirsiniz.
+Daha geniş özelliklere sahip bir paket olan [*pyexcel*](https://pyexcel.readthedocs.io/en/latest/) ile hem okuma hem de yazmayı daha kolay işlemlerle yapabilirsiniz.
 
 *Pandas* paketinin `read_excel()` fonksiyonu ile bir Excel dosyasını doğrudan okuyarak bir veri çerçevesi haline getirebilirsiniz. 
 

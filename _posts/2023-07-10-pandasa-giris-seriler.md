@@ -455,7 +455,7 @@ In [15]:
 """
 # Sıcaklık verisini aşağıdaki kodu kullanarak elde ettim. Daha sonra ay isimlerini Türkçeye çevirdim
 # Pandas altındaki okuma ve yazma fonksiyonlarına ileriki yazılarda değineceğiz.
-temp = pd.read_html('http://www.yr.no/place/Turkey/Istanbul/Istanbul/statistics.html', header = 1, index_col=0) 
+temp = pd.read_html('https://www.yr.no/place/Turkey/Istanbul/Istanbul/statistics.html', header = 1, index_col=0) 
 temp_ist = pd.Series(temp[1]['Normal'], index= temp[1].index.values)
 temp_ist = temp_ist.astype(str).str[:-2].astype(np.float)
 """

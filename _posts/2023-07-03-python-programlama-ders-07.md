@@ -453,7 +453,7 @@ Eğer `ch` *a* ve *z* arasında ise, küçük harf olmak zorundadır.
 
 **Boş karakterler (whitespace)** imleci herhangi bir şey görüntülemeden hareket ettiren karakterlerdir. Görünür karakterler arasında beyaz boşluklar (en azından beyaz kağıt üstünde) yaratırlar. `string.whitespace` sabiti tüm boş karakterleri -- boşluk, tab (\t) ve yeni satır (\n) -- içerir:
 
-`string` modülü içerisinde bir sürü başka yararlı fonksiyon vardır, ancak bu kitap referans el kitabı amacı gütmediği için tüm bu yararlı fonksiyonları burada anlatmayacağız. *Python Kütüphane Referansı (Python Library Reference)*, referans kitabıdır. Diğer bir çok yararlı belgeyle birlikte Python web sitesinden erişilebilir, [http://www.python.org](http://www.python.org/)
+`string` modülü içerisinde bir sürü başka yararlı fonksiyon vardır, ancak bu kitap referans el kitabı amacı gütmediği için tüm bu yararlı fonksiyonları burada anlatmayacağız. *Python Kütüphane Referansı (Python Library Reference)*, referans kitabıdır. Diğer bir çok yararlı belgeyle birlikte Python web sitesinden erişilebilir, [https://www.python.org](https://www.python.org/)
 
 ## 7.13 Karakter dizisi biçimlendirme
 

@@ -125,7 +125,7 @@ Bu programı genişletelim...
     programı değiştirin. Kullanıcının cevabının bir değişken içinde
     saklamalı ve kullanıcının isteğine göre pencerenin rengini
     değiştirebilmelidir. (İpucu: İzin verilen renklerin isimlerini
-    <http://www.tcl.tk/man/tcl8.4/TkCmd/colors.htm> adresinden
+    <https://www.tcl.tk/man/tcl8.4/TkCmd/colors.htm> adresinden
     bulabilirsiniz. Bu sayfa bazı garip isimler ile renkleri
     isimlendirmektedir. Sıcak pembe "HotPink" ve şeftali esintisi
     "peach puff")

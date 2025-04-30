@@ -125,7 +125,7 @@ Out[9]:
 (True, True)
 ```
 
-Bunu daha iyi görmek için [Python Tutor](http://pythontutor.com/) sitesinden, Python kodunun işletilme aşamalarını görsel olarak sunan bir programcığı kullanabiliriz (internet bağlantısı gerektirir).  
+Bunu daha iyi görmek için [Python Tutor](https://pythontutor.com/) sitesinden, Python kodunun işletilme aşamalarını görsel olarak sunan bir programcığı kullanabiliriz (internet bağlantısı gerektirir).  
 
 Aynı davranış fonksiyonlarda da görülür. Bir fonksiyon parametre olarak bir liste alır ve listeyi kendi içinde değiştirirse, orijinal liste de değişir.
 

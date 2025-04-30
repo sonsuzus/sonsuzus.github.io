@@ -963,7 +963,7 @@ Out[25]:
 
 
 
-Öncelik sırası kavramı aritmetik işlem olsun olmasın, dildeki her türlü operatör için de geçerlidir. Tam bir liste için [Python referans sayfalarına](http://docs.python.org/2/reference/expressions.html#operator-precedence) bakabilirsiniz.
+Öncelik sırası kavramı aritmetik işlem olsun olmasın, dildeki her türlü operatör için de geçerlidir. Tam bir liste için [Python referans sayfalarına](https://docs.python.org/2/reference/expressions.html#operator-precedence) bakabilirsiniz.
 
 
 Atama (`=`) işlemi en düşük önceliğe sahiptir. Bir değişkene bir değer ataması yaparken önce eşit işaretinin sağ tarafının değeri hesaplanır. Değişkene değer atama işlemi en son yapılır. Python’da bir atama başka bir ifadenin parçası olamaz.

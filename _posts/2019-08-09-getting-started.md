@@ -74,7 +74,7 @@ $ bundle exec jekyll serve
 > If you are using Dev Containers, you must run that command in the **VS Code** Terminal.
 {: .prompt-info }
 
-After a few seconds, the local server will be available at <http://127.0.0.1:4000>.
+After a few seconds, the local server will be available at <https://127.0.0.1:4000>.
 
 ### Configuration
 

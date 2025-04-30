@@ -36,7 +36,7 @@ Meselâ 13 ile başlarsak, on eleman uzunlukta olan 13, 40, 20, 10, 5, 16, 8, 4,
 Sorumuz şu: Bir milyonun altındaki bütün başlangıç değerleri içinde hangisi **en uzun** Collatz dizisini verir? (Başlangıçtan sonraki değerler bir milyonun üzerine çıkabilir.)
 
 
-(Kaynak: Euler Project, [14. problem](http://projecteuler.net/problem=14))
+(Kaynak: Euler Project, [14. problem](https://projecteuler.net/problem=14))
 
 
 ## Üstel fonksiyon için Taylor serisi
@@ -126,7 +126,7 @@ Karekök ~  11.6467162754
 ## Pi sayısı ve Machin formülü
 
 
-Pi’yi hesaplamak için [tarih boyunca çeşitli yöntemler geliştirildi](http://www.acikbilim.com/2013/03/dosyalar/pi-gunu-kutlu-olsun.html). Önceki bir örnekte kullandığımız Leibniz formülü $\arctan$ fonksiyonunun Taylor açılımına dayanır:
+Pi’yi hesaplamak için [tarih boyunca çeşitli yöntemler geliştirildi](https://www.acikbilim.com/2013/03/dosyalar/pi-gunu-kutlu-olsun.html). Önceki bir örnekte kullandığımız Leibniz formülü $\arctan$ fonksiyonunun Taylor açılımına dayanır:
 
 
 $$\arctan x = x – \frac{1}{3}x^3 + \frac{1}{5}x^5 – \frac{1}{7} x^7 + \cdots$$
@@ -150,7 +150,7 @@ $$\pi = 16 \arctan \frac{1}{5} – 4 \arctan \frac{1}{239}$$
 Buradaki her bir terim, $\arctan$ fonksiyonunun yukarıda verilen açılımıyla hesaplanabilir.
 
 
-Bu formülle Machin, $\pi$’yi o dönem için bir rekor olan 100 basamağa kadar hesaplayabilmişti. $\pi$’nin birkaç $\arctan$ teriminin toplamı olarak ifade edildiği formüllere [*Machin benzeri*](http://en.wikipedia.org/wiki/Machin-like_formula) adı verilir. Bu algoritmalar, $\pi$’yi trilyon basamağa kadar hesaplarken bile kullanılabilecek kadar verimlidirler.
+Bu formülle Machin, $\pi$’yi o dönem için bir rekor olan 100 basamağa kadar hesaplayabilmişti. $\pi$’nin birkaç $\arctan$ teriminin toplamı olarak ifade edildiği formüllere [*Machin benzeri*](https://en.wikipedia.org/wiki/Machin-like_formula) adı verilir. Bu algoritmalar, $\pi$’yi trilyon basamağa kadar hesaplarken bile kullanılabilecek kadar verimlidirler.
 
 
 Machin formülüyle $\pi$’yi hesaplayacak bir program yazın. Programda $\arctan$ fonksiyonlarının değerlerini yine bir döngü içinde, serinin son terimi belli bir hata payı değerinin altında olacak şekilde hesaplatın.

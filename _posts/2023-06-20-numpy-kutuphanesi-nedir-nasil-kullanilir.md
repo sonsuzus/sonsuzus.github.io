@@ -39,7 +39,7 @@ import numpy as np
 
 #### **np.array() :**
 
-![numpy-array](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20774%20180'%3E%3C/svg%3E)
+![numpy-array](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20774%20180'%3E%3C/svg%3E)
 
 ![numpy-array](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_array.jpg)
 
@@ -48,7 +48,7 @@ np.array() kullanımı
 
 #### **np.arange():**
 
-![](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20771%20133'%3E%3C/svg%3E)
+![](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20771%20133'%3E%3C/svg%3E)
 
 ![](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_arange.jpg)
 
@@ -59,7 +59,7 @@ np.arange() fonksiyonu n-boyutlu dizinler oluşturmak için oldukça uygundur. F
 
 #### **np.linspace():**
 
-![numpy-linspace](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20771%20131'%3E%3C/svg%3E)
+![numpy-linspace](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20771%20131'%3E%3C/svg%3E)
 
 ![numpy-linspace](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_linspace.jpg)
 
@@ -68,7 +68,7 @@ np.linspace() kullanımı
 
 #### **np.zeros():**
 
-![numpy-zeros](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20758%20205'%3E%3C/svg%3E)
+![numpy-zeros](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20758%20205'%3E%3C/svg%3E)
 
 ![numpy-zeros](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_zeros-1.jpg)
 
@@ -77,7 +77,7 @@ np.zeros() kullanımı
 
 #### **np.ones():**
 
-![numpy-ones](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20769%20163'%3E%3C/svg%3E)
+![numpy-ones](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20769%20163'%3E%3C/svg%3E)
 
 ![numpy-ones](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_ones.jpg)
 
@@ -86,7 +86,7 @@ np.ones() kullanımı
 
 #### **np.full():**
 
-![numpy-full](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20165'%3E%3C/svg%3E)
+![numpy-full](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20768%20165'%3E%3C/svg%3E)
 
 ![numpy-full](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_full.jpg)
 
@@ -95,7 +95,7 @@ np.full() kullanımı
 
 #### **np.random():**
 
-![numpy-random](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20768%20184'%3E%3C/svg%3E)
+![numpy-random](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20768%20184'%3E%3C/svg%3E)
 
 ![numpy-random](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_random.jpg)
 
@@ -113,7 +113,7 @@ dizin2 = np.array((2,3,1))
 
 #### **np.dot():**
 
-![numpy-dot](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20770%20118'%3E%3C/svg%3E)
+![numpy-dot](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20770%20118'%3E%3C/svg%3E)
 
 ![numpy-dot](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_dot.jpg)
 
@@ -122,7 +122,7 @@ np.dot() kullanımı
 
 #### **np.matmul():**
 
-![python-matmul](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20769%20117'%3E%3C/svg%3E)
+![python-matmul](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20769%20117'%3E%3C/svg%3E)
 
 ![python-matmul](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_matmul.jpg)
 
@@ -131,7 +131,7 @@ np.matmul() kullanımı
 
 #### **np.T:**
 
-![python-transpoz](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20771%20185'%3E%3C/svg%3E)
+![python-transpoz](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20771%20185'%3E%3C/svg%3E)
 
 ![python-transpoz](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_t-1.jpg)
 
@@ -156,7 +156,7 @@ Yukarıdaki kod parçacığı ile 150 ve 200 arasında tam 20 integer (*tam say�
 
 #### **np.median():**
 
-![python-median](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20749%20118'%3E%3C/svg%3E)
+![python-median](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20749%20118'%3E%3C/svg%3E)
 
 ![python-median](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_median.jpg)
 
@@ -165,7 +165,7 @@ np.median() kullanımı
 
 #### **np.mean():**
 
-![python-mean](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20770%20121'%3E%3C/svg%3E)
+![python-mean](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20770%20121'%3E%3C/svg%3E)
 
 ![python-mean](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_mean.jpg)
 
@@ -174,7 +174,7 @@ np.mean() kullanımı
 
 #### **np.std()**:
 
-![standart-sapma](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20759%20121'%3E%3C/svg%3E)
+![standart-sapma](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20759%20121'%3E%3C/svg%3E)
 
 ![standart-sapma](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/np_std.jpg)
 
@@ -214,7 +214,7 @@ Out[3]: [ 4  8 10  4  2  8]
 
 Numpy Python’a göre çok daha fazla ve farklı veri tiplerini destekler. Aşağıdaki tabloda Numpy’ın içerdiği veri tiplerini bulabilirsiniz.
 
-![veri-tipleri](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20674%20580'%3E%3C/svg%3E)
+![veri-tipleri](data:image/svg+xml,%3Csvg%20xmlns='https://www.w3.org/2000/svg'%20viewBox='0%200%20674%20580'%3E%3C/svg%3E)
 
 ![veri-tipleri](https://d9v7j6n3.rocketcdn.me/wp-content/uploads/2020/06/data_types.png)
 

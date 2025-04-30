@@ -163,7 +163,7 @@ Eğer `kopya`yı değiştirirsek, `karsitlar` değişmeyecektir:
 
 ## 12.4 Dağınık matrisler
 
-Daha önce bir matrisi temsil etmek için listelerden oluşan liste kullanmıştık. Bu genellikle sıfırdan farklı değerler içeren matrisler için iyi bir çözümdür, ancak aşağıdaki gibi bir [dağınık matris](http://en.wikipedia.org/wiki/Sparse_matrix)i düşünün:
+Daha önce bir matrisi temsil etmek için listelerden oluşan liste kullanmıştık. Bu genellikle sıfırdan farklı değerler içeren matrisler için iyi bir çözümdür, ancak aşağıdaki gibi bir [dağınık matris](https://en.wikipedia.org/wiki/Sparse_matrix)i düşünün:
 
 ![](illustrations/sparse.png)
 
@@ -313,7 +313,7 @@ sözlük
 : Anahtar-değer çiftlerinde oluşan, anahtarları değerlere eşleyen veri tipidir. Anahtarlar herhangi bir değiştirilemez tip olabilir, değerler ise herhangi bir tip olabilir.
 
 eşleme tipi
-: Anahtar ve ilişkili değerlerin kolleksiyonlarından oluşan veri tipidir. Python'un yerleşik tep eşleme tipi sözlüktür. Sözlükler [ilişkili dizi](http://en.wikipedia.org/wiki/Associative_array) soyut veri tipini gerçekleştirmektedir.
+: Anahtar ve ilişkili değerlerin kolleksiyonlarından oluşan veri tipidir. Python'un yerleşik tep eşleme tipi sözlüktür. Sözlükler [ilişkili dizi](https://en.wikipedia.org/wiki/Associative_array) soyut veri tipini gerçekleştirmektedir.
 
 anahtar
 : Sözlükte bir değere *eşlenen* veri öğesidir. Anahtarlar sözlükteki değerlere bakmak, erişmek için kullanılmaktadır. 

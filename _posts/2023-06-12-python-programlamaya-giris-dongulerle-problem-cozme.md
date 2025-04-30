@@ -329,7 +329,7 @@ Dizi 1’e ulaştığında durur. Sözgelişi, diziye 13 ile başlarsak
 
 13, 40,20, 10, 5, 16, 8, 4, 2,1
 
-elde ederiz. [Collatz dizisi](http://en.wikipedia.org/wiki/Collatz_conjecture) adı verilen bu diziyi basit bir Python programıyla üretebiliriz:
+elde ederiz. [Collatz dizisi](https://en.wikipedia.org/wiki/Collatz_conjecture) adı verilen bu diziyi basit bir Python programıyla üretebiliriz:
 
 In [4]:
 
@@ -415,7 +415,7 @@ pi ~ 3.1415726535897814
 
 Aşağıdaki program, $x$ değişkenini 0 ile 1 arasında 0.1 adımlarla artırarak, $x$ ve $\sin(x)$ değerlerini bir tablo olarak yazar.
 
-Bu programda *matematik modülünü* kullanıyoruz. Matematiksel fonksiyon ve sabitlerin bulunduğu `math` modülü Python standart kütüphanesine dahildir. Bu modülden daha sonra bahsedeceğiz. Ayrıntılı bilgi için Python [başvuru belgelerine](http://docs.python.org/2/library/math.html) bakabilirsiniz.
+Bu programda *matematik modülünü* kullanıyoruz. Matematiksel fonksiyon ve sabitlerin bulunduğu `math` modülü Python standart kütüphanesine dahildir. Bu modülden daha sonra bahsedeceğiz. Ayrıntılı bilgi için Python [başvuru belgelerine](https://docs.python.org/2/library/math.html) bakabilirsiniz.
 
 In [6]:
 

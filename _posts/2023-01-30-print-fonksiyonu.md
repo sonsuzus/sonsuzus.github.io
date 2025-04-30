@@ -433,9 +433,9 @@ yerleştiriyor. Halbuki bu boşluğu biz talep etmedik! Python bize bu boşluğu
 eşantiyon olarak verdi. Çoğu durumda istediğimiz şey bu olacaktır, ama bazı
 durumlarda bu boşluğu istemeyebiliriz. Örneğin::
 
-    >>> print("http://", "www.", "istihza.", "com")
+    >>> print("https://", "www.", "istihza.", "com")
 
-    http:// www. istihza. com
+    https:// www. istihza. com
 
 Ya da boşluk karakteri yerine daha farklı bir karakter kullanmak istiyor da
 olabiliriz. Peki böyle bir durumda ne yapmamız gerekir?
@@ -461,12 +461,12 @@ Fonksiyonların bir de daha özel görünümlü parametreleri vardır. Mesela
 ``print()`` fonksiyonunda görünmese bile her zaman oradadır. Yani diyelim ki
 şöyle bir kod yazdık::
 
-    >>> print("http://", "www.", "google.", "com")
+    >>> print("https://", "www.", "google.", "com")
 
 Burada herhangi bir `sep` parametresi görmüyoruz. Ancak Python yukarıdaki kodu
 aslında şöyle algılar::
 
-    >>> print("http://", "www.", "google.", "com", sep=" ")
+    >>> print("https://", "www.", "google.", "com", sep=" ")
 
 *sep* ifadesi, İngilizcede *separator* (ayırıcı, ayraç) kelimesinin
 kısaltmasıdır. Dolayısıyla ``print()`` fonksiyonundaki bu `sep` parametresi,
@@ -480,9 +480,9 @@ karakter dizilerini birleştirirken araya boşluk değil, bizim istediğimiz ba�
 bir karakteri yerleştirebilir. Gelin şimdi bu parametrenin değerini nasıl
 değiştireceğimizi görelim::
 
-    >>> print("http://", "www.", "istihza.", "com", sep="")
+    >>> print("https://", "www.", "istihza.", "com", sep="")
 
-    http://www.istihza.com
+    https://www.istihza.com
 
 Gördüğünüz gibi, karakter dizilerini başarıyla birleştirip, geçerli bir internet
 adresi elde ettik.

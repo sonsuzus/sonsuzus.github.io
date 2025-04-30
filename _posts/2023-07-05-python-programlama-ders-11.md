@@ -441,7 +441,7 @@ def get_age():
 
 ```
 
-`raise` cümlesi iki argüman alır: istisna tipi, ve hata hakkında ayrıntılı bilgi. `ValueError` tetiklemek istediğimiz istisnaya en yakın yerleşik istisnadır. Yerleşik istisnaların bütün listesine [Python kütüphane referansı](http://docs.python.org/lib/)nın [2.3 bölümünden](https://docs.python.org/3/library/exceptions.html) ulaşabilirsiniz (yine Guido Van Rossum'un yazdığı).
+`raise` cümlesi iki argüman alır: istisna tipi, ve hata hakkında ayrıntılı bilgi. `ValueError` tetiklemek istediğimiz istisnaya en yakın yerleşik istisnadır. Yerleşik istisnaların bütün listesine [Python kütüphane referansı](https://docs.python.org/lib/)nın [2.3 bölümünden](https://docs.python.org/3/library/exceptions.html) ulaşabilirsiniz (yine Guido Van Rossum'un yazdığı).
 
 Eğer çağırdığı fonksiyon `get_age` hatayı kotarırsa, program çalışmaya devam edecektir, diğer durumda Python hata dökümünü yapıp çıkacaktır:
 
@@ -496,7 +496,7 @@ def gerisayim(n):
 
 Yineleme ile yapılan herhangi bir hesaplama, özyineleme ile de yapılabilir.
 
-Bir çok bilinen matematiksel fonksiyon özyineli olarak tanımlanmıştır. [Faktöriyel](http://en.wikipedia.org/wiki/Factorial), örneğin, özel bir işleçe, `!`, sahiptir ve şu şekilde tanımlanmıştır:
+Bir çok bilinen matematiksel fonksiyon özyineli olarak tanımlanmıştır. [Faktöriyel](https://en.wikipedia.org/wiki/Factorial), örneğin, özel bir işleçe, `!`, sahiptir ve şu şekilde tanımlanmıştır:
 
 ```py
 0! = 1
@@ -513,7 +513,7 @@ def faktoryel(n):
         return n * faktoryel(n-1)
 ```
 
-Matematikte çok bilinen diğer bir özyineli ilişki [fibonacci serisi](http://en.wikipedia.org/wiki/Fibonacci_number)dir, şu şekilde tanımlanmıştır:
+Matematikte çok bilinen diğer bir özyineli ilişki [fibonacci serisi](https://en.wikipedia.org/wiki/Fibonacci_number)dir, şu şekilde tanımlanmıştır:
 
 ```py
 fibonacci(0) = 1
@@ -583,7 +583,7 @@ Gördüğünüz gibi, liste kavraması çok daha kısa ve özdür.
 
 ## 11.10 Mini örnek çalışma: tree
 
-Aşağıdaki program Unix'teki [tree](http://en.wikipedia.org/wiki/Tree_(Unix)) programının davranışının bir alt kümesini gerçekleştirmektedir.
+Aşağıdaki program Unix'teki [tree](https://en.wikipedia.org/wiki/Tree_(Unix)) programının davranışının bir alt kümesini gerçekleştirmektedir.
 
 ```py
 #!/usr/bin/env python
@@ -697,10 +697,10 @@ tetikleme
 : Bir istisnayı `raise` cümlesiyle üretmek.
 
 kuyruk özyineleme
-: Fonksiyon tanımlamasının son cümlesi olarak (kuyrukta) yer alan özyineli çağrı. Kuyruk özyineleme Python programlarında kötü alışkanlık olarak değerlendirilir. Çünkü mantıksal olarak eş fonksiyonlar *yineleme* kullanılarak daha etkin bir şekilde yazılabilir (ayrıntılı bilgi için [tail recursion](http://en.wikipedia.org/wiki/Tail_recursion)).
+: Fonksiyon tanımlamasının son cümlesi olarak (kuyrukta) yer alan özyineli çağrı. Kuyruk özyineleme Python programlarında kötü alışkanlık olarak değerlendirilir. Çünkü mantıksal olarak eş fonksiyonlar *yineleme* kullanılarak daha etkin bir şekilde yazılabilir (ayrıntılı bilgi için [tail recursion](https://en.wikipedia.org/wiki/Tail_recursion)).
 
 liste kavrama
-: Başka listelerden liste yaratmaya yarayan, matematiksel [küme yapım gösterimine](http://en.wikipedia.org/wiki/Set-builder_notation) benzer sözdizimsel yapı.
+: Başka listelerden liste yaratmaya yarayan, matematiksel [küme yapım gösterimine](https://en.wikipedia.org/wiki/Set-builder_notation) benzer sözdizimsel yapı.
 
 ## 11.12 Alıştırmalar
 
@@ -949,7 +949,7 @@ Kullanıcının girdisinin yanlış olduğunu doğrulamak için Python'un istisn
 
 Yorumlayıcıda denemeden *önce* sonuçları kavramanız gerekir.
 
-- `pydoc` veya [http://pydoc.org](http://pydoc.org/) adresindeki çevrimiçi belgeleri kullanarak `sys.getrecursionlimit()` ve `sys.setrecursionlimit(n)` fonksiyonlarının ne iş yaptığını öğrenin. Bu modül fonksiyonlarının nasıl çalıştığını iyice anlamak için `infinite_recursion.py`de olduğu gibi bir çok *deney* yaratın.
+- `pydoc` veya [https://pydoc.org](https://pydoc.org/) adresindeki çevrimiçi belgeleri kullanarak `sys.getrecursionlimit()` ve `sys.setrecursionlimit(n)` fonksiyonlarının ne iş yaptığını öğrenin. Bu modül fonksiyonlarının nasıl çalıştığını iyice anlamak için `infinite_recursion.py`de olduğu gibi bir çok *deney* yaratın.
 
 - `faktoryel` fonksiyonunu özyineleme yerine yineleme (iteration) kullanarak tekrar yazın. Fonksiyonunuzu 1000 argümanıyla çağırın ve ne kadar sürede sonucu ürettiğini not edin.
 

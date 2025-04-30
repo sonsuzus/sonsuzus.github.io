@@ -14,7 +14,7 @@ tags: [python,programlama,veri,veri analizi,pandas,numpy,sql,tablo,dataframe,joi
 
 Veri çerçevelerini birden fazla serinin bir araya gelmiş hali olarak düşünebiliriz. Veri çerçeveleri de seriler gibi etiketli bir veri yapısıdır, ancak serilerden farkı iki boyutlu olmasıdır. Serilerdeki gibi etiket değerlerine indeks (`index`) denir. Veri çerçeveleri `index` alanının yanında `columns` alanını da içeriyor. `columns` sütunların isimlerini içeren bir sıralı nesne.
 
-Veri çerçevesi oluşturmak için serileri kullanmak mümkün. [Linkten](http://www.imf.org/external/pubs/ft/weo/2017/02/weodata/download.aspx) erişebileceğiniz IMF’nin gayrisafi yurt içi hasıla verisi ile ilk denemeyi yapabiliriz. 2016 ve 2017 yılları için serileri anlattığımız yazıdaki veri kümelerini oluşturalım.
+Veri çerçevesi oluşturmak için serileri kullanmak mümkün. [Linkten](https://www.imf.org/external/pubs/ft/weo/2017/02/weodata/download.aspx) erişebileceğiniz IMF’nin gayrisafi yurt içi hasıla verisi ile ilk denemeyi yapabiliriz. 2016 ve 2017 yılları için serileri anlattığımız yazıdaki veri kümelerini oluşturalım.
 
 In [1]:
 
@@ -205,7 +205,7 @@ Uygulamalarınızda kullanacağınız boyuttaki verileri bahsettiğimiz yönteml
 * `index_col`: indeks değerlerini içeren sütunun numarası,
 * `names`: sütun isimlerini içeren sıralı nesne.
 
-`read_excel` fonksiyonunda ek olarak birden fazla sayfa içeren dokümanlarda hangi sayfaları okutacağınızı belirten `sheet_name` argümanını da kullanabilirsiniz. `sheet_name` değeri sayfanın adı, indeksi (ya da bunların bir listesi) olabilir. Ayrıca `None` değerini kullanmanız halinde bütün sayfaları okutabilirsiniz. Örnek olarak [linkten](http://archive.ics.uci.edu/ml/datasets/online+retail) indirebileceğiniz bir çevrimiçi alışveriş veri kümesini kullandım.
+`read_excel` fonksiyonunda ek olarak birden fazla sayfa içeren dokümanlarda hangi sayfaları okutacağınızı belirten `sheet_name` argümanını da kullanabilirsiniz. `sheet_name` değeri sayfanın adı, indeksi (ya da bunların bir listesi) olabilir. Ayrıca `None` değerini kullanmanız halinde bütün sayfaları okutabilirsiniz. Örnek olarak [linkten](https://archive.ics.uci.edu/ml/datasets/online+retail) indirebileceğiniz bir çevrimiçi alışveriş veri kümesini kullandım.
 
 In [7]:
 

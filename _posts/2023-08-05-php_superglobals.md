@@ -106,7 +106,7 @@ $\_SERVER['HTTP\_HOST']
 : PHP sayfasının hosting bilgilerini verir (localhost gibi).
 
 $\_SERVER['HTTP\_REFERER'] 
-: PHP sayfasının adres bilgilerini verir (http://localhost/ gibi). Bazen bu değer elde edilemeyebilir.
+: PHP sayfasının adres bilgilerini verir (https://localhost/ gibi). Bazen bu değer elde edilemeyebilir.
 
 $\_SERVER['HTTP\_USER\_AGENT'] 
 : PHP sayfasına giriş yapan kullanıcının sistem bilgilerini verir (Mozilla/5.0 (Windows NT 6.2; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0 gibi).
@@ -174,7 +174,7 @@ $\_GET değişkeni, web tarayıcısında açılan aktif PHP sayfasına, tarayıc
 
 Eğer siteadi.com adlı bir sitenin index.php dosyasını web tarayıcınızın adres satırından aşağıdaki şekilde çağırırsanız, 'Matematik' karakter dizisini 'ders' adı ile index.php adlı dosyaya parametre olarak geçirmiş olursunuz:
 
-http://siteadi.com/index.php?ders=Matematik
+https://siteadi.com/index.php?ders=Matematik
 
 Örnek
 

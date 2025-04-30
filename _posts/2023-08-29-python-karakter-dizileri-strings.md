@@ -406,7 +406,7 @@ print(x)  # x = 3
 ## String Metot Uygulamaları
 
 ```py
-website = "http://www.sadikturan.com"
+website = "https://www.sadikturan.com"
 
 course = "Python Kursu: Baştan Sona Python Programlama Rehberiniz (40 saat)"
 ```

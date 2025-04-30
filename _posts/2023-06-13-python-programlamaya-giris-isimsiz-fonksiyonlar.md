@@ -12,7 +12,7 @@ math: true
 
 
 
-Python Programlamaya Giriş yazı dizimizde [Python fonksiyonlarının nasıl tanımlandığını](https://sonsuzus.github.ip/posts/python-programlamaya-giris-fonksiyonlar), parametre eşleştirmenin ve varsayılan parametrelerin [nasıl işlediğini gördük](https://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyon-parametreleri), çeşitli örnekler ve alıştırmalar işledik. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](http://sonsuzus.github.io/categories/python) kategorimize bakabilirsiniz.
+Python Programlamaya Giriş yazı dizimizde [Python fonksiyonlarının nasıl tanımlandığını](https://sonsuzus.github.ip/posts/python-programlamaya-giris-fonksiyonlar), parametre eşleştirmenin ve varsayılan parametrelerin [nasıl işlediğini gördük](https://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyon-parametreleri), çeşitli örnekler ve alıştırmalar işledik. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/categories/python) kategorimize bakabilirsiniz.
 
 Fonksiyonların her zaman `def` komutuyla tanımlanması gerekmez. Başka bir yol, `lambda` komutunu kullanarak isimsiz (“anonymous” – belli bir isme bağlı olmayan) fonksiyonlar yaratmaktır. İsimsiz fonksiyonlar, `def` komutuyla üretilen fonksiyonlara göre daha kısıtlıdırlar. Buna karşılık, bir fonksiyon nesnesi gereken yerlerde bazı kolaylıklar sağlarlar.
 
@@ -94,7 +94,7 @@ O zaman isimsiz fonksiyonların faydası ne? Bunlar, özellikle **fonksiyon alan
 
 **Örnek: Seriler**
 
-[Önceki bir bölümde](http://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyonlar) fonksiyon alan bir fonksiyon tanımlamıştık. Özel olarak, $f$ reel sayı alıp reel sayı veren herhangi bir fonksiyon olmak üzere, $f(a) + f(a+1) + f(a+2) +\cdots + f(b)$ toplamını hesaplayan bir fonksiyon yazdık. Bu fonksiyon sadece başlangıç ve bitiş değerleri olan `a` ve `b`‘yi değil, aynı zamanda `f` fonksiyonunu da parametre olarak alıyor. Böylece herhangi bir fonksiyon için bu toplamı hesaplayabiliyoruz.
+[Önceki bir bölümde](https://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyonlar) fonksiyon alan bir fonksiyon tanımlamıştık. Özel olarak, $f$ reel sayı alıp reel sayı veren herhangi bir fonksiyon olmak üzere, $f(a) + f(a+1) + f(a+2) +\cdots + f(b)$ toplamını hesaplayan bir fonksiyon yazdık. Bu fonksiyon sadece başlangıç ve bitiş değerleri olan `a` ve `b`‘yi değil, aynı zamanda `f` fonksiyonunu da parametre olarak alıyor. Böylece herhangi bir fonksiyon için bu toplamı hesaplayabiliyoruz.
 
 Bu toplamı veren fonksiyonu şöyle tanımlayabiliriz:
 
@@ -230,7 +230,7 @@ Out[12]:
 [-1.2, 2.3, -3.4, 4.0, -5.6, 6.1, 7.8, 8.5]
 ```
 
-Üçlü if-else yapısını [başka bir bölümde](http://sonsuzus.github.io/posts/python-programlamaya-giris-secim-yapma-mantik-islemleri-karsilastirmalar) daha ayrıntılı işlemiştik.
+Üçlü if-else yapısını [başka bir bölümde](https://sonsuzus.github.io/posts/python-programlamaya-giris-secim-yapma-mantik-islemleri-karsilastirmalar) daha ayrıntılı işlemiştik.
 
 Başka bir örnek olarak, listelerden oluşan bir listeyi sıralamayı ele alalım. `key` parametresini kullanmadan `sorted` ilk elemana göre sıralama yapar.
 

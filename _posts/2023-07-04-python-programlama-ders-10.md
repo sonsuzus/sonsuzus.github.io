@@ -614,7 +614,7 @@ pydoc
 : Python standart kütüphanesiyle birlikte gelen bir belge üreticidir.
 
 komut istemi
-: [Komut satırı arayüzü](http://en.wikipedia.org/wiki/Command_line) tarafından görüntülen bir karakter dizisidir, komutların girilebileceğini belirtir.
+: [Komut satırı arayüzü](https://en.wikipedia.org/wiki/Command_line) tarafından görüntülen bir karakter dizisidir, komutların girilebileceğini belirtir.
 
 import cümlesi
 : Bir modül içerisindeki nesnelerin kullanıma uygun hale gelmesini sağlayan cümledir. İki biçimi vardır. `mymod` modül ismi, içerdiği fonksiyonlar `f1` ve `f2`, içerdiği değişkenler `v1` ve `v2` olsun, iki biçimin örnekleri şunlardır:
@@ -709,13 +709,13 @@ ayırıcı
 : Bir metinin farklı parçaları arasındaki sınırı belirleyen tek veya daha fazla karakter serisidir.
 
 komut satırı
-: *Komut satırı arayüzünde* *komut yorumlayıcı*ya yazılacak karakter serisidir (Ayrıntılı bilgi için [komut satırı](http://en.wikipedia.org/wiki/Command_line).
+: *Komut satırı arayüzünde* *komut yorumlayıcı*ya yazılacak karakter serisidir (Ayrıntılı bilgi için [komut satırı](https://en.wikipedia.org/wiki/Command_line).
 
 komut satırı argümanı
 : Program başlatılırken programa komut satırı arayüzünün *komut istemi*nden geçirilen değerdir.
 
 Jython
-: Python programlama dilinin Java'da yazılmış bir gerçekleştirimidir.(Daha fazla bilgi için Jython ana sayfası [http://www.jython.org](http://www.jython.org/) adresini tıklayın)
+: Python programlama dilinin Java'da yazılmış bir gerçekleştirimidir.(Daha fazla bilgi için Jython ana sayfası [https://www.jython.org](https://www.jython.org/) adresini tıklayın)
 
 `argv`
 : `argv` *argüman vektörü*nün kısaltmasıdır ve `sys` modülü içerisinde komut satırı argümanlarının listesini tutan bir değişkendir.
@@ -751,7 +751,7 @@ $ pydoc -p 7464
 Bu pydoc web sunucusunu 7464 portunda başlatır. Ağ tarayıcınızda aşağıdaki adresi giriniz:
 
 ```
-http://localhost:7464
+https://localhost:7464
 ```
 
 bu adresle sisteminizde kurulu Python kütüphanelerini gezebilirsiniz.
@@ -953,7 +953,7 @@ Bu dosyayı (`unsorted_fruits.txt`) okuyan ve içerisindeki meyveleri alfabetik 
 	
 	Bu satırlar çalıştırıldıktan sonra `type(text)` ne döndürür?
 
-	2. `128 * [0]` ifadesinin sonucu ne olur? [ASCII](http://en.wikipedia.org/wiki/ASCII) hakkında Wikipedia'dan bilgi alın ve neden `counts` değişkenine neden `128 * [0]` atanmıştır açıklayın.
+	2. `128 * [0]` ifadesinin sonucu ne olur? [ASCII](https://en.wikipedia.org/wiki/ASCII) hakkında Wikipedia'dan bilgi alın ve neden `counts` değişkenine neden `128 * [0]` atanmıştır açıklayın.
 
 	3. Aşağıdaki ifade
 	 

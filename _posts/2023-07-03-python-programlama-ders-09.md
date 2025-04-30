@@ -877,7 +877,7 @@ saf fonksiyon
 : Yan etkisi olmayan fonksiyondur. Saf fonksiyonlar sadece geri dönüş değerlerini döndürerek çağıran programa değişiklik yaparlar.
 
 test güdümlü geliştirme (TDD)
-: Küçük, arttırımlı adımlar şeklinde istenen özelliğin geliştirildiği, her bir adımın *önce yazılan* otomatik testlerle güdülendiği yazılım geliştirme pratiğidir. Önce testler yazılarak istenen özellik ve geliştirmeler için güdü sağlanır.(daha ayrıntılı bilgi için [Test-driven development](http://en.wikipedia.org/wiki/Test_driven_development) wikipedia yazısını inceleyebilirsiniz.)
+: Küçük, arttırımlı adımlar şeklinde istenen özelliğin geliştirildiği, her bir adımın *önce yazılan* otomatik testlerle güdülendiği yazılım geliştirme pratiğidir. Önce testler yazılarak istenen özellik ve geliştirmeler için güdü sağlanır.(daha ayrıntılı bilgi için [Test-driven development](https://en.wikipedia.org/wiki/Test_driven_development) wikipedia yazısını inceleyebilirsiniz.)
 
 ayırıcı
 : Karakter dizisinin nereden ayrılacağını belirten bir karakter veya karakter dizisi.
