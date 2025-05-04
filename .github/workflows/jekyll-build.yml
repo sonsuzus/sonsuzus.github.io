@@ -2,7 +2,7 @@ name: Build Jekyll Site
 
 on:
   push:
-    branches: [jekyll-v4]
+    branches: [main]
 
 permissions:
   contents: read
