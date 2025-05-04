@@ -3,10 +3,10 @@ layout: post
 title: "Algoritma"
 excerpt: "Burada algoritma soruları var"
 categories:
-	- Program
+  - Program
 tags:
-	- soru
-	- programlama
+  - soru
+  - programlama
 ---
 
 Bir de böyle deneyelim. Bakalım nasıl oluyor.
