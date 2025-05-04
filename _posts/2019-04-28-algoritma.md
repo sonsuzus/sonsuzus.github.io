@@ -1,11 +1,6 @@
 ---
 layout: post
 title: Algoritma
-categories:
-	- Program
-tags: 
-	- algoritma
-	- soru
 ---
 
 ## Algoritma Programlama
