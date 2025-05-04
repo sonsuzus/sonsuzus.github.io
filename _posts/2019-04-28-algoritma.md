@@ -1,6 +1,12 @@
 ---
 layout: post
-title: Algoritma
+title: "Algoritma"
+excerpt: "Burada algoritma soruları var"
+categories:
+	- Program
+tags:
+	- soru
+	- programlama
 ---
 
 Bir de böyle deneyelim. Bakalım nasıl oluyor.
