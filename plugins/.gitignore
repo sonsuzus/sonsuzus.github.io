@@ -1,7 +1,0 @@
-spec/examples.txt
-*.gem
-Gemfile.lock
-/tmp
-vendor/bundle
-.bundle
-.jekyll-cache
