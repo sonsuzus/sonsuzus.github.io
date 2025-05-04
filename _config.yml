@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Sonsuz Us
+title:            SonsuzUs
 tagline:          'Programlama ve Yazılım'
 description:      'Programlama ve Yazılım'
 url:              https://sonsuzus.github.io
