@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algoritma
+title: "Algoritma"
 categories:
 	- Program
 tags: 
