@@ -13,10 +13,10 @@ facebook_username: facebook
 
 # External API
 giscus_repo: "sonsuzus/sonsuzus.github.io"
-giscus_repoId: "R_kgDOJ6fqWg"
-giscus_category: "Q&A"
-giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
-goatcounter_code: byanko77
+giscus_repoId: "MDEwOlJlcG9zaXRvcnkzODMyNzczMzI="
+giscus_category: "Site"
+giscus_categoryId: "DIC_kwDOFthZFM4CXA6M"
+goatcounter_code: 
 google_analytics:
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
