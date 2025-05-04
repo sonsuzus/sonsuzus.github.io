@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Algoritma"
-excerpt: "Burada algoritma soruları var"
 categories:
   - Program
 tags:
