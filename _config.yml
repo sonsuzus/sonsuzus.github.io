@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            SonsuzUs
+title:            Sonsuz Us
 tagline:          'Programlama ve Yazılım'
-description:      'Burası düzenlenecek'
+description:      'Programlama ve Yazılım'
 url:              https://sonsuzus.github.io
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
