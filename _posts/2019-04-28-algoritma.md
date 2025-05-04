@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Algoritma
-tags: 
-	- algoritma
-	- soru
 ---
 
 Bir de böyle deneyelim. Bakalım nasıl oluyor.
