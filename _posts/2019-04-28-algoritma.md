@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Algoritma"
+title: Algoritma
 categories:
 	- Program
 tags: 
 	- algoritma
 	- soru
-last_modified_at: 2019-04-28T20:55:00+03:00
 ---
 
 ## Algoritma Programlama
