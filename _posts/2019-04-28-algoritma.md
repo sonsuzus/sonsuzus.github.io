@@ -1,7 +1,16 @@
 ---
 layout: post
 title: Algoritma
+categories:
+	- Program
+tags: 
+	- algoritma
+	- soru
 ---
+
+Bir de böyle deneyelim. Bakalım nasıl oluyor.
+
+Başka şeyler olacak mı?
 
 ## Algoritma Programlama
 
