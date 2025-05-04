@@ -2,7 +2,7 @@
 title: Siber Güvenlik
 author: sonsuz
 date: 2023-11-29 23:02:41 +0300
-categories: [Proje,Güvenlik]
+categories: [Proje,Guvenlik]
 tags: [veri,casus,siber güvenlik,güvenlik,hacker,oltalama,saldırı,virüs]
 ---
 

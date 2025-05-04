@@ -2,7 +2,7 @@
 title: Simülasyon Nedir
 author: sonsuz
 date: 2023-12-10 13:02:41 +0300
-categories: [Proje,Güvenlik]
+categories: [Proje,Guvenlik]
 tags: [veri,simülasyon,test,tekrar,sanal,taklit]
 image: simulasyon.jpg
 ---

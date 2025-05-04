@@ -2,7 +2,7 @@
 title: Yapay Zeka İncelemesi
 author: sonsuz
 date: 2023-06-08 16:23:00 +0300
-categories: [Proje,Bilişim]
+categories: [Proje,Bilisim]
 tags: [yapay zeka,bilişim,programlama,sanat,inceleme,makale,proje]
 ---
 
