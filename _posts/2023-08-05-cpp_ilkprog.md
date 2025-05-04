@@ -2,7 +2,7 @@
 title:  C++ İlk program
 author: sonsuz
 date: 2023-08-05 20:58:29 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,namespace,fonksiyon]
 ---
 

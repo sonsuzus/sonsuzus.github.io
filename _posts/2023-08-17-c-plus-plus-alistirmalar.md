@@ -2,7 +2,7 @@
 title:  C++ Alıştırmalar
 author: sonsuz
 date: 2023-08-17 19:20:15 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,alıştırma,algoritma]
 ---
 

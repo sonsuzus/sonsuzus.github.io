@@ -2,7 +2,7 @@
 title:  C++ İşlem satırı ve ifade
 author: sonsuz
 date: 2023-08-06 15:05:15 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,işlem,ifade]
 ---
 

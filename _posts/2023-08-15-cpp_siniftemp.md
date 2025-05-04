@@ -2,7 +2,7 @@
 title:  C++ Sınıf şablonları
 author: sonsuz
 date: 2023-08-15 21:48:48 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,sınıf,şablonlar]
 ---
 

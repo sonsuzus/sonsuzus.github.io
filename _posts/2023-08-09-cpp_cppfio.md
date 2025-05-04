@@ -2,7 +2,7 @@
 title:  C++ dosya Giriş/Çıkış (I/O)
 author: sonsuz
 date: 2023-08-09 17:05:46 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,dosya,giriş,çıkış,io]
 ---
 

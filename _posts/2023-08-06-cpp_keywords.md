@@ -2,7 +2,7 @@
 title:  C++ Anahtar kelimeler
 author: sonsuz
 date: 2023-08-06 14:56:38 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,anahtar kelimeler]
 ---
 

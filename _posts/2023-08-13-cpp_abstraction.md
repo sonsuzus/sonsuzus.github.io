@@ -2,7 +2,7 @@
 title:  C++ Soyutlama
 author: sonsuz
 date: 2023-08-13 19:13:09 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,nesne,soyutlama,oop]
 ---
 

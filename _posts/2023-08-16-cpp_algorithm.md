@@ -2,7 +2,7 @@
 title:  C++ Algoritmalar
 author: sonsuz
 date: 2023-08-16 21:13:59 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,algoritma,konteyner]
 ---
 

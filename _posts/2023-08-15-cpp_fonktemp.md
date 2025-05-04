@@ -2,7 +2,7 @@
 title:  C++ Fonksiyon şablonları
 author: sonsuz
 date: 2023-08-15 21:26:56 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,fonksiyon,şablonlar]
 ---
 

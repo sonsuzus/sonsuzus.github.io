@@ -2,7 +2,7 @@
 title:  C++ Dinamik bellek kullanımı
 author: sonsuz
 date: 2023-08-13 18:33:14 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,dinamik bellek,bellek,nesne,new,delete,malloc]
 ---
 

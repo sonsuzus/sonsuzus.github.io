@@ -2,7 +2,7 @@
 title:  C++ String sınıfı
 author: sonsuz
 date: 2023-08-08 21:43:05 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,string,sınıf]
 ---
 

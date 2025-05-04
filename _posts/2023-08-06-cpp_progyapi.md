@@ -2,7 +2,7 @@
 title:  C++ Program yapısı
 author: sonsuz
 date: 2023-08-06 00:20:11 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,yapı,kütüphane,sınıf,main]
 ---
 

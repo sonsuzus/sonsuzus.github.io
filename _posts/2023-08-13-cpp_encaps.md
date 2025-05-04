@@ -2,7 +2,7 @@
 title:  C++ Kapsülleme
 author: sonsuz
 date: 2023-08-13 19:14:46 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,kapsülleme,nesne,oop]
 ---
 

@@ -2,7 +2,7 @@
 title:  C++ Fonksiyon nesneleri
 author: sonsuz
 date: 2023-08-16 23:14:49 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [progrmalama,cpp,fonksiyon,nesne]
 ---
 

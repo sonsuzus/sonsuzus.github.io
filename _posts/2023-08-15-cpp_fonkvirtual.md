@@ -2,7 +2,7 @@
 title:  C++ Sanal (virtual) fonksiyonlar
 author: sonsuz
 date: 2023-08-15 21:16:07 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,fonksiyon,sanal fonksiyon]
 ---
 

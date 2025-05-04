@@ -2,7 +2,7 @@
 title:  C++ İşaretçiler (Pointers)
 author: sonsuz
 date: 2023-08-08 21:51:28 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,işaretçi,pointer,adres]
 ---
 

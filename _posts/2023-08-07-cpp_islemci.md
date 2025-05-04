@@ -2,7 +2,7 @@
 title:  C++ İşlemciler
 author: sonsuz
 date: 2023-08-07 14:13:13 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,işlem,işlemci,operatör,bit,atama]
 ---
 

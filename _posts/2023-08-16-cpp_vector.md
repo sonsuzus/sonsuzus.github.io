@@ -2,7 +2,7 @@
 title:  C++ Vektörler
 author: sonsuz
 date: 2023-08-16 19:20:15 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,vektör]
 ---
 

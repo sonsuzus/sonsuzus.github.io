@@ -2,7 +2,7 @@
 title:  C++ Nesne
 author: sonsuz
 date: 2023-08-15 20:32:22 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,nesne,oop,object,sınıf]
 ---
 

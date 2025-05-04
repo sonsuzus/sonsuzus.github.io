@@ -1,6 +1,6 @@
 ---
 layout: category
 title: "Blog Yazıları"
-category: blog
+category: Blog
 permalink: /categories/blog/
 ---

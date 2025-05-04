@@ -2,7 +2,7 @@
 title:  C++ Geçici veri türü dönüştürme (Casting)
 author: sonsuz
 date: 2023-08-06 23:40:00 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,veri türü]
 ---
 

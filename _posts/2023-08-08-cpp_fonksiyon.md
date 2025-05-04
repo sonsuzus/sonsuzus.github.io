@@ -2,7 +2,7 @@
 title: C++ Fonksiyonlar
 author: sonsuz
 date: 2023-08-08 22:16:50 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,fonksiyon,parametre]
 ---
 

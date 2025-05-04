@@ -2,7 +2,7 @@
 title:  C++ Bileşimler (Unions)
 author: sonsuz
 date: 2023-08-10 02:01:01 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,bileşim,programlama,unions]
 ---
 

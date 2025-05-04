@@ -2,7 +2,7 @@
 title:  C++ Değişken şablonları (C++ 14)
 author: sonsuz
 date: 2023-08-15 21:52:00 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,değişken,şablonlar]
 ---
 

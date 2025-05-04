@@ -2,7 +2,7 @@
 title:  C++ Değişkenler
 author: sonsuz
 date: 2023-08-06 23:49:21 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,değişken,programlama]
 ---
 

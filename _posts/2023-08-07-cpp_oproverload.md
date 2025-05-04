@@ -2,7 +2,7 @@
 title:  C++ İşlemci çoklu görev (Overloading)
 author: sonsuz
 date: 2023-08-07 22:19:17 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,çoku görev,overloading]
 ---
 

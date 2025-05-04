@@ -2,7 +2,7 @@
 title:  C++ Fonksiyon çoklu görev (Overloading)
 author: sonsuz
 date: 2023-08-15 20:44:59 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,fonksiyon,çoklu görev,overloading]
 ---
 

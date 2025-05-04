@@ -2,7 +2,7 @@
 title:  C++ Kalıtım
 author: sonsuz
 date: 2023-08-14 11:53:32 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,nesne,oop,sınıf,class,kalıtım]
 ---
 

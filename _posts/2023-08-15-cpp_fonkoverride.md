@@ -2,7 +2,7 @@
 title:  C++ Fonksiyonları yeniden tanımlama (Overriding)
 author: sonsuz
 date: 2023-08-15 20:51:09 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,fonksiyon,overriding,nesne,sınıf]
 ---
 

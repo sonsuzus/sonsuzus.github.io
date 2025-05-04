@@ -2,7 +2,7 @@
 title:  C++ Numaralandırma (Enumeration)
 author: sonsuz
 date: 2023-08-10 15:53:15 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,numaralandırma,enum]
 ---
 

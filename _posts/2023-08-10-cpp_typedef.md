@@ -2,7 +2,7 @@
 title:  C++ Veri türü tanımlama (Typedef)
 author: sonsuz
 date: 2023-08-10 16:01:35 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,typedef,veri türü]
 ---
 

@@ -2,7 +2,7 @@
 title:  C++ Şablonlar (Templates)
 author: sonsuz
 date: 2023-08-15 21:24:59 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [programlama,cpp,şablonlar,templates]
 ---
 

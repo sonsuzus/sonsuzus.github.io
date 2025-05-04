@@ -2,7 +2,7 @@
 title:  C++  Switch kalıbı
 author: sonsuz
 date: 2023-08-08 00:48:26 +0300
-categories: [Program,C++]
+categories: [Program,CPP]
 tags: [cpp,programlama,karşılaştırma,switch]
 ---
 
