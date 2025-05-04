@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Program: Algoritma"
+title: Algoritma
 categories:
 	- Program
 tags: 
 	- algoritma
 	- soru
+last_modified_at: 2019-04-28T12:26:59-05:00
 ---
 
 Bir de böyle deneyelim. Bakalım nasıl oluyor.
