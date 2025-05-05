@@ -3,10 +3,10 @@
 # only main files contain this front matter, not partials.
 ---
 
-@import "hydeout1";
+@import "hydeout";
 
 #sidebar .site-title {
-    font-family: "Segoe UI", "Roboto", "Abril Fatface", serif;
+    font-family: "Segoe UI", "Roboto", Arial, "Abril Fatface", serif;
     font-size: 3.25rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
