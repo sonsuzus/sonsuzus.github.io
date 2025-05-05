@@ -33,3 +33,7 @@ sidebar_home_link:  false
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+google_analytics : G-JPVWNYQQ08
+
+hydeout:
+  repo: https://github.com/sonsuzus/sonsuzus.github.io
