@@ -1,7 +1,42 @@
 <section class="related">
   <h2>Related Posts</h2>
   <ul class="posts-list">
-    {% for post in site.related_posts limit:3 %}
+    {% assign current_categories = page.categories %}
+    {% assign current_tags = page.tags %}
+    
+    {% assign related_posts = '' | split: '' %}
+    
+    {% for post in site.posts %}
+      {% if post.url != page.url %}
+        {% assign same_category = false %}
+        {% for category in current_categories %}
+          {% if post.categories contains category %}
+            {% assign same_category = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        
+        {% assign same_tag = false %}
+        {% for tag in current_tags %}
+          {% if post.tags contains tag %}
+            {% assign same_tag = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if same_category or same_tag %}
+          {% assign related_posts = related_posts | push: post %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    
+    {% if related_posts.size > 0 %}
+      {% assign posts_to_show = related_posts | sample: 3 %}
+    {% else %}
+      {% assign posts_to_show = site.posts | where_exp: "post", "post.url != page.url" | sample: 3 %}
+    {% endif %}
+    
+    {% for post in posts_to_show %}
       <li>
         <h3>
           <a href="{{ post.url | relative_url }}">
