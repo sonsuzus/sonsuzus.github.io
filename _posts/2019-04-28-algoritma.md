@@ -3,6 +3,7 @@ layout: post
 title: "Algoritma"
 categories:
   - Program
+  - Markup
 tags:
   - soru
   - programlama
