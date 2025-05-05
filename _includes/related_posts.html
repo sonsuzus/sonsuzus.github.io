@@ -33,7 +33,7 @@
     {% if related_posts.size > 0 %}
       {% assign posts_to_show = related_posts | sample: 3 %}
     {% else %}
-      {% assign posts_to_show = site.posts | where_exp: "post", "post.url != page.url" | sample: 5 %}
+      {% assign posts_to_show = site.posts | where_exp: "post", "post.url != page.url" | sample: 3 %}
     {% endif %}
     
     {% for post in posts_to_show %}
