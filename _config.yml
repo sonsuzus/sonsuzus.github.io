@@ -25,7 +25,7 @@ paginate:         10
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: post
     values:
       permalink: /posts/:title
 
@@ -33,7 +33,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-redirect-from
 
 # Sidebar link settings
 sidebar_home_link:  false
