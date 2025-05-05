@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Algoritma"
+title: Algoritma
 categories:
   - Program
-  - Markup
 tags:
   - soru
   - programlama
