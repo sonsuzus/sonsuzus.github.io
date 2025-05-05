@@ -1,12 +1,15 @@
 ---
+layout: post
 title: Python Post Metodu
-author: sonsuz
-date: 2023-01-30 14:25:00 +0300
-categories: [Python]
-tags: [python,programlama,post,requests,metod]
+categories: 
+  - Program
+tags: 
+  - python
+  - programlama
+  - post
+  - requests
+  - metod
 ---
-
-## HTTP POST Method:
 
 Tabiki öncelikle import etmemiz gereken bir modül var
 
