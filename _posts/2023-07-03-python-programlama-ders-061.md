@@ -485,7 +485,7 @@ menü öğesine tıklayın ve *Python Manuals*'i seçin. **range** gömülü
 fonksiyonu hakkında yardım arayın. Aşağıdaki gibi birşey elde
 edeceksiniz.
 
-![image](illustrations/help_range.png)
+![image](/img/illustrations/help_range.png)
 
 Argümanların bazılarının köşeli parantez içinde olduğuna dikkat edin.
 Bunlar **meta-simge (meta-notation)** örnekleridir. Bunlar Python'un
@@ -773,7 +773,7 @@ bitti
 önce başlangıçta sınamalarını yaparlar. Bunlara **döngü öncesi sınama**
 denir. Çünkü sınama gövde öncesinde yapılır.
 
-![image](illustrations/pre_test_loop.png)
+![image](/img/illustrations/pre_test_loop.png)
 
 ## Döngülerin başka türlü kullanımı
 
@@ -792,7 +792,7 @@ girilip, bu sayı sınanıp gövdeden çıkılıp çıkılmıyacağına karar ve
 
 ### Ortasında sınama akış diyagramı
 
-![image](illustrations/mid_test_loop.png)
+![image](/img/illustrations/mid_test_loop.png)
 
 ```py
 toplam = 0
@@ -883,7 +883,7 @@ içinden her defasında geçtiğimizde ekranda yazılan mesajı yenileriz.
 Program bize sonraki tahmini sorduğu yerde bu mesaj bize gerekli yol
 gösterimini sağlar ( büyük veya küçük sayı girdiğimizi belirtir.)
 
-![image](illustrations/python_input.png)
+![image](/img/illustrations/python_input.png)
 
 ## `Continue (devam)` deyimi
 

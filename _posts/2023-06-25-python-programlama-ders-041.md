@@ -49,7 +49,7 @@ wn.mainloop()             # Kullanıcının pencereyi kapatmasını bekle.
 Bu programı çalıştırdığınızda, aşağıdaki gibi yeni bir pencere
 çıkacaktır:
 
-![image](illustrations/tess01.png)
+![image](/img/illustrations/tess01.png)
 
 Bu progamı anlayabilmemiz için birkaç şeyi açıklayalım:
 
@@ -123,7 +123,7 @@ wn.mainloop()
 Bu programı çalıştırdığımızda yeni bir pencere ortaya çıkar ve bu
 pencereyi kapatana kadar ekranda kalmaya devam eder.
 
-![image](illustrations/tess02.png)
+![image](/img/illustrations/tess02.png)
 
 
 Bu programı genişletelim...
@@ -192,7 +192,7 @@ wn.mainloop()
 Aşağıdaki şekil, `ahmet`'in dikdörtgeni tamamladığında ve `tamer`'ın
 da üçgeni tamamladığındaki resmi göstermektedir.
 
-![image](illustrations/tess03.png)
+![image](/img/illustrations/tess03.png)
 
 Burda bazı *Bir bilgisayar bilimcisi gibi nasıl düşünülür* gözlemleri:
 
@@ -295,7 +295,7 @@ Eğer bir akış diyagramı çizersek, kontrol akışını gözünde canlandırm
 ve anlamak daha kolay olur. Bu şekil, `for` deyiminin kesin
 basamaklarını ve nasıl yürüdüğünü göstermektedir.
 
-![image](illustrations/flowchart_for.png)
+![image](/img/illustrations/flowchart_for.png)
 
 ### Döngü bizim kaplumbağa programımızı basitleştirir
 
@@ -419,7 +419,7 @@ yöntemler: `arrow`, `blank`, `circle`, `classic`, `square`, `triangle`,
 ahmet.shape("turtle")           
 ```
 
-![image](illustrations/alex06.png)
+![image](/img/illustrations/alex06.png)
 
 Kaplumbağanın canlandırmasını (animasyon) hızlandırabilir veya
 yavaşlatabiliriz ( Canlandırma, kaplumbağanın ne kadar hızlı döneceğini
@@ -457,7 +457,7 @@ for i in range(30):
 wn.mainloop()  
 ```
 
-![image](illustrations/tess07.png)
+![image](/img/illustrations/tess07.png)
 
 Dikkatli olun! Kaçkere döngü gövdesi yürütüldü? Ekranda kaç tane
 kaplumbağa resmi görüyorsunuz. Bir tanesi hariç bütün ekranda
@@ -604,7 +604,7 @@ sonlandırma koşulu
 
 11. Aşağıdaki şekli çizen bir Python programı yazınız:
 
-    ![image](illustrations/star.png)
+    ![image](/img/illustrations/star.png)
 
     İpucu:
 
@@ -627,11 +627,11 @@ sonlandırma koşulu
     aşağıya koyun, yeniden bir yıldız çizin. Şekliniz aşağıdaki gibi
     olsun:
 
-    ![image](illustrations/five_stars.png)
+    ![image](/img/illustrations/five_stars.png)
 
 13. Aşağıdaki şekle benzer bir yüz çizecek program yazınız.
 
-    ![image](illustrations/tess_clock1.png)
+    ![image](/img/illustrations/tess_clock1.png)
 
 14. Bir kaplumbağa yaratınız ve bu kaplumbağayı bir değişkene
     atayınız. Bu değişkenin tipini komut satırından sorunuz. Ne cevap
