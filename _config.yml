@@ -16,9 +16,9 @@ baseurl:          ''
 
 author:
   name:           'Sonsuz Us'
-  url:            https://sonsuz.us
+  url:            https://github.com/sonsuzus
 
-paginate:         5
+paginate:         10
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
@@ -28,7 +28,7 @@ plugins:
   - jekyll-paginate
 
 # Sidebar link settings
-sidebar_home_link:  true
+sidebar_home_link:  false
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
