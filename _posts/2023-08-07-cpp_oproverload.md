@@ -10,10 +10,6 @@ tags:
   - overloading
 ---
 
-
-
-## İşlemci çoklu görev tanımlama (Overloading)
-
 C++'da işlemci çoklu görev tanımlama işlemi yapılırken de çok biçimlilik özelliği kullanılır. Bir işlemci için çoklu görev tanımlama işlemi yapıldığında, işlemci, sahip olduğu özelliklerin yanı sıra, bir sınıfa bağlı olarak ek işlem yapma özelliği kazanır.
 
 Bir işlemci için çoklu görev tanımlama işlemi yapıldığında yani birden fazla işlem yapma kapasitesi kazandırıldığında, işlemcinin orjinal fonksiyonu ortadan kalkmaz.

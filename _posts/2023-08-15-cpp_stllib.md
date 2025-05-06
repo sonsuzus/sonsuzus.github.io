@@ -10,9 +10,6 @@ tags:
   - kütüphane
 ---
 
-
-## STL hakkında
-
 Standart şablon kütüphanesi (Standart Templates Library - STL), hazır sınıf ve fonksiyon şablonları içerir. Bu şablonlar kullandıkları vektör, liste, kuyruk ve yığın gibi yaygın algoritma ve veri yapılarına erişim için fonksiyonlar tanımlar. STL şablon sınıflarından oluşturulduğundan, algoritmalar ve veri yapıları neredeyse her tür veriye uygulanabilir.
 
 STL, birbiriyle bağlantılı olarak çalışan dört temel unsurdan oluşur:

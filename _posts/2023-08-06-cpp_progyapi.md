@@ -12,9 +12,6 @@ tags:
   - main
 ---
 
-
-## Bir C++ programının temel yapısı
-
 Bir C++ programında, genel olarak aşağıda gösterilen bölümler sırayla yer alır. Başlık dosya bildiriminden sonraki sıralama değiştirilebilir. Programda mutlaka tanımlanması tek bölüm main() fonksiyonudur. Bunun dışındaki bölümlerin tanımlanması tamamen ihtiyaca bağlıdır.
 
 * Başlık dosya bildirimleri

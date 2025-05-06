@@ -11,9 +11,7 @@ tags:
 ---
 
 
-C++14 sürümü ile birlikte değişken şablonları oluşturma olanağı sağlandı.
-
-Bir değişken şablonu template anahtar kelimesi ile oluşturulur. Değişken şablonu bildirimi için kullanılan genel yapı aşağıda gösterilmektedir:
+C++14 sürümü ile birlikte değişken şablonları oluşturma olanağı sağlandı. Bir değişken şablonu template anahtar kelimesi ile oluşturulur. Değişken şablonu bildirimi için kullanılan genel yapı aşağıda gösterilmektedir:
 
 ```
 

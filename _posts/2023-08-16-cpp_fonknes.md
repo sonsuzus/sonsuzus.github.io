@@ -10,9 +10,6 @@ tags:
   - nesne
 ---
 
-
-## Fonksiyon nesneleri hakkında
-
 Fonksiyonları nesneleri, fonksiyon çağırma işlemcisi olan () işlemcisine çoklu görev tanımlama (overloading) işlemi uygulanarak, bir sınıftan oluşturulan nesnelerin bir fonksiyon gibi çağrılmasını sağlanmasıyla oluşturulur.
 
 Tekli fonksiyon nesnesi tek bir parametre, ikili fonksiyon nesnesi ise iki parametre gerektirir.

@@ -10,9 +10,6 @@ tags:
   - sınıf
 ---
 
-
-## String sınıfı hakkında
-
 C++'da karakter dizisi işlemleri için boş bir karakterle ('\0') sonlandırılan karakter dizilerinin yanı sıra, string veri türündeki sınıf nesnelerini de kullanabiliriz.
 
 Aslında, string sınıfı, basic\_string şablon sınıfını temel almaktadır. 8 bitlik karakter dizilerini destekleyen sınıfın adı string, geniş karakterli dizileri destekleyen sınıfın adı ise wstring'dir.

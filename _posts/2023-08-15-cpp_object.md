@@ -12,9 +12,6 @@ tags:
   - sınıf
 ---
 
-
-## Nesne (Object) hakkında
-
 Nesneye yönelik programlama (NYP) ile geliştirilen uygulamalarda program içinde, veriler ile verilere işlem yapacak olan fonksiyonlar (metodlar) sınıf (class) adı verilen yapılar içinde tanımlandıktan sonra bu sınıf türünden bir değişken (nesne) oluşturularak, bu nesne yoluyla sınıf içinde yer alan tüm değişken ve fonksiyonlara erişim sağlanır.
 
 > Bir nesne oluşturmadan önce, class anahtar kelimesini kullanarak nesnenin tüm değişken ve fonksiyonlarını gösteren genel yapısını tanımlamamız gerekir.

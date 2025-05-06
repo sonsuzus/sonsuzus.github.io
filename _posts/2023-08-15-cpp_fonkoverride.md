@@ -12,9 +12,6 @@ tags:
   - sınıf
 ---
 
-
-# Fonksiyonları yeniden tanımlama (Overriding)
-
 Nesneye yönelik programlamada, [kalıtım](https://sonsuzus.github.io/posts/cpp_inheritance/) özelliğini kullanarak, bir ana sınıftan sınıflar türetebiliriz. Bir ana sınıftan bir sınıf türetildiğinde, ana sınıfta yer alan tüm değişken ve fonksiyonlar türetilen sınıf tarafından kullanılabileceği gibi, türetilen sınıf içinde de yeni değişken ve fonksiyonlar tanımlanabilir.
 
 Eğer ihtiyaç duyulursa, ana sınıftan devralınan fonksiyon adları ile aynı ada sahip fonksiyonlar tanımlanarak, ana sınıftan devralınan fonksiyonlar geçersiz hale getirilir ve aynı isim altında farklı kodlar yazılır. Bu durumda, aynı fonksiyon hem ana sınıfta hem de türetilmiş sınıfta tanımlanmış olur. Bu fonksiyon türetilmiş sınıf nesnesi ile çağrıldığında, türetilmiş sınıfın fonksiyonu çağrılır. Bu özelliğe, Fonksiyonu Yeniden Tanımlama adı verilir. Türetilmiş sınıftaki fonksiyon, ana sınıftaki fonksiyonun yerini alır.

@@ -9,9 +9,6 @@ tags:
   - anahtar kelimeler
 ---
 
-
-## C++ dilinde kullanılan anahtar kelimeler
-
 C++ dilinde farklı amaçlarla kullanılmak üzere tahsis edilmiş olan kelimelere anahtar kelimeler denir. ANSI standartlarına göre C++'da kullanılmakta olan toplam 63 adet anahtar kelime vardır. Bu kelimeler değişken ve fonksiyon adı olarak kullanılamaz.
 
 C++ anahtar kelimeleri

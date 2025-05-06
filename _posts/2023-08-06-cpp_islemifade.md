@@ -10,9 +10,6 @@ tags:
   - ifade
 ---
 
-
-## İşlem satırı
-
 main() fonksiyonu ve diğer fonksiyonlarda yer alan ve noktalı virgül (;) karakteri ile sona eren satırlara işlem satırı adı verilir. Şimdi, işlem satırlarının hangi değerlerden oluşabileceğini incelemeye çalışalım:
 
 İşlem satırı bir değişken bildirimi, değişkene bir değer atama, aritmetik bir ifade, bir fonksiyon çağrısı veya bir döngü içerebilir.

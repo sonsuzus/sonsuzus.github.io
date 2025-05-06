@@ -12,9 +12,6 @@ tags:
   - io
 ---
 
-
-## Dosya giriş/çıkış işlemleri için kullanılan başlık dosyası ve sınıflar
-
 Dosya giriş/çıkış işlemlerini gerçekleştirmek için programlarımızın başına <fstream> başlık dosyasını eklememiz gerekir. Bu dosyada ifstream, ofstream ve fstream sınıflarının da yer aldığı bazı sınıf bildirimleri yer alır. Bu sınıflar sırasıyla, ios sınıfından türetilen istream, ostream ve iostream sınıflarından türetilmiş olduğundan, ios sınıfı içindeki tüm değişken ve fonksiyonlara erişim sağlayabilirler.
 
 | Ana sınıf | Türetilmiş sınıf | Türetilenden türetilmiş sınıf |
