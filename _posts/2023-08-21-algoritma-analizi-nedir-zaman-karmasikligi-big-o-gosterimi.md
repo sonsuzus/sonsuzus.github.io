@@ -168,7 +168,7 @@ Buraya kadarki genel toplam ise 2nm+4n+2 oldu. Son olarak 6. Satırda iki döng�
 
 Burada amaç, yürütme zamanında da dediğimiz gibi algoritmadaki eleman sayısı çok fazla olduğunda ya da veri seti sonsuza gittiğinde, giriş boyutu ve zaman arasındaki *karmaşıklığı azaltmaktır*. Yani detaylardan kurtularak **çalışma süresi analizini** basitleştirmektir. 
 
-![big-o-notasyonu-zaman-karmasikligi](algo/big-o-notasyonu-zaman-karmasikligi.png)
+![big-o-notasyonu-zaman-karmasikligi](/img/algo/big-o-notasyonu-zaman-karmasikligi.png)
 
 Fonksiyonlara Göre Zaman Karmaşıklığı
 
@@ -189,7 +189,7 @@ Biz daha çok **Big-O notasyonu** ile ilgileneceğiz. Bunun nedenini anlamak iç
 
  Örnek olarak, dizi elemanlarını küçükten büyüğe sıralama işlemini yapan bir algoritmaya girdi olarak tam tersi şekilde tam olarak büyükten küçüğe doğru sıralanmış bir dizi göndermek en kötü durumdur. Ya da bir arama algoritmasındaki veri setinde kontrol edilen ilk değerin, aranan değer olması best case iken aranan değerin veri setinin son konumunda bulunması veya hiç bulunmaması worst case`e örnektir.
 
-![Algoritma Analizinde Worst Case - Best Case- Average Case](algo/algoritma-analizi-worst-best-average-cases.png)
+![Algoritma Analizinde Worst Case - Best Case- Average Case](/img/algo/algoritma-analizi-worst-best-average-cases.png)
 
 Algoritma Analizinde Worst Case - Best Case- Average Case
 
@@ -201,7 +201,7 @@ Bu üç durumu incelediğimize göre, *karmaşıklık analizinde* neden daha ço
 
 Aşağıdaki TA ve TB fonksiyonların çalışma zamanının, veri boyutuna göre nasıl değiştiğini gözlemleyelim.
 
-![Algoritma Analizi Çalışma Zamanı Veri Boyutu](algo/Algoritma-analizi-çalışma-zamanı-veri-boyutu.png)
+![Algoritma Analizi Çalışma Zamanı Veri Boyutu](/img/algo/Algoritma-analizi-çalışma-zamanı-veri-boyutu.png)
 
 Algoritma Analizinde Zaman Karmaşıklığı - Büyüme Oranı
 
@@ -247,7 +247,7 @@ f(n), g(n), h(n), ve p(n) pozitif tamsayılar kümesinden, pozitif reel sayılar
 
 Bu kuralların dışında, *yürütme zamanı* başlığında da incelediğimiz birçok örnekle ilişikli olan, algoritmada bulunan kodlara uygulanacak kurallar da vardır. Bu kurallar ise başlıca:
 
-![Big O Notasyonu Sabit Algoritma](algo/big-o-notasyonu-sabit-algoritma.png)
+![Big O Notasyonu Sabit Algoritma](/img/algo/big-o-notasyonu-sabit-algoritma.png)
 
 Big O Notasyonu Sabit Algoritma
 
@@ -275,7 +275,7 @@ while(i < 100):
 	# işlemler
 ```
 
-![Big-O Gösterimi -  Doğrusal Lineer Döngü - Algoritma](algo/big-o-notasyonu-lineer-döngü.png)
+![Big-O Gösterimi -  Doğrusal Lineer Döngü - Algoritma](/img/algo/big-o-notasyonu-lineer-döngü.png)
 
 Big O Notasyonu Doğrusal Lineer Algoritma Grafiği
 
@@ -296,7 +296,7 @@ while(i >= 1):
 	# işlemler
 ```
 
-![big-o-notasyonu-logaritmik-döngü](algo/big-o-notasyonu-logaritmik-döngü.png)
+![big-o-notasyonu-logaritmik-döngü](/img/algo/big-o-notasyonu-logaritmik-döngü.png)
 
 Büyük O Gösterimi Logaritmik Algoritma Örneği
 
@@ -320,7 +320,7 @@ while(i <= 100):
 	i += 1
 ```
 
-![big-o-notasyonu-karesel-döngü](algo/big-o-notasyonu-karesel-döngü.png)
+![big-o-notasyonu-karesel-döngü](/img/algo/big-o-notasyonu-karesel-döngü.png)
 
 Big O Notation Karesel Algoritma (Loop)
 
@@ -335,7 +335,7 @@ while(i <= 10):
 	i += 1
 ```
 
-![big-o-notasyonu-lineer-logaritmik-döngü](algo/big-o-notasyonu-lineer-logaritmik-döngü.png)
+![big-o-notasyonu-lineer-logaritmik-döngü](/img/algo/big-o-notasyonu-lineer-logaritmik-döngü.png)
 
 Büyük O Notasyonu Lineer-Logaritmik Algoritma Örneği
 
