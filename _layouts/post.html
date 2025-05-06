@@ -6,7 +6,9 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
 <div class="content">
-  {% include mathjax.html %}
+  {% if page.math %}
+      {% include mathjax.html %}
+  {% endif %}
   {% include post-meta.html post=page %}
 
   <div class="post-body">
