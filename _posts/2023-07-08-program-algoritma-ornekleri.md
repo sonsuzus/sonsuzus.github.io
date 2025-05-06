@@ -11,8 +11,6 @@ tags:
   - teknik
 ---
 
-## Problem Çözme
-
 Problem çözmede, soruna hemen girişmek yerine, dikkatli ve sistematik yaklaşım ilke olmalıdır. Problem iyice anlaşılmalı ve mümkün olduğu kadar küçük parçalara ayırılmaladır.
 
 Descartes tarafından "Discourse on Method" isimli kitabında anlatılan problem çözme teknikleri;
