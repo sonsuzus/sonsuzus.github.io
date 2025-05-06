@@ -35,6 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Sidebar link settings
 sidebar_home_link:  false
