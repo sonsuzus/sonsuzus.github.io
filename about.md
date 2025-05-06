@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-sidebar_link: true
+sidebar_link: false
 ---
 
 <p class="message">
