@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 10 – Fonksiyon Alıştırmaları
+math: true 
 categories:
   - Program
 tags:

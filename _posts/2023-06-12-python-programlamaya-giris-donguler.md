@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 4 – Döngüler
+math: true
 categories:
   - Program
 tags:

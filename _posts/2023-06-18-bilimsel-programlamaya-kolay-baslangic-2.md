@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Bilimsel Programlamaya Kolay Başlangıç – 2
+math: true
 categories: 
   - Program
 tags: 

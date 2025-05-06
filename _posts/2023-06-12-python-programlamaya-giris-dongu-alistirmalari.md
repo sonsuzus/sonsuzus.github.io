@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 6 – Döngü Alıştırmaları
+math: true
 categories:
   - Program
 tags: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 5 – Döngülerle Problem Çözme
+math: true
 categories:
   - Program
 tags:

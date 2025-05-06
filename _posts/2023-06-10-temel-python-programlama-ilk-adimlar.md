@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 1 – İlk Adımlar
+math: true
 categories:
   - Program
 tags: 

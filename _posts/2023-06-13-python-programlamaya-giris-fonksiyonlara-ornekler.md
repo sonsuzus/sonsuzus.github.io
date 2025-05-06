@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 9 – Fonksiyonlara Örnekler
+math: true 
 categories:
   - Program
 tags:
