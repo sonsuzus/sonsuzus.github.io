@@ -1,16 +1,19 @@
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+   document.addEventListener('DOMContentLoaded', function() {
       // Mevcut URL'yi kontrol et
       const currentURL = window.location.href;
       
-      // URL sonu slash ile bitiyorsa
-      if (currentURL.endsWith('/') && currentURL.length > 1) {
+      // URL sonu slash ile bitiyorsa ve daha önce yönlendirme yapılmadıysa
+      if (currentURL.endsWith('/') && currentURL.length > 1 && !sessionStorage.getItem('redirected')) {
         // Sondaki slash'ı kaldır
         const cleanURL = currentURL.slice(0, -1);
         
+        // Yönlendirme yapıldığını işaretle
+        sessionStorage.setItem('redirected', 'true');
+        
         // Yeni URL'ye yönlendir
-        window.history.replaceState({}, document.title, cleanURL);
-        console.log('URL temizlendi: ' + cleanURL);
+        window.location.href = cleanURL;
+        console.log('URL temizlendi ve sayfa yenileniyor: ' + cleanURL);
       }
     });
   </script><!-- Additional head bits without overriding original head -->
