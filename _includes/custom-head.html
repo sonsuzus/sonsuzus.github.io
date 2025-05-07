@@ -8,9 +8,9 @@
         // Sondaki slash'ı kaldır
         const cleanURL = currentURL.slice(0, -1);
         
-        // Yeni URL'ye yönlendir ve sayfayı yenile
-        window.location.href = cleanURL;
-        console.log('URL temizlendi ve sayfa yenileniyor: ' + cleanURL);
+        // Yeni URL'ye yönlendir
+        window.history.replaceState({}, document.title, cleanURL);
+        console.log('URL temizlendi: ' + cleanURL);
       }
     });
   </script><!-- Additional head bits without overriding original head -->
