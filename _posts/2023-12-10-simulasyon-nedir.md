@@ -12,9 +12,7 @@ tags:
   - taklit
 ---
 
-![](/img/simulasyon.jpg)
-
-Günümüzde, simülasyonlar giderek daha fazla önem kazanmaktadır. Simülasyonlar, gerçek
+![](/img/simulasyon.jpg) Günümüzde, simülasyonlar giderek daha fazla önem kazanmaktadır. Simülasyonlar, gerçek
 sistemleri matematiksel modeller aracılığıyla taklit eden ve bu modeller üzerinde çeşitli
 senaryoları çalıştırmamıza izin veren güçlü araçlardır. Bu makalede, simülasyonların ne
 olduğunu, hangi alanlarda kullanıldığını ve yazılımlarının nasıl geliştirildiğini inceleyeceğiz.
