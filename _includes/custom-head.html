@@ -1,1 +1,16 @@
-<!-- Additional head bits without overriding original head -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mevcut URL'yi kontrol et
+      const currentURL = window.location.href;
+      
+      // URL sonu slash ile bitiyorsa
+      if (currentURL.endsWith('/') && currentURL.length > 1) {
+        // Sondaki slash'ı kaldır
+        const cleanURL = currentURL.slice(0, -1);
+        
+        // Yeni URL'ye yönlendir
+        window.history.replaceState({}, document.title, cleanURL);
+        console.log('URL temizlendi: ' + cleanURL);
+      }
+    });
+  </script><!-- Additional head bits without overriding original head -->
