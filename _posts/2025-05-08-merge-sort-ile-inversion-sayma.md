@@ -2,7 +2,7 @@
 layout: post
 title: Merge Sort ile Inversion Sayma
 categories:
-  - Programlama
+  - Program
 tags:
   - c++
   - sıralama
