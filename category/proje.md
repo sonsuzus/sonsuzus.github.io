@@ -25,11 +25,11 @@ Rüya tabiri yapan telegram botuna şu adresten ulaşabilirsiniz. Kodları için
 
 ## Yapay zeka Projeleri
 
-Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğal dil işleme, Sayı tahmin oyunu
+Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğal dil işleme, Sayı tahmin oyunu, Kibrit oyunu (tübitak 4006)
 
 ## Rüya Projeleri
 
-Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/posts/ruyada-ruya) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io) ve [Rüyara](https://ruyara.com) siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Rüyada rüya için Q&A yapısı kullanılmıştır. Rüyara sitesi wordpress diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/posts/html) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
+Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/posts/ruyada-ruya) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io)  siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Eski Rüyadarüya için Q&A yapısı kullanılmıştır. Daha sonra flarum forum sistemine evrilmiştir. ~~Rüyara sitesi wordpress~~ diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/posts/html) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
 
 ## Diğer Tübitak Projeleri
 
@@ -57,7 +57,7 @@ Satranç üzerine geliştirdiğim projelerin olduğu sayfadır. Öncesinde zaten
 
 Satranç severleri bir araya toplayan bu sistemlerde [Crazyhouse][1] gibi satrancın çeşitli versiyonları da oynanmaktadır.
 
-[1]: <https://sonsuzus.github.io/projeler> "Rakipten aldığınız taşları hamle sırası sizdeyken tahtanın istediğiniz yerine koyarak oynanan bir satranç türü. Elbette aldığınız taşlar kendi oyuncu renginize dönüşür."
+[1]: <https://sonsuzus.github.io/category/proje> "Rakipten aldığınız taşları hamle sırası sizdeyken tahtanın istediğiniz yerine koyarak oynanan bir satranç türü. Elbette aldığınız taşlar kendi oyuncu renginize dönüşür."
 
 ## AçıkOkul - AçıkSoru
 
