@@ -4,7 +4,7 @@ title: Segment Ağacı ile Inversion Sayma
 categories:
   - Program
 tags:
-  - c++
+  - cpp
   - sıralama
   - segment ağacı
   - inversion sayısı

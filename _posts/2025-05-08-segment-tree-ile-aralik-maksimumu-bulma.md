@@ -4,7 +4,7 @@ title: Segment Ağacı ile Aralık Maksimumu Bulma
 categories:
   - Program
 tags:
-  - c++
+  - cpp
   - sıralama
   - segment ağacı
   - aralık sorgusu

@@ -4,7 +4,7 @@ title: Merge Sort ile Inversion Sayma
 categories:
   - Program
 tags:
-  - c++
+  - cpp
   - sıralama
   - merge sort
   - inversion sayısı
