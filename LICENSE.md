@@ -1,9 +1,3 @@
----
-layout: page
-title: License
-sidebar_link: false
----
-
 # MIT Lisans altındadır
 
 Telif Hakkı (c) 2025 SonsuzUs.
