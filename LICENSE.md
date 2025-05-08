@@ -1,9 +1,13 @@
-# MIT Lisans altındadır
+# Released under MIT License
 
-Telif Hakkı (c) 2025 SonsuzUs.
+Copyright (c) 2013 Mark Otto.
 
-Bu yazılımı ve ilgili belgelendirme dosyalarını ("Yazılım") edinen herkese, Yazılım üzerinde kısıtlama olmaksızın kullanma, kopyalama, değiştirme, birleştirme, yayımlama, dağıtma, alt lisans verme ve/veya Yazılımın kopyalarını satma ve Yazılımın sağlandığı kişilere de aynı hakları tanıma yetkisi ücretsiz olarak verilmiştir; aşağıdaki koşullara tabi olmak kaydıyla:
+Copyright (c) 2017 Andrew Fong.
 
-Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, tüm kopyalara veya Yazılımın önemli bölümlerine dahil edilecektir.
+Copyright (c) 2025 Ufuk Aksoy.
 
-YAZILIM "OLDUĞU GİBİ" SAĞLANMIŞTIR; TİCARİ ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL ETMEME DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE AÇIK VEYA ZIMNİ HİÇBİR GARANTİ İÇERMEZ. HİÇBİR DURUMDA YAZARLAR VEYA TELİF HAKKI SAHİPLERİ, SÖZLEŞME, HAKSIZ FİİL VEYA BAŞKA BİR NEDENLE OLSA DAHİ, YAZILIMDAN VEYA YAZILIMIN KULLANIMINDAN YA DA DİĞER İŞLEMLERDEN KAYNAKLANAN HİÇBİR İDDİA, ZARAR VEYA DİĞER YÜKÜMLÜLÜKTEN SORUMLU TUTULAMAZLAR.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
