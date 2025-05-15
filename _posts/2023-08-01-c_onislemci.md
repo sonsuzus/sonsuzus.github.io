@@ -983,11 +983,11 @@ Program, 1'den 10'a kadar olan sayıları ekrana yazar. Sonra, derlenen dosya ad
 
 ## # ve ## işlemcileri
 
-# işlemcisi, fonksiyona benzeyen makroların argümanını tırnak içinde bir karakter dizisi olarak geri verir.
+\# işlemcisi, fonksiyona benzeyen makroların argümanını tırnak içinde bir karakter dizisi olarak geri verir.
 
-## işlemcisi iki tanımlayıcıyı birleştirir.
+\## işlemcisi iki tanımlayıcıyı birleştirir.
 
-# ve ## işlemcilerinin kullanılmasını örnekler üzerinde incelemeye çalışalım:
+\# ve ## işlemcilerinin kullanılmasını örnekler üzerinde incelemeye çalışalım:
 
 Örnek
 
