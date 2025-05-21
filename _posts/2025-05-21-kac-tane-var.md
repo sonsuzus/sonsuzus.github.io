@@ -18,6 +18,7 @@ Elimizde bir problem var. Bir sayı dizisi. Öncelikle bu bir ilişki bulma soru
 - 21
 - 1211
 - 111221
+
 Sırada ki sayı kaçtır?
 
 Sorunun çözümünü size bırakıyorum. Ben sırayla yapılan programları örnek olarak ekliyorum. Zamanla daha gelişmiş örneklerini ve farklı dillerde yapımlarını da ekleyeceğim.
