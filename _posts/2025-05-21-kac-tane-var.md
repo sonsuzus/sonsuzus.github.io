@@ -14,11 +14,11 @@ tags:
 Elimizde bir problem var. Bir sayı dizisi. Öncelikle bu bir ilişki bulma sorusu. Ama bu soruyu bir programlama veya algoritma sorusuna da çevirebiliriz. Soru aşağıdaki gibi.
 
 1
-11
+  11
 21
-1211
+  1211
 111221
-Sırada ki sayı kaçtır?
+  Sırada ki sayı kaçtır?
 
 Sorunun çözümünü size bırakıyorum. Ben sırayla yapılan programları örnek olarak ekliyorum. Zamanla daha gelişmiş örneklerini ve farklı dillerde yapımlarını da ekleyeceğim.
 
