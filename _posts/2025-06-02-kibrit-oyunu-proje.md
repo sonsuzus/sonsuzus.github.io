@@ -7,7 +7,7 @@ tags:
   - program
   - oyun
   - tübitak
-  - 4006
+  - tübitak4006
   - kibrit
   - asal sayılar
   - asal üsler
