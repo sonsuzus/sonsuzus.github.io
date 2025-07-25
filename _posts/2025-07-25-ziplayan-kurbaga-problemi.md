@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kurbağanın Talihsiz Zıplamaları: Kırık Basamak ve Olasılıkların Dansı
+title: Kurbağanın Talihsiz Zıplamaları Kırık Basamak ve Olasılıkların Dansı
 categories:
   - Program
 tags:
