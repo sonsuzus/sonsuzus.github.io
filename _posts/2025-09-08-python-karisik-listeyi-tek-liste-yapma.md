@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python: Karmaşık ve İç İçe Listeleri Düzleştirmek (Flatten)"
+title: Pythonda Karmaşık ve İç İçe Listeleri Düzleştirmek (Flatten)
 categories:
   - Program
 tags:
