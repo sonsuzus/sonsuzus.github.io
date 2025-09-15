@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Rekabetçi Programcı Giriş
+title: Rekabetçi Programcı Giriş
 math: true 
 categories: 
   - Program
