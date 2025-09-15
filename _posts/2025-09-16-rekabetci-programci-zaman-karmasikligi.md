@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  Rekabetçi Programcı Zaman Karmaşıklığımath: true 
+title:  Rekabetçi Programcı Zaman Karmaşıklığı
+math: true 
 categories: 
   - Program
 tags: 
