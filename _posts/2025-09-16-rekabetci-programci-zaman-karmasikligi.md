@@ -20,6 +20,8 @@ tags:
   - kodlama
   - matematik
   - kitap
+  - on
+  - döngü
 ---
 
 
