@@ -71,7 +71,7 @@ Bize `n` tane $a_1, a_2, ..., a_n$ sayısı verildiğinde, $\sum_{i=1}^{n} \lver
 
 ### c = 1 Durumu
 
-$\sum \lverta_i - x\rvert $ toplamını minimize etmek için en iyi `x` değeri, sayıların **medyanı**dır. Sayılar sıralandıktan sonra ortadaki eleman medyandır.
+$\sum \lvert a_i - x\rvert $ toplamını minimize etmek için en iyi `x` değeri, sayıların **medyanı**dır. Sayılar sıralandıktan sonra ortadaki eleman medyandır.
 
 ### c = 2 Durumu
 
