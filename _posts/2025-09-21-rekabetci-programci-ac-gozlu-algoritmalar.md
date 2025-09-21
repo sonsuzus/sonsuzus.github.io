@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rekabetçi ProgramcıAçgözlü Algoritmalar (Greedy Algorithms)
+title: Rekabetçi Programcı Açgözlü Algoritmalar (Greedy Algorithms)
 math: true 
 categories: 
   - Program
