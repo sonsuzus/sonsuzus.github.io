@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Açgözlü Algoritmalar (Greedy Algorithms)
+title: Rekabetçi ProgramcıAçgözlü Algoritmalar (Greedy Algorithms)
 math: true 
 categories: 
   - Program
@@ -67,11 +67,11 @@ Süresi ve son teslim tarihi bilinen `n` tane görevimiz olduğunu düşünelim.
 
 ## 6.4 Toplamları Küçültmek (Minimizing Sums)
 
-Bize `n` tane $a_1, a_2, ..., a_n$ sayısı verildiğinde, $\sum_{i=1}^{n} |a_i - x|^c$ toplamını en küçük yapacak `x` değerini bulma problemi.
+Bize `n` tane $a_1, a_2, ..., a_n$ sayısı verildiğinde, $\sum_{i=1}^{n} \lvert a_i - x\rvert ^c$ toplamını en küçük yapacak `x` değerini bulma problemi.
 
 ### c = 1 Durumu
 
-$\sum |a_i - x|$ toplamını minimize etmek için en iyi `x` değeri, sayıların **medyanı**dır. Sayılar sıralandıktan sonra ortadaki eleman medyandır.
+$\sum \lverta_i - x\rvert $ toplamını minimize etmek için en iyi `x` değeri, sayıların **medyanı**dır. Sayılar sıralandıktan sonra ortadaki eleman medyandır.
 
 ### c = 2 Durumu
 
