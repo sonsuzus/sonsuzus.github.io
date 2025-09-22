@@ -14,7 +14,7 @@ tags:
   - dizi
   - yarışma
   - değişken
-  - aç gözlü
+  - açgözlü
   - greedy
   - bellek
   - kodlama
