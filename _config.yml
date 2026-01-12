@@ -29,7 +29,7 @@ defaults:
       path: ""
       type: post
     values:
-      permalink: /posts/:title
+      permalink: /posts/:title/
 
 plugins:
   - jekyll-feed
