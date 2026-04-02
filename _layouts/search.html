@@ -1,12 +1,100 @@
 ---
 layout: default
+title: Arama
 ---
 
 <header>
-  <h1 class="page-title"><label for="search-bar">{{ page.title }}</label></h1>
+  <h1 class="page-title">{{ page.title }}</h1>
 </header>
+
 <div class="content">
-  {% include search-form.html %}
+  <div id="searchbox" style="margin-bottom: 20px;"></div>
+  <div id="hits"></div>
 </div>
 
 {% include tags-list.html %}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.1.0/themes/satellite-min.css">
+<style>
+  /* Bulunan kelimeleri sarı ile vurgulamak için ufak bir dokunuş */
+  .ais-Highlight-highlighted, .ais-Snippet-highlighted {
+    background-color: #ffc168;
+    font-weight: bold;
+  }
+  .ais-Hits-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  .ais-Hits-item h3 {
+    margin-top: 0;
+  }
+  .ais-Hits-item a {
+    text-decoration: none;
+    color: #0366d6;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.20.0/dist/algoliasearch-lite.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.57.0/dist/instantsearch.production.min.js"></script>
+
+<script>
+  // 1. Algolia İstemcisini Başlat
+  // DİKKAT: Buraya KESİNLİKLE Admin Key yazma! "Search-Only API Key" yazmalısın.
+  const searchClient = algoliasearch(
+    'R1ADGRPVAE', 
+    'a56052698d8070daa3e26b73f51ff1a4'
+  );
+
+  // 2. Arama Motorunu Yapılandır
+  const search = instantsearch({
+    indexName: 'sonsuzus_notlar', // Algolia panelindeki indeks adımız
+    searchClient: searchClient,
+    searchFunction(helper) {
+      // Sayfa ilk yüklendiğinde boş arama yapmasını engeller
+      // Sadece kullanıcı bir şey yazdığında sonuçları gösterir
+      const container = document.querySelector('#hits');
+      if (helper.state.query === '') {
+        container.style.display = 'none';
+      } else {
+        container.style.display = 'block';
+        helper.search();
+      }
+    }
+  });
+
+  // 3. Arama Araçlarını (Widgets) Ekle
+  search.addWidgets([
+    // Arama Kutusu
+    instantsearch.widgets.searchBox({
+      container: '#searchbox',
+      placeholder: 'aramak istediğiniz kelimeleri yazın...',
+      showSubmit: false,
+      showReset: true,
+      autofocus: true
+    }),
+
+    // Sonuç Listesi
+    instantsearch.widgets.hits({
+      container: '#hits',
+      templates: {
+        item: `
+          <article>
+            <h3>
+              <a href="{{url}}">
+                {{#helpers.highlight}}{ "attribute": "title" }{{/helpers.highlight}}
+              </a>
+            </h3>
+            <p>
+              {{#helpers.snippet}}{ "attribute": "content" }{{/helpers.snippet}}
+            </p>
+          </article>
+        `
+      }
+    })
+  ]);
+
+  // 4. Sistemi Çalıştır
+  search.start();
+</script>
