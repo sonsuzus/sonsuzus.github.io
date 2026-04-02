@@ -49,3 +49,9 @@ google_analytics : G-JPVWNYQQ08
 hydeout:
   repo: https://github.com/sonsuzus/sonsuzus.github.io
   version: 2.0.0
+
+# _config.yml dosyasının sonuna eklenecek
+algolia:
+  application_id: 'R1ADGRPVAE'
+  index_name: 'sonsuzus_notlar'
+  search_only_api_key: 'a56052698d8070daa3e26b73f51ff1a4'
