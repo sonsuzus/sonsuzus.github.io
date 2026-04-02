@@ -34,6 +34,30 @@ title: Arama
     text-decoration: none;
     color: #0366d6;
   }
+
+  /* Submit butonunun (büyüteç) varsayılan SVG'sini gizle veya düzenle */
+.ais-SearchBox-submitIcon {
+  width: 14px;
+  height: 14px;
+  fill: #666; /* İkon rengi */
+}
+
+/* Eğer büyüteçler üst üste biniyorsa, birini tamamen kapat */
+.ais-SearchBox-submit {
+  background: transparent;
+  border: none;
+  cursor: default;
+}
+
+/* Reset (X) butonunu rahatsız ediyorsa gizle */
+.ais-SearchBox-reset {
+  display: none;
+}
+
+/* Input'un soluna düzgün bir boşluk ver */
+.ais-SearchBox-input {
+  padding-left: 40px !important;
+}
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.20.0/dist/algoliasearch-lite.umd.js"></script>
