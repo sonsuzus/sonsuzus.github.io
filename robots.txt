@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sonsuzus.github.io/sitemap.xml
+Sitemap: https://sonsuzus.github.io/feed.xml
