@@ -28,6 +28,13 @@ jobs:
           bundle install
           bundle exec jekyll build
 
+      # --- ALGOLIA İÇİN EKLENEN YENİ ADIM BURASI ---
+      - name: Push to Algolia
+        env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
+        run: bundle exec jekyll algolia
+      # ---------------------------------------------
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
