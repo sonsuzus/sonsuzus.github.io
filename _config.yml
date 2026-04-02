@@ -37,6 +37,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-algolia
 
 # Sidebar link settings
 sidebar_home_link:  false
