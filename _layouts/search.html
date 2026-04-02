@@ -35,10 +35,25 @@ title: Arama
     color: #0366d6;
   }
 
-/* Input'un soluna düzgün bir boşluk ver */
-  .ais-SearchBox-input {
-  padding-left: 50px !important;
-  }
+/* 1. Algolia'nın düğmelerini (ve içindeki SVG'leri) tamamen yok et */
+.ais-SearchBox-submit, 
+.ais-SearchBox-reset, 
+.ais-SearchBox-loadingIndicator {
+    display: none !important;
+}
+
+/* 2. Formun içindeki gereksiz boşlukları ve hizalamaları sıfırla */
+.ais-SearchBox-form {
+    display: block !important;
+    position: relative;
+}
+
+/* 3. Arama kutusunu tertemiz yap ve sola yasla */
+.ais-SearchBox-input {
+    padding-left: 15px !important; /* İkonlar gidince yazıyı sola yaklaştırdık */
+    background-image: none !important; /* Temadan gelen bir şey varsa o da gitsin */
+    box-shadow: none !important;
+}
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.20.0/dist/algoliasearch-lite.umd.js"></script>
