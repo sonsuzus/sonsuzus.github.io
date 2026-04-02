@@ -7,6 +7,8 @@ tags:
   - python
   - programlama
   - dosya
+redirect_from:
+  - /posts/python_dosya/
 ---
 
 Şimdi, dosya açma ve kapama işlemlerini incelemeye çalışacağız. Bir dosya ile işlem yapmak istediğimizde, önce dosyayı açmamız, gerekli yazma ve/veya okuma işlemlerini gerçekleştirdikten sonra dosyayı kapatmamız gerekir. Dosya açma işlemi için aşağıda genel yapısı verilen open() fonksiyonu kullanılır.

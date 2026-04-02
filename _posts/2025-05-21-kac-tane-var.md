@@ -9,6 +9,8 @@ tags:
   - soru
   - sayılar
   - zeka
+redirect_from:
+  - /posts/kac-tane-var/
 ---
 
 Elimizde bir problem var. Bir sayı dizisi. Öncelikle bu bir ilişki bulma sorusu. Ama bu soruyu bir programlama veya algoritma sorusuna da çevirebiliriz. Soru aşağıdaki gibi.

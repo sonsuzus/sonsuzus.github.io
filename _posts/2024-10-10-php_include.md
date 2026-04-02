@@ -8,6 +8,8 @@ tags:
   - programlama
   - include
   - web
+redirect_from:
+  - /posts/php_include/
 ---
 
 

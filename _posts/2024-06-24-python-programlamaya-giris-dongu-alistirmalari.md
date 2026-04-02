@@ -7,6 +7,8 @@ categories:
 tags: 
   - python
   - döngü
+redirect_from:
+  - /posts/python-programlamaya-giris-dongu-alistirmalari/
 ---
 
 

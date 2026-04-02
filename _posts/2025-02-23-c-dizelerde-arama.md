@@ -12,6 +12,8 @@ tags:
   - karakter
   - dize
   - arama
+redirect_from:
+  - /posts/c-dizelerde-arama/
 ---
 
 C programlama için oldukça kullanışlı basit bir fonksiyon. c karakteri \*s dizisinde olup olmadığını kontrol eden basit ama kullanışlı fonksiyon python `if c in s:` yöntemine benziyor.

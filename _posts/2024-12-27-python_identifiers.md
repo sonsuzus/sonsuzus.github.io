@@ -7,6 +7,8 @@ tags:
   - python
   - programlama
   - tanımlayıcı
+redirect_from:
+  - /posts/python_identifiers/
 ---
 
 

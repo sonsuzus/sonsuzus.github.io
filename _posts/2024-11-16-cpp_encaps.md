@@ -9,6 +9,8 @@ tags:
   - kapsülleme
   - nesne
   - oop
+redirect_from:
+  - /posts/cpp_encaps/
 ---
 
 

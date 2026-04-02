@@ -9,6 +9,8 @@ tags:
   - segment ağacı
   - aralık sorgusu
   - algoritma
+redirect_from:
+  - /posts/segment-tree-ile-aralik-maksimumu-bulma/
 ---
 
 Bu kod, bir dizi üzerinde aralık maksimumu sorgularını verimli bir şekilde gerçekleştirmek için bir Segment Ağacı kullanır. Segment Ağacı, bir dizi üzerinde tanımlanmış bir ağaç yapısıdır ve her düğüm, dizinin bir alt aralığını temsil eder. Bu sayede, belirli bir aralıktaki maksimum değeri bulma işlemi, dizinin tamamını taramak yerine ağaç üzerinde daha az sayıda düğümü ziyaret ederek gerçekleştirilebilir.

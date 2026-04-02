@@ -11,6 +11,8 @@ tags:
   - veri tabanı
   - tablo
   - birleştirme
+redirect_from:
+  - /posts/sql-self-join-tablo-kendi-birlestirme/
 ---
 
 ![](/img/sql/petronas-twin-towers.png)

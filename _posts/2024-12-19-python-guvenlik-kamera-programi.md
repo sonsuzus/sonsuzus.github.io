@@ -9,6 +9,8 @@ tags:
   - kamera
   - görüntü
   - işlem
+redirect_from:
+  - /posts/python-guvenlik-kamera-programi/
 ---
 
 Bilgisayara bağlı bir kamerayı güvenlik kamerası olarak kullanan bir program oluşturmaya çalışacağız. Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneleri kullanacağız:

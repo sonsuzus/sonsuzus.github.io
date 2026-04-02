@@ -20,6 +20,8 @@ tags:
   - kodlama
   - matematik
   - kitap
+redirect_from:
+  - /posts/rekabetci-programci-ac-gozlu-algoritmalar/
 ---
 
 Açgözlü algoritma, her zaman o anki en iyi gözüken kararı vererek çözüme ulaşan bir yaklaşımdır. Açgözlü bir algoritma asla daha önce verdiği kararları geri almaz ve doğrudan son sonucu oluşturur. Bu yüzden açgözlü algoritmalar genellikle verimlidir. Açgözlü bir algoritma oluşturmanın zorluğu, her zaman en iyi (optimal) cevabı verecek bir açgözlü strateji bulmaktır. Yapılan küçük optimal kararların, genel olarak da optimal olması gerekir. Genellikle bir açgözlü algoritmanın doğru çalıştığını kanıtlamak zordur.

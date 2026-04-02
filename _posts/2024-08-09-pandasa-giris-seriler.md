@@ -15,6 +15,8 @@ tags:
   - numpy
   - data
   - dataframe
+redirect_from:
+  - /posts/pandasa-giris-seriler/
 ---
 
 `Pandas` veri analitiği alanında, özellikle veri işleme ve analizi için sıklıkla kullanılan bir Python paketi. `Pandas` paketi seri (`Series`) ve veri çerçevesi (`DataFrame`) isimli iki veri yapısının üzerine kurulmuş. Bunlardan serileri tek boyutlu diziler, veri çerçevelerini ise iki boyutlu matrisler (ya da her kolonu bir seriden oluşan yapı) gibi düşünebiliriz. Ancak `Pandas` paketi liste ve matrislerden farklı işlevler sunuyor. Örnek olarak SQL tablolarında kullanılan tablo birleştirme (join) gibi işlemleri de `Pandas` sayesinde yapmak mümkün.

@@ -8,6 +8,8 @@ tags:
   - cpp
   - algoritma
   - konteyner
+redirect_from:
+  - /posts/cpp_algorithm/
 ---
 
 Algoritmalar konteynerler üzerinde işlem yaparlar. Her konteyner kendi temel işlemleri için gerekli fonksiyonları sağlar. Standart algoritmalar ise daha genişletilmiş veya karmaşık işlemler için aynı anda iki farklı tipte konteyner ile çalışmaya olanak sağlar.

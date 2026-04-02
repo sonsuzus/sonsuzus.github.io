@@ -9,6 +9,8 @@ tags:
   - işaretçi
   - pointer
   - adres
+redirect_from:
+  - /posts/cpp_isaretci/
 ---
 
 

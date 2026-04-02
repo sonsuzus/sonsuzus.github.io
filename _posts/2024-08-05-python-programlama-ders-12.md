@@ -10,6 +10,8 @@ tags:
   - liste
   - tuple
   - küme
+redirect_from:
+  - /posts/python-programlama-ders-12/
 ---
 
 

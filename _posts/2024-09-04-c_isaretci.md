@@ -10,6 +10,8 @@ tags:
   - pointers
   - adres
   - bellek
+redirect_from:
+  - /posts/c_isaretci/
 ---
 
 

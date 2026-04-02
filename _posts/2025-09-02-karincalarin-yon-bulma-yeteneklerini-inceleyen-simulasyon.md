@@ -7,6 +7,8 @@ tags:
   - simulasyon
   - c
   - unity
+redirect_from:
+  - /posts/karincalarin-yon-bulma-yeteneklerini-inceleyen-simulasyon/
 ---
 
 C# programlama dili ve Unity oyun motoru kullanılarak hazırlanan simülasyon aracılığıyla karıncaların koloni ve besin kaynağı arasında feromon izlerini takip etmesi incelenmiştir.

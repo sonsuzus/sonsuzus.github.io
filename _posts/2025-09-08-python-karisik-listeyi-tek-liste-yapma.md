@@ -11,6 +11,8 @@ tags:
   - özyineleme
   - fonksiyon
   - itertools
+redirect_from:
+  - /posts/python-karisik-listeyi-tek-liste-yapma/
 ---
 
 Python'da programlama yaparken, bazen karşımıza iç içe geçmiş listeler, demetler (tuple), kümeler (set) ve hatta sözlükler (dictionary) gibi farklı veri tiplerini bir arada barındıran karmaşık veri yapıları çıkabilir. Bu tür bir yapıyı analiz etmek veya üzerinde işlem yapmak için genellikle onu "düzleştirmek", yani tek bir liste haline getirmek isteriz.

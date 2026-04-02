@@ -11,6 +11,8 @@ tags:
   - web
   - post
   - get
+redirect_from:
+  - /posts/php_superglobals/
 ---
 
 

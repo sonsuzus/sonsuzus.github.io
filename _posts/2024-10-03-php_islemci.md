@@ -11,6 +11,8 @@ tags:
   - ifade
   - atama
   - işlemci
+redirect_from:
+  - /posts/php_islemci/
 ---
 
 

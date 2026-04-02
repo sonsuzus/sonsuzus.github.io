@@ -9,6 +9,8 @@ tags:
   - tablo
   - veri
   - veri tabanı
+redirect_from:
+  - /posts/sql_truncate/
 ---
 
 

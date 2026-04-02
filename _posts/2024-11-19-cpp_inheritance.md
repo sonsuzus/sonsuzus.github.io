@@ -11,6 +11,8 @@ tags:
   - sınıf
   - class
   - kalıtım
+redirect_from:
+  - /posts/cpp_inheritance/
 ---
 
 

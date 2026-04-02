@@ -7,6 +7,8 @@ tags:
   - javascript
   - programlama
   - değişken
+redirect_from:
+  - /posts/js-degiskenler/
 ---
 
 

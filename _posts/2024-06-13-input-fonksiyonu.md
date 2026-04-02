@@ -8,6 +8,8 @@ tags:
   - input
   - python
   - fonksiyon
+redirect_from:
+  - /posts/input-fonksiyonu/
 ---
 
 ``input()`` bir fonksiyondur dedik. Henüz fonksiyon kavramının ayrıntılarını

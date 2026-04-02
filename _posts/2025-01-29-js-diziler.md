@@ -8,6 +8,8 @@ tags:
   - js
   - javascript
   - dizi
+redirect_from:
+  - /posts/js-diziler/
 ---
 
 **Javascript array** ile birden fazla veriyi bir değişken içinde saklayabiliriz.

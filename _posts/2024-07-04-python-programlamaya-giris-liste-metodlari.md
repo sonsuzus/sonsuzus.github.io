@@ -7,6 +7,8 @@ tags:
   - python
   - liste
   - metod
+redirect_from:
+  - /posts/python-programlamaya-giris-liste-metodlari/
 ---
 
 

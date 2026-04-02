@@ -8,6 +8,8 @@ tags:
   - programlama
   - print
   - fonksiyon
+redirect_from:
+  - /posts/print-fonksiyonu/
 ---
 
 Geçen bölümde bir yandan Python'ın etkileşimli kabuğunu yakından tanıyıp bu

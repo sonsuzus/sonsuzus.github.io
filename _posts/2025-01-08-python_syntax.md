@@ -8,6 +8,8 @@ tags:
   - programlama
   - syntax
   - yazım
+redirect_from:
+  - /posts/python_syntax/
 ---
 
 

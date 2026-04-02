@@ -7,6 +7,8 @@ tags:
   - programlama
   - c
   - yapı
+redirect_from:
+  - /posts/c_progyapi/
 ---
 
 

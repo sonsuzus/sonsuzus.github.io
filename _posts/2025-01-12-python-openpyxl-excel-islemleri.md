@@ -15,6 +15,8 @@ tags:
   - excel işlemleri
   - satır
   - sütun
+redirect_from:
+  - /posts/python-openpyxl-excel-islemleri/
 ---
 
 Excel ile ilgili dosya oluşturma, sayfa oluşturma, dosyaya veri yazma, verileri okuma ve kaydetme işlemleri için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneyi kullanacağız:

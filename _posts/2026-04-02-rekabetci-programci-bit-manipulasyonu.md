@@ -19,6 +19,8 @@ tags:
   - kodlama
   - matematik
   - kitap
+redirect_from:
+  - /posts/rekabetci-programci-bit-manipulasyonu/
 ---
 
 Bilgisayar programlarındaki tüm veriler bit olarak yani 0 ve 1 sayıları biçiminde tutulur. Bu bölüm tam sayıların bit gösterimlerini açıklayıp bit operasyonlarının kullanıldığı örneklere değinecektir. Algoritma programlamasında bit manipülasyonunu kullanmanın pek çok farklı yolu vardır.

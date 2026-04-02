@@ -19,6 +19,8 @@ tags:
   - kayan nokta
   - sınıf
   - tür
+redirect_from:
+  - /posts/python-programlama-ders-02/
 ---
 
 

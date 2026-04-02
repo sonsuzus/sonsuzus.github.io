@@ -11,6 +11,8 @@ tags:
   - dizi
   - dize
   - metot
+redirect_from:
+  - /posts/python-karakter-dizileri-strings/
 ---
 
 **Pythonda Karakter Dizileri** yani string veri tipleri **tek tırnak (' ')** ya da **çift tırnak (" ")** ile oluşturulur. 'Hello World' ile "Hello World" tanımlaması aynıdır. Ancak bazen karakter dizileri içerisinde tek tırnak karakterini karakter dizisinin bir elemanı gibi göstermek isteriz.

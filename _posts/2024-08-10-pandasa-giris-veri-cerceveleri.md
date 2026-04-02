@@ -14,6 +14,8 @@ tags:
   - tablo
   - dataframe
   - join
+redirect_from:
+  - /posts/pandasa-giris-veri-cerceveleri/
 ---
 
 

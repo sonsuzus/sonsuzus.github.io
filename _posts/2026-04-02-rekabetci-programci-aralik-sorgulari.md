@@ -18,6 +18,8 @@ tags:
   - prefix-toplam
   - veri-yapisi
   - kitap
+redirect_from:
+  - /posts/rekabetci-programci-aralik-sorgulari/
 ---
 
 Bir dizinin alt aralıklarında hızlıca sorgu yapmak rekabetçi programlamada sık karşılaşılan bir ihtiyaçtır. Bir **aralık sorgusunda** görev, bir dizinin belirli bir alt aralığında bir değeri hesaplamaktır. Tipik aralık sorguları şunlardır:

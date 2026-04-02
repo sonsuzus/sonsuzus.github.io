@@ -8,6 +8,8 @@ tags:
   - java
   - motej
   - nintendo wii
+redirect_from:
+  - /posts/java-ve-motej-kullanarak-nintendo-wii-kumandalarindan-veri-alma/
 ---
 
 

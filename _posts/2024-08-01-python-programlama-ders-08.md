@@ -17,6 +17,8 @@ tags:
   - for
   - format
   - metod
+redirect_from:
+  - /posts/python-programlama-ders-08/
 ---
 
 

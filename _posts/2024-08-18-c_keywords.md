@@ -7,6 +7,8 @@ tags:
   - c
   - programlama
   - anahtar kelimeler
+redirect_from:
+  - /posts/c_keywords/
 ---
 
 

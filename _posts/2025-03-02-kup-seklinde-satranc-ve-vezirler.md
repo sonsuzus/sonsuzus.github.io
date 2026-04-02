@@ -11,6 +11,8 @@ tags:
   - kontrol
   - zeka
   - 3d
+redirect_from:
+  - /posts/kup-seklinde-satranc-ve-vezirler/
 ---
 
 Elimizde 8x8x8 lik bir satranç kübü var. Bu tahtaya birbirini yemeyen maksimum kaç vezir yerleştirilir? (Vezirler derinlemesine de hareket edebilmektedir)

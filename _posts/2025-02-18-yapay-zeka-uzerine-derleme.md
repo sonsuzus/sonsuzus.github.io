@@ -11,6 +11,8 @@ tags:
   - zeka
   - duygu
   - alan turing
+redirect_from:
+  - /posts/yapay-zeka-uzerine-derleme/
 ---
 
 

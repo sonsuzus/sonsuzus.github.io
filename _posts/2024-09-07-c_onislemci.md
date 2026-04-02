@@ -7,6 +7,8 @@ tags:
   - c
   - programlama
   - önişlemci
+redirect_from:
+  - /posts/c_onislemci/
 ---
 
 

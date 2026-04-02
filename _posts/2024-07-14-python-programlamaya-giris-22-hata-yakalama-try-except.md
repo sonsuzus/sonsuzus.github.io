@@ -8,6 +8,8 @@ tags:
   - try
   - except
   - hata yakalama
+redirect_from:
+  - /posts/python-programlamaya-giris-22-hata-yakalama-try-except/
 ---
 
 

@@ -14,6 +14,8 @@ tags:
   - repeat
   - kombinasyon
   - permütasyon
+redirect_from:
+  - /posts/python-itertools-kullanimi/
 ---
 
 Python'un Itertool'u, karmaşık döngüler üretmek için döngüler ve listeler üzerinde çalışan çeşitli işlevler sağlayan bir modüldür .

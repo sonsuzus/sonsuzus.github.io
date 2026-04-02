@@ -7,6 +7,8 @@ tags:
   - programlama
   - c
   - yorum
+redirect_from:
+  - /posts/c_comments/
 ---
 
 Kaynak dosyaların içine bazen programın daha kolay anlaşılması için açıklayıcı satırlar eklenebilir. Bu satırlara Yorum Satırı adı verilir. Yorum satırlarının yazılan programla herhangi bir ilgisi yoktur. Sadece, programı inceleyenlerin, programı daha kolay bir şekilde anlamalarına yardımcı olur. Ayrıca, geçici olarak iptal etmek istediğimiz işlem satırlarını silmeden devre dışı bırakmak için de yorum satırı kavramını kullanabilirniz. Yorum satırlarına derleyici tarafından kesinlikle herhangi bir işlem yapılmaz. Yorum satırları sanki hiç yokmuş gibi işlem görür.

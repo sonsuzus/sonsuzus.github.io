@@ -8,6 +8,8 @@ tags:
   - programlama
   - küme
   - set
+redirect_from:
+  - /posts/python_sets/
 ---
 
 Küme, birden fazla değerin yer aldığı bir yapıdır. Küme içindeki verilerin aynı veri türünden olması gerekli değildir. Elemanlar düzenli değildir ve elemanlarda değişiklik yapılamaz. Küme oluşturmak için parantezler ({ }) veya set() fonksiyonu kullanılır.

@@ -8,6 +8,8 @@ tags:
   - programlama
   - js
   - sayı
+redirect_from:
+  - /posts/js-sayilar/
 ---
 
 Javascript 'de bir sayı veri türü vardır. Tanımladığımız her sayısal veri tam sayı ya da ondalıklı sayı olabilir. 

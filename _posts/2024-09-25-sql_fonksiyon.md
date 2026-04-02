@@ -9,6 +9,8 @@ tags:
   - fonksiyon
   - veri
   - veri tabanı
+redirect_from:
+  - /posts/sql_fonksiyon/
 ---
 
 

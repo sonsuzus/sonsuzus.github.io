@@ -9,6 +9,8 @@ tags:
   - nesne
   - soyutlama
   - oop
+redirect_from:
+  - /posts/cpp_abstraction/
 ---
 
 Soyutlama, kullanıcıya yalnızca ilgili ayrıntıların gösterilmesi ve ilgisiz ayrıntıların gizlenmesi olarak ifade edilebilir. C++'da kullanılan temel soyutlama sistemleri sınıflar, sınıflar yoluyla yapılan kalıtım ve şablonlardır.

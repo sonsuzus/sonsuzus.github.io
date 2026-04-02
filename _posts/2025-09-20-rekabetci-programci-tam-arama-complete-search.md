@@ -19,6 +19,8 @@ tags:
   - kodlama
   - matematik
   - kitap
+redirect_from:
+  - /posts/rekabetci-programci-tam-arama-complete-search/
 ---
 
 

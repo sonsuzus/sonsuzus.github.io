@@ -10,6 +10,8 @@ tags:
   - yüz algılama
   - fotoğraf
   - proje
+redirect_from:
+  - /posts/python-yuz-algilama-fotograf/
 ---
 
 Bir fotoğraftaki yüzleri ve gözleri tespit edip işaretleyen bir program oluşturmaya çalışalım. Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneleri kullanacağız:

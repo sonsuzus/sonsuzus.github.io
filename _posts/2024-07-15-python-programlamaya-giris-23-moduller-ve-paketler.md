@@ -8,6 +8,8 @@ tags:
   - modül
   - paket
   - kütüphane
+redirect_from:
+  - /posts/python-programlamaya-giris-23-moduller-ve-paketler/
 ---
 
 

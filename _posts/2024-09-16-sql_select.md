@@ -10,6 +10,8 @@ tags:
   - veri
   - veri tabanı
   - sorgu
+redirect_from:
+  - /posts/sql_select/
 ---
 
 

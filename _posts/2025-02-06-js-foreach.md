@@ -9,6 +9,8 @@ tags:
   - döngü
   - js
   - programlama
+redirect_from:
+  - /posts/js-foreach/
 ---
 
 **Js forEach()** fonksiyonu ile bir dizideki tüm elemanlara kolaylıkla dolaşabiliriz.

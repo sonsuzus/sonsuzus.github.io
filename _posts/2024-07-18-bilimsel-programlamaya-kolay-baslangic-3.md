@@ -14,6 +14,8 @@ tags:
   - python
   - programlama
   - scipy
+redirect_from:
+  - /posts/bilimsel-programlamaya-kolay-baslangic-3/
 ---
 
 

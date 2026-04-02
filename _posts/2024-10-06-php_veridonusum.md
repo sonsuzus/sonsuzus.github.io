@@ -8,6 +8,8 @@ tags:
   - programlama
   - web
   - sunucu
+redirect_from:
+  - /posts/php_veridonusum/
 ---
 
 

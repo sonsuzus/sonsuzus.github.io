@@ -13,6 +13,8 @@ tags:
   - numpy
   - sounddevice
   - scipy
+redirect_from:
+  - /posts/python_ses_kaydetme_programi/
 ---
 
 

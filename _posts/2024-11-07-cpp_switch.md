@@ -8,6 +8,8 @@ tags:
   - programlama
   - karşılaştırma
   - switch
+redirect_from:
+  - /posts/cpp_switch/
 ---
 
 Programlarımızda, iki veya daha fazla seçenekli koşul kontrolü sağlayan bir sistemi oluşturmak için if deyimini kullanabiliriz. Seçeneğin fazla olduğu durumlarda, programın her durumda bütün if satırlarını tek tek kontrol etme zorunluluğundan dolayı, programın çalışmasını daha hızlı ve pratik bir duruma getirmek için if-else-if yapısını kullanabiliriz.

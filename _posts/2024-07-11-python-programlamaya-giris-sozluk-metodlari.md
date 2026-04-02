@@ -7,6 +7,8 @@ tags:
   - python
   - sözlük
   - metod
+redirect_from:
+  - /posts/python-programlamaya-giris-sozluk-metodlari/
 ---
 
 

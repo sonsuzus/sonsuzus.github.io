@@ -9,6 +9,8 @@ tags:
   - yüz
   - algılama
   - video
+redirect_from:
+  - /posts/python-video-yuz-algilama-program/
 ---
 
 

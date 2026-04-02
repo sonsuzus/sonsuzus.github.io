@@ -6,6 +6,8 @@ categories:
 tags: 
   - oyun
   - programlama
+redirect_from:
+  - /posts/kayles-oyunu/
 ---
 
 

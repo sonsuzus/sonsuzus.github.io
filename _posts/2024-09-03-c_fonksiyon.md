@@ -10,6 +10,8 @@ tags:
   - parametre
   - argüman
   - return
+redirect_from:
+  - /posts/c_fonksiyon/
 ---
 
 C'de, fonksiyon bir veya daha fazla işlem satırından oluşan kodların bir kod bloğu şeklinde yapılandırılması ile oluşturulur. Fonksiyonlar oluşturulduktan sonra programın herhangi bir yerinden sadece fonksiyon adı kullanılarak çağrılabilir. Bu sayede, çok fazla sayıda işlem satırı tek bir isim kullanılarak çalıştırılmış olur.

@@ -7,6 +7,8 @@ tags:
   - cpp
   - programlama
   - yorum satırı
+redirect_from:
+  - /posts/cpp_comments/
 ---
 
 

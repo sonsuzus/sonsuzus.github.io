@@ -10,6 +10,8 @@ tags:
   - tam sayı
   - web
   - sunucu
+redirect_from:
+  - /posts/php_integer/
 ---
 
 Integer bir değer matematik derslerinde gösterilen tamsayılar kümesinin elemanı olan bir sayıdır:

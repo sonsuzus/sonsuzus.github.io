@@ -9,6 +9,8 @@ tags:
   - yorum
   - yorum satırı
   - açıklama
+redirect_from:
+  - /posts/python_comments/
 ---
 
 

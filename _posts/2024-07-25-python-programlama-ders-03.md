@@ -9,6 +9,8 @@ tags:
   - parametre
   - işlem
   - ders
+redirect_from:
+  - /posts/python-programlama-ders-03/
 ---
 
 

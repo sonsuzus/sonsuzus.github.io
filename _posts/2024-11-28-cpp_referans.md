@@ -7,6 +7,8 @@ tags:
   - cpp
   - programlama
   - referans
+redirect_from:
+  - /posts/cpp_referans/
 ---
 
 

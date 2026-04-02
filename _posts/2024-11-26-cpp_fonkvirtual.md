@@ -8,6 +8,8 @@ tags:
   - cpp
   - fonksiyon
   - sanal fonksiyon
+redirect_from:
+  - /posts/cpp_fonkvirtual/
 ---
 
 

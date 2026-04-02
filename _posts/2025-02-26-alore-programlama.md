@@ -9,6 +9,8 @@ tags:
   - ilginç
   - yazılım
   - dil
+redirect_from:
+  - /posts/alore-programlama/
 ---
 
 Alore, kullanımı kolay ve hızlı bir dil olup, genel amaçlı bir

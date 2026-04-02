@@ -8,6 +8,8 @@ tags:
   - programlama
   - web
   - namespace
+redirect_from:
+  - /posts/php_isimalan/
 ---
 
 

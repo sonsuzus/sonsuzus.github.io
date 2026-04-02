@@ -8,6 +8,8 @@ tags:
   - js
   - string
   - metot
+redirect_from:
+  - /posts/js-string-metotlari/
 ---
 
 

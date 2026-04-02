@@ -13,6 +13,8 @@ tags:
   - ders
   - eğitim
   - arttırımsal geliştirme
+redirect_from:
+  - /posts/python-programlama-ders-05/
 ---
 
 

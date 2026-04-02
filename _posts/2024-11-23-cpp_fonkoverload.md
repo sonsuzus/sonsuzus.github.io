@@ -9,6 +9,8 @@ tags:
   - fonksiyon
   - çoklu görev
   - overloading
+redirect_from:
+  - /posts/cpp_fonkoverload/
 ---
 
 

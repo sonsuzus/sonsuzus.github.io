@@ -9,6 +9,8 @@ tags:
   - programlama
   - kod
   - örnek
+redirect_from:
+  - /posts/python-ornekleri/
 ---
 
 

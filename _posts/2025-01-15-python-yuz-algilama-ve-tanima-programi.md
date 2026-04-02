@@ -11,6 +11,8 @@ tags:
   - kamera
   - fotoğraf
   - video
+redirect_from:
+  - /posts/python-yuz-algilama-ve-tanima-programi/
 ---
 
 Bir fotoğraf, video veya bilgisayara bağlı bir kameradan alınan görüntü üzerindeki yüzleri algılayan ve bilgisayarımızda kayıtlı kişilere ait fotoğrafları kullanarak, algıladığı yüzlerin bu veritabanında olanları tanıyarak, altına kişi adlarını yazan bir program oluşturmaya çalışalım.

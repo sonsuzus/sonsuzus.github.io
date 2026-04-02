@@ -8,6 +8,8 @@ tags:
   - programlama
   - sunucu
   - açıklama
+redirect_from:
+  - /posts/php_aciklama/
 ---
 
 

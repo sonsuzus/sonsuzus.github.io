@@ -8,6 +8,8 @@ tags:
   - programlama
   - sınıf
   - şablonlar
+redirect_from:
+  - /posts/cpp_siniftemp/
 ---
 
 Şablon sınıflar oluşturmak için, bir sınıf içinde kullanılan değişkenlerin en az bir tanesini veri türü değişken parametre olarak tanımlamak gerekir. Veri türü değişken parametreleri sınıf içindeki fonksiyonlarda aynı kodlarla kullanabilir.

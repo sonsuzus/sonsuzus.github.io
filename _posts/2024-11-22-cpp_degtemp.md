@@ -8,6 +8,8 @@ tags:
   - programlama
   - değişken
   - şablonlar
+redirect_from:
+  - /posts/cpp_degtemp/
 ---
 
 

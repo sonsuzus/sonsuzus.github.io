@@ -10,6 +10,8 @@ tags:
   - kütüphane
   - sınıf
   - main
+redirect_from:
+  - /posts/cpp_progyapi/
 ---
 
 Bir C++ programında, genel olarak aşağıda gösterilen bölümler sırayla yer alır. Başlık dosya bildiriminden sonraki sıralama değiştirilebilir. Programda mutlaka tanımlanması tek bölüm main() fonksiyonudur. Bunun dışındaki bölümlerin tanımlanması tamamen ihtiyaca bağlıdır.

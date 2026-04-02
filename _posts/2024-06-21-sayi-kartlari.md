@@ -8,6 +8,8 @@ tags:
   - mantık
   - sayı
   - matematik
+redirect_from:
+  - /posts/sayi-kartlari/
 ---
 
 Üzerinde birden onikiye kadar sayıları yazılı olduğu oniki tane kartımız var. Bu kartla Anaximander, Boethius, Confucius ve Diogenes arasında eşit olarak paylaştırılıyor, yani her biri üç tane kart alıyor. Sonra sırayla aralarında şöyle bir konuşma geçiyor.

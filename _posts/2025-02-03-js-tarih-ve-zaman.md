@@ -10,6 +10,8 @@ tags:
   - tarih
   - zaman
   - fonksiyon
+redirect_from:
+  - /posts/js-tarih-ve-zaman/
 ---
 
 **Javascript date** nesnesi ile tarayıcının o anki tarih ve saat bilgisini alabiliriz.

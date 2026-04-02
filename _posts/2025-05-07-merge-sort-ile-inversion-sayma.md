@@ -9,6 +9,8 @@ tags:
   - merge sort
   - inversion sayısı
   - algoritma
+redirect_from:
+  - /posts/merge-sort-ile-inversion-sayma/
 ---
 
 Bu kod, Merge Sort algoritmasını kullanarak bir dizideki inversion sayısını hesaplar. Inversion, bir dizideki sıralı olmayan çiftlerin sayısıdır. Başka bir deyişle, bir dizideki i ve j indisleri için, eğer i < j ve a[i] > a[j] ise, bu bir inversion'dır. Inversion sayısı, bir dizinin ne kadar "sıralı olmadığı"nın bir ölçüsüdür; sıralı bir dizide inversion sayısı 0'dır.

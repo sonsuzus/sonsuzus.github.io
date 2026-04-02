@@ -11,6 +11,8 @@ tags:
   - veri
   - veritabanı
   - programlama
+redirect_from:
+  - /posts/sqlde-alt-sorgu-subquery-kullanimi/
 ---
 
 

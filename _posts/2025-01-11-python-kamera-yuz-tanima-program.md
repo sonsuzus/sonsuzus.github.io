@@ -10,6 +10,8 @@ tags:
   - yüz algılama
   - yüz tanıma
   - numpy
+redirect_from:
+  - /posts/python-kamera-yuz-tanima-program/
 ---
 
 Bilgisayara bağlı bir kameradan alınan görüntü üzerindeki yüzleri tespit edip işaretleyen bir program oluşturmaya çalışalım. Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneleri kullanacağız:

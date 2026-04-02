@@ -10,6 +10,8 @@ tags:
   - lokal
   - global
   - parametre
+redirect_from:
+  - /posts/c_degisken/
 ---
 
 

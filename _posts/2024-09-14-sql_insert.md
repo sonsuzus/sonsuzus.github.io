@@ -9,6 +9,8 @@ tags:
   - insert
   - veri
   - veri tabanı
+redirect_from:
+  - /posts/sql_insert/
 ---
 
 

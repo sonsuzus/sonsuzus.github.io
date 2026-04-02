@@ -7,6 +7,8 @@ tags:
   - fonksiyon
   - python
   - parametre
+redirect_from:
+  - /posts/python-programlamaya-giris-fonksiyon-parametreleri/
 ---
 
 

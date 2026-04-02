@@ -9,6 +9,8 @@ tags:
   - segment ağacı
   - inversion sayısı
   - algoritma
+redirect_from:
+  - /posts/segment-tree-ile-inversion-sayma/
 ---
 
 Bu kod, bir dizideki inversion sayısını hesaplamak için Segment Ağacı kullanır. Inversion, bir dizideki sıralı olmayan çiftlerin sayısıdır. Bu, dizinin ne kadar "sıralı olmadığı"nın bir ölçüsüdür.

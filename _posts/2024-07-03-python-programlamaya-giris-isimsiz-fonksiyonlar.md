@@ -7,6 +7,8 @@ tags:
   - python
   - fonksiyon
   - lambda
+redirect_from:
+  - /posts/python-programlamaya-giris-isimsiz-fonksiyonlar/
 ---
 
 

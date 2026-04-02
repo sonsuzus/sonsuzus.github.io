@@ -9,6 +9,8 @@ tags:
   - döngü
   - for
   - while
+redirect_from:
+  - /posts/python_loops/
 ---
 
 Python'da, tek bir işlem satırını veya kod bloğunu bir defadan fazla çalıştırmak için tekrar yazmak yerine, döngü kavramını kullanabiliriz. Bir veya birden fazla işlem satırını, bir koşula bağlı olarak, belirli sayıda veya bir koşul sağlandığı sürece tekrarlayarak çalıştıran kalıplara döngü adı verilir. Döngüleri kullanarak liste, tuple, küme, sözlük veya bir karakter dizisinin elemanlarına birer birer erişim sağlayabiliriz.

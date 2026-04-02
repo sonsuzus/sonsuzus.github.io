@@ -7,6 +7,8 @@ tags:
   - cpp
   - programlama
   - veri türü
+redirect_from:
+  - /posts/cpp_casting/
 ---
 
 

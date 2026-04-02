@@ -11,6 +11,8 @@ tags:
   - operatör
   - bit
   - atama
+redirect_from:
+  - /posts/cpp_islemci/
 ---
 
 

@@ -11,6 +11,8 @@ tags:
   - küme
   - sözlük
   - çokuz
+redirect_from:
+  - /posts/python-programlamaya-giris-sayilar-aritmetik-temel-veri-yapilari/
 ---
 
 

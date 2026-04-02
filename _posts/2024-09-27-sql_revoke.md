@@ -9,6 +9,8 @@ tags:
   - yetki
   - veri
   - veri tabanı
+redirect_from:
+  - /posts/sql_revoke/
 ---
 
 Birden fazla kullanıcının işlem yaptığı veritabanı sistemlerinde Veri Kontrol Dili (Data Control Language - DCL) komutları kullanılarak güvenlik sağlanır. Veritabanı yöneticisi bir veritabanı veya tablo üzerindeki işlem yetkilerini verir veya kaldırır.

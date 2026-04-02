@@ -7,6 +7,8 @@ tags:
   - python
   - programlama
   - fonksiyon
+redirect_from:
+  - /posts/python_functions/
 ---
 
 

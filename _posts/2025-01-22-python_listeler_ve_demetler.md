@@ -9,6 +9,8 @@ tags:
   - liste
   - demet
   - metot
+redirect_from:
+  - /posts/python_listeler_ve_demetler/
 ---
 
 Bu bölüme gelene kadar yalnızca iki farklı veri tipi görmüştük. Bunlardan biri

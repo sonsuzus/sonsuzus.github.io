@@ -11,6 +11,8 @@ tags:
   - ders
   - python
   - programlama
+redirect_from:
+  - /posts/python-programlama-ders-13/
 ---
 
 

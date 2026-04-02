@@ -9,6 +9,8 @@ tags:
   - js
   - dizi
   - metot
+redirect_from:
+  - /posts/js-dizi-metotlari/
 ---
 
 

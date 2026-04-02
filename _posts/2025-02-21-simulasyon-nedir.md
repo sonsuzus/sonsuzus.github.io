@@ -10,6 +10,8 @@ tags:
   - tekrar
   - sanal
   - taklit
+redirect_from:
+  - /posts/simulasyon-nedir/
 ---
 
 ![](/img/simulasyon.jpg) Günümüzde, simülasyonlar giderek daha fazla önem kazanmaktadır. Simülasyonlar, gerçek

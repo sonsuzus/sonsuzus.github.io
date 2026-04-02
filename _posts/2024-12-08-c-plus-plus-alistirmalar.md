@@ -8,6 +8,8 @@ tags:
   - programlama
   - alıştırma
   - algoritma
+redirect_from:
+  - /posts/c-plus-plus-alistirmalar/
 ---
 
 Bu sayfada C++ ile ilgili alıştırmalar ve uygulamalar verilmiştir. Her birini eksiksiz çözmeniz sizin için güzel bir çalışma olacaktır.

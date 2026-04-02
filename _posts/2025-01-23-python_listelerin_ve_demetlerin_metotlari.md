@@ -9,6 +9,8 @@ tags:
   - liste
   - demet
   - metot
+redirect_from:
+  - /posts/python_listelerin_ve_demetlerin_metotlari/
 ---
 
 Burada, geçen bölümde kaldığımız yerden devam edeceğiz listeleri anlatmaya.

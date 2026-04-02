@@ -9,6 +9,8 @@ tags:
   - programlama
   - modül
   - dosya
+redirect_from:
+  - /posts/python-programlama-ders-10/
 ---
 
 

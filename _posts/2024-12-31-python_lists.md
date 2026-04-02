@@ -9,6 +9,8 @@ tags:
   - liste
   - eleman
   - dizi
+redirect_from:
+  - /posts/python_lists/
 ---
 
 Liste, birden fazla değerin yer aldığı bir yapıdır. Listede yer alan verilerin aynı veri türünden olması gerekli değildir. Elemanlarda değişiklik yapılabilir. Liste oluşturmak için köşeli parantezler ([ ]) veya list() fonksiyonu kullanılır.

@@ -11,6 +11,8 @@ tags:
   - örnek
   - fonksiyon
   - data
+redirect_from:
+  - /posts/c-programlama-ornek-08/
 ---
 
 ## C Program Tek Bağlı Liste (Singly Linked List) Uygulaması

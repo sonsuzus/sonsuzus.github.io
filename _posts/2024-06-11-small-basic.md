@@ -7,6 +7,8 @@ tags:
   - programlama
   - basic
   - small basic
+redirect_from:
+  - /posts/small-basic/
 ---
 
 Bilgisayar Programlaması, programlama dilleri kullanılarak, bilgisayar yazılımlarının oluşturulması

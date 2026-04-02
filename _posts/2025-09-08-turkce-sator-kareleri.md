@@ -11,6 +11,8 @@ tags:
   - veri
   - türkçe
   - palindrom
+redirect_from:
+  - /posts/turkce-sator-kareleri/
 ---
 
 Sator kareleri meşhur bir kelime dizilimi programıdır. Örneği şu şekildedir.

@@ -8,6 +8,8 @@ tags:
   - c
   - programlama
   - ifade
+redirect_from:
+  - /posts/c_islemifade/
 ---
 
 ## İşlem satırı

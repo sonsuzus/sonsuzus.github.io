@@ -9,6 +9,8 @@ tags:
   - programlama
   - döngü
   - for
+redirect_from:
+  - /posts/js-for-dongusu/
 ---
 
 Javascript 'de döngü yardımıyla bir kod parçasını bir koşula bağlı olarak tekrar tekrar çalıştırabiliriz. Örneğin bir isim listesindeki her bir ismi ekrana tekrar tekrar yazmak yerine döngü kullanımı işimizi oldukça kolaylaştırır.

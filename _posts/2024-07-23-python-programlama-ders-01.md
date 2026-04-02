@@ -10,6 +10,8 @@ tags:
   - bilim
   - problem
   - ders
+redirect_from:
+  - /posts/python-programlama-ders-01/
 ---
 
 

@@ -12,6 +12,8 @@ tags:
   - oltalama
   - saldırı
   - virüs
+redirect_from:
+  - /posts/siber-guvenlik/
 ---
 
 Siber güvenlik, bilgisayar sistemleri, ağlar, cihazlar, veriler ve kullanıcıları siber saldırılara karşı

@@ -8,6 +8,8 @@ tags:
   - programlama
   - fonksiyon
   - şablonlar
+redirect_from:
+  - /posts/cpp_fonktemp/
 ---
 
 

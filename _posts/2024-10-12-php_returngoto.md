@@ -7,6 +7,8 @@ tags:
   - programlama
   - php
   - return
+redirect_from:
+  - /posts/php_returngoto/
 ---
 
 

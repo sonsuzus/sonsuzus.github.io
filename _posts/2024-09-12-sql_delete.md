@@ -9,6 +9,8 @@ tags:
   - delete
   - veri
   - veri tabanı
+redirect_from:
+  - /posts/sql_delete/
 ---
 
 

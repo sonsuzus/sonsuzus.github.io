@@ -10,6 +10,8 @@ tags:
   - iterator
   - yield
   - generator
+redirect_from:
+  - /posts/python-yield-kullanimi/
 ---
 
 Python dilindeki yield deyimini anlamak için, generator'ları bilmek gerekiyor, generator'ları anlamak için de, iterator ve iterable kavramlarını anlamak gerekiyor. İngilizcede "iterate" kelimesi, tekrar tekrar uygulanmak veya işlenmek anlamına geliyor. Python'daki iterable ve iterator kavramları bu kelimeden türetilmiş. Python'da `iter()` yerleşik fonksiyona argüman olarak verebildiğimiz objelere iterable diyoruz. iter() fonksiyonu bize bir iterator döndürüyor. Iterator, objenin elemanları ne şekilde tanımlanırsa tanımlansın, bir koleksiyon içindeki tüm elemanlara sırasıyla erişebilmemiz için ortak bir arayüz oluşturan bir mekanizma. Kısacası, elemanları üzerinde sırasıyla gezinebildiğimiz, listeler ve demetler gibi objelere iterable diyoruz. Bu objeler, `iter()` fonksiyonu ile çağrıldığında, birer iterator döndürüyor, ve bu iterator'lar bir koleksiyondan sırasıyla eleman almak için kullanılıyor.

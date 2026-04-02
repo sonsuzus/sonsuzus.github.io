@@ -12,6 +12,8 @@ tags:
   - new
   - delete
   - malloc
+redirect_from:
+  - /posts/cpp_dinamik/
 ---
 
 

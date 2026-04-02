@@ -12,6 +12,8 @@ tags:
   - scipy
   - yörünge
   - integral
+redirect_from:
+  - /posts/bilimsel-programlamaya-kolay-baslangic-4/
 ---
 
 

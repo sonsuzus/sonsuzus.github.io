@@ -9,6 +9,8 @@ tags:
   - data
   - veri
   - tür
+redirect_from:
+  - /posts/python_data/
 ---
 
 

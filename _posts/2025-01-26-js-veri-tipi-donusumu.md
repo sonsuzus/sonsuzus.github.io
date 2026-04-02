@@ -8,6 +8,8 @@ tags:
   - programlama
   - js
   - veri tipi
+redirect_from:
+  - /posts/js-veri-tipi-donusumu/
 ---
 
 

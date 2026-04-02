@@ -8,6 +8,8 @@ tags:
   - cpp
   - işlem
   - ifade
+redirect_from:
+  - /posts/cpp_islemifade/
 ---
 
 main() fonksiyonu ve diğer fonksiyonlarda yer alan ve noktalı virgül (;) karakteri ile sona eren satırlara işlem satırı adı verilir. Şimdi, işlem satırlarının hangi değerlerden oluşabileceğini incelemeye çalışalım:

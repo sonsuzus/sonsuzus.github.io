@@ -9,6 +9,8 @@ tags:
   - programlama
   - problem
   - teknik
+redirect_from:
+  - /posts/program-algoritma-ornekleri/
 ---
 
 Problem çözmede, soruna hemen girişmek yerine, dikkatli ve sistematik yaklaşım ilke olmalıdır. Problem iyice anlaşılmalı ve mümkün olduğu kadar küçük parçalara ayırılmaladır.

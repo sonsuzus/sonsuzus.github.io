@@ -11,6 +11,8 @@ tags:
   - pandas
   - numpy
   - matplotlib
+redirect_from:
+  - /posts/veri-bilimciler-icin-python-ekosistemi/
 ---
 
 

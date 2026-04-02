@@ -9,6 +9,8 @@ tags:
   - matematik
   - olimpiyat
 math: true
+redirect_from:
+  - /posts/kombinasyon-permutasyon/
 ---
 
 

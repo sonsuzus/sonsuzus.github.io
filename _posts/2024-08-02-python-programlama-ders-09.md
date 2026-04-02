@@ -9,6 +9,8 @@ tags:
   - python
   - liste
   - liste işlemleri
+redirect_from:
+  - /posts/python-programlama-ders-09/
 ---
 
 

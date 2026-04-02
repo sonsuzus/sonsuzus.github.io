@@ -8,6 +8,8 @@ tags:
   - programlama
   - ders
   - js
+redirect_from:
+  - /posts/js-nasil-yazilir/
 ---
 
 

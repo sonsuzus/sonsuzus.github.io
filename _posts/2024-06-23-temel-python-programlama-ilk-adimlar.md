@@ -8,6 +8,8 @@ tags:
   - python
   - temel
   - kurulum
+redirect_from:
+  - /posts/temel-python-programlama-ilk-adimlar/
 ---
 
 

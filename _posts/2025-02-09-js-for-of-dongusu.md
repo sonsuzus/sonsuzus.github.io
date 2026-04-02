@@ -9,6 +9,8 @@ tags:
   - döngü
   - for
   - of
+redirect_from:
+  - /posts/js-for-of-dongusu/
 ---
 
 Javascript for/of döngüsü ile iterable bir nesnenin tüm elemanlarına ulaşabiliriz. Iterable nesneler yapı itibariyle elemanları üzerinde döngüler ile gezilebilir nesnelerdir. Örneğin array, set, map, string gibi javascript nesneleri iterable nesnelerdir.

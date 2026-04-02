@@ -8,6 +8,8 @@ tags:
   - js
   - döngü
   - while
+redirect_from:
+  - /posts/js-while-dongusu/
 ---
 
 Bir duruma bağlı olarak tekrarlayan işlemleri gerçekleştirmek için js while döngüsünü kullanırız.

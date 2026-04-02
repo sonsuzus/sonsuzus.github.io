@@ -7,6 +7,8 @@ tags:
   - javascript
   - programlama
   - operatör
+redirect_from:
+  - /posts/js-operatorler/
 ---
 
 

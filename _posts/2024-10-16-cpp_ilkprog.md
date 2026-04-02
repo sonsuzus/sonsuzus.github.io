@@ -8,6 +8,8 @@ tags:
   - programlama
   - namespace
   - fonksiyon
+redirect_from:
+  - /posts/cpp_ilkprog/
 ---
 
 

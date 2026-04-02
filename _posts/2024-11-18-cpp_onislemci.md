@@ -9,6 +9,8 @@ tags:
   - önişlemci
   - direktif
   - define
+redirect_from:
+  - /posts/cpp_onislemci/
 ---
 
 

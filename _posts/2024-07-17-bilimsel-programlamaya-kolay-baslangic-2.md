@@ -12,6 +12,8 @@ tags:
   - matplotlib
   - python
   - programlama
+redirect_from:
+  - /posts/bilimsel-programlamaya-kolay-baslangic-2/
 ---
 
 

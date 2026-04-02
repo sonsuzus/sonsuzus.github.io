@@ -10,6 +10,8 @@ tags:
   - overriding
   - nesne
   - sınıf
+redirect_from:
+  - /posts/cpp_fonkoverride/
 ---
 
 Nesneye yönelik programlamada, [kalıtım](https://sonsuzus.github.io/posts/cpp_inheritance/) özelliğini kullanarak, bir ana sınıftan sınıflar türetebiliriz. Bir ana sınıftan bir sınıf türetildiğinde, ana sınıfta yer alan tüm değişken ve fonksiyonlar türetilen sınıf tarafından kullanılabileceği gibi, türetilen sınıf içinde de yeni değişken ve fonksiyonlar tanımlanabilir.

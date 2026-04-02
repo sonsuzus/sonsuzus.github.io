@@ -14,6 +14,8 @@ tags:
   - duygu
   - dil
   - dil işleme
+redirect_from:
+  - /posts/natural-language-generation/
 ---
 
 

@@ -14,6 +14,8 @@ tags:
   - numpy
   - analiz
   - pandas
+redirect_from:
+  - /posts/buyuk-veri-big-data-nedir/
 ---
 
 

@@ -10,6 +10,8 @@ tags:
   - string
   - integer
   - web
+redirect_from:
+  - /posts/php_veritur/
 ---
 
 

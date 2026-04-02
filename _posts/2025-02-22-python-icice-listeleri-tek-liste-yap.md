@@ -10,6 +10,8 @@ tags:
   - rekürsif
   - fonksiyon
   - metod
+redirect_from:
+  - /posts/python-icice-listeleri-tek-liste-yap/
 ---
 
 Python programlamada iç içe listeleri tek ve düz bir liste haline getirmek için aşağıdaki fonksiyonu kullanabilirsiniz. Fonksiyon kısaca listedeki sırası gelen eleman bir liste değilse appendle ekleniyor, eğer bir listeyse tekrar fonksiyonun kendisine gönderiliyor ve yine parçalara bölünerek geri dönüşleri listeye ekliyor. Son olarak oluşan yeni listeyi geri döndürüyor.

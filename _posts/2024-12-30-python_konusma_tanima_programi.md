@@ -10,6 +10,8 @@ tags:
   - tanıma
   - ses
   - pyaudio
+redirect_from:
+  - /posts/python_konusma_tanima_programi/
 ---
 
 Konuşma tanıma (Speech recognition) veya konuşmadan metne (speech-to-text), bir cihazın veya programın yüksek sesle konuşulan kelimeleri tanımlama ve bunları okunabilir metne dönüştürmesi işlemidir. Konuşma tanıma ve ses tanıma (voice recognition) terimleri bazen birbirinin yerine kullanılmasına rağmen, aslında iki terim birbirinden farklıdır. Konuşma tanıma, konuşulan dildeki kelimeleri tanımlamak için kullanılır. Ses tanıma ise, belirli bir kişinin sesini veya konuşmacıyı tanımlamak için kullanılan biyometrik bir teknolojidir.

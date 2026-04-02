@@ -7,6 +7,8 @@ tags:
   - python
   - programlama
   - anahtar kelime
+redirect_from:
+  - /posts/python_keywords/
 ---
 
 

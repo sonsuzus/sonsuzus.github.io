@@ -12,6 +12,8 @@ tags:
   - fonksiyon
   - data
   - dosya
+redirect_from:
+  - /posts/c-programlama-ornek-09/
 ---
 
 ## C Program Dosya Güncelleme

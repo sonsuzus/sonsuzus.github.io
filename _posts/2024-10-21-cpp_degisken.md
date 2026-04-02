@@ -7,6 +7,8 @@ tags:
   - cpp
   - değişken
   - programlama
+redirect_from:
+  - /posts/cpp_degisken/
 ---
 
 

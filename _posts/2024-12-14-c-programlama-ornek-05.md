@@ -9,6 +9,8 @@ tags:
   - alıştırma
   - algoritma
   - örnek
+redirect_from:
+  - /posts/c-programlama-ornek-05/
 ---
 
 ## C programlama ile Her Harfin Tekrar Sayısını Bulma

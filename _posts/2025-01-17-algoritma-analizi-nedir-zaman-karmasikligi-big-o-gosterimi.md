@@ -13,6 +13,8 @@ tags:
   - alan
   - zaman
   - karmaşıklık
+redirect_from:
+  - /posts/algoritma-analizi-nedir-zaman-karmasikligi-big-o-gosterimi/
 ---
 
 **Algoritma analizi**, algoritmanın yürütülmesi için gerekli kaynak miktarının belirlenmesidir. Belirli bir problemi çözen herhangi bir algoritmanın ihtiyaç duyduğu kaynaklar için teorik tahminler sağlar. Başka bir ifadeyle, *algoritmanın performansı ve kaynak kullanımı* konusunda yapılan teorik çalışmaların tümüne **algoritma analizi** denir.

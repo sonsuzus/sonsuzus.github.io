@@ -8,6 +8,8 @@ tags:
   - programlama
   - lambda
   - filter
+redirect_from:
+  - /posts/python-lambda-fonksiyonu/
 ---
 
 

@@ -13,6 +13,8 @@ tags:
   - matplotlib
   - fizik
   - serbest düşüş
+redirect_from:
+  - /posts/bilimsel-programlamaya-kolay-baslangic-1/
 ---
 
 

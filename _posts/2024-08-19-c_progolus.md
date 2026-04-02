@@ -7,6 +7,8 @@ tags:
   - programlama
   - c
   - ide
+redirect_from:
+  - /posts/c_progolus/
 ---
 
 

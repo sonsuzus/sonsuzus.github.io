@@ -10,6 +10,8 @@ tags:
   - in
   - döngü
   - programlama
+redirect_from:
+  - /posts/js-for-in-dongusu/
 ---
 
 Javascript **for/in** döngüsü ile bir javascript nesnesinin tüm özelliklerine ulaşabiliriz. 

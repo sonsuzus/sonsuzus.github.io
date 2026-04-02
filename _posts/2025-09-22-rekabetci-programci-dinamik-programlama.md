@@ -20,6 +20,8 @@ tags:
   - matematik
   - kitap
   - açgözlü
+redirect_from:
+  - /posts/rekabetci-programci-dinamik-programlama/
 ---
 
 Dinamik programlama, tam bir aramanın doğruluğu ile açgözlü algoritmaların verimliliğini birleştiren bir tekniktir. Eğer bir problemde aynı alt problemler birkaç defa çözülüyorsa ve bu alt problemler bağımsız bir şekilde çözülebiliyorsa dinamik programlama kullanabiliriz.

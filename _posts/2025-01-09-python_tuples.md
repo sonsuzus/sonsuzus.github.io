@@ -8,6 +8,8 @@ tags:
   - programlama
   - tuple
   - çokuz
+redirect_from:
+  - /posts/python_tuples/
 ---
 
 Tuple, birden fazla değerin yer aldığı bir yapıdır. Tuple içindeki verilerin aynı veri türünden olması gerekli değildir. Elemanlarda değişiklik yapılamaz. Tuple oluşturmak için parantezler (( )) veya tuple() fonksiyonu kullanılır. Türkçe çokuz diyebiliriz.

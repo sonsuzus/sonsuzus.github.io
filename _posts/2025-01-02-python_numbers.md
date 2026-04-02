@@ -7,6 +7,8 @@ tags:
   - python
   - programlama
   - sayılar
+redirect_from:
+  - /posts/python_numbers/
 ---
 
 Python'da int, float ve complex olmak üzere üç farklı sayı verisi kullanılmaktadır. Ayrıca, 0 ve 1 değeri alabilen bool verisi de bu kapsamda değerlendirilebilir. Bir değişkene sayısal bir sabit değer atadığımızda, değişken veri türü tanımlanarak oluşturulur.

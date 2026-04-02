@@ -10,6 +10,8 @@ tags:
   - işlem
   - dizi
   - liste
+redirect_from:
+  - /posts/python-programlamaya-giris-sirali-nesnelerle-islemler/
 ---
 
 

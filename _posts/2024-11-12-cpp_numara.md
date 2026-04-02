@@ -8,6 +8,8 @@ tags:
   - cpp
   - numaralandırma
   - enum
+redirect_from:
+  - /posts/cpp_numara/
 ---
 
 

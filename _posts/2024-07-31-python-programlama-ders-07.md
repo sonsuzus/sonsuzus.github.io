@@ -15,6 +15,8 @@ tags:
   - döngü
   - len
   - for
+redirect_from:
+  - /posts/python-programlama-ders-07/
 ---
 
 

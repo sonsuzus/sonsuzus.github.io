@@ -8,6 +8,8 @@ tags:
   - bileşim
   - programlama
   - unions
+redirect_from:
+  - /posts/cpp_bilesim/
 ---
 
 

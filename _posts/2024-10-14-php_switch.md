@@ -9,6 +9,8 @@ tags:
   - switch
   - karşılaştırma
   - web
+redirect_from:
+  - /posts/php_switch/
 ---
 
 

@@ -9,6 +9,8 @@ tags:
   - veri tabanı
   - data
   - big data
+redirect_from:
+  - /posts/veri-bilimi-nedir-veri-bilimcisi-kimdir/
 ---
 
 Daha büyük veri (big data) nedir ne değildir derken son yıllarda ortalıkta bir de veri bilimi, “datascience“, tabiri dolaşmaya başladı. Ülkemizin her ne kadar bu kavramlarla tanışıklığı yeni yeni olsa da dünyada epey bir yaygınlık kazanmaya başladığını görüyoruz. Aslında bu yaygınlık doğal bir gelişimin sonucu, yani kimse yapmacık yere veri bilimi, veri bilimci, “datascientist”, büyük veri, “big data” kavramlarını üretmiyor. Bu kavramlar şöyle bir doğal serüvenin sonunda patlamaya başladı: Bilgi sistemlerinde teknolojik ilerleme tüm hızıyla devam ediyor. Her geçen gün veriyi üretmek daha kolaylaşıyor. Üretilen bu verilerin bir yerden başka yere taşınması konusunda ağ teknolojilerinin veri iletim performansları fiber teknoloji ile birlikte akıl almaz hızlara ulaşmaya başladı. Veriyi saklamak için disk birim alan maliyeti oldukça düşük bir seviyeye inmiş durumda. Ayrıca şunu da belirtmeden geçmek istemem o da veri üreten kaynakların bolluğudur. Bilgi sistemleri gittikçe yaygınlaştı ve insan hayatının girmedik köşesini bırakmadı. Müşteri işlemleri, bankacılık işlemleri, e-ticaret işlemleri, ürün yorumları, RFID verileri, elektronik sağlık kayıtları, sigorta geri ödeme kayıtları, sensörler tarafından üretilen veriler gibi bir çok veri kaynağı bulunmaktadır. Hal böyle olunca dünyada bir veri bolluğu yaşanmaya başlandı.

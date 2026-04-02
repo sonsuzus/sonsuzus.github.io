@@ -9,6 +9,8 @@ tags:
   - ilginç
   - yazılım
   - dil
+redirect_from:
+  - /posts/zig-programlama/
 ---
 
 

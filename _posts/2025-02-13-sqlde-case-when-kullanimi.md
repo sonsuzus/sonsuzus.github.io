@@ -12,6 +12,8 @@ tags:
   - when
   - karşılaştırma
   - süzme
+redirect_from:
+  - /posts/sqlde-case-when-kullanimi/
 ---
 
 

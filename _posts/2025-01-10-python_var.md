@@ -7,6 +7,8 @@ tags:
   - python
   - programlama
   - değişken
+redirect_from:
+  - /posts/python_var/
 ---
 
 Python'da değişken farklı türdeki verileri yerleştirmek için kullanılan bellek bölgesidir. Python'da bir değişkene ilk değer atanırken değişken adından önce herhangi bir veri türü tanımlaması yapılmaz. Değişkene atanan değerin veri türüne bağlı olarak, değişkenin veri türü otomatik olarak belirlenir.

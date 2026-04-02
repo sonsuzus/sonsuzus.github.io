@@ -8,6 +8,8 @@ tags:
   - c
   - algoritma
   - soru
+redirect_from:
+  - /posts/anagram-sorusu/
 ---
 
 Verilen iki string s ve t için, t'nin s'nin bir anagramı ise true değeri döndürür değilse false değeri döndürün.

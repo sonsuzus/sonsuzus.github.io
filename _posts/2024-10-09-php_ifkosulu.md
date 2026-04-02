@@ -9,6 +9,8 @@ tags:
   - if
   - karşılaştırma
   - web
+redirect_from:
+  - /posts/php_ifkosulu/
 ---
 
 

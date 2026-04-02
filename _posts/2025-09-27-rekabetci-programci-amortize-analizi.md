@@ -20,6 +20,8 @@ tags:
   - matematik
   - kitap
   - amortize
+redirect_from:
+  - /posts/rekabetci-programci-amortize-analizi/
 ---
 
 

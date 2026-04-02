@@ -12,6 +12,8 @@ tags:
   - asal sayılar
   - asal üsler
   - random
+redirect_from:
+  - /posts/kibrit-oyunu-proje/
 ---
 
 Seçilen bir p asal sayısı ve n doğal sayısı sonrası sırayla oynanan ve 1.000.000 kibrit çöpünden en son kim yerde kalanları toplayacak şeklinde olan bir programlama oyunu. Oyunumuz bilgisayar veya cep telefonu gibi dijital bir ortamda oynanacaktır. İnsan-insan seçeneği olduğu gibi İnsan-Yapayzeka seçeneği de olacaktır. Oyunumuz sanal olarak 1 milyon kibrit çöpü ile başlayacaktır. Sırası gelen oyuncu p bir asal sayı ve n bir doğal sayı olmak üzere iki sayı girecektir (program ikisini de kontrol edecektir). Bilgisayar ortada kalan kibrit çöplerinden p^n adedini çıkaracaktır. Tam olarak yerdeki kibrit çöplerini bir asalın üssü olarak söyleyen kişi oyunu kazanacaktır. (örneğin yerde 125 kibrit çöpü kaldıysa p = 5 ve n = 3 diyen kişi oyunu kazanacaktır. veya 16 kibrit çöpü kaldıysa 2^4 diyen kişi oyunu kazanır. 4^2 diyemez çünkü 4 bir asal sayı değildir) İki insan oynarken hakemlik yapacak programımızın insana karşı yapay zeka modülü de olacaktır. Program görsel olarak windows ve linux tabanlı sistemlerde sorunsuz çalışacaktır. Python tk kütüphanesi kullanılacaktır.

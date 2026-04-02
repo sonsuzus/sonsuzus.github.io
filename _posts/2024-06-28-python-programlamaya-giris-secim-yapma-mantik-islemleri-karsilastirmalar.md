@@ -8,6 +8,8 @@ tags:
   - karşılaştırma
   - if
   - else
+redirect_from:
+  - /posts/python-programlamaya-giris-secim-yapma-mantik-islemleri-karsilastirmalar/
 ---
 
 

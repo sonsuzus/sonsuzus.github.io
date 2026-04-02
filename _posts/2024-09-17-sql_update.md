@@ -9,6 +9,8 @@ tags:
   - veri tabanı
   - veri
   - update
+redirect_from:
+  - /posts/sql_update/
 ---
 
 

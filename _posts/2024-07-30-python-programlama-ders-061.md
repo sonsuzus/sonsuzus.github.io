@@ -13,6 +13,8 @@ tags:
   - iç içe döngüler
   - sınama
   - ders
+redirect_from:
+  - /posts/python-programlama-ders-061/
 ---
 
  

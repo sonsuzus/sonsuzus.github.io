@@ -8,6 +8,8 @@ tags:
   - programlama
   - veri
   - tip
+redirect_from:
+  - /posts/js-veri-tipleri/
 ---
 
 

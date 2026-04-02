@@ -8,6 +8,8 @@ tags:
   - programlama
   - fonksiyon
   - parametre
+redirect_from:
+  - /posts/cpp_fonksiyon/
 ---
 
 

@@ -8,6 +8,8 @@ tags:
   - cpp
   - şablonlar
   - templates
+redirect_from:
+  - /posts/cpp_templates/
 ---
 
 

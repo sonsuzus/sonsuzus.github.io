@@ -10,6 +10,8 @@ tags:
   - oturum
   - web
   - çerez
+redirect_from:
+  - /posts/php_session/
 ---
 
 

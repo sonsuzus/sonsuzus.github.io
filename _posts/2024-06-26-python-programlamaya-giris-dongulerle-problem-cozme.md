@@ -8,6 +8,8 @@ tags:
   - python
   - döngü
   - problem
+redirect_from:
+  - /posts/python-programlamaya-giris-dongulerle-problem-cozme/
 ---
 
 

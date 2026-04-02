@@ -12,6 +12,8 @@ tags:
   - çizim
   - döngü
   - for
+redirect_from:
+  - /posts/python-programlama-ders-041/
 ---
 
 Kendi programlarımız içinde kullanabileceğimiz Python modülleri, oldukça

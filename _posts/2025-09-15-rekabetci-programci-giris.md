@@ -16,6 +16,8 @@ tags:
   - kodlama
   - matematik
   - kitap
+redirect_from:
+  - /posts/rekabetci-programci-giris/
 ---
 
 Rekabetçi programlama iki konudan oluşur: uygun algoritmayı bulmak (algoritmanın dizaynı) ve uygun algoritmanın koda geçirilmesi (implementasyonu). Uygun algoritmayı bulmak (dizayn) için soru çözmek ve matematiksel düşünme gerekir. Soruların analiz edilip yaratıcı bir şekilde çözülmesi önemlidir. Soruyu çözen algoritmanın hem doğru hem de verimli olması gerekir. Zaten genel olarak soruların temelinde verimli algoritmayı bulmak vardır. Rekabetçi programcıların algoritmalar hakkında teorik bilgiye sahip olması gerekir. Tipik bir soru çözümü genelde bilinen tekniklerle yeni gözlemlerin birleşimidir. Rekabetçi programlamada çıkan teknikler aynı zamanda algoritmaların araştırma bazlı kısmının da temelini oluşturur.

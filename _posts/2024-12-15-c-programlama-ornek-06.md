@@ -11,6 +11,8 @@ tags:
   - örnek
   - fonksiyon
   - rekürsif
+redirect_from:
+  - /posts/c-programlama-ornek-06/
 ---
 
 ## C Programlama Faktöriyel Hesaplama (Rekürsif fonksiyon)

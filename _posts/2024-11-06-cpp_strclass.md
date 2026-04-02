@@ -8,6 +8,8 @@ tags:
   - programlama
   - string
   - sınıf
+redirect_from:
+  - /posts/cpp_strclass/
 ---
 
 C++'da karakter dizisi işlemleri için boş bir karakterle ('\0') sonlandırılan karakter dizilerinin yanı sıra, string veri türündeki sınıf nesnelerini de kullanabiliriz.

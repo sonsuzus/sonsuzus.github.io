@@ -8,6 +8,8 @@ tags:
   - programlama
   - değişken
   - web
+redirect_from:
+  - /posts/php_degisken/
 ---
 
 

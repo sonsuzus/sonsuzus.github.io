@@ -9,6 +9,8 @@ tags:
   - yardım
   - rehber
   - yazı
+redirect_from:
+  - /posts/markdown-kullanimi-turkce/
 ---
 
 ## Markdown Kullanımı Türkçe
