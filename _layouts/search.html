@@ -35,25 +35,33 @@ title: Arama
     color: #0366d6;
   }
 
-/* 1. Algolia'nın düğmelerini (ve içindeki SVG'leri) tamamen yok et */
-.ais-SearchBox-submit, 
-.ais-SearchBox-reset, 
-.ais-SearchBox-loadingIndicator {
-    display: none !important;
+
+/* 2. Sol Taraftaki Büyüteç İkonunu (SVG) Büyüt ve Güzelleştir */
+.ais-SearchBox-submit {
+  /* Büyüteç butonunu inputun tam soluna yerleştir ve sabitle */
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%); /* Dikeyde tam merkeze al */
+  background: transparent !important; /* Arka planı tamamen temizle */
+  border: none !important; /* Kenarlığı kaldır */
+  display: block !important; /* Gizleme komutlarını devre dışı bırak */
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: none; /* Büyütece tıklanmasını engelle, arkasındaki inputa tıklasın */
 }
 
-/* 2. Formun içindeki gereksiz boşlukları ve hizalamaları sıfırla */
-.ais-SearchBox-form {
-    display: block !important;
-    position: relative;
+/* 3. Büyüteç SVG'sinin Boyutunu ve Rengini Ayarla */
+.ais-SearchBox-submitIcon {
+  width: 22px !important; /* İkonun genişliğini büyüt (varsayılan 10'du) */
+  height: 22px !important; /* Yüksekliğini de büyüt */
+  fill: #0366d6 !important; /* İkona profesyonel bir mavi renk ver (isteğe bağlı) */
 }
 
-/* 3. Arama kutusunu tertemiz yap ve sola yasla */
-.ais-SearchBox-input {
-    padding-left: 15px !important; /* İkonlar gidince yazıyı sola yaklaştırdık */
-    background-image: none !important; /* Temadan gelen bir şey varsa o da gitsin */
-    box-shadow: none !important;
-}
+/* Input'un soluna düzgün bir boşluk ver */
+  .ais-SearchBox-input {
+  padding-left: 50px !important;
+  }
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.20.0/dist/algoliasearch-lite.umd.js"></script>
