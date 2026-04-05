@@ -3,49 +3,57 @@ layout: category
 title: Program
 ---
 
-## Programlama
+<p class="message">
+  Kodlama dünyasının temel yapı taşlarını, farklı dillerin ekosistemlerini ve algoritmik düşünceyi geliştirecek kaynakları bu sayfada bulabilirsiniz.
+</p>
 
-Bu bölümde programlama kaynakları, araçları ve programlama dilleri üzerine çalışmalar ve bilgiler olacaktır. Sizler de takıldığınız kısımları ve paylaşmak istediklerinizi github [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz. Ayrıca sitemizde değişik ve kullanılmayan programlama dilleri eklenmeye başlamıştır.
+Amacımız sadece bir dilde kod yazmayı öğretmek değil, bir sistemin nasıl çalıştığını mimari ve mantıksal bir perspektifle kavramaktır. Sorularınızı, takıldığınız kısımları ve projelerinizi GitHub [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) alanında bizimle paylaşabilirsiniz. Sitemizde endüstri standardı dillerin yanında, ufkunuzu genişletecek alternatif (esoteric) dillere de yer verilmektedir.
 
-Güzel bir söz ile başlayalım.
->“Eğer derleyicilerin nasıl çalıştığını bilmiyorsanız, bilgisayarların nasıl çalıştığını da bilmiyorsunuz demektir. Eğer derleyicilerin tam olarak nasıl çalıştığından emin değilseniz, o halde nasıl çalıştıklarını bilmiyorsunuzdur.”— Steve Yegge
+Usta bir yazılımcının konuyu özetleyen güzel bir sözüyle başlayalım:
+> "Eğer derleyicilerin nasıl çalıştığını bilmiyorsanız, bilgisayarların nasıl çalıştığını da bilmiyorsunuz demektir. Eğer derleyicilerin tam olarak nasıl çalıştığından emin değilseniz, o halde nasıl çalıştıklarını bilmiyorsunuzdur." — Steve Yegge
 
-## Algoritma
+### Teknoloji ve Dil Haritası
 
-Programlama dersi için algoritma üretme ve algoritma soruları bu bölümde olacaktır. [algoritma](https://sonsuzus.github.io/tags.html#algoritma) linkine tıklayarak sorulara ve çözüm yollarına ulaşabilirsiniz.
+Diller ve teknolojiler, çözmeyi hedefledikleri problemlere göre kendi içlerinde belirli felsefelere sahiptir. Sitemizde yer alan içeriklerin genel odak noktalarını şu şekilde gruplandırabiliriz:
 
-## Python Programlama
+| Kategori | Teknolojiler | Öğrenme Odak Noktası |
+| :--- | :--- | :--- |
+| **Algoritma ve Çekirdek** | Python, C, C++, Algoritma | Veri yapıları, olimpiyat/yarışma hazırlığı, bellek yönetimi ve nesne yönelimli programlama. |
+| **Sistem ve Veri** | Bash, SQL | İşletim sistemi otomasyonu (Linux terminali) ve ilişkisel veritabanı mimarisi. |
+| **Web Ekosistemi** | PHP, HTML, CSS | Sunucu taraflı dinamik işlemler, istemci arayüzü ve görsel hiyerarşi tasarımı. |
+| **Eğitim ve Maker** | Robotik, Small Basic | Erken yaşta algoritmik düşünce, görsel öğrenme ve fiziksel dünya ile etkileşim. |
 
-Python programlama diğerlerine kıyasla daha geç başladığım en kullanışlı bulduğum programlama dilidir. Yapısı gereği kod bloklarına alışkanlık kazandırdığı gibi, kütüphaneleri oldukça zengindir. Python programlama ilgili kaynaklara [python programlama](https://sonsuzus.github.io/tags.html#python) adresinden ulaşabilirsiniz.
+---
 
-## C/C++ Programlama
+### Algoritma ve Temel Mantık
+Programlama dilleri eskir veya değişir, ancak algoritmalar kalıcıdır. Bir problemi parçalara ayırmak, zaman ve bellek karmaşıklığını hesaba katarak en uygun çözümü üretmek işin felsefesidir. [Algoritma](https://sonsuzus.github.io/tags.html#algoritma) sayfasında teorik temelleri, mantık sorularını ve adım adım çözüm yollarını bulabilirsiniz.
 
-Uzun yıllardır c ve c++ programlama ile uğraşmaktayım. Bu konuda Tübitak bilişim olimpiyatlarına öğrenci hazırladığım da oldu. Bu sayfalarda temel bazı işlemleri anlatacağım ve uygulamaları göstereceğim. [C/C++ programlama](https://sonsuzus.github.io/tags.html#c) adresinden ulaşabilirsiniz.
+### Çekirdek Programlama Dilleri
 
-## SQL Programlama
+**Python Programlama**
+Sade sözdizimi ve devasa kütüphane desteği ile çok yönlü bir dildir. Kod bloklarına dayalı yapısı, temiz kod yazma alışkanlığı kazandırır. Temel işlemlerden ileri düzey modüllere kadar hazırlanan içeriklere [Python Programlama](https://sonsuzus.github.io/tags.html#python) adresinden ulaşabilirsiniz.
 
-SQL ile ilgili sıkça kullanılan kodları [sql programlama](https://sonsuzus.github.io/tags.html#sql) sayfasında bulabiliriz.
+**C/C++ Programlama**
+Donanıma en yakın, performansı en yüksek dillerdir. Bilgisayarın belleğini ve arka plandaki çalışma mantığını anlamak için bu dillerin teorisine inmek şarttır. Uzun yıllara dayanan tecrübelerden ve TÜBİTAK Bilişim Olimpiyatları gibi rekabetçi süreçlerden süzülen uygulamalara [C/C++ Programlama](https://sonsuzus.github.io/tags.html#c) sayfasından erişebilirsiniz.
 
-## PHP Programlama
+### Web ve Sistem Teknolojileri
 
-PHP programlama dili internet tabanlı ve sunucu taraflı çalışan bir dildir. İnternetteki sitelerin neredeyse %80 i php ile yazılmıştır. Bu dile ait programlama eğitimini ve kodlarını devamını oku bölümden takip edebilirsiniz.
+**SQL Programlama**
+Veri her şeydir. Devasa veri yığınlarını yönetmek, sorgulamak ve performanslı bir şekilde işlemek için kullanılan temel komutlar [SQL Programlama](https://sonsuzus.github.io/tags.html#sql) sayfamızda yer alıyor.
 
-## HTML Programlama
+**PHP Programlama**
+İnternetin büyük bir kısmını sırtlayan, sunucu taraflı çalışan dinamik bir dildir. Web mimarisinin arka planını ve sunucu/istemci iletişimini anlamak için PHP eğitimini bu bölümden takip edebilirsiniz.
 
-HTML programlama ile ilgili bilgilerin ipuçların olduğu bölümdür. Bu bölümde html etiketleri ve kullanımları hakkında kısaca bilgi vereceğim. [HTML Programlama](https://sonsuzus.github.io/tags.html#html)
+**HTML ve CSS Programlama**
+İnternetin iskeleti HTML, estetiği ise CSS'tir. Günümüzde farklı cihazlara uyumlu (responsive) tasarımlar yapmak ve kullanıcı deneyimini iyileştirmek için oldukça kritiktirler. İlgili ipuçlarına [HTML Programlama](https://sonsuzus.github.io/tags.html#html) etiketinden ulaşabilirsiniz.
 
-## CSS Programlama
+**Bash Programlama**
+Sistem yöneticileri ve Linux tutkunları için vazgeçilmez bir alandır. Sunucu yönetimi, dosya işlemleri ve terminal otomasyonları için küçük ama hayat kurtaran betikler [Bash Programlama](https://sonsuzus.github.io/tags.html#bash) bölümünde sizi bekliyor.
 
-CSS web sitelerinin görünümü makyajıdır. Aynı içeriğe sahip siteler bile birbirinden oldukça farklı görünebilir. Günümüzde css daha da önem kazanmıştır kullandığınız cihaza göre sitenin uyumluluğunu ayarlayabilir ve güzel bir tasarım yapabilirsiniz.
+### Eğitici ve Görsel Programlama
 
-## Bash Programlama
+**Robotik Programlama**
+Soyut kodların fiziksel dünyayla buluştuğu ve harekete dönüştüğü yerdir. Algoritmik düşünceyi fiziksel çıktılarla pekiştirmek isteyenler (özellikle öğrenciler) için idealdir. Başlangıç rehberlerine ve projelere [Robotik Programlama](https://sonsuzus.github.io/tags.html#robotik) sayfasından ulaşabilirsiniz.
 
-Linux kabuk programlamada küçük ama işe yarar kod satırlarlarının olduğu bölüm [bash programlama](https://sonsuzus.github.io/tags.html#bash) adresinde bulunuyor.
-
-## Robotik Programlama
-
-Robotik programlama ilgili her yaşa uygun içeriğime (aslında özellikle çocuklara) [robotik programlama](https://sonsuzus.github.io/tags.html#robotik) linkinden ulaşabilirsiniz. Robotik programlamaya nasıl başlanmalı neler yapılmalı bu konuda zorlanan öğrenciler neler yapmalı bu soruların cevabını buluyoruz. Ayrıca robotik programlama ile ilgili kodlara ve çalışmalara da ulaşabilirsiniz.
-
-## Small Basic Programlama
-
-Small Basic Microsoftun ürünü olup temel ve çocuklar için programlamada kullandığım bir dildir. Basit algoritmalar oluşturma ve görsel çizim ve turtle kütüphaneleri ile kolay ve kullanışlıdır. Bu konuda daha detaylı bilgi için [Small Basic Programlama](https://sonsuzus.github.io/tags.html#small-basic) sayfasını ziyaret ediniz.
+**Small Basic Programlama**
+Sözdizimi karmaşasına girmeden, sadece mantık ve çizim odaklı ilerlemek isteyenler için mükemmel bir platformdur. Microsoft'un geliştirdiği bu araçla kaplumbağa (turtle) grafikleri üzerinden görsel algoritmalara [Small Basic Programlama](https://sonsuzus.github.io/tags.html#small-basic) adresinden göz atabilirsiniz.

@@ -3,63 +3,49 @@ layout: category
 title: Proje
 ---
 
-## Projeler
+<p class="message">
+  Teorinin pratiğe, algoritmaların çalışan sistemlere dönüştüğü yer. Biten, devam eden, destek bekleyen veya henüz fikir aşamasında olan projelerimizin hikayesini bu sayfada bulabilirsiniz.
+</p>
 
-Projeler bölümünde biten, yarım kalan, destek bekleyen, sonuca ulaşan, süren projelerin bir özetini ve detaylarını bulacaksınız. Aynı zamanda destek ihtiyacı olan projelerde görev alabilir ve katılım sağlayabilirsiniz. Proje notları için [tartışmalar](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünü kullanacağım.
+Bir problemi çözmek için yazılan her satır kod, aslında o probleme analitik bir pencereden bakabilme yeteneğinin ürünüdür. Projeler bölümünde amacımız sadece ortaya çıkan yazılımı sergilemek değil; tasarım sürecini, karşılaşılan zorlukları ve arka planda işleyen sistem mimarisini paylaşmaktır. Çalışmalarımızı inceleyebilir, fikirlerinizi paylaşabilir veya destek ihtiyacı olan projelere GitHub [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) alanı üzerinden katkıda bulunabilirsiniz.
 
-## Tübitak 2204 Proje Yarışması
+### Proje Ekosistemi
 
-Bu bölümde Tübitak 2204 Proje yarışmasına katılan projelerden bahsedilecektir.
+Geliştirdiğimiz veya parçası olduğumuz çalışmaları, temel dinamiklerine göre şu ana kategoriler altında toplayabiliriz:
 
-## Tübitak 4006 Projeleri
+| Kategori | Odak Noktası | Projeler |
+| :--- | :--- | :--- |
+| **Akademik ve Kurumsal** | Araştırma, bilimsel metodoloji ve teknoloji entegrasyonu. | TÜBİTAK (2204 & 4006), MetaBilsem |
+| **Strateji ve Mantık** | Algoritmik düşünce, oyun mekanikleri ve asenkron/canlı mimariler. | Chessmoon, Satranc.net, Crazyhouse |
+| **Yapay Zeka ve Otomasyon** | Veri sorgulama, dil işleme ve otonom tepki sistemleri. | Telegram Botları, YZ Çalışmaları |
+| **Eğitim Teknolojileri** | Uzaktan eğitim, açık kaynaklı öğrenme yönetim sistemleri. | AçıkOkul - AçıkSoru |
 
-Bu bölümde görev alınan veya organize edilen 4006 Projeleri olacaktır.
+---
 
-## MetaBilsem Projesi
+### Akademik ve Kurumsal Çalışmalar
 
-Metabilsem projesi bilsemler arası metaverse evrenine katılım ve blok zincir uygulamaları ve bilgilendirme ağı olarak [metabilsem](https://sonsuzus.github.io) adresinde yayına geçmiştir. Zamanla proje detaylarını burada da paylaşacağım.
+**TÜBİTAK 2204 ve 4006 Projeleri**
+Bilimsel düşünceyi teşvik etmek, analitik problem çözme becerilerini geliştirmek ve teknolojiyi üretime dönüştürmek amacıyla yürütülen (veya danışmanlık yapılan) araştırma projeleridir. Teorik bilginin somut ve faydalı modellere dönüşmesinin en güzel örneklerini içerir.
 
-## Telegram botları
+**MetaBilsem Projesi**
+Bilim ve Sanat Merkezleri (BİLSEM) arasında dijital bir köprü kurmayı hedefleyen; blok zincir (blockchain) uygulamaları ve metaverse kavramlarını eğitime entegre eden yenilikçi bir ağ projesidir. Sistem mimarisi ve proje detayları [MetaBilsem](https://sonsuzus.github.io) adresi üzerinden takip edilebilir.
 
-Rüya tabiri yapan telegram botuna şu adresten ulaşabilirsiniz. Kodları için [rüya tabiri telegram botu](https://github.com/ruya-tabiri/ruya-tabiri-telegram-botu) sitesi için [rüya tabiri](https://ruya-tabiri.github.io) linkinden ulaşabilirsiniz.
+### Strateji, Mantık ve Satranç
 
-## Yapay zeka Projeleri
+Satranç, olasılıkların ve algoritmik düşüncenin en saf halidir. Profesyonel satranç geçmişimin bir yansıması olarak, yıllar içinde bu alanda büyük çaplı platformlar geliştirdim:
+* **Satranc.net:** 2000'li yıllarda Türkiye'de satranç kültürünü dijitale taşıyan ve alanında öncü olan platform.
+* **Chessmoon.com:** PHP ve SQL altyapısının Ajax ile harmanlanmasıyla kurulan, dünyanın farklı yerlerinden oyuncuların canlı turnuvalar yapabildiği dinamik satranç sunucusu.
+* **Alternatif Varyantlar:** Klasik kuralların sınırlarını zorlayan; rakipten alınan taşların kendi renginize dönüşerek tahtanın istenilen yerine tekrar sürülebildiği [Crazyhouse](https://sonsuzus.github.io/category/proje) gibi zihinsel esneklik gerektiren satranç türleri.
 
-Sohbet botları, Problem çözen algoritmalar, Sudoku Çözücü, Satranç, Doğal dil işleme, Sayı tahmin oyunu, Kibrit oyunu (tübitak 4006)
+### Yapay Zeka ve Otomasyon Sistemleri
 
-## Rüya Projeleri
+**Yapay Zeka Projeleri**
+Sohbet botları ve problem çözme algoritmaları üzerine çalışmalarımız oldukça eskiye (2007 civarı) dayanmaktadır. O dönemin ilkel kural tabanlı (rule-based) mantığından başlayıp günümüzün karmaşık modellerine uzanan bu serüven, makine öğrenmesi ve veri işleme konusundaki kişisel evrimimizi de yansıtır.
 
-Rüya projeleri simgesel ile başlamış daha sonra [Rüyada Rüya](https://sonsuzus.github.io/posts/ruyada-ruya) sitesinde canlı ve gerçek rüya yorumcuları yazılan rüyalara yorum yapmaktadır. Daha sonrasında [Rüya Tabiri](https://ruya-tabiri.github.io)  siteleri aktif hale getirilmiş bunlardan da esinlenerek [Rüyada](https://ruyada.github.io) siteleri de toplamda 2 milyondan fazla ve açık kaynak kodları ile internette yerini almıştır. Eski Rüyadarüya için Q&A yapısı kullanılmıştır. Daha sonra flarum forum sistemine evrilmiştir. ~~Rüyara sitesi wordpress~~ diğer rüya siteleri ise sabit [html](https://sonsuzus.github.io/posts/html) sayfaları şeklindedir. Çoğu git ile bağlantılıdır.
+**Telegram Botları**
+Kullanıcı etkileşimini otomatize eden ve devasa veritabanlarını anlık olarak sorgulayan araçlar. Örnek olarak hazırlanan rüya tabiri botunun açık kaynak kodlarına [GitHub üzerinden](https://github.com/ruya-tabiri/ruya-tabiri-telegram-botu), çalışan sistemine ise [web sitesinden](https://ruya-tabiri.github.io) ulaşabilirsiniz. 
 
-## Diğer Tübitak Projeleri
+### Eğitim Teknolojileri (Arşiv)
 
-Tübitak 4006 Bilim Fuarı, Tübitak 4004 Boğaz Trafiği Analizi, Tübitak 4005 Sahte Fotoğraf Analizi
-
-## Sosyal Sorumluluk Projeleri
-
-Sokak hayvanları için yapılan projeler, Eğitim projeleri, Teknolojik ve Bilimsel gelişmeleri takip projeleri, Felsefe ve düşünce projeleri başlıkları altında toplayabiliriz.
-
-## RolOyun
-
-RolOyun hem reel hem de internet üzerinden oynanan bir cesaret ve yaşam oyunudur. Görevler internet üzerinden verilip başarılı sonuçlara göre oyunculara puanlar dağıtılır ve seviyeleri yükseltilme üzerine planlanmıştı. Bu proje yarım kalan destek göremeyen projeler sınıfındadır. Fakat yine de bu konuda çalışmalar ufak da olsa sürmektedir.
-
-## Soyağacı projesi
-
-Soyağacı projesi Türkiye çapında görsel olarak soy ağaçlarını girebilmeleri ve akrabalarını bulabilmeleri konusunda başlatılmış bir projeydi. Epey müdavimi ve ekleyeni oldu fakat daha sonra isimlerin google ve benzeri yerlerde çıkmaları insanları rahatsız etmeye başladı. Zaten yıllar sonra devlet de bu duruma biraz da olsa açıklık getirdi ama yine de daha derine uzanan kökleri bulma konusunda bu projem oldukça etkiliydi. [Site Kodları](https://github.com/sonsuzus/soysop).
-
-## HediyeListe
-
-Hediye liste projesi insanların ihtiyacı olan hediyelerini yazdıkları ve sevenlerin bunları takip edip gerekli organizasyonu yapmalarına yönelik bir projeydi. Daha sonra facebook ve benzeri sosyal medyalar bu özellikleri kullanmaya başlamıştı. öncesinde php kodu ile yazmıştım daha sonra drupal arayüzünü kullandım. İlk olarak projenin ortaya çıkışı [banahediyeal](https://github.com/sonsuzus/banahediyeal) olarak gündemdeydi. O zamanlar epey popülerdi(2007 senesinde). Tabiki kodlar çok ilkel kaldı.
-
-## Satranç Projeleri
-
-Satranç üzerine geliştirdiğim projelerin olduğu sayfadır. Öncesinde zaten aktif ve profesyonel satranç oyuncusu olduğum için bir çok turnuvaya katılmış ve önemli başarılara imza atmıştım. 2000 li yıllarda [Satranc.net](https://www.satranc.net) sitesini kurup bu konuda öncü hale gelmiş bir sitemiz vardı. Daha sonra canlı oyun oynanabilen [Chessmoon.com](https://www.chessmoon.com) adresinde php ve sql ile birlikte ajax kullanarak hazırladığımız sitede halen aktif ve canlı oyunlar oynanmakta ve turnuvalar yapılamaktadır.
-
-Satranç severleri bir araya toplayan bu sistemlerde [Crazyhouse][1] gibi satrancın çeşitli versiyonları da oynanmaktadır.
-
-[1]: <https://sonsuzus.github.io/category/proje> "Rakipten aldığınız taşları hamle sırası sizdeyken tahtanın istediğiniz yerine koyarak oynanan bir satranç türü. Elbette aldığınız taşlar kendi oyuncu renginize dönüşür."
-
-## AçıkOkul - AçıkSoru
-
-2006 yılında başladığımız açık okul projesi o günler için oldukça önemliydi. moodle alt yapısını kullanarak oluşturduğumu projede yüzden fazla ders vermeye başlamıştık. Online eğitmenliğin ilk adımlarını atmış bulunduk. Bu projemiz malesef yarım kaldı ve yok olup gitti fakat bir çok uzaktan eğitim fikirlerinin ilk adımını attık. Bizden sonra bazı üniversiteler bu uygulamayı kullanmaya devam etti. Açıksoru da aynı şekilde online test sitesi şeklinde tasarlamıştık.
-
+**AçıkOkul - AçıkSoru**
+Çevrimiçi eğitimin henüz standartlaşmadığı 2006 yılında, Moodle altyapısı üzerine inşa ettiğimiz vizyoner bir projedir. Yüzden fazla dersin çevrimiçi ortamda sunulduğu bu sistem, e-öğrenme (e-learning) alanındaki ilk adımlarımızı temsil eden değerli bir dönüm noktasıdır.
