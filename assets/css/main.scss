@@ -48,22 +48,28 @@
 
 /* --- Mobil Uyumluluk (Sadece İkon Görünümü) --- */
 @media (max-width: 768px) {
+    .social-share-buttons {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+    /* Metni %100 genişlikte yaparak butonları zorla alt satıra iter */
+    .social-share-buttons p {
+        width: 100%;
+        margin-bottom: 12px; /* Butonlarla metin arasına biraz boşluk bırakır */
+    }
+
     .share-btn span {
         display: none; /* Mobilde metni tamamen gizler */
     }
     
     .share-btn {
-        padding: 10px 14px; /* Sadece ikon kalınca dokunma alanını (touch target) büyütür */
-        font-size: 1.2em; /* Mobilde ikonları biraz daha belirginleştirir */
-        margin: 0 5px 5px 0; /* Boşlukları daraltır */
+        padding: 10px 15px; /* Dokunma alanını büyütür */
+        font-size: 1.2em; 
+        margin: 0 8px 8px 0; /* Butonlar arası boşluk */
     }
     
     .share-btn i {
-        margin-right: 0; /* İkonun sağındaki (metin için ayrılan) boşluğu sıfırlar */
-    }
-
-    .social-share-buttons {
-        display: flex;
-        flex-wrap: wrap; /* Sığmazsa alt satıra geçmesini sağlar */
+        margin-right: 0; 
     }
 }
