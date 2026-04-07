@@ -45,3 +45,25 @@
 .linkedin { background-color: #0077b5; }
 .whatsapp { background-color: #25D366; }
 .telegram { background-color: #0088cc; }
+
+/* --- Mobil Uyumluluk (Sadece İkon Görünümü) --- */
+@media (max-width: 768px) {
+    .share-btn span {
+        display: none; /* Mobilde metni tamamen gizler */
+    }
+    
+    .share-btn {
+        padding: 10px 14px; /* Sadece ikon kalınca dokunma alanını (touch target) büyütür */
+        font-size: 1.2em; /* Mobilde ikonları biraz daha belirginleştirir */
+        margin: 0 5px 5px 0; /* Boşlukları daraltır */
+    }
+    
+    .share-btn i {
+        margin-right: 0; /* İkonun sağındaki (metin için ayrılan) boşluğu sıfırlar */
+    }
+
+    .social-share-buttons {
+        display: flex;
+        flex-wrap: wrap; /* Sığmazsa alt satıra geçmesini sağlar */
+    }
+}
