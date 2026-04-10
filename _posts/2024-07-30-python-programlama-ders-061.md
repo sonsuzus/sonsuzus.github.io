@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 6.1 Döngüler - for döngüsü
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -26,7 +27,7 @@ Bilgisayarlar sıklıkla tekrarlayan görevleri otomatikleştirmek için kullan�
 Bir komutlar kümesinin tekrar tekrar yürütülmesi işlemine **yineleme (iteration)** adı verilir. Yineleme çok yaygın olduğu için, Python bunu kolaylaştırmak için birkaç özellik sağlar.
 
 Bu konuya girmeden önce, birkaç fikirin üstünden yeniden geçelim.
-
+``
 ## Atama
 
 Daha önce bahsettiğimiz üzere, aynı değişkene birden fazla atama yapılması geçerli bir yöntemdir. Yeni bir atama varolan değişkeninin yeni bir değeri temsil etmesini sağlar ( ve önceki eski değerin temsilliyetini ortadan kaldırır.)

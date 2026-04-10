@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP veri dönüşümleri
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -16,7 +17,7 @@ redirect_from:
 ## Veri tipi belirleme
 
 PHP değişken bildiriminde bir veri türü tanımlamanız gerekmez. Değişkene hangi veri türünü atarsanız, değişken o veri türüne ait bir değişken haline gelir.
-
+``
 ```php
 <html>
 <body>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: C İşlem satırı ve ifade
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -17,6 +18,7 @@ redirect_from:
 main() fonksiyonu ve diğer fonksiyonlarda yer alan ve noktalı virgül (;) karakteri ile sona eren satırlara işlem satırı adı verilir. Şimdi, işlem satırlarının hangi değerlerden oluşabileceğini incelemeye çalışalım:
 
 İşlem satırı bir değişken bildirimi, değişkene bir değer atama, aritmetik bir ifade, bir fonksiyon çağrısı veya bir döngü içerebilir.
+``
 
 ```c
 int id1, id2, id3;  // Değişken bildirimi

@@ -11,6 +11,7 @@ tags:
   - veri tabanı
   - tablo
   - birleştirme
+excerpt_separator: "``"
 redirect_from:
   - /posts/sql-self-join-tablo-kendi-birlestirme/
 ---
@@ -20,7 +21,7 @@ redirect_from:
 İlişkisel veri tabanları ile çalışırken veriler tek bir tabloda olabildiği gibi birden fazla tabloda da bulunabilir. JOIN işlemleri ile birden fazla tablo, ortak bulunan kolonlar yardımı ile birleştirilerek sorgulama işlemleri yapılabilmektedir. 
 
 Self Join ifadesi SQL’de bulunan **özel bir JOIN** işlemidir. Birbirinden farklı iki veya daha çok tablonun birleştirildiği diğer JOIN metotlarının aksine, Self Join işleminde **tek bir tablo vardır ve bu tablo kendisi ile birleştirilir.** Join işlemi tablo ve tablonun bir kopyası ile gerçekleşir.
-
+``
 ![](/img/sql/sql-join-tipleri.png)
 
 [SQL’de Join Tipleri](https://www.educba.com/joins-in-mysql/)

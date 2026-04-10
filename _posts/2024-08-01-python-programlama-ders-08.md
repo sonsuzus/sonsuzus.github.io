@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 8. Karakter dizileri Metodları, Formatları
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -28,6 +29,7 @@ redirect_from:
 Geçen bölümde karakter dizilerinin genel özelliklerinden söz ettik. Bu bölümde ise karakter dizilerini biraz daha ayrıntılı bir şekilde incelemeye ve karakter dizilerinin yepyeni özelliklerini görmeye başlayacağız.
 
 **Metotlar** Python’da nesnelerin niteliklerini değiştirmemizi, sorgulamamızı veya bu nesnelere yeni özellikler katmamızı sağlayan araçlardır. Metotlar sayesinde karakter dizilerini istediğimiz gibi eğip bükebileceğiz.
+``
 
 ### replace()
 

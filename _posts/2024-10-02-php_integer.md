@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP integer
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -21,7 +22,7 @@ Z = {..., -2, -1, 0, 1, 2, ...}
 Integer değerler onluk (decimal), onaltılık (hexadecimal) veya sekizlik (octal) tabanda tanımlanabilirler, ve önlerinde isteğe bağlı bir + veya - işareti bulunabilir.
 
 Sekizlik sayı sisteminde tanımlanan sayıların önüne 0(sıfır), onaltılık sayı sisteminde tanımlanan sayıların önüne ise 0x ifadesi getirilir.
-
+``
 Sayı sistemlerinde kullanılan değerler:
 
 10'luk sayı sistemi: 0 1 2 3 4 5 6 7 8 9 (Toplam 10 değer)

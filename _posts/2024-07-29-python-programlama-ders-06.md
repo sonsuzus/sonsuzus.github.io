@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 6. Döngüler - while döngüsü
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -22,6 +23,7 @@ redirect_from:
 Bilgisayarlar sıklıkla tekrarlayan görevleri otomatikleştirmek için kullanılmaktadır. Aynı veya benzer görevleri hatasız bir şekilde tekrarlama işlemi bilgisayarların iyi yaptığı, insanların ise zorlandığı bir şeydir.
 
 Bir komutlar kümesinin tekrar tekrar yürütülmesi işlemine **yineleme (iteration)** adı verilir. Yineleme çok yaygın olduğu için, Python bunu kolaylaştırmak için birkaç özellik sağlar. Daha önceki bölümlerde `for` deyimini gördük. `for` deyimi en sık kullanacağınız döngü komutu olacaktır. Fakat bu bölümde `while` deyimine bakacağız. Bu, azıcık farklı durumlarda yineleme yapmanın başka değişik yoludur.
+``
 
 ## 6.1 Birden fazla atama
 

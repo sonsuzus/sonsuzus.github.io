@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Javascript String Metotları
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -32,7 +33,7 @@ Aşağıdaki javascript string metotlarını sırasıyla öğrenelim;
 * String substr()
 * String replace()
 * String split()
-
+``
 ## String concat()
 
 **Javascript concat()** metodu ile string concatenation yani string birleştirme yapabiliriz.

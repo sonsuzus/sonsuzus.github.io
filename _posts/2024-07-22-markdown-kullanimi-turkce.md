@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Markdown kullanım kılavuzu
+excerpt_separator: "``"
 categories: 
   - Program
 tags: 
@@ -18,7 +19,7 @@ redirect_from:
 ## Markdown Nedir, Ne Amaçla Kullanılır?
 
 Markdown, yazılarımızı düz metin olarak yazmamıza imkan veren işaretleme/biçimlendirme dilidir (_markup language_).  Markdown'ın temel amacı, metnimizi kolayca hazırlamak ve düz metin haliyle bile metnin rahatça okunmasını sağlamaktır. 
-
+``
 ## Örneklerle Sözdizim (_syntax_) kuralları
 
 [Başlık](#başlık)

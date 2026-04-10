@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Ses Kaydetme Programları
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -28,7 +29,7 @@ Program için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen k
 Tüm işletim sistemlerinde çalışan ses giriş/çıkış akışı kütüphanesidir. Ses ile ilgili işlemlerde kullanılır.
 
 Bu kütüphanenin doğrudan "pip install pyaudio" komutu ile kurulmasında herhangi bir sorun yaşandığında kurulumu gerçekleştirmek için, Christoph Gohlke tarafından Python paketleri için resmi olmayan Windows işletim sistemi dosyalarını içeren web sitesine ait [buradaki](https://www.lfd.uci.edu/~gohlke/pythonlibs/) bağlantıdan bilgisayarımızın işletim sistemine göre indirdiğimiz aşağıdaki dosyalardan birisini, sanal ortamın altındaki Scripts dizini altına kopyalayarak kullanıyoruz:
-
+``
 PyAudio-0.2.11-cp39-cp39-win\_amd64.whl
 
 PyAudio-0.2.11-cp39-cp39-win32.whl

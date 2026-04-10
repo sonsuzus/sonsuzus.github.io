@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 2. Değişkenler, deyimler ve cümleler
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -29,6 +30,7 @@ redirect_from:
 **Değer** programın işlediği temel şeylerden - harf veya rakam gibi - biridir. Şimdiye kadar gördüğümüz değerler `2` (`1 + 1` işleminin sonucu), ve `"Merhaba, Dünya!"`.
 
 Bu değerler farklı **tiplere** aittir: `2` bir *tamsayı (integer)*dır, ve `"Merhaba, Dünya!"` bir *karakter dizisi (string)*dir, çünkü karakterlerden oluşan bir dizidir. Siz (ve yorumlayıcı) karakter dizilerini ayırtedebilir, çünkü tırnak işaretleri arasında yazılmıştır. Şimdilik *sınıf* (class) ve *type* (tür) kelimelerini birbirinin yerine kullanabilirsiniz. Sınıfın ne olduğunu daha iyi anlamak için ileriki bölümlerde geri döneceğiz.
+``
 
 print cümlesi tamsayılar için de çalışır.
 

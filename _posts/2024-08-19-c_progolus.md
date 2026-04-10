@@ -1,6 +1,7 @@
 ---
 layout: post
 title: C Program oluşturma
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -21,6 +22,7 @@ Bu safhaları sıra ile ele almadan önce, .exe uzantılı bir program ifadesini
 İşletim sistemi, uzantısı .EXE, .COM ve .BAT olan dosyaları, komut satırında iken adını yazıp ENTER tuşuna bastığımızda veya Windows Gezgini benzeri bir ara yüz üzerinde çift tıkladığımızda çalıştırır. Diğer uzantılı dosyalara ise çift tıkladığımızda ilgili program yoluyla açar.
 
 Yukarıdaki üç safhayı gerçekleştirdiğimizde .EXE uzantılı çalışan bir dosya elde edebiliriz.
+``
 
 ## Programın yazılması
 

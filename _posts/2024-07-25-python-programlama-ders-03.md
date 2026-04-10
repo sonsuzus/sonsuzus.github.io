@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 3. Fonksiyonlar
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -18,6 +19,7 @@ redirect_from:
 ## 3.1 Tanımlar ve kullanım
 
 Programlama bağlamın, bir **fonksiyon (işlev)** belli bir işlemi gerçekleştirmek üzere isimlendirilmiş cümle (komut) serisidir. Bu işlem **fonksiyon tanımında** belirlenmiştir. Python'da, fonksiyon tanımı için sözdizimi şu şekildedir:
+``
 
 ```py
 def ISIM( PARAMETRE LISTESI ):

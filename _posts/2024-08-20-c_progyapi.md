@@ -1,6 +1,7 @@
 ---
 layout: post
 title: C Program yapısı
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -20,7 +21,7 @@ Bir C programında, genel olarak aşağıda gösterilen bölümler sırayla yer 
 * Fonksiyon bildirimleri
 * main() fonksiyonu
 * Fonksiyon ana yapıları
-
+``
 Bir C++ programının temel yapısı aşağıda gösterilmektedir:
 
 ```c

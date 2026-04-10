@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 11. Özyineleme (Rekürsif) ve istisnalar
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -26,7 +27,7 @@ redirect_from:
 ## 11.1 Tuplelar ve değişebilirlik
 
 Şimdiye kadar iki bileşik tip gördünüz: karakter dizileri, karakterlerden oluşmaktadır; ve listeler, herhangi bir tipte öğelerden oluşmaktadır. Bu iki bileşik tip arasındaki farklardan biri listenin öğelerinin değiştirilebilir olduğu, karakter dizisindeki karakterlerin değiştirilemez olduğuydu. Başka bir deyişle, karakter dizileri **değiştirilemez (immutable)** ve listeler **değiştirilebilir (mutable)** tiplerdir.
-
+``
 **Tuple**, liste gibi herhangi bir tipteki öğelerin ardışıklığıdır. Ancak listelerden farklı olarak tuplelar değiştirilemez. Sözdizim olarak tuplelar virgül ile ayrılmış değerlerin sıralanmasıdır:
 
 ```py

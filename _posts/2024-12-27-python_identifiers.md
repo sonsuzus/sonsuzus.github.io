@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Tanımlayıcılar
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -20,7 +21,7 @@ Tanımlayıcılar içini aşağıdaki kurallar geçerlidir:
 * Python'da kullanılan ifadeler harf duyarlı olduğundan, tanımlayıcılarda büyük ve küçük harfler farklı kabul edilir (Deg ve deg ifadeleri farklıdır).
 * Anahtar kelimeler tanımlayıcılarda kullanılmaz.
 * Tanımlayıcıların ilk karakteri rakam olamaz.
-
+``
 Şimdi, bu özellikleri bir örnek üzerinde incelemeye çalışalım:
 
 Örnek

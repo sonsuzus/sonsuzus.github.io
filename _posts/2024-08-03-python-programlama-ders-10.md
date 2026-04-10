@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 10. Modüller ve dosyalar
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -22,6 +23,7 @@ redirect_from:
 ## 10.2 pydoc
 
 **pydoc** modülünü sistemde kurulu olan Python kütüphanelerini içerisinde arama yapmak için kullanabilirsiniz. **Komut satırı**nda aşağıdakini yazın:
+``
 
 ```
 $ pydoc -g

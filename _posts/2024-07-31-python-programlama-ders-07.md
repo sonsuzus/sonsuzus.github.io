@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 7. Karakter dizileri
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -26,7 +27,7 @@ redirect_from:
 Şimdiye kadar beş tip gördük:`int`, `float`, `bool`, `NoneType` ve `str`. Karakter dizileri (str) diğer dört tipten nitelik olarak farklıdır çünkü daha küçük parçalardan (karakterler) oluşmuştur.
 
 Daha küçük parçalardan oluşan tiplere **bileşik veri tipleri** adı verilir. Ne yaptığımıza bağlı olarak, bileşik veri tipine tek bir şeymiş gibi davranabilir veya parçalarına erişmek isteyebiliriz. Bu belirsizlik yararlıdır.
-
+``
 Köşeli parantez işleci bir karakter dizisinden tek bir karakter seçmeye yarar:
 
 ```py

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 5. Değer döndüren fonksiyonlar
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -22,6 +23,7 @@ redirect_from:
 ## 5.1 Geri dönüş değerleri
 
 Şimdiye kadar kullandığımız `abs`, `pow` ve `max` benzeri içsel olarak tanımlı fonksiyonlar sonuç ürettiler, yani bir değer döndürdüler. Her bu fonksiyonları çağırmamız bir değer üretmektedir, bu üretilen değeri genellikle bir değişkene atama veya bir deyimin parçası haline getirdik.
+``
 
 ```py
 biggest = max(3, 7, 2, 5)

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP return ve goto
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -17,7 +18,7 @@ redirect_from:
 return deyimi bir fonksiyonda kullanıldığında içinde bulunduğu fonksiyonun çalışmasını sona erdirir ve kendisine geçirilen değeri fonksiyon çağrısı değeri olarak döndürür. return deyimi aynı zamanda eval() fonksiyonunun veya PHP kod dosyasının çalışmasını sona erdirir.
 
 Global olarak çağrıldığında, içinde bulunduğu komut dosyasının çalışmasını sona erdirir. Eğer aktif dosya include() ya da require() fonksiyonu ile başka bir dosyaya dahil edilmiş ise, return() deyimi kontrolu ana dosyaya aktarır. Eğer aktif dosya include() fonksiyonu ile başka bir dosyaya dahil edilmiş ise return() deyimine geçirilen değer include() çağrısının değeri olarak geri döndürülür.
-
+``
 Eğer return() deyimi ana komut dosyasından çağrılırsa, PHP komutlarının çalıştırılması sona erer.
 
 * return deyimine değer geçirilmezse parentez kullanılmamalıdır. Değer geçirildiğinde ise parentez kullanmak gerekli değildir.

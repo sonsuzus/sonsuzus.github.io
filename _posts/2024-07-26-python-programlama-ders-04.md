@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python Programlama Ders 4. Koşul ifadeleri ve Karşılaştırmalar
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -21,6 +22,7 @@ redirect_from:
 ## 4.1 Modül (Kalan) işleci
 
 **Modül işleci** tamsayılarla (ve tamsayı deyimlerle) çalışan ve ilk işlenen ikinci işlenene bölünmesiyle oluşan kalanı veren bir işleçtir. Python'da, modül işleci yüzde işareti(`%`)'dir. Sözdizimi diğer işleçlerle aynıdır:
+``
 
 ```py
 >>> bolum = 7 // 3

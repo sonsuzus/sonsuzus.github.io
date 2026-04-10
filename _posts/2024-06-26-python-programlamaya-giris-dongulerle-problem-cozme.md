@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Programlamaya Giriş 5 – Döngülerle Problem Çözme
+excerpt_separator: "``"
 math: true
 categories:
   - Program
@@ -18,7 +19,7 @@ redirect_from:
 Verilen bir (N) sayısından küçükeşit bütün asalları listeleyen bir program yazalım.
 
 Bir önceki yazıda, belli bir sayının asal olup olmadığını tespit eden bir program yazmıştık. Burada, o programı 2 ile $N$ arasındaki her tamsayı için çalıştıracağız.
-
+``
 In [1]:
 
 ```python

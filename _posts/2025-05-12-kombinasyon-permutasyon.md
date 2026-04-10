@@ -9,6 +9,7 @@ tags:
   - matematik
   - olimpiyat
 math: true
+excerpt_separator: "``"
 redirect_from:
   - /posts/kombinasyon-permutasyon/
 ---
@@ -20,7 +21,7 @@ Bu belge, permütasyon ve kombinasyon kavramlarını kısaca açıklamakta ve ö
 ## Permütasyon (Sıralama)
 
 Permütasyon, belirli bir kümenin elemanlarının **farklı sıralanışlarının** sayısını ifade eder. Sıralamanın önemli olduğu durumlarda permütasyon kullanılır.
-
+``
 $$n$$ elemanlı bir kümenin $$r$$ elemanlı permütasyonlarının sayısı $$P(n, r)$$ veya $$_nP_r$$ ile gösterilir ve şu formülle hesaplanır:
 
 $$P(n, r) = \frac{n!}{(n-r)!}$$
