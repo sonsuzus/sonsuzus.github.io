@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SQL’de Alt Sorgu (Subquery) Kullanımı
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -27,7 +28,7 @@ Cevabınız ne olur bilemiyorum ama bu yazının yazıldığı Kasım 2022 itiba
 Genellikle, istediğiniz bilgiyi elde etmek için seçme, filtreleme veya hesaplama yapmadan önce verileriniz üzerinde biraz çalışmanız gerekir. Alt sorgular, bu işi gerçekleştirmenin yollarından biridir.
 
 Alt sorgular sayesinde dinamik sorgular oluşturabiliriz.
-
+``
 ## SQL’de alt sorgu (subquery) nasıl çalışır?
 
 Alt sorgular, **ana sorgunun (main query)** içinde yer alır. Ana sorguya **“dış sorgu”** ismi de verilir. Alt sorgular, ana sorgunun içerisinde olduğu için **“iç sorgu”** olarak isimlendirilir. Ana sorgu ve alt sorgu arasındaki ilişkiyi şu şekilde görselleştirebiliriz:
