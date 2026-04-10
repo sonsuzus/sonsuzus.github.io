@@ -2,6 +2,7 @@
 layout: post
 title: Rekabetçi Programcı Yönlü Çizgeler
 math: true
+excerpt_separator: "``"
 categories:
   - Program
 tags:
@@ -40,7 +41,7 @@ Her iki durumda da bu özellikler sayesinde çeşitli verimli algoritmalar tasar
 Topolojik sıralama, yönlü bir çizgenin düğümlerini belirli bir sıraya koymanın yoludur. Sıralamanın kuralı şudur: eğer $a$ düğümünden $b$ düğümüne bir yol varsa, $a$ sıralamada $b$'den önce yer alır.
 
 Asiklik çizgelerde her zaman en az bir topolojik sıralama vardır. Ancak çizge döngü içeriyorsa topolojik sıralama yapmak mümkün değildir; çünkü döngüdeki hiçbir düğüm sıralamada diğerlerinden önce gelemez.
-
+``
 ### Algoritma
 
 Fikir, tüm düğümleri ziyaret edip işlenmemiş her düğümden derinlik öncelikli arama (DFS) başlatmaktır. Her düğümün üç olası durumu vardır:
