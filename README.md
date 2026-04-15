@@ -1,181 +1,73 @@
-# Hydeout
+# SonsuzUs GitHub Pages Sitesi
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
+## Proje Hakkında
 
-![Desktop](/_screenshots/1.png?raw=true)
-<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
-<img alt="Mobile post page" src="/_screenshots/3.png?raw=true" width="300px" />
+Bu depo, **SonsuzUs** web sitesinin kaynak kodunu barındırmaktadır. SonsuzUs, programlama, yazılım ve çeşitli bilimsel ve entelektüel konular üzerine makaleler, notlar ve düşünceler içeren kişisel bir blog ve bilgi platformudur. Sitenin amacı, kullanıcıların programlama becerilerini geliştirmelerine, karmaşık konuları anlamalarına ve genel bilgi birikimlerini artırmalarına yardımcı olmaktır.
 
-## ⚠️ IMPORTANT: Branch Information ⚠️
+SonsuzUs, felsefe, mitoloji, matematik, fizik, kuantum fiziği, sosyoloji, psikoloji, satranç, zeka soruları ve programlama gibi geniş bir yelpazede konuları ele almaktadır. Bu depo, sitenin GitHub Pages üzerinden yayınlanan statik içeriğini yönetmek için kullanılmaktadır.
 
-### 👉 For Jekyll 4.x Users (Recommended for New Projects)
+## Canlı Site
 
-**Use the [jekyll-v4 branch](https://github.com/fongandrew/hydeout/tree/jekyll-v4) for all new projects.**
+Web sitesini canlı olarak ziyaret etmek için aşağıdaki bağlantıyı kullanabilirsiniz:
 
-The jekyll-v4 branch is actively maintained (well, at least more maintained than this branch) and includes full support for Jekyll 4.x with improvements and bug fixes.
+[https://sonsuzus.github.io](https://sonsuzus.github.io)
 
-```bash
-# Clone with jekyll-v4 branch (recommended)
-git clone -b jekyll-v4 https://github.com/fongandrew/hydeout.git
-```
+## İçerik Kategorileri
 
-### Current Branch: Jekyll 3.x Support (master)
+SonsuzUs web sitesi, özellikle rekabetçi programlama ve algoritma konularına odaklanmakla birlikte, farklı ilgi alanlarına yönelik içerikler de sunmaktadır. Başlıca içerik kategorileri şunlardır:
 
-**You're currently viewing the README for the legacy Jekyll 3.x version (master branch).**
+*   **Programlama ve Algoritmalar**: Rekabetçi programlama teknikleri, veri yapıları, çizge algoritmaları (Euler Yolu, Hamilton Yolu, Ağaç Sorguları, Güçlü Bağlanırlık, Yönlü Çizgeler, Kapsayan Ağaç, Ağaç Algoritmaları, En Kısa Yolu Bulmak, Çizgede Dolaşma, Çizgenin Temelleri, Bit Manipülasyonu) ve yazılım geliştirme prensipleri.
+*   **Bilim ve Felsefe**: Fizik, kuantum fiziği, matematik, felsefe ve mitoloji gibi alanlarda derinlemesine incelemeler.
+*   **Sosyal Bilimler ve Psikoloji**: Sosyoloji ve psikolojiye dair makaleler ve analizler.
+*   **Zeka Oyunları**: Satranç ve çeşitli zeka soruları üzerine içerikler.
 
-This master branch is maintained for legacy support and compatibility with older GitHub Pages deployments. It will remain on Jekyll 3.x for as long as [GitHub Pages continues to support this version](https://pages.github.com/versions/).
+## Teknolojiler
 
-The master branch exists primarily to avoid breaking existing GitHub Pages sites that use `remote_theme: fongandrew/hydeout` in their `_config.yml` files (see usage below). [See the GitHub instructions for more details.](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/).
+Bu web sitesi aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
-## Usage details
+*   **Jekyll**: Statik site oluşturucu. İçeriği Markdown dosyalarından HTML'e dönüştürür.
+*   **Hydeout Theme**: Jekyll için özel olarak tasarlanmış, minimalist ve duyarlı bir tema. (Hyde teması üzerine geliştirilmiştir).
+*   **GitHub Pages**: Sitenin barındırıldığı platform.
 
-Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
-it with an `index.html` that uses the `index` layout:
+## Kurulum ve Geliştirme
 
-```
----
-layout: index
-title: Home
----
-```
+Projeyi yerel ortamınızda çalıştırmak ve geliştirmek için aşağıdaki adımları takip edebilirsiniz:
 
-You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
-to include per page (e.g. `paginate: 5`).
+1.  **Depoyu Klonlayın**:
+    ```bash
+    git clone https://github.com/sonsuzus/sonsuzus.github.io.git
+    cd sonsuzus.github.io
+    ```
 
-### Keep It Simple
+2.  **Jekyll Bağımlılıklarını Yükleyin**:
+    Jekyll'i çalıştırmak için Ruby ve Bundler'ın yüklü olması gerekmektedir. Bağımlılıkları yüklemek için:
+    ```bash
+    bundle install
+    ```
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
+3.  **Yerel Sunucuyu Başlatın**:
+    Siteyi yerel olarak önizlemek için:
+    ```bash
+    bundle exec jekyll serve
+    ```
+    Bu komut, siteyi `http://localhost:4000` adresinde çalıştıracaktır.
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+## Katkıda Bulunma
 
-### Customization
+SonsuzUs projesine katkıda bulunmaktan memnuniyet duyarız! Her türlü katkı (yazım hataları düzeltmeleri, yeni makale önerileri, kod iyileştirmeleri vb.) değerlidir. Katkıda bulunmak için lütfen aşağıdaki adımları izleyin:
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
+1.  Depoyu fork edin.
+2.  Yeni bir özellik veya düzeltme için yeni bir dal (branch) oluşturun (`git checkout -b feature/AmazingFeature`).
+3.  Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`).
+4.  Dalınızı push edin (`git push origin feature/AmazingFeature`).
+5.  Bir Pull Request açın.
 
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-fg-color: white !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-```
+## Lisans
 
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
+Bu proje, `LICENSE.md` dosyasında belirtilen lisans koşulları altında yayınlanmıştır.
 
-```scss
----
-# Jekyll needs front matter for SCSS files
----
+## İletişim
 
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import "hydeout";
-```
+Proje sahibi ve katkıda bulunanlarla iletişime geçmek için aşağıdaki GitHub profilini ziyaret edebilirsiniz:
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
-
-You can see the full set of partials you can replace in the
-[`_includes`](_includes) folder, but there are a few worth noting:
-
-* `_includes/copyright.html` - Insert your own copyright here.
-
-* `_includes/custom-head.html` - Insert custom head tags (e.g. to load your
-  own stylesheets)
-
-* `_includes/custom-foot.html` - Insert custom elements at the end of the
-  body (e.g. for custom JS)
-
-* `_includes/custom-nav-links.html` - Additional nav links to insert at the
-  end of the list of links in the sidebar.
-
-  Pro-tip: The `nav`s in the sidebar are flexboxes. Use the `order` property
-  to order your links.
-
-* `_includes/custom-icon-links.html`- Additional icon links to insert at the
-  end of the icon links at the bottom of the sidebar. You can use the `order`
-  property to re-order.
-
-* `_includes/favicons.html` - Replace references to `favicon.ico` and
-  `favicon.png` with your own favicons references.
-
-* `_includes/font-includes.html` - The Abril Fatface font used for the site
-  title is loaded here. If you're overriding that font in the CSS, be sure
-  to also remove the font load reference here.
-
-### New Features
-
-* Hydeout adds a new tags page (accessible in the sidebar). Just create a
-  new page with the tags layout:
-
-  ```
-  ---
-  layout: tags
-  title: Tags
-  ---
-  ```
-
-* Hydeout adds a new "category" layout for dedicated category pages.
-  Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar. To create a category page, use the `category` layout"
-
-  ```
-  ---
-  layout: category
-  title: My Category
-  ---
-
-  Description of "My Category"
-  ```
-
-* You can control how pages are sorted by using the `sidebar_sort_order`
-  parameter in the front matter. This works for both category and non-category
-  pages, although non-category pages will always come first. Take a look at
-  [`_includes/sidebar-nav-links.html`](./_includes/sidebar-nav-links.html) if
-  you want to customize this behavior.
-
-  ```
-  ---
-  layout: page
-  title: My page
-  sidebar_sort_order: 123
-  ---
-
-  Some content.
-  ```
-
-* A simple redirect-to-Google search is available. Just create a page with
-  the `search` layout.
-
-  ```
-  ---
-  layout: search
-  title: Google Search
-  ---
-  ```
-
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
-
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
-
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
-
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
-
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+[Sonsuz Us GitHub Profili](https://github.com/sonsuzus)
