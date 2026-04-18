@@ -1,13 +1,10 @@
 ---
 layout: default
-math: true
 ---
 
 <div class="content">
   {% include pagination-newer.html %}
-  {% if page.math %}
-      {% include mathjax.html %}
-  {% endif %}
+  
 
   {{ content }}
 
