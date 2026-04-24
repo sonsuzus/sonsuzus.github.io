@@ -23,14 +23,8 @@ author:
 paginate:         10
 paginate_path:    /page/:num/
                     # Or '/blog/page:num' if you want to move your index pages
-
+permalink: /posts/:title/
 defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      permalink: /posts/:title/
-
   - scope:
       path: ""
       type: pages
