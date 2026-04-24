@@ -23,13 +23,13 @@ author:
 paginate:         10
 paginate_path:    /page/:num/
                     # Or '/blog/page:num' if you want to move your index pages
-permalink: /posts/:title/
+
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: post
     values:
-      permalink: /:title/
+      permalink: /posts/:title/
 
 plugins:
   - jekyll-feed
