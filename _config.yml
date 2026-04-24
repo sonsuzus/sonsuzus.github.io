@@ -25,13 +25,14 @@ paginate_path:    /page/:num/
                     # Or '/blog/page:num' if you want to move your index pages
 
 defaults:
+  defaults:
   - scope:
       path: ""
       type: post
     values:
       permalink: /posts/:title/
 
-    - scope:
+  - scope:
       path: ""
       type: pages
     values:
