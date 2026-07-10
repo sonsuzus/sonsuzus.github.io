@@ -2,7 +2,6 @@
 layout: post
 title: "Python ile Görüntü İşleme: Piksellerle Dans Etmeye Hazır mısın?"
 math: true
-excerpt_separator: "<!--more-->"
 categories: 
   - Program
 tags: 
@@ -16,12 +15,12 @@ Görüntü işleme, bilgisayara bir resmi sadece ‘görmeyi’ değil, onu anla
 
 En basit haliyle bir görüntü, sayılardan oluşan bir matristir. Gri tonlamalı bir resimde her piksel 0 ile 255 arasında değer alır. 0 siyahı, 255 beyazı temsil eder. Renkli görüntülerde ise genellikle üç kanal bulunur: kırmızı, yeşil ve mavi. Yani bir piksel aslında şöyle düşünülebilir: $(R, G, B)$.
 
-<!--more-->
+
 
 ## Görüntü İşleme İçin Popüler Python Kütüphaneleri
 
 Python ekosisteminde görüntü işleme için birçok araç var. En sık kullanılanları şöyle özetleyebiliriz:
-
+``
 | Kütüphane | Kullanım Alanı | Avantajı |
 |---|---|---|
 | OpenCV | Gerçek zamanlı görüntü işleme | Hızlı ve çok kapsamlı |
