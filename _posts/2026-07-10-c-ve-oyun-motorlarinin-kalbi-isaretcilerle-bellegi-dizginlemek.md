@@ -2,7 +2,6 @@
 layout: post
 title: "C++ ve Oyun Motorlarının Kalbi: İşaretçilerle Belleği Dizginlemek"
 math: true
-excerpt_separator: ""
 categories: 
   - Bilgi
 tags: 
@@ -14,7 +13,7 @@ tags:
 
 Bir oyun motorunu devasa bir lunapark gibi düşünün: fizik simülasyonu hız trenidir, render sistemi ışıklı dönme dolaptır, yapay zekâ ise pamuk şeker kuyruğunda karar vermeye çalışan NPC’dir. Bu lunaparkın elektriği ise bellektir. C++ burada sahneye çıkar; çünkü işaretçiler, düşük seviyeli bellek kontrolü ve veri yerleşimi sayesinde üç boyutlu dünyaların milisaniyeler içinde hesaplanmasını sağlar.
 
-4. Konunun mantığını kavramak için teorik altyapıya önem ver.
+``
 
 ## Neden C++ hâlâ oyun motorlarında bu kadar güçlü?
 
