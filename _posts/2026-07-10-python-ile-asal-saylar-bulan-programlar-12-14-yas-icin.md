@@ -11,8 +11,6 @@ tags:
   - Algoritma
 ---
 
-# Python ile Asal Sayıları Bulan Programlar
-
 Bu yazıda Python kullanarak **asal sayıları bulan programlar** yazacağız. Konu, 12-14 yaş seviyesine uygun olacak şekilde basit örneklerle anlatılmıştır.
 
 ## Asal Sayı Nedir?
