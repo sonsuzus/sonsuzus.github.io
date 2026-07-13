@@ -14,11 +14,11 @@ redirect_from:
 ---
 
 
-Zig, Andrew Kelley tarafından geliştirilen, düşük seviyeli ve genel amaçlı bir programlama dilidir. Zig, C diline benzer bir söz dizimine sahip olmakla birlikte, daha modern ve güvenli özelliklere odaklanmıştır. Amaçları arasında hız, düşük seviyeli programlama ve bellek güvenliği bulunur.
+Zig, Andrew Kelley tarafından geliştirilen, [düşük seviyeli](https://sonsuzus.github.io/search.html?q=d%C3%BC%C5%9F%C3%BCk%20seviyeli) ve genel amaçlı bir programlama dilidir. Zig, C diline benzer bir söz dizimine sahip olmakla birlikte, daha modern ve güvenli özelliklere odaklanmıştır. Amaçları arasında hız, düşük seviyeli programlama ve [bellek güvenliği](https://sonsuzus.github.io/search.html?q=bellek%20g%C3%BCvenli%C4%9Fi) bulunur.
 
 #### Temel Özellikleri:
 
-1. Derlenmiş ve Hızlı
+1. Derlenmiş ve [Hızlı](https://sonsuzus.github.io/search.html?q=h%C4%B1zl%C4%B1)
    Zig, natively derlenebilen bir dil olup, performans odaklı bir yapıya sahiptir. Bu özellik sayesinde, sistem düzeyinde veya kaynak yoğun uygulamalarda etkili bir şekilde kullanılabilir.
 
 2. Bellek Güvenliği

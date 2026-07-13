@@ -21,7 +21,7 @@ olduğunu, hangi alanlarda kullanıldığını ve yazılımlarının nasıl geli
 
 ## Simülasyon Nedir?
 
-Simülasyon, gerçek dünyadaki bir sistemin veya olayın sanal bir modelini oluşturmayı ve bu
+[Simülasyon](https://sonsuzus.github.io/search.html?q=sim%C3%BClasyon), gerçek dünyadaki bir sistemin veya olayın sanal bir modelini oluşturmayı ve bu
 model üzerinde çeşitli koşulları test etmeyi amaçlayan bir süreçtir. Bu, gerçek dünya
 deneyimini taklit ederek, belirli bir ortamda nasıl davranılması gerektiğini anlamamıza
 yardımcı olur.

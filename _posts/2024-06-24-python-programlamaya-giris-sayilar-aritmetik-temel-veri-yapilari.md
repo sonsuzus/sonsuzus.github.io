@@ -20,7 +20,7 @@ redirect_from:
 
 
 
-Yeni başlayanlar için Python programlamayı anlatan yazı dizimizin ikinci bölümünde sayıları, aritmetik işlemlerini, ve Python’daki temel veri tiplerini (listeler, çokuzlar, dizeler, sözlükler) işliyoruz.
+Yeni başlayanlar için Python programlamayı anlatan yazı dizimizin ikinci bölümünde sayıları, [aritmetik](https://sonsuzus.github.io/search.html?q=aritmetik) işlemlerini, ve Python’daki temel veri tiplerini (listeler, çokuzlar, dizeler, sözlükler) işliyoruz.
 
 
 Bu yazıda sadece kısa ve işlevsel bir giriş yapıyoruz. Sonraki bölümlerimizde veri yapılarının kullanımından daha fazla bahsedeceğiz.
@@ -29,7 +29,7 @@ Bu yazıda sadece kısa ve işlevsel bir giriş yapıyoruz. Sonraki bölümlerim
 ## Sayılar ve aritmetik
 
 
-Python’da öntanımlı (built-in) üç çeşit sayı var: *Tamsayılar*, *reel sayılar*, ve *karmaşık sayılar*. Reel sayılar bilgisayarda *kayan nokta* (floating point) biçiminde temsil edilir. Bilimsel hesaplama yapanlar için kayan nokta temsilini iyi anlamak çok mühim, ama bunu daha sonraya bırakalım.
+Python’da öntanımlı (built-in) üç çeşit sayı var: *Tamsayılar*, *reel [sayılar](https://sonsuzus.github.io/search.html?q=say%C4%B1lar)*, ve *karmaşık sayılar*. Reel sayılar bilgisayarda *kayan nokta* (floating point) biçiminde temsil edilir. Bilimsel hesaplama yapanlar için kayan nokta temsilini iyi anlamak çok mühim, ama bunu daha sonraya bırakalım.
 
 
 Bu üç sayı tipiyle öntanımlı olarak yedi aritmetik işlem yapılabilir: Toplama (`+`), çıkarma (`-`), çarpma (`*`), bölme (`/`), tamsayı bölme (`//`), kalan (`%`), ve üs alma (`**`).

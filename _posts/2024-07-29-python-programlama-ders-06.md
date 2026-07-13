@@ -22,7 +22,7 @@ redirect_from:
 
 Bilgisayarlar sıklıkla tekrarlayan görevleri otomatikleştirmek için kullanılmaktadır. Aynı veya benzer görevleri hatasız bir şekilde tekrarlama işlemi bilgisayarların iyi yaptığı, insanların ise zorlandığı bir şeydir.
 
-Bir komutlar kümesinin tekrar tekrar yürütülmesi işlemine **yineleme (iteration)** adı verilir. Yineleme çok yaygın olduğu için, Python bunu kolaylaştırmak için birkaç özellik sağlar. Daha önceki bölümlerde `for` deyimini gördük. `for` deyimi en sık kullanacağınız döngü komutu olacaktır. Fakat bu bölümde `while` deyimine bakacağız. Bu, azıcık farklı durumlarda yineleme yapmanın başka değişik yoludur.
+Bir komutlar kümesinin tekrar tekrar yürütülmesi işlemine **[yineleme](https://sonsuzus.github.io/search.html?q=yineleme) (iteration)** adı verilir. Yineleme çok yaygın olduğu için, Python bunu kolaylaştırmak için birkaç özellik sağlar. Daha önceki bölümlerde `for` deyimini gördük. `for` deyimi en sık kullanacağınız döngü komutu olacaktır. Fakat bu bölümde `while` deyimine bakacağız. Bu, azıcık farklı durumlarda yineleme yapmanın başka değişik yoludur.
 ``
 
 ## 6.1 Birden fazla atama
@@ -84,7 +84,7 @@ Bir değişkeni güncellemeden önce, o değişkeni **ilklemeniz** gerekir, bu d
 
 Bir değişkeni üzerine 1 ekleyerek güncelleme işlemine **artırma**; değerinden 1 çıkarma işlemine `çıkarma` adı verilir.
 
-## 6.3 `for` döngüsü
+## 6.3 @@MASK_59@@ döngüsü
 
 `for` döngüsünün listenin içindeki öğeler üzerinden döngü yaptığını hatırlayınız. Listenin içindeki eleman sırasıyla döngü değişkenine yeniden atanır ve döngünün içindeki gövde çalıştırılır.
 
@@ -114,7 +114,7 @@ print(toplam([ ]) == 0)
 print(toplam(range(11)) == 55)  # 11 listeye dahil değildir.
 ```
 
-## 6.4 `while` döngüsü
+## 6.4 @@MASK_61@@ döngüsü
 
 Bilgisayarlar genellikle tekrarlayan görevleri otomatikleştirmek için kullanılmaktadır. Aynı veya benzer görevleri hatasız bir şekilde tekrarlama işlemi bilgisayarların iyi yaptığı, insanların zorlandığı bir şeydir.
 

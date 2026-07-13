@@ -11,7 +11,7 @@ redirect_from:
   - /posts/python_var/
 ---
 
-Python'da değişken farklı türdeki verileri yerleştirmek için kullanılan bellek bölgesidir. Python'da bir değişkene ilk değer atanırken değişken adından önce herhangi bir veri türü tanımlaması yapılmaz. Değişkene atanan değerin veri türüne bağlı olarak, değişkenin veri türü otomatik olarak belirlenir.
+Python'da [değişken](https://sonsuzus.github.io/search.html?q=de%C4%9Fi%C5%9Fken) farklı türdeki verileri yerleştirmek için kullanılan bellek bölgesidir. Python'da bir değişkene ilk değer atanırken değişken adından önce herhangi bir [veri türü](https://sonsuzus.github.io/search.html?q=veri%20t%C3%BCr%C3%BC) tanımlaması yapılmaz. Değişkene atanan değerin veri türüne bağlı olarak, değişkenin veri türü otomatik olarak belirlenir.
 
 Bir değişken oluşturmak için, değişken adını tanımlamak ve tanımlarken değişkene değişkenin veri türünü belirleyecek olan bir veri atamak gerekir. Belirli bir veri türünden değişken tanımladıktan sonra, aynı değişkene farklı veri türünden bir değer atadığımızda, değişken veri türü otomatik olarak yeni atanan verinin türüne dönüşür.
 
@@ -52,7 +52,7 @@ Programda, deg değişkenine ilk olarak bir tamsayı değer atandığından değ
 
 ## Tek değişkene değer atama
 
-Python'da bir satırda tek bir değişkene ilk değer atanırken, değişkene atanan değerin veri türüne bağlı olarak, değişkenin veri türü otomatik olarak belirlenir. Tek değişken değer atama işlemini bir örnek üzerinde incelemeye çalışalım:
+Python'da bir satırda tek bir değişkene ilk değer atanırken, değişkene atanan değerin veri türüne bağlı olarak, değişkenin veri türü otomatik olarak belirlenir. Tek değişken değer [atama](https://sonsuzus.github.io/search.html?q=atama) işlemini bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 

@@ -15,7 +15,7 @@ redirect_from:
   - /posts/cpp-vektor-kullanimi/
 ---
 
-Bu yazıda, C++ Standart Kütüphanesi'nin (STL - Standard Template Library) en güçlü ve sık kullanılan veri yapılarından biri olan **vektörleri (vectors)** detaylı bir şekilde inceleyeceğiz. Vektörler, C++ programcılarına dinamik boyutlu dizilerle çalışma imkanı sunarak bellek yönetimi ve veri depolama konularında büyük kolaylık sağlar. Gelin, vektörlerin ne olduğuna, nasıl kullanıldığına ve geleneksel C-stili dizilere göre avantajlarına birlikte göz atalım.
+Bu yazıda, C++ Standart Kütüphanesi'nin (STL - Standard Template Library) en güçlü ve sık kullanılan veri yapılarından biri olan **vektörleri (vectors)** detaylı bir şekilde inceleyeceğiz. [Vektörler](https://sonsuzus.github.io/search.html?q=vekt%C3%B6rler), C++ programcılarına dinamik boyutlu dizilerle çalışma imkanı sunarak bellek yönetimi ve veri depolama konularında büyük kolaylık sağlar. Gelin, vektörlerin ne olduğuna, nasıl kullanıldığına ve geleneksel C-stili dizilere göre avantajlarına birlikte göz atalım.
 
 ## Vektör Nedir?
 
@@ -27,9 +27,9 @@ Vektörler, `vector` başlık dosyası (`#include <vector>`) altında tanımlanm
 
 Geleneksel C-stili dizilere kıyasla vektörlerin birçok avantajı vardır:
 
-**Dinamik Boyutlandırma:** En önemli avantajıdır. Dizilerin boyutu derleme zamanında sabitken, vektörlerin boyutu çalışma zamanında değişebilir.
+**[Dinamik Boyutlandırma](https://sonsuzus.github.io/search.html?q=dinamik%20boyutland%C4%B1rma):** En önemli avantajıdır. Dizilerin boyutu derleme zamanında sabitken, vektörlerin boyutu çalışma zamanında değişebilir.
 
-**Otomatik Bellek Yönetimi:** Vektörler, elemanlar eklendikçe veya çıkarıldıkça belleği otomatik olarak yönetir. Bu, `new` ve `delete` (veya `malloc` ve `free`) ile manuel bellek yönetimi ihtiyacını azaltır ve bellek sızıntıları (memory leaks) gibi hataların önüne geçer.
+**[Otomatik Bellek Yönetimi](https://sonsuzus.github.io/search.html?q=otomatik%20bellek%20y%C3%B6netimi):** Vektörler, elemanlar eklendikçe veya çıkarıldıkça belleği otomatik olarak yönetir. Bu, `new` ve `delete` (veya `malloc` ve `free`) ile manuel bellek yönetimi ihtiyacını azaltır ve bellek sızıntıları (memory leaks) gibi hataların önüne geçer.
 
 **Zengin Fonksiyon Seti:** Vektörler, eleman ekleme, silme, boyut sorgulama, kapasite yönetimi gibi birçok kullanışlı üye fonksiyona sahiptir.
 
@@ -166,7 +166,7 @@ int main() {
 
 Vektör elemanlarına birkaç farklı yolla erişilebilir:
 
-#### `[]` Operatörü
+#### @@MASK_48@@ Operatörü
 
 Dizi benzeri erişim sağlar. Ancak sınır kontrolü yapmaz. Geçersiz bir indekse erişmeye çalışmak tanımsız davranışa (undefined behavior) yol açabilir.
 
@@ -185,7 +185,7 @@ int main() {
 }
 ```
 
-#### `at()` Fonksiyonu
+#### @@MASK_49@@ Fonksiyonu
 
 `[]` operatörüne benzer şekilde elemana erişir, ancak ek olarak sınır kontrolü yapar. Eğer geçersiz bir indekse erişilmeye çalışılırsa `std::out_of_range` türünde bir istisna fırlatır. Bu, daha güvenli bir erişim yöntemidir.
 
@@ -208,7 +208,7 @@ int main() {
 }
 ```
 
-#### `front()` Fonksiyonu
+#### @@MASK_52@@ Fonksiyonu
 
 Vektörün ilk elemanına referans döndürür. Vektör boş olmamalıdır.
 
@@ -227,7 +227,7 @@ int main() {
 }
 ```
 
-#### `back()` Fonksiyonu
+#### @@MASK_53@@ Fonksiyonu
 
 Vektörün son elemanına referans döndürür. Vektör boş olmamalıdır.
 
@@ -248,7 +248,7 @@ int main() {
 
 ### 5. Vektör Boyutunu ve Kapasitesini Öğrenme
 
-#### `size()`
+#### @@MASK_54@@
 
 Vektördeki mevcut eleman sayısını döndürür.
 
@@ -265,7 +265,7 @@ int main() {
 }
 ```
 
-#### `empty()`
+#### @@MASK_55@@
 
 Vektörün boş olup olmadığını kontrol eder. Boşsa `true`, değilse `false` döndürür.
 
@@ -290,7 +290,7 @@ int main() {
 }
 ```
 
-#### `capacity()`
+#### @@MASK_58@@
 
 Vektörün, yeniden bellek ayırmadan (reallocation) depolayabileceği maksimum eleman sayısını döndürür. Kapasite genellikle boyuttan büyük veya eşittir.
 
@@ -313,7 +313,7 @@ int main() {
 
 `push_back` ile eleman eklendiğinde, eğer mevcut kapasite yetersiz kalırsa, vektör genellikle kapasitesini (örneğin iki katına) artırır. Bu, yeni bir bellek bloğu ayırmayı ve mevcut elemanları yeni alana kopyalamayı içerir, bu da maliyetli bir işlem olabilir.
 
-#### `reserve()`
+#### @@MASK_60@@
 
 Vektörün kapasitesini belirli bir değere yükseltmek için kullanılır. Eğer sık sık eleman ekleneceği biliniyorsa, baştan yeterli kapasite ayırmak performansı artırabilir, çünkü sürekli yeniden bellek ayırma işlemlerinin önüne geçilir.
 
@@ -331,7 +331,7 @@ int main() {
 }
 ```
 
-#### `shrink_to_fit()` (C++11)
+#### @@MASK_61@@ (C++11)
 
 Vektörün kapasitesini, mevcut eleman sayısına (`size()`) düşürmek için bir istekte bulunur. Bu, gereksiz bellek kullanımını azaltabilir ancak her zaman kapasitenin küçüleceği garanti edilmez (kütüphane implementasyonuna bağlıdır).
 
@@ -439,7 +439,7 @@ int main() {
 
 ### 1. Eleman Silme
 
-#### `pop_back()`
+#### @@MASK_65@@
 
 Vektörün son elemanını siler. Vektör boşsa bu fonksiyonu çağırmak tanımsız davranışa yol açar.
 
@@ -466,7 +466,7 @@ int main() {
 }
 ```
 
-#### `erase()`
+#### @@MASK_66@@
 
 Belirli bir pozisyondaki veya belirli bir aralıktaki elemanları siler. İteratörler alır.
 
@@ -508,7 +508,7 @@ int main() {
 
 `erase()` fonksiyonu, silinen elemandan sonraki elemanın iteratörünü döndürür. Bu, döngü içinde eleman silerken kullanışlıdır.
 
-#### `clear()`
+#### @@MASK_68@@
 
 Vektördeki tüm elemanları siler. Boyut 0 olur, ancak kapasite genellikle değişmez.
 
@@ -530,7 +530,7 @@ int main() {
 
 ### 2. Eleman Ekleme (Araya)
 
-#### `insert()`
+#### @@MASK_69@@
 
 Vektörün belirli bir pozisyonuna bir veya daha fazla eleman ekler. İteratörler alır.
 
@@ -569,7 +569,7 @@ int main() {
 
 `insert()` fonksiyonu, eklenen ilk elemanın iteratörünü döndürür.
 
-#### `emplace()` (C++11)
+#### @@MASK_71@@ (C++11)
 
 `insert()` gibi belirli bir pozisyona eleman ekler, ancak elemanı doğrudan vektör içinde oluşturur (in-place construction), bu da `insert()`'e göre daha verimli olabilir.
 
@@ -601,7 +601,7 @@ int main() {
 
 ### 3. Vektörü Yeniden Boyutlandırma
 
-#### `resize()`
+#### @@MASK_74@@
 
 Vektörün boyutunu değiştirir.
 
@@ -638,7 +638,7 @@ int main() {
 
 ### 4. İki Vektörün İçeriğini Takas Etme
 
-#### `swap()`
+#### @@MASK_75@@
 İki vektörün içeriğini verimli bir şekilde takas eder. Bu işlem genellikle çok hızlıdır çünkü sadece iç işaretçiler ve boyut/kapasite bilgileri takas edilir, elemanların kendileri kopyalanmaz.
 
 ```cpp

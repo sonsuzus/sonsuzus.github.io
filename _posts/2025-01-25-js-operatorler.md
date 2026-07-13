@@ -14,7 +14,7 @@ redirect_from:
 
 
 
-**Javascript Operatörler**i aritmetik operatörler, atama operatörleri, karşılaştırma operatörleri ve mantıksal operatörler olmak üzere 4 grup altında ele alabiliriz.
+**Javascript Operatörler**i [aritmetik operatörler](https://sonsuzus.github.io/search.html?q=aritmetik%20operat%C3%B6rler), atama operatörleri, karşılaştırma operatörleri ve mantıksal operatörler olmak üzere 4 grup altında ele alabiliriz.
 
 ## Aritmetik Operatörler
 

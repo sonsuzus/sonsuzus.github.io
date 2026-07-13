@@ -33,7 +33,7 @@ Geçen bölümde karakter dizilerinin genel özelliklerinden söz ettik. Bu böl
 
 ### replace()
 
-Karakter dizisi metotları arasında inceleyeceğimiz ilk metot `replace()` metodu olacak. replace kelimesi Türkçede *‘değiştirmek, yerine koymak’* gibi anlamlar taşır. İşte bu metodun yerine getirdiği görev de tam olarak budur. Yani bu metodu kullanarak bir karakter dizisi içindeki karakterleri başka karakterlerle değiştirebileceğiz.
+Karakter dizisi metotları arasında inceleyeceğimiz ilk [metot](https://sonsuzus.github.io/search.html?q=metot) `replace()` metodu olacak. [replace](https://sonsuzus.github.io/search.html?q=replace) kelimesi Türkçede *‘değiştirmek, yerine koymak’* gibi anlamlar taşır. İşte bu metodun yerine getirdiği görev de tam olarak budur. Yani bu metodu kullanarak bir karakter dizisi içindeki karakterleri başka karakterlerle değiştirebileceğiz.
 
 Peki bu metodu nasıl kullanacağız? Hemen bir örnek verelim:
 
@@ -50,7 +50,7 @@ Gördüğünüz gibi, `replace()` son derece yararlı ve kullanımı oldukça ko
 
 `karakter_dizisi.metot(parametre)`
 
-Metotlar karakter dizilerinden nokta ile ayrılır. Python’da bu yönteme *‘noktalı gösterim’ (dot notation)* adı verilir.
+Metotlar karakter dizilerinden nokta ile ayrılır. Python’da bu yönteme *‘[noktalı gösterim](https://sonsuzus.github.io/search.html?q=noktal%C4%B1%20g%C3%B6sterim)’ (dot notation)* adı verilir.
 
 Bu arada metotların görünüş ve kullanım olarak fonksiyonlara ne kadar benzediğine dikkat edin. Tıpkı fonksiyonlarda olduğu gibi, metotlar da birtakım parametreler alabiliyor.
 
@@ -928,43 +928,29 @@ Bu defa < adlı işaretten yararlandığımıza dikkat edin.
 
 Yukarıdaki yöntemi kullanarak, karakter dizilerini sola veya sağa yaslamanın yanısıra, kendilerine ayrılan alan içinde ortalayabilirsiniz de:
 
-```py
-print("|{:^15}|".format("istihza"))
-
-|    istihza    |
-```
+@@MASK_50@@
 
 Gördüğünüz gibi, python3 ile gelen format() metodunu hizalama işlemleri için kullanırken üç farklı işaretten yararlanıyoruz:
 
-`>`
+@@MASK_130@@
 
 *sağa yaslama*
 
-`<`
+@@MASK_131@@
 
 *sola yaslama*
 
-`^`
+@@MASK_132@@
 
 *ortalama*
 
 Yukarıdaki işaretler, yaptıkları işi çağrıştırdıkları için, bunları akılda tutmak çok zor olmasa gerek. Mesela örnek olması açısından, eski biçimlendirme yönteminin son kısmında verdiğimiz şu örneği:
 
-```py
-for sıra, karakter in enumerate(dir(str)):
-    if sıra % 3 == 0:
-        print("\n", end="")
-    print("%-20s" %karakter, end="")
-```
+@@MASK_51@@
 
 … bir de yeni format() metoduyla yazalım:
 
-```py
-for sıra, karakter in enumerate(dir(str)):
-    if sıra % 3 == 0:
-        print("\n", end="")
-    print("{:<20}".format(karakter), end="")
-```
+@@MASK_52@@
 
 Bu örneği inceleyerek, eski ile yeni yöntem arasında nelerin değiştiğini, neyin neye karşılık geldiğini görebilirsiniz.
 
@@ -979,130 +965,69 @@ s
 
 Yalnız bu biçimlendirici karakterlerin {} işaretleri içindeki kullanımı ilk bakışta gözünüze biraz karışık gelebilir:
 
-`print("{:s}".format("karakter dizisi"))`
+@@MASK_133@@
 
 karakter dizisi
 : Bu arada, harfleri {} yapısının içinde nasıl kullandığımıza dikkat edin. Gördüğünüz gibi biçimlendirme karakterini kullanırken, karakterin sol tarafına bir adet : işareti de yerleştiriyoruz. Bir örnek verelim:
 
-`print("{:s} ve {:s} iyi bir ikilidir!".format("Python", "Django"))`
+@@MASK_134@@
 
 Yalnız, s harfi karakter dizilerini temsil ettiği için, {} işaretleri arasında bu harfi kullandığımızda, format() metodunun alabileceği parametreyi karakter dizisiyle sınırlandırmış oluruz. Dolayısıyla bu harfi kullandıktan sonra format() metodu içinde sadece karakter dizilerini kullanabiliriz. 
 
 d
 : Bu harf sayıları temsil eder:
 
-```py
-print("{:d}".format(65))
-
-65
-```
+@@MASK_53@@
 
 Eğer sayı dışında bir değer kullanırsanız Python size bir hata mesajı gösterir:
 
-```py
-print("{:d}".format("65"))
-
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: Unknown format code 'd' for object of type 'str'
-```
+@@MASK_54@@
 
 o
 : Bu harf onlu düzendeki sayıları sekizli düzendeki karşılıklarına çevirir:
 
-```py
-print("{:o}".format(65))
-
-101
-```
+@@MASK_55@@
 
 x
 : Bu harf onlu düzendeki sayıları onaltılı düzendeki karşılıklarına çevirir:
 
-```py
-print("{:x}".format(65))
-
-41
-```
+@@MASK_56@@
 
 X
 : Tıpkı x harfinde olduğu gibi, bu harf de onlu düzendeki sayıları onaltılı düzendeki karşılıklarına çevirir:
 
-```py
-"{:X}".format(65)
-
-'41'
-```
+@@MASK_57@@
 
 Peki x ile X harfi arasında ne fark var? Fark şudur: x; onaltılı düzende harfle gösterilen sayıları küçük harf şeklinde temsil eder. X işareti bu sayıları büyük harf şeklinde temsil eder. Bu ikisi arasındaki farkı daha net görmek için şöyle bir kod yazabilirsiniz:
 
-```py
-for i in range(20):
-    print("{:x}{:10X}".format(i, i))
-
-0         0
-1         1
-2         2
-3         3
-4         4
-5         5
-6         6
-7         7
-8         8
-9         9
-a         A
-b         B
-c         C
-d         D
-e         E
-f         F
-10        10
-11        11
-12        12
-13        13
-```
+@@MASK_58@@
 
 Gördüğünüz gibi gerçekten de x harfi onaltılı düzende harflerle gösterilen sayıları küçük harf olarak; X harfi ise büyük harf olarak temsil ediyor.
 
 b
 : Bu işaret, onlu düzendeki sayıları ikili düzendeki karşılıklarına çevirir:
 
-```py
-"{:b}".format(2)
-
-'10'
-```
+@@MASK_59@@
 
 f
 : Bu işaret, eski biçimlendirme yöntemini anlatırken gösterdiğimiz f işaretiyle benzer bir işleve sahiptir:
 
-```py
-print("{:.2f}".format(50))
-
-50.00
-```
+@@MASK_60@@
 
 ,
 : \: işaretini , işareti (basamak ayracı) ile birlikte kullanarak, sayıları basamaklarına ayırabilirsiniz:
 
-```py
-"{:,}".format(1234567890)
-
-'1,234,567,890'
-```
+@@MASK_61@@
 
 Böylece Python’da karakter dizisi biçimlendirmenin hem eski hem de yeni yöntemini, şu ana kadarki Python bilgimiz elverdiği ölçüde ayrıntılı bir şekilde incelemiş olduk. Buradaki bilgileri kullanarak bol bol örnek yapmak bu konuyu daha iyi anlamanıza yardımcı olacaktır.
 
 ### f-string metodu ile biçimlendirme
 
-Daha önceki bölümde `format()` fonksiyonuyla karakter dizilerini nasıl biçimlendirebileceğimizi görmüştük. 3.6 sürümü ile Python’a eklenen f-string yapısı da buna benzer bir şekilde çalışıyor.
+Daha önceki bölümde @@MASK_135@@ fonksiyonuyla karakter dizilerini nasıl biçimlendirebileceğimizi görmüştük. 3.6 sürümü ile Python’a eklenen f-string yapısı da buna benzer bir şekilde çalışıyor.
 
-`format()` fonksiyonumuz kendisine verdiğimiz değerleri kapsama alanı içerisinde uygun yerlere yerleştirir. Hatırlarsanız `format()` fonksiyonunu ilgilendiren kısımları süslü parantezlerin içine yazıyorduk.
+@@MASK_136@@ fonksiyonumuz kendisine verdiğimiz değerleri kapsama alanı içerisinde uygun yerlere yerleştirir. Hatırlarsanız @@MASK_137@@ fonksiyonunu ilgilendiren kısımları süslü parantezlerin içine yazıyorduk.
 
-```py
-isim = 'Buğra'
-print('Selam {}!'.format(isim))
-```
+@@MASK_62@@
 
 Bu sefer format() fonksiyonuna belirli bir yer göstermediğimiz için sırasıyla ilgili alanlara verdiğimiz parametreleri dolduracak. Zaten bir parametre ve bir alan olduğu için yukarıdaki örnekle aynı çıktıyı alacağız. format() fonksiyonunu bu kadar hatırlamak yeter, hadi f-string’lere geçelim!
 
@@ -1110,10 +1035,7 @@ Bu sefer format() fonksiyonuna belirli bir yer göstermediğimiz için sırasıy
 
 String nedir hepimiz biliyoruz, Türkçeye karakter dizisi olarak çeviriyoruz. Bu yapıya da f-string diyoruz çünkü bu yapıyı kullanmak istediğimiz stringin (karakter dizisinin) başına f veya F ekliyoruz. Yani bir ön ek ekleyerek Python’a artık onun normal, sıradan bir karakter dizisi olmadığını ve bir ön işlemden geçmesi gerektiğini belirtiyoruz:
 
-```py
-"Selam Dünya!" # Normal bir karakter dizisi
-f"Selam Dünya!" # Bu artık bir f-string
-```
+@@MASK_63@@
 
 >f-string’leri kullanabilmeniz için Python 3.6 ya da daha yeni bir sürüm kullanmamız gerektiğini unutmayalım!
 {: .prompt-warning }

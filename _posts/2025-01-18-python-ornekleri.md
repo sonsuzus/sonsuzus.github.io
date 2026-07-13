@@ -15,7 +15,7 @@ redirect_from:
 
 
 
-Bir programlama dilini öğrenmenin en iyi yöntemi örnekler üzerinden kodları inceleyerek çalışmaktır. Python dilinde de aynı yöntemleri izleyerek kodlama deneyiminizi arttırabilirsiniz. Bu sayfa Python’un temel kavramlarına ve tkinter GUI arayüzüne ilişkin örnekler içerir. **Çözüme bakmadan önce bu örnekleri kendi başınıza denemenizi öneririm.**
+Bir programlama dilini öğrenmenin en iyi yöntemi [örnekler](https://sonsuzus.github.io/search.html?q=%C3%B6rnekler) üzerinden kodları inceleyerek çalışmaktır. Python dilinde de aynı yöntemleri izleyerek [kodlama](https://sonsuzus.github.io/search.html?q=kodlama) deneyiminizi arttırabilirsiniz. Bu sayfa Python’un temel kavramlarına ve tkinter GUI arayüzüne ilişkin örnekler içerir. **Çözüme bakmadan önce bu örnekleri kendi başınıza denemenizi öneririm.**
 
 **Örnek 1:** Ekranda “Merhaba Dünya” yazdıran Python Örneği
 

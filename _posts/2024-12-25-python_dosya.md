@@ -11,7 +11,7 @@ redirect_from:
   - /posts/python_dosya/
 ---
 
-Şimdi, dosya açma ve kapama işlemlerini incelemeye çalışacağız. Bir dosya ile işlem yapmak istediğimizde, önce dosyayı açmamız, gerekli yazma ve/veya okuma işlemlerini gerçekleştirdikten sonra dosyayı kapatmamız gerekir. Dosya açma işlemi için aşağıda genel yapısı verilen open() fonksiyonu kullanılır.
+Şimdi, [dosya](https://sonsuzus.github.io/search.html?q=dosya) açma ve kapama işlemlerini incelemeye çalışacağız. Bir dosya ile işlem yapmak istediğimizde, önce dosyayı açmamız, gerekli yazma ve/veya okuma işlemlerini gerçekleştirdikten sonra dosyayı kapatmamız gerekir. Dosya açma işlemi için aşağıda genel yapısı verilen [open](https://sonsuzus.github.io/search.html?q=open)() fonksiyonu kullanılır.
 
 ```py
 
@@ -23,7 +23,7 @@ dosya-nesnesi open(dosya-adı, mod);
 dosya-adı
 : Açılacak dosya adını gösterir. Tanımlanması zorunludur.
 
-mod
+[mod](https://sonsuzus.github.io/search.html?q=mod)
 : Dosyanın açılma şeklini gösterir. Tanımlanması isteğe bağlıdır. Tanımlanmadığında, ön tanımlı değer olan ve dosyanın sadece okuma amaçlı açılacağını gösteren 'r' değeri kullanılır.
 
 dosya-nesnesi

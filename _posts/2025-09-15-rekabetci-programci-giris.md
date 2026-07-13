@@ -22,7 +22,7 @@ redirect_from:
 
 Rekabetçi programlama iki konudan oluşur: uygun algoritmayı bulmak (algoritmanın dizaynı) ve uygun algoritmanın koda geçirilmesi (implementasyonu). Uygun algoritmayı bulmak (dizayn) için soru çözmek ve matematiksel düşünme gerekir. Soruların analiz edilip yaratıcı bir şekilde çözülmesi önemlidir. Soruyu çözen algoritmanın hem doğru hem de verimli olması gerekir. Zaten genel olarak soruların temelinde verimli algoritmayı bulmak vardır. Rekabetçi programcıların algoritmalar hakkında teorik bilgiye sahip olması gerekir. Tipik bir soru çözümü genelde bilinen tekniklerle yeni gözlemlerin birleşimidir. Rekabetçi programlamada çıkan teknikler aynı zamanda algoritmaların araştırma bazlı kısmının da temelini oluşturur.
 
-Algoritmaların koda geçirilmesi (implementasyon) içinse iyi kodlama bilgisi gerekir. Rekabetçi programlamada çözümler belirli test caseler kullanılarak puanlanır. Bu yüzden sadece algoritmayı düşünerek bulmak yetmez, aynı zamanda bunun koda doğru bir şekilde geçirilmesi önemlidir.
+Algoritmaların koda geçirilmesi ([implementasyon](https://sonsuzus.github.io/search.html?q=implementasyon)) içinse iyi [kodlama](https://sonsuzus.github.io/search.html?q=kodlama) bilgisi gerekir. Rekabetçi programlamada çözümler belirli test caseler kullanılarak puanlanır. Bu yüzden sadece algoritmayı düşünerek bulmak yetmez, aynı zamanda bunun koda doğru bir şekilde geçirilmesi önemlidir.
 
 Yarışmalarda yazılan kodların kısa ama aynı zamanda anlaşılabilir olması gerekir. Yarışmalarda verilen zamanın kısıtlı olması nedeniyle çözümlerin hızlı yazılması gerekir. Klasik yazılım mühendisliğinin aksine, çözümler kısa olup (çoğunlukla en fazla birkaç yüz satır kod) yarışma sonrası geliştirilmesi gerekmemektedir.
 
@@ -34,7 +34,7 @@ Yarışmalarda yazılan kodların kısa ama aynı zamanda anlaşılabilir olmas�
 
 Yine de birkaç dilde uzmanlaşıp onların yararlarını bilmekte fayda var. Örneğin soruda çok büyük sayılar gerekiyorsa Python, büyük sayılar için işlemleri halihazırda `built-in` bulundurmasından dolayı uygun bir seçenek olabilir.  Neyse ki yarışmalardaki çoğu soru, herhangi bir kodlama dilinin avantajı olmayacak şekilde hazırlanmaktadır. 
 
-Bu kitaptaki örnek çözümler C++ ile yazılmış olup standart kütüphanedeki algoritma ve veri yapıları sıklıkla kullanılmıştır.  Çözümler C++11 formatında yazılmıştır ki bu format şu anki çoğu yarışmada kullanılabilmektedir. 
+Bu kitaptaki örnek çözümler C++ ile yazılmış olup standart kütüphanedeki [algoritma](https://sonsuzus.github.io/search.html?q=algoritma) ve veri yapıları sıklıkla kullanılmıştır.  Çözümler C++11 formatında yazılmıştır ki bu format şu anki çoğu yarışmada kullanılabilmektedir. 
 
 ### C++ Kod Örneği
 

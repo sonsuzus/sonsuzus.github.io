@@ -29,7 +29,7 @@ Bilgisayar programlarındaki tüm veriler bit olarak yani 0 ve 1 sayıları biç
 
 Programlamada bir $n$ bitlik tamsayı, $n$ bitten oluşan bir binary sayısı olarak tutulur. Örneğin C++'da `int` 32-bit olup her `int` sayısı 32 bitten oluşur.
 
-`int 43` sayısının bit gösterimi:
+`int 43` sayısının [bit gösterimi](https://sonsuzus.github.io/search.html?q=bit%20g%C3%B6sterimi):
 
 ```
 00000000000000000000000000101011
@@ -64,7 +64,7 @@ cout << y << "\n"; // 4294967253
 
 ### Overflow
 
-Bir sayı bit gösteriminin üst sınırını aşarsa **overflow** oluşur. Signed gösterimde $2^{n-1}-1$'den sonraki sayı $-2^{n-1}$ olur; unsigned gösterimde $2^n - 1$'den sonraki sayı $0$ olur.
+Bir sayı bit gösteriminin üst sınırını aşarsa **[overflow](https://sonsuzus.github.io/search.html?q=overflow)** oluşur. Signed gösterimde $2^{n-1}-1$'den sonraki sayı $-2^{n-1}$ olur; unsigned gösterimde $2^n - 1$'den sonraki sayı $0$ olur.
 
 ```cpp
 int x = 2147483647; // 2^31 - 1

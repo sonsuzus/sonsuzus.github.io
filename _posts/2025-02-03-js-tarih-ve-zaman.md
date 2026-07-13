@@ -14,7 +14,7 @@ redirect_from:
   - /posts/js-tarih-ve-zaman/
 ---
 
-**Javascript date** nesnesi ile tarayıcının o anki tarih ve saat bilgisini alabiliriz.
+**[Javascript date](https://sonsuzus.github.io/search.html?q=javascript%20date)** nesnesi ile tarayıcının o anki tarih ve saat bilgisini alabiliriz.
 
 ```js
 var dt = new Date();
@@ -30,7 +30,7 @@ Sayfayı ziyaret ettiğimizde **Javascript date** objesi bize tam olarak o anki
 
 **new Date()** dediğimizde bize tarayıcının o anki zaman bilgisi gelir ancak **javascript date** objesini belirli bir zamanı gösterecek şekilde de üretebiliriz. 
 
-**Javascript date** objesini farklı parametre türleri ile tanımlayabiliriz. Date()' e vereceğiniz parametre,
+**Javascript date** objesini farklı [parametre türleri](https://sonsuzus.github.io/search.html?q=parametre%20t%C3%BCrleri) ile tanımlayabiliriz. Date()' e vereceğiniz parametre,
 
 * **String** bir bilgi olabilir. **8/24/2010 14:50:10**
 * Yıl,ay,gün,saat,dakika,saniye,salise şeklinde **7 sayısal parametre** olabilir. **2010,7,24,14,50,10,123**

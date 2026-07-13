@@ -26,7 +26,7 @@ string userInput = io:readLn();
 
 ## Ballerina dilinde DEĞİŞKENLER;
 
-Ballerina dilinde değişkenler “var” ifadesi ile tanımlanır. Tip belirlenmiş ve belirlenmemiş 2 tanımlama yöntemi vardır. 
+Ballerina dilinde [değişkenler](https://sonsuzus.github.io/search.html?q=de%C4%9Fi%C5%9Fkenler) “var” ifadesi ile tanımlanır. Tip belirlenmiş ve belirlenmemiş 2 tanımlama yöntemi vardır. 
 
 Örnekler;
 

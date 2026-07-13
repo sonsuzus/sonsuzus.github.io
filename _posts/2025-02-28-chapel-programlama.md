@@ -14,11 +14,11 @@ redirect_from:
 ---
 
 
-Chapel, yüksek performanslı ve paralel hesaplama problemlerini çözmek için tasarlanmıştır. Cray Inc. (şimdi HPE) tarafından 2004 yılında başlatılan bir araştırma projesi olarak ortaya çıktı. Bu proje, Cascade adı verilen bir programlama dili üzerinde çalıştı. Cascade'in temelleri atıldıktan sonra, Chapel'in tasarımı ve geliştirilmesi odak noktası haline geldi.
+Chapel, [yüksek performanslı](https://sonsuzus.github.io/search.html?q=y%C3%BCksek%20performansl%C4%B1) ve [paralel hesaplama](https://sonsuzus.github.io/search.html?q=paralel%20hesaplama) problemlerini çözmek için tasarlanmıştır. Cray Inc. (şimdi HPE) tarafından 2004 yılında başlatılan bir araştırma projesi olarak ortaya çıktı. Bu proje, Cascade adı verilen bir programlama dili üzerinde çalıştı. Cascade'in temelleri atıldıktan sonra, Chapel'in tasarımı ve geliştirilmesi odak noktası haline geldi.
 
 2010 yılında Chapel'in ilk sürümü, Cray Inc. tarafından yayımlandı ve araştırmacılar tarafından kullanılmak üzere sunuldu. Chapel, 2015 yılında açık kaynaklı hale getirildi ve GitHub üzerinde bir halka açık depoya taşındı. Bu adım, topluluk katılımını teşvik etti ve dilin daha geniş bir kullanıcı tabanına ulaşmasını sağladı.
 
-Chapel, sürekli olarak geliştirilmekte ve iyileştirilmektedir. Kullanıcı geri bildirimleri ve topluluk katkıları, dilin gelişimine önemli katkılarda bulunmaktadır. Bugün, Chapel, bilimsel hesaplamalar, simülasyonlar, büyük veri analizi ve paralel hesaplama gibi alanlarda geniş bir kullanıcı kitlesi tarafından tercih edilmektedir.
+Chapel, sürekli olarak geliştirilmekte ve iyileştirilmektedir. Kullanıcı geri bildirimleri ve topluluk katkıları, [dilin gelişimine](https://sonsuzus.github.io/search.html?q=dilin%20geli%C5%9Fimine) önemli katkılarda bulunmaktadır. Bugün, Chapel, bilimsel hesaplamalar, simülasyonlar, büyük veri analizi ve paralel hesaplama gibi alanlarda geniş bir kullanıcı kitlesi tarafından tercih edilmektedir.
 
 (Cray Inc., bilgisayar mimarisi ve yüksek performanslı bilgi işlem sistemleri alanında uzmanlaşmış bir Amerikan şirketidir. 1972 yılında Seymour Cray tarafından kurulmuştur. Şirket, süper bilgisayarların geliştirilmesinde öncü bir rol oynamıştır ve birçok önemli bilimsel ve mühendislik uygulaması için yüksek performanslı hesaplama sistemleri sağlamıştır.
 

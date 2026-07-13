@@ -30,13 +30,13 @@ tags:
   - kitap
 ---
 
-Geometri problemlerinde kolay koda dökülebilecek bir çözüm bulmak genellikle zordur; özel durum sayısı fazladır. İyi bir yaklaşım, özel durumları minimize eden matematiksel araçlar seçmektir. Bu bölümdeki temel araçlar **karmaşık sayılar** ve **vektörel çarpım** olacaktır.
+Geometri problemlerinde kolay koda dökülebilecek bir çözüm bulmak genellikle zordur; özel durum sayısı fazladır. İyi bir yaklaşım, özel durumları minimize eden matematiksel araçlar seçmektir. Bu bölümdeki temel araçlar **[karmaşık sayılar](https://sonsuzus.github.io/search.html?q=karma%C5%9F%C4%B1k%20say%C4%B1lar)** ve **[vektörel çarpım](https://sonsuzus.github.io/search.html?q=vekt%C3%B6rel%20%C3%A7arp%C4%B1m)** olacaktır.
 
 **Örnek:** Bir dörtgenin alanı, köşeleri $s = (a+b+c)/2$ olmak üzere Heron Formülü ile iki üçgene bölerek hesaplanabilir; ama hangi köşegen seçileceği özel durumlar doğurur. Bunun yerine doğrudan genel formül:
 
 $$\text{Alan} = \frac{|x_1 y_2 - x_2 y_1 + x_2 y_3 - x_3 y_2 + x_3 y_4 - x_4 y_3 + x_4 y_1 - x_1 y_4|}{2}$$
 
-Bu formülün avantajı **hiç özel durum içermemesi** ve tüm çokgenlere genellenebilmesidir.
+Bu formülün avantajı **[hiç özel durum içermemesi](https://sonsuzus.github.io/search.html?q=hi%C3%A7%20%C3%B6zel%20durum%20i%C3%A7ermemesi)** ve tüm çokgenlere genellenebilmesidir.
 ``
 
 ## 29.1 Karmaşık Sayılar
@@ -67,18 +67,13 @@ cout << s.X << " " << s.Y << "\n"; // 5 3
 
 | Fonksiyon | Açıklama | Örnek |
 |---|---|---|
-| `abs(v)` | $v = (x,y)$ vektörünün uzunluğu $\sqrt{x^2+y^2}$ | `abs({3,-1} - {4,2})` $\approx 3.162$ |
-| `arg(v)` | $v$'nin $x$ eksenine olan açısı (radyan) | `arg({4,2})` $\approx 0.4636$ |
-| `polar(s, a)` | Uzunluğu $s$, açısı $a$ olan vektör | `polar(1.0, 0.5)` |
+| @@MASK_7@@ | $v = (x,y)$ vektörünün uzunluğu $\sqrt{x^2+y^2}$ | @@MASK_8@@ $\approx 3.162$ |
+| @@MASK_9@@ | $v$'nin $x$ eksenine olan açısı (radyan) | @@MASK_10@@ $\approx 0.4636$ |
+| @@MASK_11@@ | Uzunluğu $s$, açısı $a$ olan vektör | @@MASK_12@@ |
 
 **Döndürme:** Bir vektörü $a$ radyan saat yönünün tersine döndürmek için $\text{polar}(1, a)$ ile çarpmak yeterlidir:
 
-```cpp
-P v = {4, 2};
-cout << arg(v) << "\n";   // 0.463648
-v *= polar(1.0, 0.5);
-cout << arg(v) << "\n";   // 0.963648
-```
+@@MASK_1@@
 
 ## 29.2 Noktalar ve Çizgiler
 
@@ -96,15 +91,11 @@ Bu değer, $a$'dan sonra $b$'nin hangi yöne döndüğünü söyler:
 | $a \times b = 0$ | $a$ ve $b$ **aynı doğrultuda** |
 | $a \times b < 0$ | $b$, $a$'nın **sağına** döner |
 
-C++ ile `complex` sınıfı kullanarak hesaplama:
+C++ ile @@MASK_13@@ sınıfı kullanarak hesaplama:
 
-```cpp
-P a = {4, 2};
-P b = {1, 2};
-C cross = (conj(a) * b).Y; // 4*2 - 1*2 = 6
-```
+@@MASK_2@@
 
-`conj(a)` → $(x_1, -y_1)$; bununla $b = (x_2, y_2)$ çarpılınca sonucun $Y$ bileşeni $x_1 y_2 - x_2 y_1$ verir.
+@@MASK_14@@ → $(x_1, -y_1)$; bununla $b = (x_2, y_2)$ çarpılınca sonucun $Y$ bileşeni $x_1 y_2 - x_2 y_1$ verir.
 
 ### Nokta Lokasyonu
 
@@ -146,10 +137,7 @@ Bir $p$ noktasının çokgenin içinde mi dışında mı olduğunu bulmak için 
 2. Işının çokgenin kenarlarıyla kaç kez kesiştiğini say.
 3. **Tekse** → içeride; **çiftse** → dışarıda.
 
-```
-b (dışarıda) → ışın 0 veya 2 kez kesişir
-a (içeride)  → ışın 1 veya 3 kez kesişir
-```
+@@MASK_3@@
 
 ## 29.3 Çokgen Alanı
 

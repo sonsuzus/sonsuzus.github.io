@@ -38,7 +38,7 @@ Dizinin **statik** olduğu (sorgular sırasında değerlerin değişmediği) dur
 
 ### Toplam Sorguları
 
-Statik bir dizideki toplam sorgularını **prefix toplam dizisi** ile kolayca çözebiliriz. Prefix toplam dizisindeki $k$. konum, orijinal dizinin $[0, k]$ aralığının toplamına eşittir; yani `sumq(0, k)` değerini tutar. Bu dizi $O(n)$ zamanda oluşturulabilir.
+Statik bir dizideki toplam sorgularını **[prefix toplam dizisi](https://sonsuzus.github.io/search.html?q=prefix%20toplam%20dizisi)** ile kolayca çözebiliriz. Prefix toplam dizisindeki $k$. konum, orijinal dizinin $[0, k]$ aralığının toplamına eşittir; yani `sumq(0, k)` değerini tutar. Bu dizi $O(n)$ zamanda oluşturulabilir.
 
 Örneğin `[1, 3, 4, 8, 6, 1, 4, 2]` dizisine karşılık gelen prefix toplam dizisi:
 
@@ -147,7 +147,7 @@ Her iki fonksiyon da $O(\log n)$ zamanda çalışır; her adımda $O(\log n)$ fa
 
 ## 9.3 Segment Ağacı
 
-**Segment ağacı**[^3] iki operasyonu destekleyen genel amaçlı bir veri yapısıdır: aralık sorgusu ve tek eleman güncellemesi. İkili indisli ağaca kıyasla daha geneldir; yalnızca toplam değil minimum, maksimum, EBOB, bit operasyonları (AND, OR, XOR) gibi pek çok sorguyu da $O(\log n)$ zamanda destekler. Bununla birlikte daha fazla bellek kullanır ve implementasyonu biraz daha karmaşıktır[^4].
+**Segment ağacı**[^3] iki operasyonu destekleyen genel amaçlı bir veri yapısıdır: [aralık sorgusu](https://sonsuzus.github.io/search.html?q=aral%C4%B1k%20sorgusu) ve tek eleman güncellemesi. İkili indisli ağaca kıyasla daha geneldir; yalnızca toplam değil minimum, maksimum, EBOB, bit operasyonları (AND, OR, XOR) gibi pek çok sorguyu da $O(\log n)$ zamanda destekler. Bununla birlikte daha fazla bellek kullanır ve implementasyonu biraz daha karmaşıktır[^4].
 
 ### Yapı
 

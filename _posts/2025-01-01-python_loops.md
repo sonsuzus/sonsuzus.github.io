@@ -13,9 +13,9 @@ redirect_from:
   - /posts/python_loops/
 ---
 
-Python'da, tek bir işlem satırını veya kod bloğunu bir defadan fazla çalıştırmak için tekrar yazmak yerine, döngü kavramını kullanabiliriz. Bir veya birden fazla işlem satırını, bir koşula bağlı olarak, belirli sayıda veya bir koşul sağlandığı sürece tekrarlayarak çalıştıran kalıplara döngü adı verilir. Döngüleri kullanarak liste, tuple, küme, sözlük veya bir karakter dizisinin elemanlarına birer birer erişim sağlayabiliriz.
+Python'da, tek bir işlem satırını veya kod bloğunu bir defadan fazla çalıştırmak için [tekrar](https://sonsuzus.github.io/search.html?q=tekrar) yazmak yerine, [döngü](https://sonsuzus.github.io/search.html?q=d%C3%B6ng%C3%BC) kavramını kullanabiliriz. Bir veya birden fazla işlem satırını, bir koşula bağlı olarak, belirli sayıda veya bir koşul sağlandığı sürece tekrarlayarak çalıştıran kalıplara döngü adı verilir. Döngüleri kullanarak liste, tuple, küme, sözlük veya bir karakter dizisinin elemanlarına birer birer erişim sağlayabiliriz.
 
-Python'da, for ve while olmak üzere 2 farklı döngü kullanılmaktadır.
+Python'da, [for](https://sonsuzus.github.io/search.html?q=for) ve while olmak üzere 2 farklı döngü kullanılmaktadır.
 
 Bir döngü yapısında döngü içinde yer alan işlem satırları for veya while döngü satırının başlangıç sütunundan en az bir karakter ileriden başlamalıdır.
 

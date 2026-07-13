@@ -19,7 +19,7 @@ redirect_from:
 
 Python Programlamaya Giriş yazı dizimize Python fonksiyonlarının temelleriyle devam ediyoruz. 
 
-Bir önceki bölümde Python’da fonksiyonların nasıl yaratıldığından ve nasıl çağrıldığından bahsettik. Bir fonksiyon kapalı bir kutu gibidir: İçinde ne olup bittiğini görmeyiz, parametreler yoluyla bilgi veririz ve cevabı bir değer olarak geri alırız. Bu yazıda parametreleri nasıl kullandığımızı inceleyeceğiz.
+Bir önceki bölümde Python’da fonksiyonların nasıl yaratıldığından ve nasıl çağrıldığından bahsettik. Bir [fonksiyon](https://sonsuzus.github.io/search.html?q=fonksiyon) kapalı bir kutu gibidir: İçinde ne olup bittiğini görmeyiz, parametreler yoluyla bilgi veririz ve cevabı bir değer olarak geri alırız. Bu yazıda parametreleri nasıl kullandığımızı inceleyeceğiz.
 
 ## Parametre eşleştirme
 
@@ -35,7 +35,7 @@ def f(a,b,c):
 
 ```
 
-Bu fonksiyonu çağırırken üç tane parametre değeri vermemiz gerekir:
+Bu fonksiyonu çağırırken üç tane [parametre](https://sonsuzus.github.io/search.html?q=parametre) değeri vermemiz gerekir:
 
 In [2]:
 
@@ -147,7 +147,7 @@ a = 1, b = 2, c = 3
 
 ```
 
-Bir parametre konumla eşleştirilmişse, ardından ayrıca isimle eşleştirmek hata oluşturur.
+Bir parametre konumla eşleştirilmişse, ardından ayrıca isimle [eşleştirmek](https://sonsuzus.github.io/search.html?q=e%C5%9Fle%C5%9Ftirmek) hata oluşturur.
 
 In [8]:
 

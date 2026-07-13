@@ -19,7 +19,7 @@ Javascript ile dizilere ekleme,silme,güncelleme gibi temel görevleri yapabil
 
 ## Diziye Eleman Ekleme
 
-Javascript dizi üzerine bir eleman eklemek için **push(), unshift(), splice()**metotlarını kullanabiliriz.
+Javascript dizi üzerine bir eleman eklemek için **[push](https://sonsuzus.github.io/search.html?q=push)(), [unshift](https://sonsuzus.github.io/search.html?q=unshift)(), [splice](https://sonsuzus.github.io/search.html?q=splice)()**metotlarını kullanabiliriz.
 
 ### Push() Metodu
 

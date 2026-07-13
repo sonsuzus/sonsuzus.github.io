@@ -14,7 +14,7 @@ redirect_from:
 
 
 
-En basit programlarda bile sık sık “şu şart doğruysa şöyle yap, yoksa yapma”, veya “doğruysa şöyle yap, yanlışsa öbür türlü yap” şeklinde düzenlemelere ihtiyaç duyarız. Sözgelişi, “cevap doğruysa puanı bir arttır”, veya “yanlış sayısı dördün katıysa puanı bir azalt” gibi. Birçok dil gibi Python’da da seçim yapısı `if-else` komutlarıyla kurulur.
+En basit programlarda bile sık sık “şu [şart doğruysa](https://sonsuzus.github.io/search.html?q=%C5%9Fart%20do%C4%9Fruysa) şöyle yap, yoksa yapma”, veya “doğruysa şöyle yap, yanlışsa öbür türlü yap” şeklinde düzenlemelere ihtiyaç duyarız. Sözgelişi, “cevap doğruysa puanı bir arttır”, veya “yanlış sayısı dördün katıysa puanı bir azalt” gibi. Birçok dil gibi Python’da da seçim yapısı `if-else` komutlarıyla kurulur.
 
 ## if komutu
 
@@ -58,7 +58,7 @@ Doğru!
 
 şeklinde bir çıktınız olmalı)
 
-`if`‘den sonra `tahmin`‘in `hedef`‘e eşit olup olmadığını yoklayan bir mantık ifadesi var. Bunun değeri ya doğru (`True`) ya da yanlış (`False`) olacak. Eşitlik şartı için `==` (iki tane eşit işareti) kullanıldığına dikkat edin.
+`if`‘den sonra `tahmin`‘in `hedef`‘e eşit olup olmadığını yoklayan bir mantık ifadesi var. Bunun değeri ya doğru (`True`) ya da yanlış (`False`) olacak. [Eşitlik](https://sonsuzus.github.io/search.html?q=e%C5%9Fitlik) şartı için `==` (iki tane eşit işareti) kullanıldığına dikkat edin.
 
 In [1]:
 

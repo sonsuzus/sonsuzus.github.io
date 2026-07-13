@@ -22,11 +22,11 @@ tags:
   - kitap
 ---
 
-Bir çizgede iki düğüm arasındaki en kısa yolu bulmak, pek çok pratik uygulamaya sahip temel bir problemdir. Klasik bir örnek, yol uzunlukları bilinen bir ağda iki şehir arasındaki en kısa rotayı hesaplamaktır. Ağırlıksız çizgelerde yol uzunluğu kenar sayısına eşit olduğundan BFS ile çözülebilir; bu bölümde ise ağırlıklı çizgeler için geliştirilmiş algoritmalara bakacağız.
+Bir çizgede iki düğüm arasındaki [en kısa yolu](https://sonsuzus.github.io/search.html?q=en%20k%C4%B1sa%20yolu) bulmak, pek çok pratik uygulamaya sahip temel bir problemdir. Klasik bir örnek, yol uzunlukları bilinen bir ağda iki şehir arasındaki en kısa rotayı hesaplamaktır. Ağırlıksız çizgelerde yol uzunluğu kenar sayısına eşit olduğundan BFS ile çözülebilir; bu bölümde ise ağırlıklı çizgeler için geliştirilmiş algoritmalara bakacağız.
 
 ## 13.1 Bellman–Ford Algoritması
 
-**Bellman–Ford algoritması**[^1], başlangıç düğümünden çizgedeki tüm düğümlere en kısa mesafeyi bulur. Negatif döngü içermeyen her türlü çizgede çalışır; üstelik çizgede negatif döngü varsa bunu tespit edebilir.
+**[Bellman–Ford](https://sonsuzus.github.io/search.html?q=bellman%E2%80%93ford) algoritması**[^1], başlangıç düğümünden çizgedeki tüm düğümlere en kısa mesafeyi bulur. Negatif döngü içermeyen her türlü çizgede çalışır; üstelik çizgede negatif döngü varsa bunu tespit edebilir.
 
 Algoritma, başlangıç düğümüne 0, diğer tüm düğümlere sonsuz mesafe atayarak başlar. Her turda tüm kenarlar incelenerek mesafeler kısaltılmaya çalışılır. Hiçbir mesafe artık kısalımıyorsa algoritma durur.
 
@@ -48,7 +48,7 @@ $$[0,\ 5,\ 3,\ 4,\ 7]$$
 
 $$[0,\ 5,\ 3,\ 4,\ 6]$$
 
-Artık hiçbir kenar mesafeyi azaltamaz; başlangıç düğümünden tüm düğümlere en kısa mesafeler bulunmuştur. Örneğin 1. düğümden 5. düğüme en kısa mesafe 3'tür.
+Artık hiçbir kenar mesafeyi azaltamaz; başlangıç düğümünden tüm düğümlere en kısa mesafeler bulunmuştur. Örneğin 1. düğümden 5. düğüme [en kısa mesafe](https://sonsuzus.github.io/search.html?q=en%20k%C4%B1sa%20mesafe) 3'tür.
 
 ### İmplementasyon
 

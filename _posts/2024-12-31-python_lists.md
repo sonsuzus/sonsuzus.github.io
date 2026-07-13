@@ -13,7 +13,7 @@ redirect_from:
   - /posts/python_lists/
 ---
 
-Liste, birden fazla değerin yer aldığı bir yapıdır. Listede yer alan verilerin aynı veri türünden olması gerekli değildir. Elemanlarda değişiklik yapılabilir. Liste oluşturmak için köşeli parantezler ([ ]) veya list() fonksiyonu kullanılır.
+[Liste](https://sonsuzus.github.io/search.html?q=liste), birden fazla değerin yer aldığı bir yapıdır. Listede yer alan verilerin aynı veri türünden olması gerekli değildir. Elemanlarda değişiklik yapılabilir. Liste oluşturmak için köşeli parantezler ([ ]) veya list() fonksiyonu kullanılır.
 
 ```py
 liste-adı = ["deger01", "deger02", "deger03"] # [ ] ile liste oluşturma
@@ -26,10 +26,10 @@ liste-adı = list(("deger01", "deger02", "deger03")) # list() ile liste oluştur
 Listeler aşağıda gösterilen kurallara uygun olarak oluşturulur:
 
 * Liste, aynı veya farklı veri türünden elemanlardan oluşabilir.
-* Liste elemanları sıralıdır. Eleman tanımlanma sırası değişmez. Yeni elemanlar listenin sonuna eklenir.
+* Liste elemanları sıralıdır. [Eleman](https://sonsuzus.github.io/search.html?q=eleman) tanımlanma sırası değişmez. Yeni elemanlar listenin sonuna eklenir.
 * Liste elemanları değiştirilebilir, silinebilir ve listeye yeni eleman eklenebilir.
 * Liste elemanları birbirinin aynı olabilir.
-* Liste elemanlarına 0'dan başlamak üzere endeksleme ile erişim sağlanır.
+* Liste elemanlarına 0'dan başlamak üzere endeksleme ile [erişim](https://sonsuzus.github.io/search.html?q=eri%C5%9Fim) sağlanır.
 
 Şimdi, liste oluşturulmasını bir örnek üzerinde incelemeye çalışalım:
 
