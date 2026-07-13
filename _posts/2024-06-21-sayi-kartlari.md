@@ -12,13 +12,13 @@ redirect_from:
   - /posts/sayi-kartlari/
 ---
 
-Üzerinde birden onikiye kadar sayıları yazılı olduğu oniki tane kartımız var. Bu kartla Anaximander, Boethius, Confucius ve Diogenes arasında eşit olarak paylaştırılıyor, yani her biri üç tane kart alıyor. Sonra sırayla aralarında şöyle bir konuşma geçiyor.
+Üzerinde birden onikiye kadar sayıları yazılı olduğu oniki tane kartımız var. Bu kartla Anaximander, Boethius, Confucius ve [Diogenes](https://sonsuzus.github.io/search.html?q=diogenes) arasında eşit olarak paylaştırılıyor, yani her biri üç tane kart alıyor. Sonra sırayla aralarında şöyle bir konuşma geçiyor.
 
 
 Anaximander: Benim kartların birinde 8 var.
 
 
-Beothius: Kartlarımın hepsinde asal sayılar var.
+Beothius: Kartlarımın hepsinde [asal sayılar](https://sonsuzus.github.io/search.html?q=asal%20say%C4%B1lar) var.
 
 
 Confucius: Benim sayılarımın hiçbiri asal değil. Ayrıca üçünün de ortak bir asal çarpanı var.
@@ -56,7 +56,7 @@ Dikkat edersek asallarla ilgili Boethius’tan başka bilgi veren yok. Yani eğe
 1 sayısı eğer Diogenes’te olsa, o zaman Diogenes 4, 6, 9, 10 ve 12 sayılarının hangi üçünün Confucius’ta, hangi ikisinin de Anaximander’de olduğunu bulamaz. Olasılıklara bakalım:
 
 
-Anaximander: 4, 10 Confucius: 6, 9, 12 (ortak asal çarpan 3)
+Anaximander: 4, 10 Confucius: 6, 9, 12 ([ortak asal çarpan](https://sonsuzus.github.io/search.html?q=ortak%20asal%20%C3%A7arpan) 3)
 
 
 Anaximander: 9, 12 Confucius: 4, 6, 10 (ortak asal çarpan 2)
