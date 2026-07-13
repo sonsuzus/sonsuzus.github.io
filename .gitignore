@@ -39,6 +39,7 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+yedek
 .sass-cache
 
 # Dev stuff

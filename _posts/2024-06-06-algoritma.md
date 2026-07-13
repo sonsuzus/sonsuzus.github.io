@@ -1,20 +1,20 @@
 ---
-layout: post
-title: Algoritma
 categories:
-  - Program
-tags:
-  - soru
-  - programlama
+- Program
+layout: post
 redirect_from:
-  - /posts/algoritma/
+- /posts/algoritma/
+tags:
+- soru
+- programlama
+title: Algoritma
 ---
 
-Bir işin veya programın yapılması için adımlara bölünmüş halidir. Aslında hayatımızın her noktasında algoritmaları kullanırız farkında olmadan. Yemek yapmaktan araba kullanmaya kadar hepsi birer algoritma içerir. Bu başlığımızda algoritma kurma yöntemlerini inceleyeceğiz. Takıldığınız konuları [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz.
+Bir işin veya programın yapılması için adımlara bölünmüş halidir. Aslında hayatımızın her noktasında algoritmaları kullanırız farkında olmadan. Yemek yapmaktan araba kullanmaya kadar hepsi birer [algoritma](https://sonsuzus.github.io/tags.html#algoritma) içerir. Bu başlığımızda algoritma kurma yöntemlerini inceleyeceğiz. Takıldığınız konuları [discussions](https://github.com/sonsuzus/sonsuzus.github.io/discussions) bölümünde sorabilirsiniz.
 
 ## Programlama soruları
 
-Bu bölümde programlama ile ilgili sorular sorulacaktır. Çözümlerine ilgili programlama sayfalarından ulaşabilirsiniz.
+Bu bölümde [programlama](https://sonsuzus.github.io/tags.html#programlama) ile ilgili sorular sorulacaktır. Çözümlerine ilgili programlama sayfalarından ulaşabilirsiniz.
 
 Kullanıcıya hikayesindeki karakterlerin isimleri sorulur ve o isimlerle hikaye yazdırılır.
 
@@ -41,6 +41,7 @@ Kullanıcıya kürenin çapı sorulur, gelen yanıta göre hacmi hesaplanır.
 Kullanıcıya notu sorulur. 50 den büyükse geçtin, 50 den küçükse kaldın yazdırılır.
 
 Suyun sıcaklığı sorulur, 0 dan küçükse katı, 0-100 arasında sıvı, 100 den büyükse gaz yazdırılır.
+
 ```mermaid
 flowchart LR
 	A[Suyun sıcaklığı?] --> B{Su kaç derece?}
@@ -110,7 +111,7 @@ Girilen bir sayının palindrom olup olmadığını tespit eder. (tersinden de o
 
 1000 e kadar olan asal sayıları yazdırması istenir.
 
-100 kişi bir pastayı bölüşmektedir. 1. kişi pastanın %1 ini, 2. kişi kalan pastanın %2 sini, 3. kişi kalan pastanın %3 nü ve böylece devam edip 100. kişi de kalan pastanın %100 ünü alır. Soru en çok payı kaçıncı kişi almıştır.
+100 kişi bir pastayı bölüşmektedir. 1. kişi pastanın %1 ini, 2. kişi kalan pastanın %2 sini, 3. kişi kalan pastanın %3 nü ve böylece devam edip 100. kişi de kalan pastanın %100 ünü alır. [Soru](https://sonsuzus.github.io/tags.html#soru) en çok payı kaçıncı kişi almıştır.
 
 Girilen 5 sayıdan en büyüğünü bulan programı yazınız.
 
@@ -133,6 +134,7 @@ Eğer bir sayının kendisi hariç tam bölenleri toplamı sayıdan büyükse o 
 Elimizde 10 cm boyunda olan ve sonsuza dek gerip uzatabileceğimiz özdeş bir lastik ip var. Bu ipin A ucunu bir duvara bağlıyoruz. B ucunu da bir arabaya bağlıyoruz. A ucuna bir solucan yerleştiriyoruz. Solucan ipin B ucuna doğru gidiyor. Saniyede 1 cm yol alıyor. Solucan 1 saniye süreyle gidince duruyor. Solucan durunca araba lastik ipi çekerek B ucunu 10 cm ileriye götürüyor ve duruyor. Araba durunca solucan yine 1 saniye süreyle gidiyor ve duruyor. Solucan durunca araba lastik ipin B ucunu yine 10 cm ileriye götürüyor ve duruyor. Ve bu olay hiç durmadan böyle tekrarlanıyor. Solucan lastik ipin B ucunu yakalayabilir mi? Programlayınız.
 
 Bir okuldaki 100 kapalı dolabın önünde birer öğrenci duracak şekilde yerleşirler.
+
 1. düdük çaldığında 1 in katları olan tüm dolap kapakları açılır.
 2. düdük çaldığında 2 nin katları olan dolaplar açıksa kapanır kapalıysa açılır,
 3. düdük çaldığında 3 ün katları olan dolaplar yine aynı şekilde kapanır veya açılır,
@@ -165,6 +167,7 @@ Bir memur, ATM makinasından para çekmek istemektedir. Makinede sadece 10, 20, 
 2 ile 2022 arasında kaç sayı bir sayının karesi veya kübüdür. Sayıları da yazdırınız.
 
 Farklı üç adet 2 basamaklı asal sayımız var. 
+
 * Bu üç sayının ortalaması asal sayıdır. 
 * Her sayı çiftinin ortalaması asal sayıdır. 
 
@@ -188,6 +191,7 @@ Rakamları toplamının 7 katına eşit olan iki basamaklı sayıları yazdıran
 
 Kendini oluşturan rakamların faktöriyellerinin toplamına eşit olan yalnızca 4 sayı vardır.
 Bunlardan üçü
+
 1. 1 = 1!
 2. 2 = 2!
 3. 145 = 1! + 4! + 5!
