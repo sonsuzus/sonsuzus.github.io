@@ -1,17 +1,17 @@
 ---
+categories:
+- Program
 layout: post
-title: Small Basic Programlama
-categories: 
-  - Program
-tags: 
-  - programlama
-  - basic
-  - small basic
 redirect_from:
-  - /posts/small-basic/
+- /posts/small-basic/
+tags:
+- programlama
+- basic
+- small basic
+title: Small Basic Programlama
 ---
 
-Bilgisayar Programlaması, programlama dilleri kullanılarak, bilgisayar yazılımlarının oluşturulması
+Bilgisayar Programlaması, [programlama](https://sonsuzus.github.io/search.html?q=programlama) dilleri kullanılarak, bilgisayar yazılımlarının oluşturulması
 süreci olarak tanımlanır. Tıpkı bizim İngilizce’yi, İspanyolca’yı veya Fransızca’yı konuşup anlamamız
 gibi, bilgisayarlar da belirli dillerde yazılmış programları anlayabilirler. Bunlar programlama dilleri
 olarak adlandırılır. Başlangıçta, yalnızca birkaç tane programlama dili vardı ve bunların öğrenilmesi
@@ -21,13 +21,13 @@ programlama dilleri de hızla gelişti ve daha karmaşık kavramları içerir ha
 durumdadır. Bu da, insanların bilgisayar programlamasını öğrenme veya gerçekleştirmeye yönelik
 girişimlerinde cesaretlerini kırmaya başladı.
 
-Small Basic, programlamayı yeni başlayanlar için son derece kolay, anlaşılır ve eğlenceli hale getirmek
-üzere tasarlanmış olan bir programlama dilidir. Small Basic’in amacı, engeli aşağıya çekmek ve şaşırtıcı
+[Small Basic](https://sonsuzus.github.io/tags.html#small%20basic), programlamayı yeni başlayanlar için son derece kolay, anlaşılır ve eğlenceli hale getirmek
+üzere tasarlanmış olan bir programlama dilidir. Small [Basic](https://sonsuzus.github.io/tags.html#basic)’in amacı, engeli aşağıya çekmek ve şaşırtıcı
 bilgisayar programlaması dünyasına bir atlama taşı olarak görev yapmaktır.
 
 ## İlk Programımız
 
-Artık Small Basic Ortamı ile tanıştığınıza göre, onu kullanarak programlama yapmaya başlayacağız.
+Artık [Small Basic](https://sonsuzus.github.io/search.html?q=small%20basic) Ortamı ile tanıştığınıza göre, onu kullanarak programlama yapmaya başlayacağız.
 Yukarıda söz ettiğimiz gibi, düzenleyici programlarımızı yazdığımız yerdir. Bunu yapmak için, önce
 aşağıdaki satırı düzenleyiciye yazın.
 
