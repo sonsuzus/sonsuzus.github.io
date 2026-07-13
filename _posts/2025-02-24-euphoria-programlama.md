@@ -12,11 +12,11 @@ redirect_from:
   - /posts/euphoria-programlama/
 ---
 
-Euphoria, Rob Craig tarafından geliştirilmiş, öğrenmesi kolay ve güçlü bir betik dilidir. Özellikle hızlı prototipleme, eğitim amaçlı uygulamalar ve otomasyon görevleri için tasarlanmıştır. Söz diziminin sadeliği, yeni başlayanlar için bile kısa sürede temel kavramları öğrenmeyi mümkün kılar. Dinamik tiplendirme ve otomatik bellek yönetimi gibi özellikleri sayesinde, geliştiriciler karmaşık detaylarla uğraşmak yerine programın mantığına odaklanabilirler.
+[Euphoria](https://sonsuzus.github.io/search.html?q=euphoria), Rob Craig tarafından geliştirilmiş, öğrenmesi kolay ve güçlü bir betik dilidir. Özellikle [hızlı prototipleme](https://sonsuzus.github.io/search.html?q=h%C4%B1zl%C4%B1%20prototipleme), eğitim amaçlı uygulamalar ve otomasyon görevleri için tasarlanmıştır. Söz diziminin sadeliği, yeni başlayanlar için bile kısa sürede temel kavramları öğrenmeyi mümkün kılar. Dinamik tiplendirme ve otomatik bellek yönetimi gibi özellikleri sayesinde, geliştiriciler karmaşık detaylarla uğraşmak yerine programın mantığına odaklanabilirler.
 
 Euphoria'nın çok yönlülüğü, metin işleme, dosya yönetimi, ağ programlama ve hatta basit grafiksel kullanıcı arayüzleri oluşturma gibi çeşitli alanlarda uygulamalar geliştirmeye olanak tanır. Yorumlanabilir bir dil olması, geliştirme sürecini hızlandırırken, derlenmiş kodun performansına yakın bir çalışma zamanı sunar.
 
-Eğer programlamaya yeni başlıyorsanız veya hızlı bir şekilde işlevsel araçlar geliştirmek istiyorsanız, Euphoria kesinlikle göz atmanız gereken bir dildir. Kolay öğrenilebilir yapısı ve geniş kütüphanesi ile fikirlerinizi hızla gerçeğe dönüştürebilirsiniz.
+Eğer programlamaya yeni başlıyorsanız veya hızlı bir şekilde işlevsel araçlar geliştirmek istiyorsanız, Euphoria kesinlikle göz atmanız gereken bir dildir. [Kolay öğrenilebilir](https://sonsuzus.github.io/search.html?q=kolay%20%C3%B6%C4%9Frenilebilir) yapısı ve geniş kütüphanesi ile fikirlerinizi hızla gerçeğe dönüştürebilirsiniz.
 
 ## Değişkenler
 

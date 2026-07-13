@@ -14,7 +14,7 @@ redirect_from:
   - /posts/cpp_cppfio/
 ---
 
-Dosya giriş/çıkış işlemlerini gerçekleştirmek için programlarımızın başına <fstream> başlık dosyasını eklememiz gerekir. Bu dosyada ifstream, ofstream ve fstream sınıflarının da yer aldığı bazı sınıf bildirimleri yer alır. Bu sınıflar sırasıyla, ios sınıfından türetilen istream, ostream ve iostream sınıflarından türetilmiş olduğundan, ios sınıfı içindeki tüm değişken ve fonksiyonlara erişim sağlayabilirler.
+Dosya giriş/çıkış işlemlerini gerçekleştirmek için programlarımızın başına <fstream> başlık dosyasını eklememiz gerekir. Bu dosyada [ifstream](https://sonsuzus.github.io/search.html?q=ifstream), [ofstream](https://sonsuzus.github.io/search.html?q=ofstream) ve [fstream](https://sonsuzus.github.io/search.html?q=fstream) sınıflarının da yer aldığı bazı sınıf bildirimleri yer alır. Bu sınıflar sırasıyla, ios sınıfından türetilen istream, ostream ve iostream sınıflarından türetilmiş olduğundan, ios sınıfı içindeki tüm değişken ve fonksiyonlara erişim sağlayabilirler.
 
 | Ana sınıf | Türetilmiş sınıf | Türetilenden türetilmiş sınıf |
 | --- | --- | --- |
@@ -843,63 +843,11 @@ Dosya sonuna erişildiğinde doğru (true) bir değer, aksi takdirde yanlış (f
 
 Örnek
 
-```c++
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-
-using namespace std;
-
-int main(void)
-{
-  ofstream outfile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!outfile) {
-     cout << "Yazma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  outfile << "Bilgisayar programlama" << " " << 275 << " " << 62.951 << endl;
-  outfile << "C++ Programlama Dili" << " " << 351 << " " << 121.315 << endl;
-  outfile << "Dosyadan veri okuma" << " " << 487 << " " << 542.249 << endl;
-  outfile << "getline() fonksiyonu kullanımı" << " " << 592 << " " << 1024.514 << endl;
-
-  outfile.close();                // Dosya kapatma
-
-  ifstream infile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!infile) {
-     cout << "Okuma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  char cdizi[100];
-
-  while (!infile.eof()) { // Dosya sonuna geldiğinde doğru (true) bir değer döndürür.
-    infile.getline(cdizi, 100);
-    cout << cdizi << endl;
-  }
-
-  infile.close();                // Dosya kapatma
-
-  return 0;
-}
-
-
-```
+@@MASK_21@@
 
 Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri ekrana yazar:
 
-```
-
-Bilgisayar programlama 275 62.951
-C++ Programlama Dili 351 121.315
-Dosyadan veri okuma 487 542.249
-getline() fonksiyonu kullanımı 592 1024.51
-
-```
+@@MASK_22@@
 
 Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işaretçisini kullanarak, dört defa olmak üzere, bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
 
@@ -917,64 +865,11 @@ Fonksiyon, num parametre değeri kadar karakter veya delim parametresi ile göst
 
 Örnek
 
-```c++
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-
-using namespace std;
-
-int main(void)
-{
-  ofstream outfile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!outfile) {
-     cout << "Yazma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  outfile << "Bilgisayar programlama" << " " << 275 << " " << 62.951 << endl;
-  outfile << "C++ Programlama Dili" << " " << 351 << " " << 121.315 << endl;
-  outfile << "Dosyadan veri okuma" << " " << 487 << " " << 542.249 << endl;
-  outfile << "getline() fonksiyonu kullanımı" << " " << 592 << " " << 1024.514 << endl;
-
-  outfile.close();                // Dosya kapatma
-
-  ifstream infile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!infile) {
-     cout << "Okuma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  char cdizi[100];
-
-  while (!infile.eof()) { // Dosya sonuna geldiğinde doğru (true) bir değer döndürür.
-    infile.ignore(15, 'a');
-    infile.getline(cdizi, 100);
-    cout << cdizi << endl;
-  }
-  
-  infile.close();                // Dosya kapatma
-
-  return 0;
-}
-
-
-```
+@@MASK_23@@
 
 Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri ekrana yazar:
 
-```
-
-yar programlama 275 62.951
-mlama Dili 351 121.315
-dan veri okuma 487 542.249
-iyonu kullanımı 592 1024.51
-
-```
+@@MASK_24@@
 
 Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işaretçisini kullanarak, dört defa olmak üzere, bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
 
@@ -992,58 +887,11 @@ Fonksiyon, akışta bulunan bir sonraki karakteri silmeden okur. Karakter okundu
 
 Örnek
 
-```c++
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-
-using namespace std;
-
-int main(void)
-{
-  ofstream outfile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!outfile) {
-     cout << "Yazma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  outfile << "peek() fonksiyonunun kullanımı";
-
-  outfile.close();                // Dosya kapatma
-
-  ifstream infile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!infile) {
-     cout << "Okuma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  int id = infile.peek();
-  cout << (char) id << endl;
-
-  char cdizi[100];
-  infile.getline(cdizi, 100);
-  cout << cdizi << endl;
-
-  infile.close();                // Dosya kapatma
-
-  return 0;
-}
-
-
-```
+@@MASK_25@@
 
 Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri ekrana yazar:
 
-```
-
-p
-peek() fonksiyonunun kullanımı
-
-```
+@@MASK_26@@
 
 Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işaretçisini kullanarak, bir karakter dizisini dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
 
@@ -1061,62 +909,11 @@ Fonksiyon, akıştan okunan en son karakteri tekrar akışa gönderir. Akıştan
 
 Örnek
 
-```c++
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-
-using namespace std;
-
-int main(void)
-{
-  ofstream outfile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!outfile) {
-     cout << "Yazma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  outfile << "putback() fonksiyonunun kullanımı";
-
-  outfile.close();                // Dosya kapatma
-
-  ifstream infile("deneme.txt");  // Dosyaya yazma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!infile) {
-     cout << "Okuma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  char cd;
-  infile.get(cd); // Akıştan bir karakter okur.
-
-  cout << cd << endl;
-
-  infile.putback(cd); // get() fonksiyonu ile okunan karakteri akışa geri yollar ve dosya aktif konumunu bir karakter geri alır.
-
-  char cdizi[100];
-  infile.getline(cdizi, 100);
-  cout << cdizi << endl;
-
-  infile.close();                // Dosya kapatma
-
-  return 0;
-}
-
-
-```
+@@MASK_27@@
 
 Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri ekrana yazar:
 
-```
-
-p
-putback() fonksiyonunun kullanımı
-
-```
+@@MASK_28@@
 
 Program, bir dosyaya yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işaretçisini kullanarak, bir karakter dizisini dosyaya yazar. Yazma işlemi sona erdikten sonra, close() fonksiyonu ile dosyayı kapatır.
 
@@ -1134,75 +931,11 @@ ostream& flush();
 
 Örnek
 
-```c++
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-
-using namespace std;
-
-int main(void)
-{
-  ofstream outfile("deneme.txt"); // Dosyaya yazma işlemi için akış oluşturma
-  char cd;
-
-  // Dosya açma hata kontrolü
-  if(!outfile) {
-     cout << "Yazma amaçlı dosya açma hatası!" << "\n";
-     exit(1);
-  }
-
-  // Karakterleri dosyaya yazma (Tampon belleğe yazılır)
-  for(cd='A'; cd<='Z'; cd++) {
-      outfile.put(cd);
-  }
-
-  // Dosyaya yazma için akış açık iken, dosyadan okuma için akış açma
-  ifstream infile("deneme.txt");
-
-  // Dosya açma hata kontrolü
-  if(!infile) {
-     cout << "Okuma amaçlı dosya açma hatası!" << "\n";
-     exit(1);
-  }
-
-  // Veriler tampon bellekte yer aldığından ve dosyaya yazılmadığından
-  // dosya içeriği henüz boştur. Bu nedenle herhangi bir değer okunamaz.
-  cout << "İlk okuma: ";
-  while(infile.get(cd)) { // Dosya sonuna erişildiğinde hata verir.
-    cout << cd;
-  }
-
-  // Dosyaya yazma için kullanılan akışın kapatılması ile tampon bellekteki veriler dosyaya yazılır.
-  outfile.close();
-
-  // Dosya okuma için kullanılan akışın konum göstergesi başa alınır.
-  // Dosyadan okuma için yeni bir akış açmak aynı sonucu verir.
-  infile.clear();
-  infile.seekg (0, ios::beg); // Dosya okuma işaretçisini dosya başına konumlandırma
-
-  // Dosya içeriği dolu olduğundan veriler okunarak ekrana yazılır.
-  cout << "\nİkinci okuma: ";
-  while(infile.get(cd)) { // Dosya sonuna erişildiğinde hata verir.
-    cout << cd;
-  }
-
-  infile.close(); // Dosya kapatma
-
-  return 0;
-}
-
-
-```
+@@MASK_29@@
 
 Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri ekrana yazar:
 
-```
-
-İlk okuma: 
-İkinci okuma: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-
-```
+@@MASK_30@@
 
 Program, bir metin dosyasına yazma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ofstream sınıfı türünden outfile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, put() fonksiyonunu bir for döngüsü içinde kullanarak, A-Z arasındaki karakterleri dosyaya yazar. Yazma işlemi sona erdikten sonra, dosyaya yazma için oluşturulan akış açık iken, dosyadan okuma işlemi yapmak için, dosya adını constructor fonksiyonuna geçirerek, ifstream sınıfı türünden infile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, get() fonksiyonunu bir while döngüsü içinde kullanarak, dosyadaki karakterleri sıra ile okuyarak ekrana yazmaya çalışır. Ancak, veriler tampon bellekte yer aldığından ve dosyaya yazılmadığından, dosya içeriği henüz boştur. Bu nedenle herhangi bir değer okunamaz.
 
@@ -1569,50 +1302,7 @@ Sadece fstream akış nesnesini kullandığımızda, dosyaya veri yazdıktan son
 
 Örnek
 
-```c++
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-
-using namespace std;
-
-int main(void)
-{
-  fstream oifile("deneme.txt");  // Dosyaya yazma ve okuma işlemi için akış oluşturma
-
-  // Dosya açma hata kontrolü
-  if(!oifile) {
-     cout << "Yazma ve okuma amaçlı dosya açma hatası!" << endl;
-     exit(1);
-  }
-
-  // Dosyaya yazma işlemleri
-  oifile << "Bilgisayar" << endl;
-  oifile << 127 << endl;
-  oifile << 54.789 << endl;
-
-  oifile.clear();
-  oifile.seekg (0, ios::beg);    // Dosya okuma işaretçisini dosya başına konumlandırma
-
-  // Dosyadan okuma işlemleri
-  char cdizi[25];
-  int id;
-  float fd;
-
-  oifile >> cdizi;
-  oifile >> id;
-  oifile >> fd;
-
-  // Dosyadan okunan verileri ekrana yazma
-  cout << cdizi << endl << id << endl << fd;
-
-  oifile.close();                // Dosya kapatma
-
-  return 0;
-}
-
-
-```
+@@MASK_37@@
 
 Program, bir dosya ile ilgili yazma ve okuma işlemleri yapmak için, dosya adını constructor fonksiyonuna geçirerek, fstream sınıfı türünden oifile adlı bir akış nesnesi oluşturur. Nesneyi kontrol ederek dosya açma işleminin başarılı olup olmadığını kontrol eder. Dosya mevcut olduğundan, if koşulu gerçekleşmez ve program çalışmasına devam eder. Sonra, akış nesnesi ile << işaretçisini kullanarak bir karakter dizisi, bir int ve bir float değeri dosyaya yazar. Clear() fonksiyonu ile giriş ve çıkış işlemleri durum flag değerlerini ilk haline getirir. Dosya okuma işaretçisini, seekg() fonksiyonu ile, dosya başına konumlandırır. Dosyadan okuyacağı değerleri atamak için bir karakter dizisi, bir int ve bir float değer oluşturur. Sonra, akış nesnesi ile >> işlemcisini kullanarak bir karakter dizisi, bir int ve bit float değeri dosyadan okur ve daha önce oluşturduğu dizi ve değişkenlere atar. Okuduğu değerleri ekrana yazdıktan sonra, close() fonksiyonu ile dosyayı kapatır.
 

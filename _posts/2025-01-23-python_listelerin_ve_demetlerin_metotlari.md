@@ -18,7 +18,7 @@ Ağırlıklı olarak bu bölümde listelerin metotlarından söz edeceğiz. ‘M
 kavramını karakter dizilerinden hatırlıyorsunuz. Karakter dizilerini anlatırken
 bol miktarda metot görmüştük.
 
-Python’da bütün veri tipleri bize birtakım metotlar sunar. Bu metotlar
+Python’da bütün veri tipleri bize birtakım [metotlar](https://sonsuzus.github.io/search.html?q=metotlar) sunar. Bu metotlar
 yardımıyla, ilgili veri tipi üzerinde önemli değişiklikler veya sorgulamalar
 yapabiliyoruz.
 
@@ -64,7 +64,7 @@ ilgilendiren metotlar ise şunlardır:
 ```
 
 Metotlar, bir programcının hayatını önemli ölçüde kolaylaştıran araçlardır. Bu
-yüzden, ‘Listeler’ konusunun ilk bölümünde öğrendiğimiz listeye öğe ekleme, öğe
+yüzden, ‘[Listeler](https://sonsuzus.github.io/search.html?q=listeler)’ konusunun ilk bölümünde öğrendiğimiz listeye öğe ekleme, öğe
 çıkarma, öğe değiştirme, öğe silme gibi işlemleri orada anlattığımız yöntemlerle
 değil, biraz sonra göreceğimiz metotlar aracılığıyla yapmayı tercih edeceğiz.
 Ama tabii ki, metotları tercih edecek olmamız, birinci bölümde anlattığımız

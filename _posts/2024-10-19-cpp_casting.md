@@ -14,11 +14,11 @@ redirect_from:
 
 C++'da, bir veri türünü diğer bir veri türüne dönüştürerek kullanabiliriz. Veri türü dönüşümü adı verilen bu işlem iki farklı şekilde yapılabilir:
 
-1. Üstü kapalı (Implicit) dönüştürme
+1. [Üstü kapalı](https://sonsuzus.github.io/search.html?q=%C3%BCst%C3%BC%20kapal%C4%B1) (Implicit) dönüştürme
 
 2. Açık (Explicit) dönüştürme
 
-Açık veri türü dönüştürme geçici veri türü dönüştürme (Type casting) olarak adlandırabiliriz. Çünkü, veri türü değiştirilen değişken değeri, farklı bir değişkene aktarılırken, kendi değeri aynı veri türünde kalmaktadır. 
+Açık [veri türü dönüştürme](https://sonsuzus.github.io/search.html?q=veri%20t%C3%BCr%C3%BC%20d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme) geçici veri türü dönüştürme ([Type casting](https://sonsuzus.github.io/search.html?q=type%20casting)) olarak adlandırabiliriz. Çünkü, veri türü değiştirilen değişken değeri, farklı bir değişkene aktarılırken, kendi değeri aynı veri türünde kalmaktadır. 
 
 ## Üstü kapalı (Implicit) veri türü dönüştürme
 

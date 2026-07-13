@@ -12,7 +12,7 @@ redirect_from:
 ---
 
 
-C++'da, referans değişken adı verilen bir değişken tanımlayarak oluşturduğumuz değişenlere farklı bir isim ile erişim sağlayabiliriz.
+C++'da, [referans](https://sonsuzus.github.io/search.html?q=referans) [değişken](https://sonsuzus.github.io/search.html?q=de%C4%9Fi%C5%9Fken) adı verilen bir değişken tanımlayarak oluşturduğumuz değişenlere farklı bir isim ile erişim sağlayabiliriz.
 
 Referans bildirimi aşağıdaki şekilde yapılmaktadır:
 

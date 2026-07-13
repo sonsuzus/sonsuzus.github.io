@@ -19,7 +19,7 @@ redirect_from:
 
 ## İşaretçi bildirimi
 
-İşaretçilerin diğer değişkenlerden tek farkı başka bir değişkenin bellek adresini içeriyor olmasıdır. Aşağıdaki satır işaretçi bildiriminin genel yapısını göstermektedir:
+İşaretçilerin diğer değişkenlerden tek farkı başka bir değişkenin bellek adresini içeriyor olmasıdır. Aşağıdaki satır [işaretçi](https://sonsuzus.github.io/search.html?q=i%C5%9Faret%C3%A7i) bildiriminin genel yapısını göstermektedir:
 
 veri-türü \*değişken-adı;
 
@@ -35,7 +35,7 @@ int *ip;
 
 ## İşaretçilere değer atanması
 
-Bir işaretçiyi kullanmadan önce, bir bellek adresinin mutlaka işaretçiye atanması gerekir. Çünkü, işaretçi bellek adresleri ile işlem yapar. C++'da, işaretçilere bellek adresi atama işlemi, & işlemcisi ile yapılır.
+Bir işaretçiyi kullanmadan önce, bir bellek adresinin mutlaka işaretçiye atanması gerekir. Çünkü, işaretçi bellek adresleri ile işlem yapar. C++'da, işaretçilere bellek adresi [atama](https://sonsuzus.github.io/search.html?q=atama) işlemi, & işlemcisi ile yapılır.
 
 C++'da işaretçilerle kullanılan iki farklı işlemci vardır. Bunlardan biri \* , diğeri ise & işlemcisidir. Bu iki işlemcinin görevlerinin anlaşılması işaretçi kavramını anlamak açısından çok önemlidir:
 
@@ -123,7 +123,7 @@ id değişken bellek adresi: 0x6dfee8
 
 Program önce id adlı bir int değişken ve ip adlı bir işaretçi değişkeni oluşturur. id değişkenine 21 değerini atar. id değişkeninin adresini ip işaretçisine atar. id değişken değerini önce değişken adını sonra işaretçi kullanarak, iki kez ekrana yazar. id değişkeninin bellek adresini önce değişken referans değerini sonra işaretçi adını kullanarak ekrana yazar. Bellek adresi her bilgisayarda farklı bir değer alabilir.
 
-> Konumuza devam etmeden önce, 0x6dfee8 ifadesini kısaca inceleyelim. Bu ifade bilgisayar belleğinin belirli bir adresini 16'lık (Hexadecimal) sayı sisteminde göstermektedir. Yukarıdaki örnek programı çalıştırdığımızda farklı bir bellek adres değeri alabiliriz. Burada gösterilen bütün adres değerleri, her bilgisayar için farklı olabilir.
+> Konumuza devam etmeden önce, 0x6dfee8 ifadesini kısaca inceleyelim. Bu ifade bilgisayar belleğinin belirli bir adresini 16'lık (Hexadecimal) sayı sisteminde göstermektedir. Yukarıdaki örnek programı çalıştırdığımızda farklı bir bellek [adres](https://sonsuzus.github.io/search.html?q=adres) değeri alabiliriz. Burada gösterilen bütün adres değerleri, her bilgisayar için farklı olabilir.
 {: .prompt-tip }
 
 ## İşaretçilere ilk değer atama

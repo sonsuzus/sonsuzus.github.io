@@ -62,7 +62,7 @@ C++ Programlama Dili
 
 C++'da, # karakteri ile başlayan satırlar önişlemci direktifi olup, program derlenmeden önce, önişlemci tarafından işlem yapılır. Yukarıdaki satırda, kullanılan #include önişlemci direktifi, sağ tarafında yer alan <iostream> adlı başlık dosyasını programa dahil eder. Böylece, <iostream> başlık dosyası içeriği program içinde yazılmış gibi kullanılabilir hale gelir.
 
-Bu durumda, <iostream> başlık dosyasını programımıza dahil ederek, std isim alanını dolayısıyla da cout komutunu programımızda kullanabilme olanağına sahip oluyoruz.
+Bu durumda, <iostream> başlık dosyasını programımıza dahil ederek, std isim alanını dolayısıyla da [cout](https://sonsuzus.github.io/search.html?q=cout) komutunu programımızda kullanabilme olanağına sahip oluyoruz.
 
 ```c++
 using namespace std;
@@ -78,7 +78,7 @@ int main(void)
 
 ```
 
-Bir C++ programı çalışmaya başladığında, ilk önce program içinde mutlaka bulunması gereken main() adlı fonksiyonu arar, bulur ve ilk işlem satırından itibaren çalıştırmaya başlar. { ve } işaretleri main() fonksiyon bloğunun başlangıç ve sonunu gösterir. main() ifadesinin sol tarafında yer alan int kelimesi main() fonksiyonunun bir tamsayı değeri geri döndürmesi gerektiğini ifade eder.
+Bir C++ programı çalışmaya başladığında, ilk önce program içinde mutlaka bulunması gereken [main](https://sonsuzus.github.io/search.html?q=main)() adlı fonksiyonu arar, bulur ve ilk işlem satırından itibaren çalıştırmaya başlar. { ve } işaretleri main() fonksiyon bloğunun başlangıç ve sonunu gösterir. main() ifadesinin sol tarafında yer alan int kelimesi main() fonksiyonunun bir tamsayı değeri geri döndürmesi gerektiğini ifade eder.
 
 C++ dilinde, main ifadesinden sonraki parentezler içindeki void ifadesi, main() fonksiyonunun bir parametreye sahip olmadığını gösterir.
 
@@ -94,11 +94,7 @@ Yukarıda verilen satır main() fonksiyonu içinde ilk sırada yer alan ve "C++ 
 
 Burada, << işareti çıktı alma işlemcisi olarak çalışır. cout ifadesi ekran ile ilgili olup << işareti ile birlikte kullanılarak sağ tarafta yer alan ifadeyi ekrana yazmaya yarar.
 
-```c++
-return 0;
-
-
-```
+@@MASK_6@@
 
 Yukarıdaki satır programın çalışmasının normal bir şekilde sona erdiğini gösteren 0 değerini kendisini çağıran ortama geri döndürür.
 

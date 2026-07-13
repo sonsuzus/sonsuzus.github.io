@@ -13,7 +13,7 @@ redirect_from:
   - /posts/js-for-dongusu/
 ---
 
-Javascript 'de döngü yardımıyla bir kod parçasını bir koşula bağlı olarak tekrar tekrar çalıştırabiliriz. Örneğin bir isim listesindeki her bir ismi ekrana tekrar tekrar yazmak yerine döngü kullanımı işimizi oldukça kolaylaştırır.
+Javascript 'de [döngü](https://sonsuzus.github.io/search.html?q=d%C3%B6ng%C3%BC) yardımıyla bir kod parçasını bir [koşula](https://sonsuzus.github.io/search.html?q=ko%C5%9Fula) bağlı olarak [tekrar](https://sonsuzus.github.io/search.html?q=tekrar) tekrar çalıştırabiliriz. Örneğin bir isim listesindeki her bir ismi ekrana tekrar tekrar yazmak yerine döngü kullanımı işimizi oldukça kolaylaştırır.
 
 ```js
 var isimler = ["ali", "ahmet", "can", "canan"];

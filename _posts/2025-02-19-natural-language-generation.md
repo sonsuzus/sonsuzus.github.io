@@ -21,9 +21,9 @@ redirect_from:
 
 
 Günümüzde, teknolojinin hızla geliştiği bu çağda, bilgisayarlar artık veri depolamaktan çok
-daha fazlasını yapabiliyorlar. İnsan gibi doğal bir şekilde iletişim kurmak da buna dahil. NLG, yani
+daha fazlasını yapabiliyorlar. İnsan gibi doğal bir şekilde iletişim kurmak da buna dahil. [NLG](https://sonsuzus.github.io/search.html?q=nlg), yani
 Natural Language Generation, yapay zeka içinde özel bir alt kategori olarak nitelendirilebilir ve
-bilgisayarların insan gibi doğal dil üretme yeteneği olarak tanımlanır. Dili anlama ve dil üretmeyi
+bilgisayarların insan gibi doğal [dil üretme](https://sonsuzus.github.io/search.html?q=dil%20%C3%BCretme) yeteneği olarak tanımlanır. Dili anlama ve dil üretmeyi
 hedefler. Bu teknoloji iş dünyası, eğitim, oyun geliştirme, sağlık sektörü gibi pek çok alanda kullanılır.
 Örneğin müşteri hizmet botlarının daha doğal ve insansı konuşmalarını sağlamak için, müşterinin
 alışveriş geçmişine göre kişiselleştirilmiş reklamlar üretmek için kullanılabilir. NLG, karmaşık ve çok
@@ -31,7 +31,7 @@ miktarda veriyi anlamlı hikayelere, raporlara, metinlere dönüştürerek hayat
 bu teknoloji tam olarak nasıl çalışıyor? Gelecekte hangi alanlarda kullanılabilir? Ve son olarak, etik
 olarak doğru mu?
 
-NLG veri analizi ve dil modellemesi gibi yapay zeka teknikleri içerir ve makine öğrenimi veya
+NLG [veri analizi](https://sonsuzus.github.io/search.html?q=veri%20analizi) ve dil modellemesi gibi yapay zeka teknikleri içerir ve makine öğrenimi veya
 derin öğrenme teknikleriyle eğitilir. Çalışma süreci genellikle veri girişi ile başlar. Bu veriler pek çok
 yapıda olabilirler. Örneğin, finansal performans verileri, spor istatistikleri, dilbilgisi kuralları ve çok
 daha fazlası. Ardından dil modellemesi adı verilen bir aşamada NLG bu veriyi anlamaya çalışır,

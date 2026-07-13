@@ -12,7 +12,7 @@ redirect_from:
   - /posts/python_sets/
 ---
 
-Küme, birden fazla değerin yer aldığı bir yapıdır. Küme içindeki verilerin aynı veri türünden olması gerekli değildir. Elemanlar düzenli değildir ve elemanlarda değişiklik yapılamaz. Küme oluşturmak için parantezler ({ }) veya set() fonksiyonu kullanılır.
+[Küme](https://sonsuzus.github.io/search.html?q=k%C3%BCme), birden fazla değerin yer aldığı bir yapıdır. Küme içindeki verilerin aynı veri türünden olması gerekli değildir. Elemanlar düzenli değildir ve elemanlarda değişiklik yapılamaz. Küme oluşturmak için parantezler ({ }) veya set() fonksiyonu kullanılır.
 
 ```py
 küme-adı = ("deger01", "deger02", "deger03") # { } ile küme oluşturma
@@ -26,7 +26,7 @@ Kümeler aşağıda gösterilen kurallara uygun olarak oluşturulur:
 
 * Küme, aynı veya farklı veri türünden elemanlardan oluşabilir.
 * Küme elemanları sıralı değildir. Elemanların tanımlanma sırası değişebilir.
-* Küme elemanlarının değerleri değiştirilemez, ancak silinebilir ve yeni eleman eklenebilir.
+* Küme elemanlarının değerleri değiştirilemez, ancak silinebilir ve yeni [eleman](https://sonsuzus.github.io/search.html?q=eleman) eklenebilir.
 * Küme elemanları birbirinin aynı olamaz.
 * Küme elemanlarına erişim endeksleme ile sağlanamaz, for döngüleri ile sağlanır.
 
@@ -64,7 +64,7 @@ Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri
 
 Bir küme içindeki elemanlara sıra ile erişim sağlamak için döngüleri kullanabiliriz.
 
-Şimdi, küme elemanlarına sıra ile erişim sağlamak için döngü kullanılmasını bir örnek üzerinde incelemeye çalışalım:
+Şimdi, küme elemanlarına sıra ile erişim sağlamak için [döngü](https://sonsuzus.github.io/search.html?q=d%C3%B6ng%C3%BC) kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 

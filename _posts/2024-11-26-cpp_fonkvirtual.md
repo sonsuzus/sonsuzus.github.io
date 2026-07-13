@@ -36,9 +36,9 @@ class türetilen-sınıf public: ana-sınıf {
 
 ```
 
-Sanal bir fonksiyon oluşturmak için, ana sınıf içindeki fonksiyon bildiriminden önce virtual anahtar kelimesi kullanılır. Sanal fonksiyon içeren bir sınıftan yeni bir sınıf türetildiğinde, türetilen her sınıf içinde sanal fonksiyon, virtual anahtar kelimesi kullanılmadan, yeniden tanımlanır ve fonksiyon içeriği yeniden düzenlenir.
+Sanal bir fonksiyon oluşturmak için, ana sınıf içindeki fonksiyon bildiriminden önce [virtual](https://sonsuzus.github.io/search.html?q=virtual) anahtar kelimesi kullanılır. Sanal fonksiyon içeren bir sınıftan yeni bir sınıf türetildiğinde, türetilen her sınıf içinde sanal fonksiyon, virtual anahtar kelimesi kullanılmadan, yeniden tanımlanır ve fonksiyon içeriği yeniden düzenlenir.
 
-> Sanal fonksiyon ile, aynı isme sahip bir fonksiyon her sınıf için ayrı bir işlem yapacak şekilde tanımlanabilmektedir. Bu durum nesneye yönelik [programlamada çok biçimlilik](https://sonsuzus.github.io/posts/cpp_poly/) (Polymorphism) özelliğinin bir sonucudur.
+> Sanal fonksiyon ile, aynı isme sahip bir fonksiyon her sınıf için ayrı bir işlem yapacak şekilde tanımlanabilmektedir. Bu durum nesneye yönelik [programlamada çok biçimlilik](https://sonsuzus.github.io/posts/cpp_poly/) ([Polymorphism](https://sonsuzus.github.io/search.html?q=polymorphism)) özelliğinin bir sonucudur.
 {: .prompt-tip }
 
 Sanal fonksiyonlar çalışma zamanı çok biçimlilik (Runtime Polymorphism) özelliği sağlar. Bu özellikle, virtual anahtar kelimesi derleyiciye fonksiyon bağlama işlemini derleme zamanında değil çalışma zamanında yapmasını bildirir.

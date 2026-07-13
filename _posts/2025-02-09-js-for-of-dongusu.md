@@ -13,7 +13,7 @@ redirect_from:
   - /posts/js-for-of-dongusu/
 ---
 
-Javascript for/of döngüsü ile iterable bir nesnenin tüm elemanlarına ulaşabiliriz. Iterable nesneler yapı itibariyle elemanları üzerinde döngüler ile gezilebilir nesnelerdir. Örneğin array, set, map, string gibi javascript nesneleri iterable nesnelerdir.
+Javascript [for/of](https://sonsuzus.github.io/search.html?q=for/of) döngüsü ile [iterable](https://sonsuzus.github.io/search.html?q=iterable) bir nesnenin tüm elemanlarına ulaşabiliriz. Iterable nesneler yapı itibariyle elemanları üzerinde döngüler ile gezilebilir nesnelerdir. Örneğin array, set, map, string gibi javascript nesneleri iterable nesnelerdir.
 
 Kullanım şekli;
 
@@ -25,7 +25,7 @@ for (element of iterable) {
 }
 ```
 
-**iterable** nesnenin her biri sırasıyla element değişkeni içerisine kopyalanır.
+**iterable** nesnenin her biri sırasıyla [element](https://sonsuzus.github.io/search.html?q=element) değişkeni içerisine kopyalanır.
 
 **iterable** array, set, map, string olabilir.
 

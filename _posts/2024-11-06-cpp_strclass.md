@@ -12,7 +12,7 @@ redirect_from:
   - /posts/cpp_strclass/
 ---
 
-C++'da karakter dizisi işlemleri için boş bir karakterle ('\0') sonlandırılan karakter dizilerinin yanı sıra, string veri türündeki sınıf nesnelerini de kullanabiliriz.
+C++'da karakter dizisi işlemleri için boş bir karakterle ('\0') sonlandırılan karakter dizilerinin yanı sıra, [string](https://sonsuzus.github.io/search.html?q=string) veri türündeki sınıf nesnelerini de kullanabiliriz.
 
 Aslında, string sınıfı, basic\_string şablon sınıfını temel almaktadır. 8 bitlik karakter dizilerini destekleyen sınıfın adı string, geniş karakterli dizileri destekleyen sınıfın adı ise wstring'dir.
 
@@ -49,7 +49,7 @@ String nesnelerine uygulanabilecek işlemler aşağıdaki tabloda gösterilmekte
 
 Kullanılan işlemciler
 
-|   İşlemci  | Anlamı |   İşlemci  | Anlamı |
+|   [İşlemci](https://sonsuzus.github.io/search.html?q=i%C5%9Flemci)  | Anlamı |   İşlemci  | Anlamı |
 | = | Atama | <= | Küçük veya eşit |
 | + | Ekleme | > | Büyüktür |
 | += | Ekleyerek atama | >= | Büyük veya eşit |

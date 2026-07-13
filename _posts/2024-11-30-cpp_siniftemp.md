@@ -12,13 +12,13 @@ redirect_from:
   - /posts/cpp_siniftemp/
 ---
 
-Şablon sınıflar oluşturmak için, bir sınıf içinde kullanılan değişkenlerin en az bir tanesini veri türü değişken parametre olarak tanımlamak gerekir. Veri türü değişken parametreleri sınıf içindeki fonksiyonlarda aynı kodlarla kullanabilir.
+Şablon sınıflar oluşturmak için, bir sınıf içinde kullanılan değişkenlerin en az bir tanesini [veri türü](https://sonsuzus.github.io/search.html?q=veri%20t%C3%BCr%C3%BC) değişken parametre olarak tanımlamak gerekir. Veri türü değişken parametreleri sınıf içindeki fonksiyonlarda aynı kodlarla kullanabilir.
 
 Şablon sınıftan bir nesne oluşturulurken, sınıfa parametre olarak geçirilecek değişkenlerin veri türü belirlenir.
 
 Bir sınıf şablonları, farklı veri türlerine aynı kodlarla işlem yapılmasına olanak sağladığından, büyük kolaylık sağlar.
 
-Bir sınıf şablonu da fonksiyon şablonu gibi template ve typename anahtar kelimeleri ile oluşturulur. Sınıf şablonu bildirimi için kullanılan genel yapı aşağıda gösterilmektedir:
+Bir sınıf şablonu da fonksiyon şablonu gibi [template](https://sonsuzus.github.io/search.html?q=template) ve typename anahtar kelimeleri ile oluşturulur. Sınıf şablonu bildirimi için kullanılan genel yapı aşağıda gösterilmektedir:
 
 ```
 
@@ -46,7 +46,7 @@ sınıf-adı <T1, T2, ...> nesne_adı;
 
 ## Tek parametre değeri alan şablon sınıflar
 
-Şablon sınıf bildiriminde sadece tek parametre kullandığımızda, şablon sınıftan her nesne üretilmesinde sadece tek bir veri türü tanımlanır. Sınıf kopyası içinde sadece bu veri türü değişken olarak kullanılabilir.
+[Şablon sınıf](https://sonsuzus.github.io/search.html?q=%C5%9Fablon%20s%C4%B1n%C4%B1f) bildiriminde sadece tek parametre kullandığımızda, şablon sınıftan her nesne üretilmesinde sadece tek bir veri türü tanımlanır. Sınıf kopyası içinde sadece bu veri türü değişken olarak kullanılabilir.
 
 Aynı veri türünden private, protected ve public değişkenlere işlem yapan fonksiyonlar içeren bir şablon sınıfının kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 

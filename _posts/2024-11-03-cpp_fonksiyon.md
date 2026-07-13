@@ -13,11 +13,11 @@ redirect_from:
 ---
 
 
-C++'da, fonksiyon bir veya daha fazla işlem satırından oluşan kodların bir kod bloğu şeklinde yapılandırılması ile oluşturulur. Fonksiyonlar oluşturulduktan sonra programın herhangi bir yerinden sadece fonksiyon adı kullanılarak çağrılabilir. Bu sayede, çok fazla sayıda işlem satırı tek bir isim kullanılarak çalıştırılmış olur.
+C++'da, [fonksiyon](https://sonsuzus.github.io/search.html?q=fonksiyon) bir veya daha fazla işlem satırından oluşan kodların bir kod bloğu şeklinde yapılandırılması ile oluşturulur. Fonksiyonlar oluşturulduktan sonra programın herhangi bir yerinden sadece fonksiyon adı kullanılarak çağrılabilir. Bu sayede, çok fazla sayıda [işlem satırı](https://sonsuzus.github.io/search.html?q=i%C5%9Flem%20sat%C4%B1r%C4%B1) tek bir isim kullanılarak çalıştırılmış olur.
 
 ## Fonksiyon yapısı
 
-Fonksiyon, eğer varsa, kendisine geçirilen parametreleri de kullanarak kod bloğu içindeki işlem satırları ile bir takım işlemler yaparak bir sonuç elde eder. Elde edilen sonuç, ihtiyaca bağlı olarak, fonksiyon içinde ya da return komutu ile geri döndürüldükten sonra program içinde kullanılır.
+Fonksiyon, eğer varsa, kendisine geçirilen parametreleri de kullanarak kod bloğu içindeki işlem satırları ile bir takım işlemler yaparak bir sonuç elde eder. Elde edilen sonuç, ihtiyaca bağlı olarak, fonksiyon içinde ya da [return](https://sonsuzus.github.io/search.html?q=return) komutu ile geri döndürüldükten sonra program içinde kullanılır.
 
 ```c++
 veri-türü fonksiyon-adı (parametreler)

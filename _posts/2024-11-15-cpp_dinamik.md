@@ -17,7 +17,7 @@ redirect_from:
 ---
 
 
-C++'da daha kaliteli uygulamalar geliştirmek için dinamik bellek kullanımını etkin bir şekilde kullanmamız gerekmektedir. Program normal koşullarda ihtiyaç duyulan bellek tahsisini ve bellek boşaltma işlemlerini işlem satırlarında yer alan kodlara uygun olarak yapar. Ancak, bazı durumlarda, değişkenlere atanacak verilerin boyutu ve ihtiyaç duyulan bellek miktarı programın çalışması esnasında belirlenebileceğinden, bellek tahsis ve boşaltma işlemlerini program çalışması esnasında dinamik olarak gerçekleştirmek gerekir.
+C++'da daha kaliteli uygulamalar geliştirmek için [dinamik bellek](https://sonsuzus.github.io/search.html?q=dinamik%20bellek) kullanımını etkin bir şekilde kullanmamız gerekmektedir. Program normal koşullarda ihtiyaç duyulan bellek tahsisini ve bellek boşaltma işlemlerini işlem satırlarında yer alan kodlara uygun olarak yapar. Ancak, bazı durumlarda, değişkenlere atanacak verilerin boyutu ve ihtiyaç duyulan bellek miktarı programın çalışması esnasında belirlenebileceğinden, bellek tahsis ve boşaltma işlemlerini program çalışması esnasında dinamik olarak gerçekleştirmek gerekir.
 
 Dizi tanımlaması gibi yapılan bazı işlemler belleğin otomatik olarak tahsis edilmesini sağlarken, bazı işlemler bu olanağı sağlamaz. Bu durumda, programın çalışması esnasında gereksinim duyduğumuzda bellek tahsis edebiliriz. Bu işleme dinamik bellek kullanımı yöntemi adı verilir.
 
@@ -27,7 +27,7 @@ Program çalışırken dinamik olarak bellek tahsisi heap adı verilen bellek b�
 
 ## new ve delete işlemcileri
 
-C++'da dinamik bellek işlemleri için new ve delete işlemcileri kullanılır.
+C++'da dinamik bellek işlemleri için [new ve delete](https://sonsuzus.github.io/search.html?q=new%20ve%20delete) işlemcileri kullanılır.
 
 new işlemcisi bellek tahsisi yapar ve tahsis edilen belleğin başlangıç adresini geri döndürür. new işlemcisinin genel kullanım şekli aşağıdadır:
 
@@ -39,7 +39,7 @@ delete işaretçi-adı;
 
 new işlemcisi, new işlemcisinin sağ tarafındaki veri türü büyüklüğünde bellek tahsis ederek, tahsis edilen belleğin başlangıç adresini geri döndürerek aynı veri türünden bir işaretçiye atar.
 
-Bellek tahsis işleminde meydana gelebilecek sorunlar, genellikle heap bellek alanındaki yetersizlikten ötürü, program tarafından kontrol edilmelidir.
+Bellek tahsis işleminde meydana gelebilecek sorunlar, genellikle [heap bellek](https://sonsuzus.github.io/search.html?q=heap%20bellek) alanındaki yetersizlikten ötürü, program tarafından kontrol edilmelidir.
 
 Şimdi, new ve delete işlemcilerinin kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 

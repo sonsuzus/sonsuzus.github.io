@@ -18,7 +18,7 @@ redirect_from:
 
 
 
-Kalıtım nesneye yönelik programlamanın en önemli özelliklerinden biridir. Kalıtım bir nesneden türetilen bir nesnenin türetildiği nesnenin tüm özelliklerine sahip olmasıdır.
+[Kalıtım](https://sonsuzus.github.io/search.html?q=kal%C4%B1t%C4%B1m) nesneye yönelik programlamanın en önemli özelliklerinden biridir. Kalıtım bir nesneden [türetilen](https://sonsuzus.github.io/search.html?q=t%C3%BCretilen) bir nesnenin türetildiği nesnenin tüm özelliklerine sahip olmasıdır.
 
 Kalıtım, nesneye yönelik programlamada mevcut bir sınıf içinde bulunan veri ve metotların bu sınıftan türetilen alt sınıflar içinde kullanılması olarak tanımlanabilir.
 
@@ -26,7 +26,7 @@ Kendisinden türetme yapılan sınıf ana, ebeveyn veya süper sınıf olarak, t
 
 Bir ana sınıftan bir sınıf türetildiğinde, ana sınıfta yer alan tüm veri ve metotlar türetilen sınıf tarafından kullanılabileceği gibi, türetilen sınıf içinde de yeni veri ve metotlar tanımlanabilir. Eğer ihtiyaç duyulursa, ana sınıftan devralınan metotlar yeniden tanımlanır (overriding) ve aynı isim altında farklı kodlar yazılır.
 
-Ana sınıftan bir alt sınıf türeterek, ana sınıfta yer alan veri ve metotların devralınması, devralınan metotlar için yeniden kod yazmaya gerek duymadan, ana sınıf içinde yer alan veri ve metotları kullanmaya olanak sağlar.
+Ana sınıftan bir alt sınıf türeterek, ana sınıfta yer alan veri ve metotların devralınması, devralınan metotlar için yeniden kod yazmaya gerek duymadan, [ana sınıf](https://sonsuzus.github.io/search.html?q=ana%20s%C4%B1n%C4%B1f) içinde yer alan veri ve metotları kullanmaya olanak sağlar.
 
 > Öncelikle bir ana sınıf tanımlaması yapılmalıdır. Ana sınıf tanımlaması yapılırken, bu sınıftan üretilecek olan sınıfların ortak olarak sahip olacağı ve birlikte kullanacağı özellikleri gösteren değişkenlerin tamamının bildirimi ana sınıf içinde yapılmalıdır. Ana sınıftan türetilen alt sınıfların sadece kendileri tarafından kullanılacak özellikleri gösteren değişkenlerin bildirimi ise türetilen alt sınıfların içinde yapılmalıdır.
 {: .prompt-tip }
