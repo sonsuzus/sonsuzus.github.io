@@ -56,37 +56,15 @@ title: Arama
     'a56052698d8070daa3e26b73f51ff1a4'
   );
 
-  // 2. Arama Motorunu Yapılandır ve Routing Ekle
+  // 2. Arama Motorunu Yapılandır
   const search = instantsearch({
-    indexName: 'sonsuzus_notlar',
+    indexName: 'sonsuzus_notlar', // Algolia panelindeki indeks adımız
     searchClient: searchClient,
-    
-    // URL üzerinden parametre alıp vermek için routing ayarları
-    routing: {
-      stateMapping: {
-        // Algolia'nın iç arama durumunu (state) URL'ye nasıl yazacağını belirleriz
-        stateToRoute(uiState) {
-          const indexUiState = uiState['sonsuzus_notlar'] || {};
-          return {
-            q: indexUiState.query, // URL'de ?q=kelime şeklinde görünmesini sağlar
-          };
-        },
-        // URL'deki parametreyi okuyup Algolia'ya nasıl ileteceğimizi belirleriz
-        routeToState(routeState) {
-          return {
-            ['sonsuzus_notlar']: {
-              query: routeState.q, // URL'deki q değerini Algolia sorgusuna eşitleriz
-            },
-          };
-        },
-      },
-    },
-
     searchFunction(helper) {
       // Sayfa ilk yüklendiğinde boş arama yapmasını engeller
-      // Ancak URL'den bir "q" parametresi gelmişse onu okuyup arama yapar
+      // Sadece kullanıcı bir şey yazdığında sonuçları gösterir
       const container = document.querySelector('#hits');
-      if (helper.state.query === '' || helper.state.query === undefined) {
+      if (helper.state.query === '') {
         container.style.display = 'none';
       } else {
         container.style.display = 'block';
