@@ -21,11 +21,11 @@ redirect_from:
 
 [Daha önceki bir bölümde](https://sonsuzus.github.io/posts/python-programlamaya-giris-sayilar-aritmetik-temel-veri-yapilari) Python’daki liste, çokuz, dize ve sözlük tiplerinin nasıl kullanıldığını kısaca özetlemiştik. Bu ve bunu izleyen üç yazıda liste, sözlük, dize ve küme veri tiplerine dair daha fazla ayrıntı işleyeceğiz. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/category/program/) kategorimize bakabilirsiniz. 
 
-Bu yazının konusu *sıralı nesne* (sequential object) olarak anılan liste, çokuz ve dize tipleriyle ilgili bazı işlemlerdir. Bunlara sıralı nesne denmesinin sebebi, içlerinde barındırdıkları nesnelerin sırasının önemli oluşu. Söz gelişi, `"merhaba"` dizesi ile `"baharem"` dizesi farklıdır, aynı harfleri barındırmalarına rağmen. Buna karşılık bir sözlük sıralı nesne değildir, çünkü `{"ahmet":123, "ayşe":456}` ile `{"ayşe":456, "ahmet":123}` aynı sözlüğü tanımlarlar.
+Bu yazının konusu *[sıralı nesne](https://sonsuzus.github.io/search.html?q=s%C4%B1ral%C4%B1%20nesne)* (sequential object) olarak anılan liste, çokuz ve dize tipleriyle ilgili bazı işlemlerdir. Bunlara sıralı nesne denmesinin sebebi, içlerinde barındırdıkları nesnelerin sırasının önemli oluşu. Söz gelişi, `"merhaba"` dizesi ile `"baharem"` dizesi farklıdır, aynı harfleri barındırmalarına rağmen. Buna karşılık bir sözlük sıralı nesne değildir, çünkü `{"ahmet":123, "ayşe":456}` ile `{"ayşe":456, "ahmet":123}` aynı sözlüğü tanımlarlar.
 
 Bu yazıda göreceklerimiz:
 
-* Dilimleme (slicing)
+* [Dilimleme](https://sonsuzus.github.io/search.html?q=dilimleme) (slicing)
 * Öntanımlı fonksiyonlar: `range, len, del, list, tuple, join, all, any, enumerate, max, min, sorted, sum, zip`
 * Türkçe alfabeye göre sıralama
 
@@ -101,7 +101,7 @@ print( L[len(L)-2] ) # sondan bir önceki eleman
 
 ```
 
-Python bu zahmetli yazım yerine doğrudan negatif indeks kullanmaya izin verir. Negatif indeks kullanmak sondan itibaren saymak anlamına gelir. `L[-i]` ifadesi, sondan `i`‘inci elemanı verir.
+Python bu zahmetli yazım yerine doğrudan negatif [indeks](https://sonsuzus.github.io/search.html?q=indeks) kullanmaya izin verir. Negatif indeks kullanmak sondan itibaren saymak anlamına gelir. `L[-i]` ifadesi, sondan `i`‘inci elemanı verir.
 
 In [5]:
 

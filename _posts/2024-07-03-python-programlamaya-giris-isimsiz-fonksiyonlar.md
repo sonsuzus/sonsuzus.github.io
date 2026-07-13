@@ -16,9 +16,9 @@ redirect_from:
 
 
 
-Python Programlamaya Giriş yazı dizimizde [Python fonksiyonlarının nasıl tanımlandığını](https://sonsuzus.github.ip/posts/python-programlamaya-giris-fonksiyonlar), parametre eşleştirmenin ve varsayılan parametrelerin [nasıl işlediğini gördük](https://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyon-parametreleri), çeşitli örnekler ve alıştırmalar işledik. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](http://sonsuzus.github.io/category/program) kategorimize bakabilirsiniz.
+Python Programlamaya Giriş yazı dizimizde [Python fonksiyonlarının nasıl tanımlandığını](https://sonsuzus.github.ip/posts/python-programlamaya-giris-fonksiyonlar), [parametre](https://sonsuzus.github.io/search.html?q=parametre) eşleştirmenin ve varsayılan parametrelerin [nasıl işlediğini gördük](https://sonsuzus.github.io/posts/python-programlamaya-giris-fonksiyon-parametreleri), çeşitli örnekler ve alıştırmalar işledik. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](http://sonsuzus.github.io/category/program) kategorimize bakabilirsiniz.
 
-Fonksiyonların her zaman `def` komutuyla tanımlanması gerekmez. Başka bir yol, `lambda` komutunu kullanarak isimsiz (“anonymous” – belli bir isme bağlı olmayan) fonksiyonlar yaratmaktır. İsimsiz fonksiyonlar, `def` komutuyla üretilen fonksiyonlara göre daha kısıtlıdırlar. Buna karşılık, bir fonksiyon nesnesi gereken yerlerde bazı kolaylıklar sağlarlar.
+Fonksiyonların her zaman `def` komutuyla tanımlanması gerekmez. Başka bir yol, `lambda` komutunu kullanarak isimsiz (“anonymous” – belli bir isme bağlı olmayan) [fonksiyonlar](https://sonsuzus.github.io/search.html?q=fonksiyonlar) yaratmaktır. İsimsiz fonksiyonlar, `def` komutuyla üretilen fonksiyonlara göre daha kısıtlıdırlar. Buna karşılık, bir fonksiyon nesnesi gereken yerlerde bazı kolaylıklar sağlarlar.
 
 Fonksiyonların `lambda` komutuyla üretilmesine basit bir örnek olarak, aşağıdaki ifadeyi ele alalım. Burada, aldığı parametrenin karesini döndüren bir fonksiyon yaratıyoruz ve buna `f` ismini atıyoruz.
 
@@ -70,7 +70,7 @@ Out[4]:
 (1.44, 16, 256)
 ```
 
-Python dinamik bir dildir. Bunun anlamı, verdiğimiz komutların anında işlenmesi, ve gerekli nesnelerin bellekte o anda yaratılıyor olmasıdır. Python’daki her şey gibi fonksiyonlar da (yazılım geliştirmedeki anlamıyla) birer nesnedir. Yukarıdaki `lambda x: x*x` ifadesi bellekte bir *fonksiyon nesnesi* yaratır, ve bu nesne ile `f` ismi birbirine bağlanır. Öz olarak bunun `s = "merhaba"` komutundan farkı yok; burada da önce bellekte `"merhaba"` değerini tutan bir dize nesnesi yaratılır, sonra bu nesne `s` ismi ile eşleştirilir.
+Python dinamik bir dildir. Bunun anlamı, verdiğimiz komutların anında işlenmesi, ve gerekli nesnelerin bellekte o anda yaratılıyor olmasıdır. Python’daki her şey gibi fonksiyonlar da (yazılım geliştirmedeki anlamıyla) birer nesnedir. Yukarıdaki `lambda x: x*x` ifadesi bellekte bir *fonksiyon nesnesi* yaratır, ve bu [nesne](https://sonsuzus.github.io/search.html?q=nesne) ile `f` ismi birbirine bağlanır. Öz olarak bunun `s = "merhaba"` komutundan farkı yok; burada da önce bellekte `"merhaba"` değerini tutan bir dize nesnesi yaratılır, sonra bu nesne `s` ismi ile eşleştirilir.
 
 Elbette `lambda` ile yaratılan fonksiyon nesnesi tek başına da kullanılabilir.
 

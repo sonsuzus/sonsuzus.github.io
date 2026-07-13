@@ -17,8 +17,8 @@ redirect_from:
 
 Python'da işlemciler ile değişkenler ve sabitler üzerinde işlem yapılır. Python'da, aşağıda gösterilen 7 kategori içinde sınıflandırılan toplam 27 adet işlemci kullanılır.
 
-* Aritmetik işlemciler: + - \* / % \*\* //
-* Atama işlemcisi: =
+* [Aritmetik işlemciler](https://sonsuzus.github.io/search.html?q=aritmetik%20i%C5%9Flemciler): + - \* / % \*\* //
+* [Atama işlemcisi](https://sonsuzus.github.io/search.html?q=atama%20i%C5%9Flemcisi): =
 * Karşılaştırma işlemcileri: == != > < >= <=
 * Mantıksal işlemciler: and or not
 * Tanımlama işlemcileri: is, is not
@@ -145,7 +145,7 @@ Yukarıdaki programı derleyip çalıştırdığımızda, aşağıdaki ifadeleri
 
 Python'da, atama işlemcisini bir değişkene sabit değer atamak için kulanabiliriz. Ayrıca, aritmetik işlemciler ile bit işlemcilerinin 5 tanesi (~ hariç) atama işlemcisi ile kullanarak 12 adet ek işlemci oluşturabiliriz.
 
-Şimdi, atama işlemcisi ve atama işlemcisinin aritmetik ve bit işlemcileri ile kullanılmasını bir örnek üzerinde incelemeye çalışalım:
+Şimdi, atama işlemcisi ve atama işlemcisinin aritmetik ve [bit işlemcileri](https://sonsuzus.github.io/search.html?q=bit%20i%C5%9Flemcileri) ile kullanılmasını bir örnek üzerinde incelemeye çalışalım:
 
 Örnek
 

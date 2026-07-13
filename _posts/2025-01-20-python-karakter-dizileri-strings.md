@@ -15,7 +15,7 @@ redirect_from:
   - /posts/python-karakter-dizileri-strings/
 ---
 
-**Pythonda Karakter Dizileri** yani string veri tipleri **tek tırnak (' ')** ya da **çift tırnak (" ")** ile oluşturulur. 'Hello World' ile "Hello World" tanımlaması aynıdır. Ancak bazen karakter dizileri içerisinde tek tırnak karakterini karakter dizisinin bir elemanı gibi göstermek isteriz.
+**Pythonda Karakter Dizileri** yani [string](https://sonsuzus.github.io/search.html?q=string) veri tipleri **tek [tırnak](https://sonsuzus.github.io/search.html?q=t%C4%B1rnak) (' ')** ya da **çift tırnak (" ")** ile oluşturulur. 'Hello World' ile "Hello World" tanımlaması aynıdır. Ancak bazen karakter dizileri içerisinde tek tırnak karakterini karakter dizisinin bir elemanı gibi göstermek isteriz.
 
 **"I'm from Turkey"** şeklinde tek tırnak karakterini tanımlayabilmek için mecburen çift tırnak kullanmamız gerekir çünkü **'I'm from Turkey'** bu şekilde bir kullanım hata verecektir.
 
@@ -55,7 +55,7 @@ Bu şekilde değişken içeriklerine göre bir string ifadeyi + operatörü ile 
 
 ## String Formatlama
 
-'+' operatörünü kullanarak string birleştirme işlemi bazen zor olabiliyor. Dolayısıyla kullanabileceğimiz **format()** metodu ile **f-string** isminde iki farklı alternatifimiz mevcut.
+'+' operatörünü kullanarak string birleştirme işlemi bazen zor olabiliyor. Dolayısıyla kullanabileceğimiz **[format](https://sonsuzus.github.io/search.html?q=format)()** metodu ile **f-string** isminde iki farklı alternatifimiz mevcut.
 
 ### String format() Metodu
 

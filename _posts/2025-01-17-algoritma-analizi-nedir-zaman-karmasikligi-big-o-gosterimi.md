@@ -17,7 +17,7 @@ redirect_from:
   - /posts/algoritma-analizi-nedir-zaman-karmasikligi-big-o-gosterimi/
 ---
 
-**Algoritma analizi**, algoritmanın yürütülmesi için gerekli kaynak miktarının belirlenmesidir. Belirli bir problemi çözen herhangi bir algoritmanın ihtiyaç duyduğu kaynaklar için teorik tahminler sağlar. Başka bir ifadeyle, *algoritmanın performansı ve kaynak kullanımı* konusunda yapılan teorik çalışmaların tümüne **algoritma analizi** denir.
+**[Algoritma analizi](https://sonsuzus.github.io/search.html?q=algoritma%20analizi)**, algoritmanın yürütülmesi için gerekli kaynak miktarının belirlenmesidir. Belirli bir problemi çözen herhangi bir algoritmanın ihtiyaç duyduğu kaynaklar için teorik tahminler sağlar. Başka bir ifadeyle, *algoritmanın [performansı](https://sonsuzus.github.io/search.html?q=performans%C4%B1) ve [kaynak kullanımı](https://sonsuzus.github.io/search.html?q=kaynak%20kullan%C4%B1m%C4%B1)* konusunda yapılan teorik çalışmaların tümüne **algoritma analizi** denir.
 
 Buradaki çalışmalar, herhangi bir *programlama dilinden bağımsız* bir şekilde yürütülür ki gerçek anlamda sadece algoritmanın kendisini analiz edip bilimsel bir yaklaşım benimseyebilelim.
 

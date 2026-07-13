@@ -14,11 +14,11 @@ redirect_from:
 ---
 
 Bu bölüme gelene kadar yalnızca iki farklı veri tipi görmüştük. Bunlardan biri
-karakter dizileri, öteki ise sayılardı. Ancak tabii ki Python’daki veri tipleri
+karakter dizileri, öteki ise sayılardı. Ancak tabii ki Python’daki [veri tipleri](https://sonsuzus.github.io/search.html?q=veri%20tipleri)
 yalnızca bu ikisiyle sınırlı değildir. Python’da karakter dizileri ve sayıların
 dışında, başka amaçlara hizmet eden, başka veri tipleri de vardır. İşte biz bu
 bölümde iki farklı veri tipi daha öğreneceğiz. Bu bölümde ele alacağımız veri
-tiplerinin adı ‘liste’ (*list*) ve ‘demet’ (*tuple*).
+tiplerinin adı ‘[liste](https://sonsuzus.github.io/search.html?q=liste)’ (*list*) ve ‘[demet](https://sonsuzus.github.io/search.html?q=demet)’ (*tuple*).
 
 Bu bölümde birer veri tipi olarak listeler ve demetlerden söz etmenin yanısıra
 liste ve demetlerin metotlarından da bahsedeceğiz. Listelerle demetleri

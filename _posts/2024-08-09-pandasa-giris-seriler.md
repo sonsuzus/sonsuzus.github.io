@@ -19,7 +19,7 @@ redirect_from:
   - /posts/pandasa-giris-seriler/
 ---
 
-`Pandas` veri analitiği alanında, özellikle veri işleme ve analizi için sıklıkla kullanılan bir Python paketi. `Pandas` paketi seri (`Series`) ve veri çerçevesi (`DataFrame`) isimli iki veri yapısının üzerine kurulmuş. Bunlardan serileri tek boyutlu diziler, veri çerçevelerini ise iki boyutlu matrisler (ya da her kolonu bir seriden oluşan yapı) gibi düşünebiliriz. Ancak `Pandas` paketi liste ve matrislerden farklı işlevler sunuyor. Örnek olarak SQL tablolarında kullanılan tablo birleştirme (join) gibi işlemleri de `Pandas` sayesinde yapmak mümkün.
+`Pandas` [veri analitiği](https://sonsuzus.github.io/search.html?q=veri%20analiti%C4%9Fi) alanında, özellikle veri işleme ve analizi için sıklıkla kullanılan bir Python paketi. `Pandas` paketi seri (`Series`) ve [veri çerçevesi](https://sonsuzus.github.io/search.html?q=veri%20%C3%A7er%C3%A7evesi) (`DataFrame`) isimli iki veri yapısının üzerine kurulmuş. Bunlardan serileri tek boyutlu diziler, veri çerçevelerini ise iki boyutlu matrisler (ya da her kolonu bir seriden oluşan yapı) gibi düşünebiliriz. Ancak `Pandas` paketi liste ve matrislerden farklı işlevler sunuyor. Örnek olarak SQL tablolarında kullanılan tablo birleştirme (join) gibi işlemleri de `Pandas` sayesinde yapmak mümkün.
 
 `Pandas` paketiyle yapabileceğimiz temel işlemleri aşağıda bulabilirsiniz:
 
@@ -27,9 +27,9 @@ redirect_from:
 * Eksik değerleri doldurmak/çıkarmak için yöntemler içeriyor.
 * Çeşitli veri çerçevelerini birleştirmek (SQL dilindeki JOIN ve MERGE işlemleri) mümkün.
 * Farklı türlerde grafikler çizdirebiliriz.
-* Groupby fonksiyonu sayesinde veriyi gruplara bölerek, yapacağımız işlemlerle (toplama, sayma, ortalama alma gibi) özetleyebiliriz. `Groupby` konusunda yazdığımız detaylı bir yazıya [linkten](https://sonsuzus.github.io/posts/groupby/) erişebilirsiniz.
+* [Groupby](https://sonsuzus.github.io/search.html?q=groupby) fonksiyonu sayesinde veriyi gruplara bölerek, yapacağımız işlemlerle (toplama, sayma, ortalama alma gibi) özetleyebiliriz. `Groupby` konusunda yazdığımız detaylı bir yazıya [linkten](https://sonsuzus.github.io/posts/groupby/) erişebilirsiniz.
 
-`Pandas` ile ilgili yazı serisinin ilk bölümünde seri veri yapısını inceleyeceğiz. Burada kullandığımız yöntemlerin çoğu veri çerçeveleri için de geçerli olacaktır. Pandas serilerine giriş amacıyla IMF’nin gayrisafi yurt içi hasıla verisini kullanacağız. Detaylı veri setine [linkten](https://www.imf.org/en/Publications/WEO/weo-database/2017/October) erişebilirsiniz. Ben küçük bir örneklemle çalıştığım için veriyi okutmayla ilgili kısımlara, veri çerçeveleriyle ilgili yazıda değineceğim.
+`Pandas` ile ilgili yazı serisinin ilk bölümünde seri veri yapısını inceleyeceğiz. Burada kullandığımız yöntemlerin çoğu veri çerçeveleri için de geçerli olacaktır. [Pandas](https://sonsuzus.github.io/search.html?q=pandas) serilerine giriş amacıyla IMF’nin gayrisafi yurt içi hasıla verisini kullanacağız. Detaylı veri setine [linkten](https://www.imf.org/en/Publications/WEO/weo-database/2017/October) erişebilirsiniz. Ben küçük bir örneklemle çalıştığım için veriyi okutmayla ilgili kısımlara, veri çerçeveleriyle ilgili yazıda değineceğim.
 
 ## Seriler
 

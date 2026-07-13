@@ -14,9 +14,9 @@ redirect_from:
 
 
 
-Bir fonksiyon şablonu, çeşitli veri türlerine uygulanacak genel bir işlem grubunu tanımlar. Fonksiyonun üzerinde çalışacağı veri türü fonksiyona bir parametre olarak aktarılır. Fonksiyon şablonu ile, geniş bir veri yelpazesine tek bir genel kod yapısı uygulanabilir. Farklı veri türlerine aynı kodlarla işlem yapılması gerektiğinde fonksiyon şablonlarını kullanılması büyük kolaylık sağlar.
+Bir [fonksiyon şablonu](https://sonsuzus.github.io/search.html?q=fonksiyon%20%C5%9Fablonu), çeşitli veri türlerine uygulanacak genel bir işlem grubunu tanımlar. Fonksiyonun üzerinde çalışacağı veri türü fonksiyona bir parametre olarak aktarılır. Fonksiyon şablonu ile, geniş bir veri yelpazesine tek bir genel kod yapısı uygulanabilir. Farklı veri türlerine aynı kodlarla işlem yapılması gerektiğinde fonksiyon şablonlarını kullanılması büyük kolaylık sağlar.
 
-Bir fonksiyon şablonu template ve typename anahtar kelimeleri ile oluşturulur. Fonksiyon şablonu bildirimi için kullanılan genel yapı aşağıda gösterilmektedir:
+Bir fonksiyon şablonu [template](https://sonsuzus.github.io/search.html?q=template) ve [typename](https://sonsuzus.github.io/search.html?q=typename) anahtar kelimeleri ile oluşturulur. Fonksiyon şablonu bildirimi için kullanılan genel yapı aşağıda gösterilmektedir:
 
 ```
 

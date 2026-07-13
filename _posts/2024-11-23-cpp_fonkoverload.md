@@ -14,11 +14,11 @@ redirect_from:
 ---
 
 
-Çok biçimlilik sözlük anlamı olarak birden fazla şekilde varlık gösterebilen nesne ya da kavramları ifade etmektedir. Fonksiyonlar açısından çok biçimlilik aynı isme sahip bir fonksiyonun çok amaçlı kullanılması için, farklı sayıda ve veri türündeki parametrelerle tanımlanması olarak ifade edilebilir.
+[Çok biçimlilik](https://sonsuzus.github.io/search.html?q=%C3%A7ok%20bi%C3%A7imlilik) sözlük anlamı olarak birden fazla şekilde varlık gösterebilen nesne ya da kavramları ifade etmektedir. Fonksiyonlar açısından çok biçimlilik aynı isme sahip bir fonksiyonun çok amaçlı kullanılması için, farklı sayıda ve veri türündeki parametrelerle tanımlanması olarak ifade edilebilir.
 
 ## Fonksiyonlarda çoklu görev tanımlama (overloading) işlemi
 
-C++'da, fonksiyonlarda çoklu görev tanımlama işlemi yapılırken çok biçimlilik özelliği kullanılır. Birden fazla fonksiyon, farklı veri türündeki ve/veya farklı sayıda parametrelerle bildirimleri yapıldığında, aynı adı kullanır ve program içinden farklı parametreler ve aynı ad ile çağrılırlarsa, fonksiyon çoklu görev tanımlama işlemi gerçekleştirilmiş olur. Böylece, program içinde tek bir isim kullanarak birden fazla fonksiyona erişim sağlanabilir.
+C++'da, fonksiyonlarda [çoklu görev tanımlama](https://sonsuzus.github.io/search.html?q=%C3%A7oklu%20g%C3%B6rev%20tan%C4%B1mlama) işlemi yapılırken çok biçimlilik özelliği kullanılır. Birden fazla fonksiyon, farklı veri türündeki ve/veya farklı sayıda parametrelerle bildirimleri yapıldığında, aynı adı kullanır ve program içinden farklı parametreler ve aynı ad ile çağrılırlarsa, fonksiyon çoklu görev tanımlama işlemi gerçekleştirilmiş olur. Böylece, program içinde tek bir isim kullanarak birden fazla fonksiyona erişim sağlanabilir.
 
 Burada kullanılan çoklu görev tanımlama ifadesi birden fazla fonksiyonun aynı isim ile çağrılarak kullanılacağını gösterir.
 

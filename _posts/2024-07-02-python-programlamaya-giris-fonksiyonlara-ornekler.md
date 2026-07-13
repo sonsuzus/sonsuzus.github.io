@@ -14,7 +14,7 @@ redirect_from:
 
 
 
-Önceki yazılarda verdiğimiz basit örneklerin ötesine geçip biraz daha elle tutulur fonksiyon örnekleri verelim.
+Önceki yazılarda verdiğimiz basit örneklerin ötesine geçip biraz daha elle tutulur [fonksiyon](https://sonsuzus.github.io/search.html?q=fonksiyon) örnekleri verelim.
 
 * Asallık testi
 * Asal çarpanlar

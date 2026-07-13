@@ -17,7 +17,7 @@ redirect_from:
 
 C dilinde bilgisayar belleğinin bir kısmına belirli bir isim vererek bu bellek alanını kendimiz için ayırabilir ve bu alana değerler yerleştirebiliriz. Bu değerleri de istediğimiz zaman değiştirebiliriz.
 
-Bu işlemlere değişken bildirimi ve değişkene değer atama işlemleri diyoruz.
+Bu işlemlere [değişken](https://sonsuzus.github.io/search.html?q=de%C4%9Fi%C5%9Fken) [bildirimi](https://sonsuzus.github.io/search.html?q=bildirimi) ve değişkene değer [atama](https://sonsuzus.github.io/search.html?q=atama) işlemleri diyoruz.
 
 ## Değişken bildirimi
 

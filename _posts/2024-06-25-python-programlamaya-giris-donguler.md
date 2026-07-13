@@ -18,7 +18,7 @@ Döngüler, daha önce bahsettiğimiz karar yapısı `if` ile benzer bir yapıya
 
 ## while döngüsü
 
-`while` döngüleri, bir mantıksal şart mantıksal “doğru” değerine sahip olduğu sürece tekrarlanır. Döngünün sona ermesi için şartın eninde sonunda yanlış hale gelmesi gerekir. Bunun için döngünün içinde değişkenler uygun şekilde güncellenir. Bu güncellemeyi unutursak sonsuz döngü içine düşeriz ve programımız biz zorla kapatmadıkça durmaz.
+`while` döngüleri, bir [mantıksal şart](https://sonsuzus.github.io/search.html?q=mant%C4%B1ksal%20%C5%9Fart) mantıksal “doğru” değerine sahip olduğu sürece tekrarlanır. Döngünün sona ermesi için şartın eninde sonunda yanlış hale gelmesi gerekir. Bunun için döngünün içinde değişkenler uygun şekilde güncellenir. Bu güncellemeyi unutursak sonsuz döngü içine düşeriz ve programımız biz zorla kapatmadıkça durmaz.
 
 Basit bir örnekle başlayalım: 10’a kadar olan sayıları sırayla ekrana yazan bir program yazalım.
 
@@ -44,7 +44,7 @@ while a<b:
 
 Gördüğünüz gibi `while` komutunun yapısı `if`‘e benziyor: İkisi de bir şarttan sonra iki nokta üstüste (`:`) ile bir blok başlatıyor, ve blok içeri doğru kaydırılıyor.
 
-Yukarıdaki örnekte önce `a` ve `b` değişkenlerine ilk değerler veriyoruz. Ardından `while` blokunun başında `a<b` şartının doğru olup olmadığı yoklanıyor. Doğruysa blokun içindeki kod çalıştırılır. `if` yapısındaki gibi, döngü bloku kaydırma ile belli edilir. Blok bitince başa dönülür, şartın hâlâ doğru olup olmadığı tekrar yoklanır, doğruysa blok tekrar çalıştırılır. Döngü bloku üzerinden her bir geçişe bir *iterasyon* deriz.
+Yukarıdaki örnekte önce `a` ve `b` değişkenlerine ilk değerler veriyoruz. Ardından `while` blokunun başında `a<b` şartının doğru olup olmadığı yoklanıyor. Doğruysa blokun içindeki kod çalıştırılır. `if` yapısındaki gibi, döngü bloku kaydırma ile belli edilir. Blok bitince başa dönülür, şartın hâlâ doğru olup olmadığı tekrar yoklanır, doğruysa blok tekrar çalıştırılır. Döngü bloku üzerinden her bir geçişe bir *[iterasyon](https://sonsuzus.github.io/search.html?q=iterasyon)* deriz.
 
 `print` fonksiyonuna verdiğimiz `end=" "` parametresi, `a` değeri ekrana basıldıktan sonra satırbaşı yapmak yerine aynı satırda bir boşluk bırakmasını sağlar. Böylece sayıları tek bir satıra yazabiliriz.
 

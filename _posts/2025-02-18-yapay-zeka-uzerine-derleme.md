@@ -18,7 +18,7 @@ redirect_from:
 
 
 
-Günümüzde de sıkça adını duyduğumuz Yapay zekâ, -literatürde- bir
+Günümüzde de sıkça adını duyduğumuz [Yapay zekâ](https://sonsuzus.github.io/search.html?q=yapay%20zek%C3%A2), -literatürde- bir
 bilgisayarın veya bilgisayar kontrollü robotun, genellikle akıllı varlıklarla ilişkili
 görevleri yerine getirme yeteneğidir. Yapay zekâ, özellikle son zamanlarda
 sürekli kullanılan ve bilinen bir öğe haline gelmiştir. Eskiden sadece yazılımla
@@ -40,11 +40,11 @@ zekâsını tartışmaya açan Alan Mathison Turing'dir. 1943'te II. Dünya
 Savaşı sırasında bazı gereksinimler ile üretilen cihazlar sayesinde bu iki kavram
 -bilgisayar bilimi ve yapay zekâ- doğmuştur.
 
-Alan Turing, Nazilerin makinesinin şifre algoritmasını çözmeye çalışan en ünlü
+[Alan Turing](https://sonsuzus.github.io/search.html?q=alan%20turing), Nazilerin makinesinin şifre algoritmasını çözmeye çalışan en ünlü
 isimlerden biriydi. İngiltere’de şifre çözme amacı ile başlatılan
 çalışmalar, Turing'in prensiplerini oluşturduğu bilgisayar prototipleri olan Heath
 Robinson, Bombe Bilgisayarı ve Colossus Bilgisayarları, Boole
-cebirine dayanan veri işleme mantığı ile Makine Zekâsı kavramının oluşmasına
+cebirine dayanan veri işleme mantığı ile [Makine Zekâsı](https://sonsuzus.github.io/search.html?q=makine%20zek%C3%A2s%C4%B1) kavramının oluşmasına
 sebep olmuştu.
 
 Modern bilgisayarın atası olan bu makineler insan zekâsından esinlenmişlerdir.

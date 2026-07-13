@@ -16,15 +16,15 @@ redirect_from:
 
 Nesneye yönelik programlamada, [kalıtım](https://sonsuzus.github.io/posts/cpp_inheritance/) özelliğini kullanarak, bir ana sınıftan sınıflar türetebiliriz. Bir ana sınıftan bir sınıf türetildiğinde, ana sınıfta yer alan tüm değişken ve fonksiyonlar türetilen sınıf tarafından kullanılabileceği gibi, türetilen sınıf içinde de yeni değişken ve fonksiyonlar tanımlanabilir.
 
-Eğer ihtiyaç duyulursa, ana sınıftan devralınan fonksiyon adları ile aynı ada sahip fonksiyonlar tanımlanarak, ana sınıftan devralınan fonksiyonlar geçersiz hale getirilir ve aynı isim altında farklı kodlar yazılır. Bu durumda, aynı fonksiyon hem ana sınıfta hem de türetilmiş sınıfta tanımlanmış olur. Bu fonksiyon türetilmiş sınıf nesnesi ile çağrıldığında, türetilmiş sınıfın fonksiyonu çağrılır. Bu özelliğe, Fonksiyonu Yeniden Tanımlama adı verilir. Türetilmiş sınıftaki fonksiyon, ana sınıftaki fonksiyonun yerini alır.
+Eğer ihtiyaç duyulursa, ana sınıftan devralınan fonksiyon adları ile aynı ada sahip fonksiyonlar tanımlanarak, ana sınıftan devralınan fonksiyonlar geçersiz hale getirilir ve aynı isim altında farklı kodlar yazılır. Bu durumda, aynı fonksiyon hem ana sınıfta hem de türetilmiş sınıfta tanımlanmış olur. Bu fonksiyon türetilmiş sınıf nesnesi ile çağrıldığında, türetilmiş sınıfın fonksiyonu çağrılır. Bu özelliğe, [Fonksiyonu Yeniden Tanımlama](https://sonsuzus.github.io/search.html?q=fonksiyonu%20yeniden%20tan%C4%B1mlama) adı verilir. Türetilmiş sınıftaki fonksiyon, ana sınıftaki fonksiyonun yerini alır.
 
-> Fonksiyonu yeniden tanımlama işleminin yapılabilmesi için, bir ana sınıftan bir sınıf türetilmesine, kalıtım özelliğinin kullanılmasına, ihtiyaç vardır.
+> Fonksiyonu yeniden tanımlama işleminin yapılabilmesi için, bir ana sınıftan bir sınıf türetilmesine, [kalıtım](https://sonsuzus.github.io/search.html?q=kal%C4%B1t%C4%B1m) özelliğinin kullanılmasına, ihtiyaç vardır.
 {: .prompt-warning }
 
 Fonksiyonları yeniden tanımlama işlemi, bir ana sınıf ve ana sınıftan türetilmiş olan bir veya daha fazla türetilmiş sınıf içinde yapılır. Bu işlem iki farklı yöntemle uygulanabilir:
 
 * Sınıf fonksiyonlarını doğrudan yeniden tanımlama
-* Sınıf fonksiyonlarını sanal yöntemle (virtual) yeniden tanımlama
+* Sınıf fonksiyonlarını [sanal yöntemle](https://sonsuzus.github.io/search.html?q=sanal%20y%C3%B6ntemle) (virtual) yeniden tanımlama
 
 İki yöntemin kullanılması arasındaki fark, doğrudan yeniden tanımlama yönteminde, ana sınıf işaretçisine türetilen sınıf nesnesinin adresi atandığında, ana sınıf işaretçisi ana sınıf içindeki fonksiyonlara erişim sağlarken, sanal yöntemle yeniden tanımlama yönteminde, türetilen sınıf içindeki fonksiyonlara erişim sağlamaktadır.
 

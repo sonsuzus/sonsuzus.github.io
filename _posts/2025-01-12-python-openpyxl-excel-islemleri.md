@@ -19,9 +19,9 @@ redirect_from:
   - /posts/python-openpyxl-excel-islemleri/
 ---
 
-Excel ile ilgili dosya oluşturma, sayfa oluşturma, dosyaya veri yazma, verileri okuma ve kaydetme işlemleri için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneyi kullanacağız:
+Excel ile ilgili [dosya oluşturma](https://sonsuzus.github.io/search.html?q=dosya%20olu%C5%9Fturma), [sayfa oluşturma](https://sonsuzus.github.io/search.html?q=sayfa%20olu%C5%9Fturma), dosyaya veri yazma, verileri okuma ve kaydetme işlemleri için aşağıda bilgileri ve sanal ortamda kurulum komutları verilen kütüphaneyi kullanacağız:
 
-Openpyxl kütüphanesi
+[Openpyxl](https://sonsuzus.github.io/search.html?q=openpyxl) kütüphanesi
 
 Openpyxl Excel 2010 xlsx/xlsm/xltx/xltm dosyaları ile ilgili işlemleri gerçekleştiren bir Python kütüphanesidir.
 

@@ -14,9 +14,9 @@ redirect_from:
 ---
 
 
-Python'da 14 adet ön tanımlı veri türü kullanılmaktadır. Bu veri türlerini 6 farklı grup altında sınıflandırabiliriz:
+[Python](https://sonsuzus.github.io/search.html?q=python)'da 14 adet ön tanımlı veri türü kullanılmaktadır. Bu veri türlerini 6 farklı grup altında sınıflandırabiliriz:
 
-Python veri türleri
+Python [veri türleri](https://sonsuzus.github.io/search.html?q=veri%20t%C3%BCrleri)
 
 | Grup | Veri türü | Açıklama |
 | Sayısal | |

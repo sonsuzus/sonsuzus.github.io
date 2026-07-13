@@ -59,7 +59,7 @@ redirect_from:
 
 #### Aşağıda tanımlanan sayıları _16_'lık sayı sisteminde ifade ediniz:
 
-* İşaretli ikilik sayı sisteminde _2 byte_'lık alanda yazılabilecek en küçük tam sayı
+* [İşaretli](https://sonsuzus.github.io/search.html?q=i%C5%9Faretli) ikilik sayı sisteminde _2 byte_'lık alanda yazılabilecek en küçük tam sayı
 * İşaretli ikilik sayı sisteminde _2 byte_'lık alanda yazılabilecek en büyük tam sayı
 * İşaretli ikilik sayı sisteminde _2 byte_'lık alanda yazılan -1 değeri
 
@@ -213,7 +213,7 @@ int main(void)
 Aşağıdaki program derlenip çalıştırıldığında ekran çıktısı ne olur?
   
 ```c
-#include <stdio.h>
+#include @@MASK_93@@
 
 int main(void)
 {
@@ -229,7 +229,7 @@ int main(void)
 __1. program__
 
 ```c
-#include <stdio.h>
+#include @@MASK_94@@
  
 int main(void)
 {
@@ -248,7 +248,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur? 
 
 ```c
-#include <stdio.h>
+#include @@MASK_95@@
 
 int main(void)
 {
@@ -264,7 +264,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_96@@
 
 int main(void)
 {
@@ -279,7 +279,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_97@@
 
 int main(void)
 {
@@ -307,7 +307,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_98@@
 
 int main(void)
 {
@@ -332,7 +332,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_99@@
 
 int main(void)
 {
@@ -357,7 +357,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_100@@
 
 int main(void)
 {
@@ -368,11 +368,7 @@ int main(void)
 	else
 		printf("%d", ++a);
 }
-```
-
-#### Aşağıdaki programın ekran çıktısı ne olur?
-
-```c
+@@MASK_16@@c
 #include <stdio.h>
 
 int main(void)
@@ -391,7 +387,7 @@ int main(void)
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_102@@
 
 void func(int x)
 {
@@ -419,7 +415,7 @@ int main(void)
 * ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_103@@
 
 int main(void)
 {
@@ -438,7 +434,7 @@ int main(void)
 * ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_104@@
 
 double foo(double x)
 {
@@ -460,7 +456,7 @@ int main(void)
 * ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_105@@
 
 int main(void)
 {
@@ -471,15 +467,7 @@ int main(void)
 	printf("%d\n", !!y > !y == !!x < !x);
 	printf("%d\n", !x + !!x + y - !y - !!y);
 }
-```
-
-#### Aşağıdaki kod için şu sorulara yanıt vermeye çalışın:
-
-* sentaks hatası var mı?
-* tanımsız davranış *(undefined behavior)* var mı?
-* ekran çıktısı ne olur?
-
-```c
+@@MASK_21@@c
 #include <stdio.h>
 
 int g = 3;
@@ -505,7 +493,7 @@ int main(void)
 #### Aşağıdaki C programını derleyip çalıştırın:
 
 ```c
-#include <stdio.h>
+#include @@MASK_107@@
 
 int main(void)
 {
@@ -522,21 +510,12 @@ int main(void)
 
 	return 0;
 }
-```
-
-Program neden ekrana
-
-```
+@@MASK_23@@
 d, 1. degerinde degil
-```
-yazısı çıkıyor? Açıklayınız.
-
-#### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
-
-```c
+@@MASK_24@@c
 #include <stdio.h>
 
-#include <stdio.h>
+#include @@MASK_109@@
 
 int main(void)
 {
@@ -561,7 +540,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_110@@
 
 void func(int x)
 {
@@ -588,7 +567,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_111@@
  
 int main(void)
 {
@@ -610,7 +589,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_112@@
  
 int main(void)
 {
@@ -627,7 +606,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_113@@
  
 int main(void)
 {
@@ -638,18 +617,7 @@ int main(void)
 	else
 		printf("%d", ++a);
 }
-```
-
-__Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
-+ Sentaks hatası (derleme zamanı hatası)
-+ Tanımsız davranış. _(undefined behavior)_
-+ Derleyiciye göre değişir. _(unspecified behavior / implementation defined)_
-
-[Ödevin Cevabı](https://youtu.be/3ZF3pD2BIYo)
-
-Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
-
-```c
+@@MASK_29@@c
 #include <stdio.h>
  
 int main(void)
@@ -718,13 +686,7 @@ int main(void)
 		bar(x);
 }
 
-```
-
-[Ödevin Cevabı](https://youtu.be/_Rz4t9N_z2Q)
-
-#### Aşağıdaki C programının ekran çıktısı ne olur?
-
-```c
+@@MASK_31@@c
 #include <stdio.h>
 
 int main(void)
@@ -739,7 +701,7 @@ int main(void)
 #### Aşağıdaki C programının ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_116@@
 
 int main(void)
 {
@@ -759,13 +721,7 @@ int main(void)
 		}
 	}
 }
-```
-
-#### 9 basamaklı en büyük Armstrong sayısını hesaplayan bir C programı yazınız.
-
-#### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
-
-```c
+@@MASK_33@@c
 #include<stdio.h>
  
 int main(void)
@@ -775,28 +731,7 @@ int main(void)
  
 	printf("%d\n", ival);
 }
-```
-
-__Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
-+ Sentaks hatası (derleme zamanı hatası)
-+ Tanımsız davranış. _(undefined behavior)_
-+ Derleyiciye göre değişir. _(unspecified behavior / implementation defined)_
-
-### Aşağıdaki ifadaleri koşul operatörünü kullanarak yazınız:
-
-**_y_ yıl değerini tutan değişken ve _int isleap(int)_ artık yıl test fonksiyonu olmak üzere**
-+ Şubat ayının gün sayısı değerinde olan ifade
-+ Yılın gün sayısı olan ifade
-
-**_x_ ve _y_ işaretli int türden  değişkenler olmak üzere**
-+ _x_ ve _y_'nin büyüğü _(max)_
-+ _x_ ve _y_'nin küçüğü _(min)_
-+ _x_'in mutlak değeri _(abs)_
-+ _x_'in işaret değeri _(signum)_
-
-#### Aşağıdaki C programında yorum satırı bulunan yere bir kod eklemeniz isteniyor:
-
-```c
+@@MASK_34@@c
 #include <stdio.h>
 
 int main(void)
@@ -819,14 +754,7 @@ girdi           çıktı
 7 5 7        5 < 7 = 7
 2 2 2        2 = 2 = 2
 9 6 6        6 = 6 < 9
-```
-
-#### Arkadaş Sayılar *(amicable numbers / friendly numbers)*
-
-*x* ve *y* pozitif tamsayılar olmak üzere, eğer *x* sayısının çarpanları toplamı *y* sayısına, ve aynı zamanda *y* sayısının çarpanları toplamı *x* sayısına eşit ise, bu sayılar *“arkadaştır”*.
-Örneğin *220* ve *284* arkadaş sayılardır:
-
-```
+@@MASK_36@@
 220 => 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
 284 => 1 + 2 + 4 + 71 + 142 = 220
 ```
@@ -931,7 +859,7 @@ Yazdığınız işlev kodunu aşağıdaki süper asal sayılarla test edebilirsi
 #### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_120@@
 
 int main()
 {
@@ -946,41 +874,13 @@ int main()
 
 	return 0;
 }
-```
-
-**Sorunun yanıtı şu seçeneklerden biri de olabilir:**
-
-+ Sentaks hatası _(syntax error)_
-+ Tanımsız davranış "(undefined behavior)*
-+ Derleyiciye göre değişir. *(implementation defined - implementation specified).*
-
-Tüm zamanların en ilginç matematikçilerinden biri olan *Ramanujan* hastanedeyken ünlü matematikçi *Hardy* onu hastanede ziyarete gider. Hardy gelirken bindiği taksinin plaka numarasının ilginç olmayan bir sayı olan *1729* olduğunu söyler. *Ramanujan* buna itiraz eder ve *1729* sayısının iki pozitif kübün toplamı olarak, iki değişik şekilde yazılabilecek en küçük sayı olduğunu açıklar:
-
-```
+@@MASK_45@@
 1729 = 9^3 + 10^3 = 1^3 + 12^3
-```
-
-N bir pozitif tamsayı ve a, b, c, d birbirinden farklı tamsayılar olmak üzere eğer
-
-```
+@@MASK_46@@
 N = a^3 + b^3 = c^3 + d^3
-```
-
-eşitliğini sağlayacak a, b, c ve d tamsayıları var ise N bir *Hardy-Ramanujan* sayısıdır. Örneğin *1729* bir *Hardy-Ramanujan* sayısıdır.
-
-Bir C kodu yazarak *100000*'den küçük olan tüm *Hardy-Ramanujan* sayılarını bulunuz.
-
-**Aşağıdaki koda tek bir karakter ekleyeceksiniz ya da koddan tek bir karakteri değiştireceksiniz. Yapılan değişiklikten sonra oluşan C programı derlenip çalıştırıldığında standart çıkış akımına 5 kez**
-
-```
+@@MASK_47@@
 necati
-```
-
-yazacak.
-
-Sorunun en az *3* farklı yanıtı olduğunu söylemeliyim. *3* yanıtı da bulmanız gerekiyor.
-
-```c
+@@MASK_48@@c
 #include <stdio.h>
 
 int main()
@@ -992,48 +892,21 @@ int main()
 
 	return 0;
 }
-```
-
-1'den büyük asal olmayan bir tamsayının rakamlarının toplamı, sayı asal çarpanlarına ayrılarak yazıldığında bu yazımda yer alan tüm asal sayıların rakamlarının toplamına eşit ise bu sayı bir **Smith Sayısı** denir.
-
-Örneğin:
-
-```
+@@MASK_49@@
 728 = 2 * 2 * 2 * 7 * 13  
 7 + 2 + 8 = 2 + 2 + 2 + 7 + 1 + 3
-```
-
-olduğundan *728* bir **Smith** sayısıdır.
-
-Peki neden bu sayılara **Smith** sayıları deniyor.  Lehigh Universitesi*'nden *Albert Wilansky* kayın biraderi *Harold Smith*'in telefon numarasının bu özelliğe sahip olduğunu fark edince bu tür sayılara *Smith* sayısı demiş. *(WikiPedia‘nın yalancısıyım)*
-Kayınço’nun numarası *493 7775*.
-
-```
+@@MASK_50@@
 493 7775 = 3 × 5 × 5 × 65837, 
 4 + 9 + 3 + 7 + 7 + 7 + 5 = 42
 3 + 5 + 5 + 6 + 5 + 8 + 3 + 7 = 42
-```
-
-*1000*'den küçük *Smith* sayıları şunlardır:
-
-```
+@@MASK_51@@
 4, 22, 27, 58, 85, 94, 121, 166, 202, 265, 274, 319, 346,
 355, 378, 382, 391, 438, 454, 483, 517,526, 535, 562, 576,
 588, 627, 634, 636, 645, 648, 654, 663, 666, 690, 706, 728, 
 729, 762, 778, 825, 852, 861, 895, 913, 915, 922, 958, 985
-```
-
-***1* ile *10000* arasındaki tüm *Smith* sayılarını bularak ekrana yazdıran bir *C* programı yazınız.**
-
-#### Bir tamsayının basamaksal kökünü *(digital root)* bulan *get_digital_root* isimli işlevi tanımlayınız:
-
-```c
+@@MASK_52@@c
 int get_digital_root(int val);
-```
-
-Bir tamsayının basamaksal kökü tüm basamaklarının toplanması ile elde edilen tamsayıdır. Basamakları toplama, tek basamaklı bir sayı elde edilene kadar sürdürülür. Örneğin *34879* sayısının basamaksal kökü *4*'tür:
-
-```
+@@MASK_53@@
 34879 -> 3 + 4 + 8 + 7 + 9 = 31
 31 -> 3 + 1 = 4
 ```
@@ -1060,7 +933,7 @@ Bir ipucu olarak her iki sayının da _100.000_‘den küçük olduğunu söyley
 + Derleyiciye göre değişir.* (implementation defined/specified)*
 
 ```c
-#include<stdio.h>
+#include@@MASK_123@@
 
 int main(void)
 {
@@ -1069,17 +942,7 @@ int main(void)
 	for (i = 1, k = 1; k; printf("%d%d", i, k))
 		k = i++ <= 3;	
 }
-```
-
-#### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
-
-**Sorunun yanıtı şu seçeneklerden biri de olabilir:**
-
-+ Sentaks hatası *(syntax error)*
-+ Tanımsız davranış *(undefined behavior)*
-+ Derleyiciye göre değişir. *(implementation defined/specified)*
-
-```c
+@@MASK_56@@c
 #include <stdio.h>
 
 int main(void)
@@ -1123,7 +986,7 @@ Eğlence matematiğinde `Harshad Sayı (veya Niven Sayı)` rakamları toplamına
 #### Aşağıdaki C programı derlenip çalıştırıldığında ekrana ne yazdırılır?
 
 ```c
-#include <stdio.h>
+#include @@MASK_125@@
 
 #define  NECO    100
 #define  ZERO    0
@@ -1219,7 +1082,7 @@ ifadesinin değeri
 #### Aşağıdaki C programı derlenip çalıştırıldığında ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_126@@
 
 #define  NEC	100
 
@@ -1252,7 +1115,7 @@ void func(void)
 #### Bu sorumuz koşullu derlemeye _(conditional compiling)_ yönelik. Aşağıdaki _C_ programı çalıştırıldığında ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_127@@
 
 int main()
 {
@@ -1274,7 +1137,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 #### Aşağıdaki _C_ programı çalıştırıldığında ekran çıktısı ne olur?
 
 ```c
-#include <stdio.h>
+#include @@MASK_128@@
 
 #define SIZE	100
 #define ROWSIZE	SIZE
@@ -1301,7 +1164,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 + Derleyiciye göre değişir. *(implementation defined/specified)*
 
 ```c
-#include <stdio.h>
+#include @@MASK_129@@
 
 int g = 34;
 
@@ -1315,7 +1178,7 @@ int main()
 #### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```
-#include <stdio.h>
+#include @@MASK_130@@
 
 int main()
 {
@@ -1347,7 +1210,7 @@ ifadesi ile aynı değeri üretecek _sizeof_ işlecini _(operatörünü)_ kullan
 #### Aşağıdaki programın ekran çıktısı ne olur?
 
 ```c
-#include<stdio.h>
+#include@@MASK_131@@
 
 #define asize(a)	(sizeof(a) / sizeof(*a))
 
@@ -1358,30 +1221,10 @@ int main()
 	for (int k = -1; k <= asize(a) - 2; ++k)
 		printf("%d\n", a[k + 1]);
 }
-```
-
-__Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
-+ Sentaks hatası (derleme zamanı hatası)
-+ Tanımsız davranış. _(undefined behavior)_
-+ Derleyiciye göre değişir. _(unspecified behavior / implementation defined)_
-
-#### Bir tamsayı dizisi içinde en çok tekrar eden değeri (mod) hesaplayarak ekrana yazdıran bir C kodu yazınız. 
-Bu nitelikte birden fazla öğe varsa dizide ilk geçen değer bulunacak. Ekran çıktısı şu şekilde olmalı:
-
-`4 7 6 7 3 2 9 7 4 9 7 1`
-
-**mod = _7_ ve _4_ kez tekrar ediyor**
-
-`3 4 8 4 9 4 6 7 3 2 2 2` 
-
-**mod = `4` ve `3` kez tekrar ediyor**
-
-#### Aşağıdaki test kodunu kullanabilirsiniz:
-
-```c
+@@MASK_67@@c
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include @@MASK_133@@
+#include @@MASK_134@@
 
 #define     SIZE      1000
 
@@ -1400,17 +1243,9 @@ int main(void)
 	}
 	///kod
 }
-```
-
-İlk kez __Edsger Dijkstra__ tarafından sorulan bu algoritmaya 3 renkten oluşması nedeniyle `Hollanda Bayrağı Algoritması` deniyor. Yalnızca 0, 1, 2 değerlerinden oluşan bir diziniz var:
-
-```
+@@MASK_68@@
 int a[] = {1, 2, 2, 0, 1, 0, 1, 0, 0, 1, 1, 2, 1, 0, 1, 2, 0, 0, 1, 0};
-```
-
-#### Bu diziyi `O(n)` karmaşıklığında bir algoritma ile sıralamanız gerekiyor. Aşağıdaki test kodunu kullanabilirsiniz:
-
-```c
+@@MASK_69@@c
 #include <stdio.h>
 
 int main(void)
@@ -1426,23 +1261,11 @@ int main(void)
 
 	//00000000111111112222
 }
-```
-
-#### Bir dizinin öğelerinin ardışık _(consecutive)_ tamsayılardan oluşup oluşmadığını sınayan bir C kodu yazınız:
-
-```
+@@MASK_70@@
 int a1[] = {74, 70, 73, 71, 83, 77, 84, 81, 82, 78, 86, 72, 79, 88, 76, 87, 75, 89, 80, 85}; //evet
 int a2[] = {43, 44, 48, 40, 50, 47, 45, 42, 52, 49, 54, 46, 51, 41, 53}; //evet
 int a3[] = {9, 0, 7, 6, 8, 5, 4, 3, 2, 7}; //hayir
-```
-
-+ Problemi ilave bir dizi kullanarak ve ilave bir dizi kullanmadan ayrı ayrı çözmeye çalışın.
-+ Her iki algoritmanın karmaşıklığını _big O_ notasyonu ile belirtin.
-
-#### _Partisyon_ (bölümleme) işlemi bir veri yapısını, bir koşulu sağlayanlar ve sağlamayanlar olarak ikiye ayırma işlemidir.
-Bu iş *O(n)* karmaşıklığında bir algoritma ile gerçekleştirilebilir. Öğeleri *int* türden olan bir diziyi tekler başta çiftler sonda olmak üzere ikiye ayırınız:
-
-```c
+@@MASK_71@@c
 #include <stdio.h>
 
 #define     SIZE  100
@@ -1464,11 +1287,7 @@ int main(void)
 		printf("%3d ", a[i]);
 	}
 }
-```
-
-#### Küçükten büyüğe sıralanmış, her öğesi birbirinden farklı _(distinct)_ olan negatif bir tamsayı içermeyen bir tamsayı dizisi var. Bu dizide yer almayan en küçük tamsayıyı bulunuz. Örnekler:
-
-```
+@@MASK_72@@
 girdi : 0 1 2 3 5 8 12
 çıktı : 4
 
@@ -1477,14 +1296,10 @@ girdi : 1 3 4 5 6 7 20
 
 girdi : 0 1 2 3 4
 çıktı : 5
-```
-
-#### Aşağıdaki test kodunu kullanabilirsiniz:
-
-```c
+@@MASK_73@@c
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include @@MASK_138@@
+#include @@MASK_139@@
 
 #define   SIZE      100
 
@@ -1515,24 +1330,14 @@ int main(void)
 
 	//kodu buraya yazin
 }
-```
-
-#### _n_ elemanlı bir dizi var. Bu dizide *1 – n* arasında tüm değerler yer alıyor. Ancak bir değerden *2* tane var. Yinelenen değeri bulan bir C kodu yazınız:
-
-Örnek:
-
-```c
+@@MASK_74@@c
 n = 10
 int a[10] = {9, 8, 1, 3, 4, 2, 7, 8, 5, 6};
 Yinelenen değer 8
-```
-
-#### Yazdığınız kodu aşağıdaki kod ile test edebilirsiniz:
-
-```c
+@@MASK_75@@c
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include @@MASK_141@@
+#include @@MASK_142@@
 
 #define   SIZE      100
 
@@ -1569,16 +1374,7 @@ int main(void)
 	//a dizisi icinde tekrar eden sayiyi bulacak kodu buraya yazınız:
 
 }
-```
-
-#### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
-
-**Sorunun yanıtı şu seçeneklerden biri de olabilir:**
-+ Sentaks hatası _(syntax error)_
-+ Tanımsız davranış _(undefined behavior)_
-+ Derleyiciye göre değişir. _(implementation defined/specified)_
-
-```c
+@@MASK_76@@c
 #include <stdio.h>
 
 int main(void)
@@ -1593,9 +1389,9 @@ int main(void)
 Aşağıda sizin için bir test kodu var:
 
 ```c
-#include <time.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include @@MASK_144@@
+#include @@MASK_145@@
+#include @@MASK_146@@
 
 #define  SIZE 20
 
@@ -1616,28 +1412,14 @@ int main(void)
 		sizin kodunuz
 	*/
 }
-```
-
-Yukarıdaki kodda, _a_ dizisinin öğelerine rastgele değerler yerleştiriliyor ve bu dizinin öğeleri standart _printf_ işlevi ile kullanıcı ekranına yazdırılıyor. Dizi öğeleri aşağıdaki gibi olsun:
-
-```
+@@MASK_78@@
 16 7 7 6 6 13 16 19 6 15 5 2 11 7 5 13 5 9 6 13
-```
-
-Bu durumda yazdığınız kod çalıştırıldığında ekrana şu değerleri yazmalı:
-
-```
+@@MASK_79@@
 19 15 2 11 9
-```
-
-Kodunuzda ikinci bir dizi tanımlanmamalı.
-
-Aşağıdaki kodda __SIZE__ tane öğeye sahip bir tamsayı dizisine rastgele değerler veriliyor:
-
-```c
+@@MASK_80@@c
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include @@MASK_148@@
+#include @@MASK_149@@
 
 #define			SIZE		20
 
@@ -1652,35 +1434,13 @@ int main(void)
 	}
 	printf("\n");
 }
-```
-
-Bu dizinin elemanlarının değerlerini kullanarak bir histogram oluşturacak C programını yazmanız isteniyor. Örnek bir ekran çıktısı aşağıdaki gibi olmalı:<br>
-
-![image](https://github.com/necatiergin/c_kursu_odevleri/blob/master/resimler/histogram.JPG)
-
-İçinde en az bir tane negatif tamsayı olan bir tam sayı dizisi var. Bu dizinin tüm ardışık alt dizileri içinde en büyük kümülatif toplam değerini (maximum subsequence) bulmamız gerekiyor:
-
-Örneğin
-
-```
+@@MASK_81@@
 3  4 -8  1  7 -2
-```
-
-dizisinde en büyük toplam değerini veren alt dizi 
-
-```
+@@MASK_82@@
 1 7
-```
-
-ve hesaplanacak toplam değeri : 
-
-```
+@@MASK_83@@
 8
-```
-
-Aşağıda tanımlanan a dizisinin en büyük alt dizi toplamını hesaplayan bir C programı yazınız:
-
-```c
+@@MASK_84@@c
 #define			SIZE		100
 
 int a[SIZE] = {
@@ -1696,37 +1456,11 @@ int a[SIZE] = {
 		894, -499, 48, -265, -327, 574, 670, -642, -932, 84,
 	};
 }
-```
-
-* Kodda ikinci bir dizi kullanmayacaksınız.
-* Oluşturduğuz algoritma O(n) karmaşıklığında olmalı
-
-#### Kendisine gün, ay ve yıl olarak gönderilen tarihin yılın kaçıncı günü olduğunu hesaplayan _day_of_year_ isimli işlevi tanımlayın:
-
-```c
+@@MASK_85@@c
 int day_of_year(int day, int mon, int year);
-```
-
-+ İşlevin geri dönüş değeri _day/month/year_ tarihinin year yılının kaçıncı günü olduğu bilgisi.
-+ Artık yılları _(leap years)_ göz önüne almayı unutmayınız.
-
-#### Kendisine gönderien tamsayıdan daha küçük ilk asal sayıyı bulan closest_prime isimli işlevi tanımlayınız:
-
-```
+@@MASK_86@@
 int closest_prime(int value);
-```
-
-+ İşlevin geri dönüş değeri value değerinden küçük en büyük asal sayı olacaktır.
-+ Eğer böyle bir asal sayı yok ise işlev hata değeri olarak `-1` değerini döndürür.
-
-#### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
-
-**Sorunun yanıtı şu seçeneklerden biri de olabilir:**
-+ Sentaks hatası *(syntax error)*
-+ Tanımsız davranış *(undefined behavior)*
-+ Derleyiciye göre değişir. *(implementation defined/specified)*
-
-```c
+@@MASK_87@@c
 #include <stdio.h>
 
 int main(void)
@@ -1748,7 +1482,7 @@ int main(void)
 #### Aşağıdaki C programı çalıştırıldığında bu programın çıktısı ne olur?
 
 ```c
-#include<stdio.h>
+#include@@MASK_151@@
 
 int main(void)
 {
@@ -1775,7 +1509,7 @@ __Sorunun yanıtı şu seçeneklerden biri de olabilir:__</br>
 #### Yazdığınız ifadeyi aşağıdaki kodla test edebilirsiniz:
 
 ```c
-#include <stdio.h>
+#include @@MASK_152@@
 
 int main(void)
 {

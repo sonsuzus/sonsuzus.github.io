@@ -11,7 +11,7 @@ redirect_from:
   - /posts/python_dictionaries/
 ---
 
-Anahtar ve değer ikililerinden oluşan sıralanmamış verilerdir. Değere ulaşmak için anahtar adı kullanılır. Sözlük içindeki verilerin aynı veri türünden olması gerekli değildir. Elemanlar düzenlidir ve elemanlarda değişiklik yapılabilir. Sözlük oluşturmak için parantezler ({ }) içinde anahtar ve değerler ikilisi şeklinde veriler tanımlanır.
+[Anahtar](https://sonsuzus.github.io/search.html?q=anahtar) ve [değer](https://sonsuzus.github.io/search.html?q=de%C4%9Fer) ikililerinden oluşan sıralanmamış verilerdir. Değere ulaşmak için anahtar adı kullanılır. [Sözlük](https://sonsuzus.github.io/search.html?q=s%C3%B6zl%C3%BCk) içindeki verilerin aynı veri türünden olması gerekli değildir. Elemanlar düzenlidir ve elemanlarda değişiklik yapılabilir. Sözlük oluşturmak için parantezler ({ }) içinde anahtar ve değerler ikilisi şeklinde veriler tanımlanır.
 
 ```py
 değişken-adı = {

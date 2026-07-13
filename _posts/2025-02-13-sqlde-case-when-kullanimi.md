@@ -18,11 +18,11 @@ redirect_from:
 
 
 
-Gündelik hayatta elde ettiğimiz sonuçlar veya verdiğimiz kararlar sıklıkla **“koşullardan”** etkilenir. Örnek olarak hava yağmurluysa dışarı çıkarken şemsiyenizi alırsınız veya güneşliyse tişört giyerek dışarı çıkarsınız. Elinizdeki veriyi koşullara göre yeniden düzenleyebilmek ve sorgulayabilmek için SQL’de **CASE WHEN** ifadesi kullanılır.
+Gündelik hayatta elde ettiğimiz sonuçlar veya verdiğimiz kararlar sıklıkla **“[koşullardan](https://sonsuzus.github.io/search.html?q=ko%C5%9Fullardan)”** etkilenir. Örnek olarak hava yağmurluysa dışarı çıkarken şemsiyenizi alırsınız veya güneşliyse tişört giyerek dışarı çıkarsınız. Elinizdeki veriyi koşullara göre yeniden düzenleyebilmek ve sorgulayabilmek için SQL’de **[CASE WHEN](https://sonsuzus.github.io/search.html?q=case%20when)** ifadesi kullanılır.
 
 ## SQL’de CASE WHEN ifadesi ne iş yapar?
 
-Veri tabanı ile konuşurken CASE WHEN ifadesi, birebir çeviri yapacak olursak **“durum bu olursa, o zaman** **şunu yap”** anlamına gelir. Bu ifade, sorgulayıcı tarafından verilmiş belirli koşullara göre her bir satırı değerlendirerek belli bir sonuç üretir.
+Veri tabanı ile konuşurken CASE WHEN ifadesi, birebir çeviri yapacak olursak **“[durum bu olursa](https://sonsuzus.github.io/search.html?q=durum%20bu%20olursa), o zaman** **şunu yap”** anlamına gelir. Bu ifade, sorgulayıcı tarafından verilmiş belirli koşullara göre her bir satırı değerlendirerek belli bir sonuç üretir.
 
 Ehliyet almak için bir sürücü kursuna başvuran adayların kayıt edildiği bir veri tabanını düşünelim. Ehliyet almak için 18 yaşından büyük olmak gerekmektedir. Bu nedenle 18 yaşından küçükler ehliyet sınavına kayıt olmak için uygun değildir. Başvurular “uygunluğa” göre kategorize edilmelidir. Buradaki ifadeyi şu şekilde görselleştirebiliriz:
 

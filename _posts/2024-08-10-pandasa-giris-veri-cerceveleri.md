@@ -20,11 +20,11 @@ redirect_from:
 
 
 
-`Pandas` ile ilgili bu yazımızda veri çerçevesi (`DataFrame`) isimli veri yapısını ele alacağız. Önceki yazımızda etiketli verilerden oluşan [serileri](https://sonsuzus.github.io/posts/pandasa-giris-seriler/) görmüştük. Seriler tek boyutlu bir veri yapısıyken, veri çerçevelerini her sütunu bir seriden oluşan iki boyutlu bir matris olarak düşünebiliriz. Serilerde bahsettiğimiz birçok yöntemi veri çerçevelerinde de kullanmak mümkün. Ayrıca SQL tablolarında kullanılan tablo birleştirme (`JOIN`) gibi işlemleri de `Pandas` ile yapmak mümkün.
+`Pandas` ile ilgili bu yazımızda [veri çerçevesi](https://sonsuzus.github.io/search.html?q=veri%20%C3%A7er%C3%A7evesi) (`DataFrame`) isimli veri yapısını ele alacağız. Önceki yazımızda etiketli verilerden oluşan [serileri](https://sonsuzus.github.io/posts/pandasa-giris-seriler/) görmüştük. [Seriler](https://sonsuzus.github.io/search.html?q=seriler) tek boyutlu bir veri yapısıyken, veri çerçevelerini her sütunu bir seriden oluşan iki boyutlu bir matris olarak düşünebiliriz. Serilerde bahsettiğimiz birçok yöntemi veri çerçevelerinde de kullanmak mümkün. Ayrıca SQL tablolarında kullanılan tablo birleştirme (`JOIN`) gibi işlemleri de `Pandas` ile yapmak mümkün.
 
 ## Veri Çerçeveleri
 
-Veri çerçevelerini birden fazla serinin bir araya gelmiş hali olarak düşünebiliriz. Veri çerçeveleri de seriler gibi etiketli bir veri yapısıdır, ancak serilerden farkı iki boyutlu olmasıdır. Serilerdeki gibi etiket değerlerine indeks (`index`) denir. Veri çerçeveleri `index` alanının yanında `columns` alanını da içeriyor. `columns` sütunların isimlerini içeren bir sıralı nesne.
+Veri çerçevelerini birden fazla serinin bir araya gelmiş hali olarak düşünebiliriz. Veri çerçeveleri de seriler gibi etiketli bir veri yapısıdır, ancak serilerden farkı iki boyutlu olmasıdır. Serilerdeki gibi etiket değerlerine [indeks](https://sonsuzus.github.io/search.html?q=indeks) (`index`) denir. Veri çerçeveleri `index` alanının yanında `columns` alanını da içeriyor. `columns` sütunların isimlerini içeren bir sıralı nesne.
 
 Veri çerçevesi oluşturmak için serileri kullanmak mümkün. [Linkten](https://www.imf.org/external/pubs/ft/weo/2017/02/weodata/download.aspx) erişebileceğiniz IMF’nin gayrisafi yurt içi hasıla verisi ile ilk denemeyi yapabiliriz. 2016 ve 2017 yılları için serileri anlattığımız yazıdaki veri kümelerini oluşturalım.
 

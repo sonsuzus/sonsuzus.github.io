@@ -18,9 +18,9 @@ redirect_from:
   - /posts/python-itertools-kullanimi/
 ---
 
-Python'un Itertool'u, karmaşık döngüler üretmek için döngüler ve listeler üzerinde çalışan çeşitli işlevler sağlayan bir modüldür .
+Python'un [Itertool](https://sonsuzus.github.io/search.html?q=itertool)'u, karmaşık [döngüler](https://sonsuzus.github.io/search.html?q=d%C3%B6ng%C3%BCler) üretmek için döngüler ve listeler üzerinde çalışan çeşitli işlevler sağlayan bir modüldür .
 
-Bu modül, yineleyici cebiri oluşturmak için kendi başına veya kombinasyon halinde kullanılan hızlı, belleği verimli kullanan bir araç olarak çalışır . 
+Bu modül, [yineleyici](https://sonsuzus.github.io/search.html?q=yineleyici) cebiri oluşturmak için kendi başına veya kombinasyon halinde kullanılan hızlı, [belleği verimli](https://sonsuzus.github.io/search.html?q=belle%C4%9Fi%20verimli) kullanan bir araç olarak çalışır . 
 
 Örneğin, iki liste olduğunu ve bunların öğelerini çarpmak istediğinizi varsayalım. Bunu başarmanın birkaç yolu olabilir. Naif yaklaşım, yani her iki listenin öğelerini aynı anda yineleyerek ve bunları çarparak kullanılabilir . Başka bir yaklaşım da, map fonksiyonunu kullanmak, yani mul operatörünü harita fonksiyonuna birinci parametre olarak ve Lists'i bu fonksiyona ikinci ve üçüncü parametre olarak iletmek olabilir. Her yaklaşımın aldığı zamanı görelim.
 
