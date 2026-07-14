@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 Geçen bölümde bir yandan Python'ın etkileşimli kabuğunu yakından tanıyıp bu
-vesileyle bazı önemli fonksiyon ve araçları öğrenirken, öbür yandan bu
+vesileyle bazı önemli [fonksiyon](https://sonsuzus.github.io/search.html?q=fonksiyon) ve araçları öğrenirken, öbür yandan bu
 öğrendiklerimizi kullanarak örnek programlar yazdık. Gördüğünüz gibi, azıcık bir
 bilgiyle dahi az çok işe yarar programlar yazmak mümkün olabiliyor. Daha yararlı
 programlar yazabilmek için henüz öğrenmemiz gereken pek çok şey var. İşte bu
@@ -27,7 +27,7 @@ alacağız. Mesela bu bölümde Python'daki karakter dizilerine ve sayılara ili
 çok önemli bilgiler vereceğiz. Ayrıca ``print()`` fonksiyonu vesilesiyle
 Python'daki 'fonksiyon' konusuna da sağlam bir giriş yapmış, bu kavram ile
 ilgili ilk bilgilerimizi almış olacağız. Sözün özü, bu bölüm bizim için, deyim
-yerindeyse, tam anlamıyla bir dönüm noktası olacak.
+yerindeyse, tam anlamıyla bir [dönüm noktası](https://sonsuzus.github.io/search.html?q=d%C3%B6n%C3%BCm%20noktas%C4%B1) olacak.
 
 O halde isterseniz lafı daha fazla uzatmadan işe ``print()`` fonksiyonunun ne
 olduğu ve ne işe yaradığını anlatarak başlayalım.
@@ -640,7 +640,7 @@ Bu kodu yazıp `Enter` tuşuna bastığımız anda ``print()`` fonksiyonu iki fa
 işlem gerçekleştirir:
 
 #. Öncelikle karakter dizisini ekrana yazdırır.
-#. Ardından bir alt satıra geçip bize `>>>` işaretini gösterir.
+#. Ardından bir alt satıra geçip bize @@MASK_114@@ işaretini gösterir.
 
 İşte bu ikinci işlem, karakter dizisinin sonunda bir adet satır başı karakteri
 olmasından, daha doğrusu ``print()`` fonksiyonunun, satır başı karakterini
@@ -700,7 +700,7 @@ Biraz önce de dediğimiz gibi, bu kodu yazıp `Enter` tuşuna bastığımız an
 ``print()`` fonksiyonu iki farklı işlem gerçekleştirir:
 
 #. Öncelikle karakter dizisini ekrana yazdırır.
-#. Ardından bir alt satıra geçip bize `>>>` işaretini gösterir.
+#. Ardından bir alt satıra geçip bize @@MASK_131@@ işaretini gösterir.
 
 Bunun ne demek olduğunu anlamak için `end` parametresinin değerini değiştirmemiz
 yeterli olacaktır::

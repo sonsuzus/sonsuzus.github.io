@@ -18,7 +18,7 @@ redirect_from:
 
 
 
-Her programlama dilinde olduğu gibi Python’da da tekrar tekrar kullanılabilen fonksiyon ve sınıfların bir kütüphane şeklinde ayrı dosyalarda saklanması ve yeni yazılan programlara entegre edilmesi için bir mekanizma vardır. Standart kütüphaneler, SciPy ve benzeri paketler, veya kendi kişisel fonksiyon kütüphaneniz bu modül sistemiyle inşa edilir.
+Her programlama dilinde olduğu gibi Python’da da tekrar tekrar kullanılabilen fonksiyon ve sınıfların bir [kütüphane](https://sonsuzus.github.io/search.html?q=k%C3%BCt%C3%BCphane) şeklinde ayrı dosyalarda saklanması ve yeni yazılan programlara entegre edilmesi için bir mekanizma vardır. Standart kütüphaneler, SciPy ve benzeri paketler, veya kendi kişisel fonksiyon kütüphaneniz bu [modül](https://sonsuzus.github.io/search.html?q=mod%C3%BCl) sistemiyle inşa edilir.
 
 Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/category/program) kategorimize bakabilirsiniz. 
 
@@ -70,7 +70,7 @@ basitmodul çalıştırıldı.
 
 Elbette `basitmodul.py` dosyasını nereye kaydettiğiniz önemli. Bu örnekte, dosyanın mevcut çalışma dizininde bulunduğunu varsaydım. Bir `import` komutunda yorumlayıcı önce çalışma dizinine, sonra `PYTHONPATH` kabuk değişkeninde yazan dizinlere, sonra da kurulum sırasında belirlenmiş dizinlere bakar. İkincisini Linux bash kabuğunda `echo $PYTHONPATH` komutu ile görebilirsiniz.
 
-Diyelim yazdığınız modülleri `modullerim` isimli bir dizin altında tutmak istiyorsunuz. Python yorumlayıcısı içindeki `sys.path` değişkeni bakılacak dizinlerin listesini tutar (önce import sys yazmayı unutmayın). Bu listeye `sys.path.append("<ev dizininiz>/modullerim")` komutuyla bir ekleme yaparak, ev dizininizin altındaki `modullerim` dizinine bakmasını sağlayabilirsiniz.
+Diyelim yazdığınız modülleri `modullerim` isimli bir dizin altında tutmak istiyorsunuz. Python yorumlayıcısı içindeki `sys.path` değişkeni bakılacak dizinlerin listesini tutar (önce [import](https://sonsuzus.github.io/search.html?q=import) sys yazmayı unutmayın). Bu listeye `sys.path.append("<ev dizininiz>/modullerim")` komutuyla bir ekleme yaparak, ev dizininizin altındaki `modullerim` dizinine bakmasını sağlayabilirsiniz.
 
 Modülü `import` etmekle yeni bir *isim alanı* yaratmış oldunuz. Bir isim alanı bir nesnedir; dolayısıyla modülde tanımlanan değişken ve fonksiyonlara erişmek için nokta notasyonu kullanılır.
 

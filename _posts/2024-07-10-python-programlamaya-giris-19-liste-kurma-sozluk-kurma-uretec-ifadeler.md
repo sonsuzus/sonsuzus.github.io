@@ -17,7 +17,7 @@ redirect_from:
 
 
 
-Diyelim mevcut bir listedeki her elemanı tek tek işleyip, işlemin sonuçlarını yeni bir listede toplamak istiyorsunuz. Bunun için boş bir listeyle başlayıp, [bir döngü içinde](https://sonsuzus.github.io/posts/python-programlamaya-giris-donguler) `append()` metoduyla listeyi adım adım büyütebiliriz. Bu yazıda Python’da bu işlemi daha hızlı verimli olarak yapmamızı sağlayan özel *liste kurma* yazımını göreceğiz. Liste kurma, genel olarak bir *üreteç ifadesi* örneğidir. Liste kurma gibi sözlük ve kümeleri de hızlıca kurmak için benzer bir yazım kullanırız.
+Diyelim mevcut bir listedeki her elemanı tek tek işleyip, işlemin sonuçlarını yeni bir listede toplamak istiyorsunuz. Bunun için boş bir listeyle başlayıp, [bir döngü içinde](https://sonsuzus.github.io/posts/python-programlamaya-giris-donguler) `append()` metoduyla listeyi adım adım büyütebiliriz. Bu yazıda Python’da bu işlemi daha hızlı verimli olarak yapmamızı sağlayan özel *[liste kurma](https://sonsuzus.github.io/search.html?q=liste%20kurma)* yazımını göreceğiz. Liste kurma, genel olarak bir *[üreteç ifadesi](https://sonsuzus.github.io/search.html?q=%C3%BCrete%C3%A7%20ifadesi)* örneğidir. Liste kurma gibi sözlük ve kümeleri de hızlıca kurmak için benzer bir yazım kullanırız.
 
 Yazı dizimizin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/category/program) kategorimize bakabilirsiniz.
 

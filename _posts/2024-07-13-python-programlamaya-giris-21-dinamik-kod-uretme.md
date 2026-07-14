@@ -14,7 +14,7 @@ redirect_from:
 
 
 
-Python *dinamik* tabir edilen dillerden biridir; programdaki nesneleri önceden bildirmeniz gerekmez, program çalıştıkça işlenen komutlar o anda yeni nesneler üretir. Bu dinamiklik sayesinde, dize olarak verilmiş Python komutlarını da işleyebilir, hatta program yazan programlar yazabiliriz.
+Python *[dinamik](https://sonsuzus.github.io/search.html?q=dinamik)* tabir edilen dillerden biridir; programdaki nesneleri önceden bildirmeniz gerekmez, program çalıştıkça işlenen komutlar o anda yeni nesneler üretir. Bu dinamiklik sayesinde, dize olarak verilmiş Python komutlarını da işleyebilir, hatta program yazan programlar yazabiliriz.
 
 Bu işlemi yapmak için iki Python fonksiyonu vardır: `eval()` ve `exec()`
 

@@ -17,7 +17,7 @@ redirect_from:
 
 
 
-Yazı dizimizin bu bölümünde, dosya okuma ve yazma yöntemlerinden bahsedeceğiz. Önce herhangi bir özel şekilde yapılanmamış olan düz metin dosyalarını işlemeyi göreceğiz. Ardından *csv* modülüyle CSV biçiminde yapılanmış dosyaları okuyup yazmayı inceleyeceğiz. JSON, ZIP, PDF, Word, Excel, HTML dosyalarının işlenmesine kısaca değineceğiz. Son olarak, Python oturumunda yarattığımız nesneleri ikili (binary) formda dosyaya kaydetmemizi ve sonra dosyadan tekrar yüklememizi sağlayan *pickle* modülünün kullanımını özetleyeceğiz.
+Yazı dizimizin bu bölümünde, [dosya](https://sonsuzus.github.io/search.html?q=dosya) [okuma](https://sonsuzus.github.io/search.html?q=okuma) ve [yazma](https://sonsuzus.github.io/search.html?q=yazma) yöntemlerinden bahsedeceğiz. Önce herhangi bir özel şekilde yapılanmamış olan düz metin dosyalarını işlemeyi göreceğiz. Ardından *csv* modülüyle CSV biçiminde yapılanmış dosyaları okuyup yazmayı inceleyeceğiz. JSON, ZIP, PDF, Word, Excel, HTML dosyalarının işlenmesine kısaca değineceğiz. Son olarak, Python oturumunda yarattığımız nesneleri ikili (binary) formda dosyaya kaydetmemizi ve sonra dosyadan tekrar yüklememizi sağlayan *pickle* modülünün kullanımını özetleyeceğiz.
 
 Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/category/program) kategorimize bakabilirsiniz. 
 

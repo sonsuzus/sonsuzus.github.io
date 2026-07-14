@@ -41,7 +41,7 @@ Dize biçimlendirmenin bütün ayrıntıları için [Python belgelerine](https:/
 
 ## Konumla yerleştirme ve isimle yerleştirme
 
-En basit kullanımda, `format()`‘a verilen değerler, kalıp dizesinin içinde küme parantezleri (`{}`) ile bırakılan boşluklara sırayla yerleştirilir.
+En basit kullanımda, `format()`‘a verilen [değerler](https://sonsuzus.github.io/search.html?q=de%C4%9Ferler), kalıp dizesinin içinde küme parantezleri (`{}`) ile bırakılan boşluklara sırayla yerleştirilir.
 
 In [1]:
 

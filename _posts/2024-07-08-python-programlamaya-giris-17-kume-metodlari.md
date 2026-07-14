@@ -21,7 +21,7 @@ redirect_from:
 
 Python programlamaya giriş konulu yazı dizimizdeki son birkaç bölümde, Python’da tanımlı temel veri tiplerinin kullanımının ayrıntılarından bahsettik. Bu yazıdaki konumuz, daha önce bahsetmediğimiz bir veri yapısı olan “kümeler”. Dizinin bütün yazılarına erişmek için [*Python Programlamaya Giriş*](https://sonsuzus.github.io/category/program) kategorimize bakabilirsiniz. 
 
-Bir küme, listelerden farklı olarak, belli bir sırası bulunmayan bir veri topluluğudur; yani elemanlarına indeksleme ile erişilemez. Ayrıca, matematiksel kümeler gibi, aynı elemandan birden fazla barındıramaz. Python’da bir küme yaratmanın birinci yolu, nesneleri küme parantezinde toplayarak vermektir:
+Bir [küme](https://sonsuzus.github.io/search.html?q=k%C3%BCme), listelerden farklı olarak, belli bir sırası bulunmayan bir veri topluluğudur; yani elemanlarına indeksleme ile erişilemez. Ayrıca, matematiksel kümeler gibi, aynı elemandan birden fazla barındıramaz. Python’da bir küme yaratmanın birinci yolu, nesneleri küme parantezinde toplayarak vermektir:
 
 In [1]:
 
@@ -71,7 +71,7 @@ Out[3]:
 {'a', 'n', 's'}
 ```
 
-Örneklerden de gördüğünüz gibi kümelerde, matematiksel tanıma uygun olarak, bir eleman sadece bir kere mevcut olabilir. Orijinal sıralı nesnede mükerrer eleman varsa alınmaz.
+Örneklerden de gördüğünüz gibi kümelerde, matematiksel tanıma uygun olarak, bir [eleman](https://sonsuzus.github.io/search.html?q=eleman) sadece bir kere mevcut olabilir. Orijinal sıralı nesnede mükerrer eleman varsa alınmaz.
 
 Python’da bir liste, bir kümenin elemanı olamaz. Denemeye kalkarsanız hata mesajı alırsınız.
 
@@ -97,7 +97,7 @@ TypeError                                 Traceback (most recent call last)
 TypeError: unhashable type: 'list'
 ```
 
-Bir kümedeki elemanların *hashable* olabilmesi, yani bir hash fonksiyonuna verilebilmesi gerekir. Bu da genellikle değiştirilemez (immutable) veri tipleri olmalarını gerektirir. Sayılar, çokuzlar, dizeler küme elemanı olmaya uygundurlar. Buna karşılık listeler, sözlükler ve kümeler, küme elemanı olamazlar (evet, matematiksel tanımda kümeler başka kümelerin elemanı olabilir, ama Python’da teknik sebeplerle bu mümkün olmaz).
+Bir kümedeki elemanların *[hashable](https://sonsuzus.github.io/search.html?q=hashable)* olabilmesi, yani bir hash fonksiyonuna verilebilmesi gerekir. Bu da genellikle değiştirilemez (immutable) veri tipleri olmalarını gerektirir. Sayılar, çokuzlar, dizeler küme elemanı olmaya uygundurlar. Buna karşılık listeler, sözlükler ve kümeler, küme elemanı olamazlar (evet, matematiksel tanımda kümeler başka kümelerin elemanı olabilir, ama Python’da teknik sebeplerle bu mümkün olmaz).
 
 Boş küme için `set()` fonksiyonu tek başına kullanılmalıdır. Boş küme parantezleri `{}` kullanmak boş bir sözlük oluşturur, küme değil.
 

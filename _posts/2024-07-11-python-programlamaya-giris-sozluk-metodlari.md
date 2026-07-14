@@ -16,11 +16,11 @@ redirect_from:
 
 
 
-Python’daki [veri tiplerini daha önce](https://sonsuzus.github.io/posts/python-programlamaya-giris-sayilar-aritmetik-temel-veri-yapilari) kısaca ele almıştık; bir önceki bölümde de [liste tipine ait metodların kullanımını](https://sonsuzus.github.io/posts/python-programlamaya-giris-liste-metodlari) örneklerle incelemiştik. Bu yazıda sözlük tipine ait olan metodları örneklerle açıklıyoruz. Bundan sonraki bölümlerde dize ve küme tiplerine ait metodları inceleyeceğiz.
+Python’daki [veri tiplerini daha önce](https://sonsuzus.github.io/posts/python-programlamaya-giris-sayilar-aritmetik-temel-veri-yapilari) kısaca ele almıştık; bir önceki bölümde de [liste tipine ait metodların kullanımını](https://sonsuzus.github.io/posts/python-programlamaya-giris-liste-metodlari) örneklerle incelemiştik. Bu yazıda [sözlük](https://sonsuzus.github.io/search.html?q=s%C3%B6zl%C3%BCk) tipine ait olan metodları örneklerle açıklıyoruz. Bundan sonraki bölümlerde dize ve küme tiplerine ait metodları inceleyeceğiz.
 
 **Sözlükler**, listeler gibi, birden fazla elemanı bir araya toplayan yapılardır. Listelerden farkları *sıralı nesne* olmamalarıdır. Bir listenin indeksleri üzerinden doğal bir sırası varken, sözlüklerin elemanlarında doğal bir sıralama mevcut değildir.
 
-Bir sözlük *birleşmeli dizi* (associative array) olarak anılan bir veri yapısıdır. Bu yapıdaki her eleman bir *anahtar-değer* (key-value) çiftinden oluşur. Belli bir *değere* ulaşmak için o değere ait tekil *anahtarı* kullanmak gerekir. Bu anahtar bir sayı, dize veya çokuz olabilir.
+Bir sözlük *birleşmeli dizi* (associative array) olarak anılan bir veri yapısıdır. Bu yapıdaki her eleman bir *[anahtar-değer](https://sonsuzus.github.io/search.html?q=anahtar-de%C4%9Fer)* (key-value) çiftinden oluşur. Belli bir *değere* ulaşmak için o değere ait tekil *anahtarı* kullanmak gerekir. Bu anahtar bir sayı, dize veya çokuz olabilir.
 
 ```py
 telefon["kaan"] == "216 123 4567"
@@ -304,7 +304,7 @@ Out[11]:
  'values']
 ```
 
-Başında ve sonunda altçizgi olan metodlar nesne içi kullanım içindir.
+Başında ve sonunda altçizgi olan [metodlar](https://sonsuzus.github.io/search.html?q=metodlar) nesne içi kullanım içindir.
 
 ## Sözlükteki bütün maddeleri silmek
 

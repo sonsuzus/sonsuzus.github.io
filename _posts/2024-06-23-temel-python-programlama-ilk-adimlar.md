@@ -13,7 +13,7 @@ redirect_from:
 ---
 
 
-Python programlarını yazmak için gereken şeyler çok az: Sadece bir metin editörüne (text editor) ve Python yorumlayıcısına ihtiyacınız var. Metin editörü ile programı yazarsınız, ve yorumlayıcıya bu dosyayı okuyup çalıştırmasını söylersiniz. Hepsi bu.
+[Python](https://sonsuzus.github.io/search.html?q=python) programlarını yazmak için gereken şeyler çok az: Sadece bir metin editörüne (text editor) ve Python yorumlayıcısına ihtiyacınız var. Metin editörü ile programı yazarsınız, ve yorumlayıcıya bu dosyayı okuyup çalıştırmasını söylersiniz. Hepsi bu.
 
 
 Metin editörü olarak notepad, emacs, gedit gibi programlar kullanılabilir. Ancak Word, LibreOffice Writer gibi kelime işlemcileri kullanamazsınız. Bunlar yazıları kendilerine özgü bir biçimde saklarlar ve Python yorumlayıcısı bu dosyaları okuyamaz.
@@ -25,7 +25,7 @@ Python yorumlayıcısını [Python resmi sayfasından](https://www.python.org/) 
 Python yorumlayıcısı sisteminizde mevcut bile olabilir. Linux kullanıyorsanız zaten kuruludur çünkü birçok sistem programı Python kullanır. Ubuntu, Fedora vs gibi paket yönetim sistemi olan bir dağıtım kullanıyorsanız, paket yöneticisi aracılığıyla kurmanız daha iyi olabilir.
 
 
-Bir editör ve yorumlayıcı, program yazmanız ve çalıştırmanız için yeterlidir. Gerisi teferruattır, ve başlangıç için şart değildir. Ama Python bazı geliştirme araçları size hız ve kolaylık sağlar. Söz gelişi IDLE, Spyder, PyCharm gibi bir IDE (bütünleşik geliştirme ortamı) kullanmayı tercih edebilirsiniz. Bunlardan daha sonra bahsedeceğiz.
+Bir [editör](https://sonsuzus.github.io/search.html?q=edit%C3%B6r) ve [yorumlayıcı](https://sonsuzus.github.io/search.html?q=yorumlay%C4%B1c%C4%B1), program yazmanız ve çalıştırmanız için yeterlidir. Gerisi teferruattır, ve başlangıç için şart değildir. Ama Python bazı geliştirme araçları size hız ve kolaylık sağlar. Söz gelişi IDLE, Spyder, PyCharm gibi bir IDE (bütünleşik geliştirme ortamı) kullanmayı tercih edebilirsiniz. Bunlardan daha sonra bahsedeceğiz.
 
 
 Python kurmak için başka bir yol [Anaconda](https://www.anaconda.com/download/) veya [Canopy](https://www.enthought.com/product/canopy/) gibi Python dağıtımları. Bunların en büyük avantajı, ileri seviye kullanıcıların ihtiyaç duyduğu modüllerin, sürümleri birbiriyle uyumlu olacak şekilde düzenlenerek bir araya getirilmiş olmaları. Spyder, Jupyter Notebook gibi yazılımlar da bu dağıtımlara dahil. Tabii bu modülleri ayrı ayrı da kurabilirsiniz.
