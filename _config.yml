@@ -20,7 +20,7 @@ author:
   name:           'Sonsuz Us'
   url:            https://github.com/sonsuzus
 
-paginate:         10
+paginate:         20
 paginate_path:    /page/:num/
                     # Or '/blog/page:num' if you want to move your index pages
 
