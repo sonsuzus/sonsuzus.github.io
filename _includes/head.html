@@ -27,4 +27,12 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" />
 
   {% include custom-head.html %}
+  <!-- YENI SITE YONLENDIRMESI VE SEO -->
+<script>
+  if (window.location.hostname === 'sonsuzus.github.io') {
+    window.location.replace('https://program.sonsuz.us' + window.location.pathname + window.location.search + window.location.hash);
+  }
+</script>
+<link rel="canonical" href="https://program.sonsuz.us{{ page.url | replace:'index.html','' }}">
+<!-- YENI SITE YONLENDIRMESI SONU -->
 </head>
